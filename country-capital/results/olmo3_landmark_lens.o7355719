@@ -1,0 +1,103 @@
+Sat Aug 29 00:02:40 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 610.57.04              KMD Version: 610.57.04     CUDA UMD Version: 13.3     |
++-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA A40                     On  |   00000000:17:00.0 Off |                    0 |
+|  0%   54C    P0            229W /  300W |    4981MiB /  46068MiB |     92%   E. Process |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+|   1  NVIDIA A40                     On  |   00000000:65:00.0 Off |                    0 |
+|  0%   26C    P8             21W /  300W |       0MiB /  46068MiB |      0%   E. Process |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+|   2  NVIDIA A40                     On  |   00000000:CA:00.0 Off |                    0 |
+|  0%   27C    P8             21W /  300W |       0MiB /  46068MiB |      0%   E. Process |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+|   3  NVIDIA A40                     On  |   00000000:E3:00.0 Off |                    0 |
+|  0%   64C    P0            259W /  300W |    8705MiB /  46068MiB |     85%   E. Process |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|    0   N/A  N/A         3006888      C   ...ck/envs/foldtree/bin/foldseek       4972MiB |
+|    3   N/A  N/A         2862299      C   python                                 8696MiB |
++-----------------------------------------------------------------------------------------+
+Loaded 549 correct compositions; analyzing 520 paper-filtered examples
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:08<00:17,  8.58s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:15<00:07,  7.86s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:23<00:00,  7.50s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:23<00:00,  7.67s/it]
+Analyzed 10/520
+Analyzed 20/520
+Analyzed 30/520
+Analyzed 40/520
+Analyzed 50/520
+Analyzed 60/520
+Analyzed 70/520
+Analyzed 80/520
+Analyzed 90/520
+Analyzed 100/520
+Analyzed 110/520
+Analyzed 120/520
+Analyzed 130/520
+Analyzed 140/520
+Analyzed 150/520
+Analyzed 160/520
+Analyzed 170/520
+Analyzed 180/520
+Analyzed 190/520
+Analyzed 200/520
+Analyzed 210/520
+Analyzed 220/520
+Analyzed 230/520
+Analyzed 240/520
+Analyzed 250/520
+Analyzed 260/520
+Analyzed 270/520
+Analyzed 280/520
+Analyzed 290/520
+Analyzed 300/520
+Analyzed 310/520
+Analyzed 320/520
+Analyzed 330/520
+Analyzed 340/520
+Analyzed 350/520
+Analyzed 360/520
+Analyzed 370/520
+Analyzed 380/520
+Analyzed 390/520
+Analyzed 400/520
+Analyzed 410/520
+Analyzed 420/520
+Analyzed 430/520
+Analyzed 440/520
+Analyzed 450/520
+Analyzed 460/520
+Analyzed 470/520
+Analyzed 480/520
+Analyzed 490/520
+Analyzed 500/520
+Analyzed 510/520
+Analyzed 520/520
+{
+  "raw_correct_compositions": 549,
+  "paper_token_eligible": 520,
+  "paper_token_excluded": 29,
+  "analyzed_records": 520,
+  "composition_rr_threshold": 0.5,
+  "shortcut_rr_threshold": 0.2,
+  "num_compositional": 370,
+  "num_ambiguous": 45,
+  "num_shortcut_candidates": 105,
+  "p_strong_intermediate_given_correct_eligible": 0.7115384615384616
+}
+Wrote 370 compositional records to /projectnb/buinlp/rathin/composition-experiments/country-capital/results/olmo3_stage1_landmark_country_capital.compositional.jsonl
+Wrote 45 ambiguous records to /projectnb/buinlp/rathin/composition-experiments/country-capital/results/olmo3_stage1_landmark_country_capital.ambiguous.jsonl
+Wrote 105 shortcut candidates to /projectnb/buinlp/rathin/composition-experiments/country-capital/results/olmo3_stage1_landmark_country_capital.shortcut_candidates.jsonl
+Wrote /projectnb/buinlp/rathin/composition-experiments/country-capital/results/olmo3_stage1_landmark_country_capital.logit_lens_summary.json

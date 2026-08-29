@@ -1,0 +1,12 @@
+{
+  "raw_correct_compositions": 549,
+  "paper_token_eligible": 520,
+  "paper_token_excluded": 29,
+  "analyzed_records": 520,
+  "composition_rr_threshold": 0.5,
+  "shortcut_rr_threshold": 0.2,
+  "num_compositional": 370,
+  "num_ambiguous": 45,
+  "num_shortcut_candidates": 105,
+  "p_strong_intermediate_given_correct_eligible": 0.7115384615384616
+}

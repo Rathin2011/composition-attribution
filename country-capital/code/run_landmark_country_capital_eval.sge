@@ -1,0 +1,39 @@
+#!/bin/bash -l
+#$ -P buinlp
+#$ -N olmo3_landmark
+#$ -cwd
+#$ -j y
+#$ -o /projectnb/buinlp/rathin/composition-experiments/country-capital/results
+#$ -pe omp 4
+#$ -l h_rt=04:00:00
+#$ -l gpus=1
+#$ -l gpu_type=A40|A100|L40S|A6000
+#$ -soft
+#$ -l buyin
+#$ -hard
+
+set -euo pipefail
+
+module load python3/3.12.4
+
+readonly EXPERIMENT_DIR="/projectnb/buinlp/rathin/composition-experiments/country-capital"
+readonly CODE_DIR="$EXPERIMENT_DIR/code"
+readonly RESULTS_DIR="$EXPERIMENT_DIR/results"
+readonly PYTHON_BIN="/projectnb/buinlp/rathin/influence-composition/.venv/bin/python"
+readonly HF_CACHE_DIR="/projectnb/buinlp/rathin/influence-composition/.cache/huggingface"
+readonly NUM_QUERIES="${NUM_QUERIES:-1385}"
+readonly OUTPUT_PATH="${OUTPUT_PATH:-$RESULTS_DIR/olmo3_stage1_landmark_country_capital.json}"
+readonly CORRECT_OUTPUT_PATH="${CORRECT_OUTPUT_PATH:-$RESULTS_DIR/olmo3_stage1_landmark_country_capital.correct.jsonl}"
+cd "$CODE_DIR"
+
+export CPATH="$SCC_PYTHON3_INCLUDE/python3.12${CPATH:+:$CPATH}"
+export HF_HOME="$HF_CACHE_DIR"
+export HF_DATASETS_OFFLINE=1
+export HF_HUB_OFFLINE=1
+export TOKENIZERS_PARALLELISM=false
+export TRANSFORMERS_OFFLINE=1
+
+"$PYTHON_BIN" evaluate_landmark_country_capital.py \
+    --num-queries "$NUM_QUERIES" \
+    --output "$OUTPUT_PATH" \
+    --correct-output "$CORRECT_OUTPUT_PATH"

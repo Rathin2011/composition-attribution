@@ -1,0 +1,89 @@
+Sat Aug 29 00:02:41 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 610.57.04              KMD Version: 610.57.04     CUDA UMD Version: 13.3     |
++-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA A40                     On  |   00000000:17:00.0 Off |                    0 |
+|  0%   54C    P0            222W /  300W |    4981MiB /  46068MiB |     91%   E. Process |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+|   1  NVIDIA A40                     On  |   00000000:65:00.0 Off |                    0 |
+|  0%   26C    P0             21W /  300W |       0MiB /  46068MiB |      0%   E. Process |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+|   2  NVIDIA A40                     On  |   00000000:CA:00.0 Off |                    0 |
+|  0%   27C    P0             21W /  300W |       0MiB /  46068MiB |      0%   E. Process |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+|   3  NVIDIA A40                     On  |   00000000:E3:00.0 Off |                    0 |
+|  0%   65C    P0            288W /  300W |    8705MiB /  46068MiB |     87%   E. Process |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|    0   N/A  N/A         3006888      C   ...ck/envs/foldtree/bin/foldseek       4972MiB |
+|    3   N/A  N/A         2862299      C   python                                 8696MiB |
++-----------------------------------------------------------------------------------------+
+Loaded 687 correct compositions; analyzing 519 paper-filtered examples
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:08<00:16,  8.45s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:15<00:07,  7.80s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:22<00:00,  7.47s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:22<00:00,  7.63s/it]
+Analyzed 10/519
+Analyzed 20/519
+Analyzed 30/519
+Analyzed 40/519
+Analyzed 50/519
+Analyzed 60/519
+Analyzed 70/519
+Analyzed 80/519
+Analyzed 90/519
+Analyzed 100/519
+Analyzed 110/519
+Analyzed 120/519
+Analyzed 130/519
+Analyzed 140/519
+Analyzed 150/519
+Analyzed 160/519
+Analyzed 170/519
+Analyzed 180/519
+Analyzed 190/519
+Analyzed 200/519
+Analyzed 210/519
+Analyzed 220/519
+Analyzed 230/519
+Analyzed 240/519
+Analyzed 250/519
+Analyzed 260/519
+Analyzed 270/519
+Analyzed 280/519
+Analyzed 290/519
+Analyzed 300/519
+Analyzed 310/519
+Analyzed 320/519
+Analyzed 330/519
+Analyzed 340/519
+Analyzed 350/519
+Analyzed 360/519
+Analyzed 370/519
+Analyzed 380/519
+Analyzed 390/519
+Analyzed 400/519
+Analyzed 410/519
+Analyzed 420/519
+Analyzed 430/519
+Analyzed 440/519
+Analyzed 450/519
+Analyzed 460/519
+Analyzed 470/519
+Analyzed 480/519
+Analyzed 490/519
+Analyzed 500/519
+Analyzed 510/519
+Analyzed 519/519
+Wrote 495 antonym-then-translate records to /projectnb/buinlp/rathin/composition-experiments/spanish-antonym/results/olmo3_stage1_antonym_spanish_path_fx.jsonl
+Wrote 24 translate-then-antonym records to /projectnb/buinlp/rathin/composition-experiments/spanish-antonym/results/olmo3_stage1_antonym_spanish_path_gx.jsonl

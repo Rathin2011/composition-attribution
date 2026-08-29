@@ -1,0 +1,10 @@
+Using the latest cached version of the dataset since apoorvkh/composing-functions couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'default' at /projectnb/buinlp/rathin/influence-composition/.cache/huggingface/datasets/apoorvkh___composing-functions/default/0.0.0/5b7b70743ff849eae3875dc0c22d5443066b33e9 (last modified on Thu Aug 20 14:10:06 2026).
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:01<00:02,  1.35s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:02<00:01,  1.41s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:04<00:00,  1.35s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:04<00:00,  1.36s/it]
+{
+  "x_GFx": 0.39638989169675093,
+  "num_queries": 1385,
+  "num_composition_correct": 549
+}
+Wrote /projectnb/buinlp/rathin/composition-experiments/country-capital/results/olmo3_stage1_landmark_country_capital.json
+Wrote 549 correct composition queries to /projectnb/buinlp/rathin/composition-experiments/country-capital/results/olmo3_stage1_landmark_country_capital.correct.jsonl

@@ -1,0 +1,47 @@
+#!/bin/bash -l
+#$ -P buinlp
+#$ -N olmo3_landmark_lens
+#$ -cwd
+#$ -j y
+#$ -o /projectnb/buinlp/rathin/composition-experiments/country-capital/results
+#$ -pe omp 4
+#$ -l h_rt=04:00:00
+#$ -l gpus=1
+#$ -l gpu_type=A40|A100|L40|L40S|A6000
+#$ -soft
+#$ -l buyin
+#$ -hard
+
+set -euo pipefail
+
+module load python3/3.12.4
+
+readonly EXPERIMENT_DIR="/projectnb/buinlp/rathin/composition-experiments/country-capital"
+readonly CODE_DIR="$EXPERIMENT_DIR/code"
+readonly RESULTS_DIR="$EXPERIMENT_DIR/results"
+readonly PYTHON_BIN="/projectnb/buinlp/rathin/influence-composition/.venv/bin/python"
+readonly HF_CACHE_DIR="/projectnb/buinlp/rathin/influence-composition/.cache/huggingface"
+readonly INPUT_PATH="$RESULTS_DIR/olmo3_stage1_landmark_country_capital.correct.jsonl"
+readonly STRONG_OUTPUT_PATH="$RESULTS_DIR/olmo3_stage1_landmark_country_capital.compositional.jsonl"
+readonly AMBIGUOUS_OUTPUT_PATH="$RESULTS_DIR/olmo3_stage1_landmark_country_capital.ambiguous.jsonl"
+readonly WEAK_OUTPUT_PATH="$RESULTS_DIR/olmo3_stage1_landmark_country_capital.shortcut_candidates.jsonl"
+readonly SUMMARY_OUTPUT_PATH="$RESULTS_DIR/olmo3_stage1_landmark_country_capital.logit_lens_summary.json"
+cd "$CODE_DIR"
+
+export CPATH="$SCC_PYTHON3_INCLUDE/python3.12${CPATH:+:$CPATH}"
+export HF_HOME="$HF_CACHE_DIR"
+export HF_DATASETS_OFFLINE=1
+export HF_HUB_OFFLINE=1
+export TOKENIZERS_PARALLELISM=false
+export TRANSFORMERS_OFFLINE=1
+
+nvidia-smi
+"$PYTHON_BIN" analyze_landmark_country_capital.py \
+    --input "$INPUT_PATH" \
+    --strong-output "$STRONG_OUTPUT_PATH" \
+    --ambiguous-output "$AMBIGUOUS_OUTPUT_PATH" \
+    --weak-output "$WEAK_OUTPUT_PATH" \
+    --summary-output "$SUMMARY_OUTPUT_PATH" \
+    --expected-correct 549 \
+    --expected-eligible 520 \
+    --chunk-size 32

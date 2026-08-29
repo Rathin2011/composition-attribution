@@ -1,0 +1,43 @@
+#!/bin/bash -l
+#$ -P buinlp
+#$ -N olmo3_ant_lens
+#$ -cwd
+#$ -j y
+#$ -o /projectnb/buinlp/rathin/composition-experiments/spanish-antonym/results
+#$ -pe omp 4
+#$ -l h_rt=04:00:00
+#$ -l gpus=1
+#$ -l gpu_type=A40|A100|L40|L40S|A6000
+#$ -soft
+#$ -l buyin
+#$ -hard
+
+set -euo pipefail
+
+module load python3/3.12.4
+
+readonly EXPERIMENT_DIR="/projectnb/buinlp/rathin/composition-experiments/spanish-antonym"
+readonly CODE_DIR="$EXPERIMENT_DIR/code"
+readonly RESULTS_DIR="$EXPERIMENT_DIR/results"
+readonly PYTHON_BIN="/projectnb/buinlp/rathin/influence-composition/.venv/bin/python"
+readonly HF_CACHE_DIR="/projectnb/buinlp/rathin/influence-composition/.cache/huggingface"
+readonly INPUT_PATH="$RESULTS_DIR/olmo3_stage1_antonym_spanish_all.correct.jsonl"
+readonly FX_OUTPUT_PATH="$RESULTS_DIR/olmo3_stage1_antonym_spanish_path_fx.jsonl"
+readonly GX_OUTPUT_PATH="$RESULTS_DIR/olmo3_stage1_antonym_spanish_path_gx.jsonl"
+cd "$CODE_DIR"
+
+export CPATH="$SCC_PYTHON3_INCLUDE/python3.12${CPATH:+:$CPATH}"
+export HF_HOME="$HF_CACHE_DIR"
+export HF_DATASETS_OFFLINE=1
+export HF_HUB_OFFLINE=1
+export TOKENIZERS_PARALLELISM=false
+export TRANSFORMERS_OFFLINE=1
+
+nvidia-smi
+"$PYTHON_BIN" analyze_antonym_spanish_paths.py \
+    --input "$INPUT_PATH" \
+    --fx-output "$FX_OUTPUT_PATH" \
+    --gx-output "$GX_OUTPUT_PATH" \
+    --expected-correct 687 \
+    --expected-eligible 519 \
+    --chunk-size 32
