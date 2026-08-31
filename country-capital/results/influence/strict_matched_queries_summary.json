@@ -1,0 +1,35 @@
+{
+  "task": "landmark_country_capital",
+  "queries": 64,
+  "matched_pairs": 32,
+  "group_counts": {
+    "composition": 32,
+    "shortcut": 32
+  },
+  "matched_pairs_per_country": {
+    "Egypt": 2,
+    "France": 1,
+    "Germany": 1,
+    "Greece": 2,
+    "Iran": 2,
+    "Israel": 1,
+    "Italy": 7,
+    "Netherlands": 1,
+    "Russia": 3,
+    "Spain": 10,
+    "United Kingdom": 2
+  },
+  "selection": "frozen evaluation indices from reviewed Markdown report",
+  "inputs": {
+    "compositional": "/projectnb/buinlp/rathin/composition-experiments/country-capital/results/olmo3_stage1_landmark_country_capital.compositional.jsonl",
+    "shortcut": "/projectnb/buinlp/rathin/composition-experiments/country-capital/results/olmo3_stage1_landmark_country_capital.shortcut_candidates.jsonl",
+    "matched_report": "/projectnb/buinlp/rathin/composition-experiments/country-capital/results/markdown/matched_compositional_shortcut_pairs.md"
+  },
+  "input_sha256": {
+    "compositional": "8d75a9bc13b6bf19f3c66e5e2db9849e7cf89ee825ac4f907769dae13396c0a6",
+    "shortcut": "1c8aba330d36b43602a7f22d4c3d87d3668920d4a4ebba24df41fd4ea1c8e315",
+    "matched_report": "b565d61e0c75c3040fd3f776ea8bd256e212801c24feb2795bc2e7027b766e35"
+  },
+  "output": "/projectnb/buinlp/rathin/composition-experiments/country-capital/results/influence/strict_matched_queries.jsonl",
+  "output_sha256": "17642aeee65bc515155d732b3e42444569bf25fec1318cc76f0ece72e0aedea7"
+}
