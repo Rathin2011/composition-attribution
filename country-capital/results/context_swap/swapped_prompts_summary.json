@@ -1,0 +1,16 @@
+{
+  "task": "landmark_country_capital",
+  "matched_pairs": 32,
+  "candidate_swaps": 64,
+  "overlap_free_swaps": 64,
+  "excluded_for_overlap": 0,
+  "context_examples_per_prompt": 10,
+  "transition_counts": {
+    "composition_query_with_shortcut_context": 32,
+    "shortcut_query_with_composition_context": 32
+  },
+  "scope": "prompt construction only; inference and logit lens not run",
+  "source": "/projectnb/buinlp/rathin/composition-experiments/country-capital/results/influence/strict_matched_queries.jsonl",
+  "source_sha256": "17642aeee65bc515155d732b3e42444569bf25fec1318cc76f0ece72e0aedea7",
+  "output": "/projectnb/buinlp/rathin/composition-experiments/country-capital/results/context_swap/swapped_prompts.jsonl"
+}

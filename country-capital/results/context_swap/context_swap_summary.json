@@ -1,0 +1,199 @@
+{
+  "task": "landmark_country_capital_context_swap",
+  "model": "allenai/Olmo-3-1025-7B",
+  "stage_one_revision": "stage1-step1413814",
+  "model_commit": "373bad25002f1624757a73235c5ca844c6375c25",
+  "matched_pairs": 32,
+  "swapped_prompts": 64,
+  "correct_swapped_answers": 46,
+  "correct_by_original_query_group": {
+    "composition": 26,
+    "shortcut": 20
+  },
+  "correct_accuracy_by_original_query_group": {
+    "composition": 0.8125,
+    "shortcut": 0.625
+  },
+  "token_filter_excluded": 0,
+  "logit_lens_analyzed": 46,
+  "outcomes_by_original_query_group": {
+    "composition": {
+      "compositional": 18,
+      "ambiguous": 5,
+      "shortcut_candidate": 3,
+      "incorrect": 6,
+      "token_filter_excluded": 0
+    },
+    "shortcut": {
+      "compositional": 3,
+      "ambiguous": 4,
+      "shortcut_candidate": 13,
+      "incorrect": 12,
+      "token_filter_excluded": 0
+    }
+  },
+  "path_retained": 31,
+  "path_flipped_composition_to_shortcut_or_reverse": 6,
+  "pair_outcomes": [
+    {
+      "pair_index": 0,
+      "composition": "incorrect",
+      "shortcut": "shortcut_candidate"
+    },
+    {
+      "pair_index": 1,
+      "composition": "ambiguous",
+      "shortcut": "incorrect"
+    },
+    {
+      "pair_index": 2,
+      "composition": "compositional",
+      "shortcut": "ambiguous"
+    },
+    {
+      "pair_index": 3,
+      "composition": "compositional",
+      "shortcut": "compositional"
+    },
+    {
+      "pair_index": 4,
+      "composition": "compositional",
+      "shortcut": "shortcut_candidate"
+    },
+    {
+      "pair_index": 5,
+      "composition": "compositional",
+      "shortcut": "shortcut_candidate"
+    },
+    {
+      "pair_index": 6,
+      "composition": "compositional",
+      "shortcut": "incorrect"
+    },
+    {
+      "pair_index": 7,
+      "composition": "incorrect",
+      "shortcut": "ambiguous"
+    },
+    {
+      "pair_index": 8,
+      "composition": "incorrect",
+      "shortcut": "compositional"
+    },
+    {
+      "pair_index": 9,
+      "composition": "shortcut_candidate",
+      "shortcut": "incorrect"
+    },
+    {
+      "pair_index": 10,
+      "composition": "incorrect",
+      "shortcut": "incorrect"
+    },
+    {
+      "pair_index": 11,
+      "composition": "compositional",
+      "shortcut": "shortcut_candidate"
+    },
+    {
+      "pair_index": 12,
+      "composition": "compositional",
+      "shortcut": "shortcut_candidate"
+    },
+    {
+      "pair_index": 13,
+      "composition": "compositional",
+      "shortcut": "shortcut_candidate"
+    },
+    {
+      "pair_index": 14,
+      "composition": "shortcut_candidate",
+      "shortcut": "incorrect"
+    },
+    {
+      "pair_index": 15,
+      "composition": "compositional",
+      "shortcut": "ambiguous"
+    },
+    {
+      "pair_index": 16,
+      "composition": "compositional",
+      "shortcut": "incorrect"
+    },
+    {
+      "pair_index": 17,
+      "composition": "compositional",
+      "shortcut": "incorrect"
+    },
+    {
+      "pair_index": 18,
+      "composition": "compositional",
+      "shortcut": "incorrect"
+    },
+    {
+      "pair_index": 19,
+      "composition": "compositional",
+      "shortcut": "incorrect"
+    },
+    {
+      "pair_index": 20,
+      "composition": "ambiguous",
+      "shortcut": "shortcut_candidate"
+    },
+    {
+      "pair_index": 21,
+      "composition": "incorrect",
+      "shortcut": "shortcut_candidate"
+    },
+    {
+      "pair_index": 22,
+      "composition": "compositional",
+      "shortcut": "incorrect"
+    },
+    {
+      "pair_index": 23,
+      "composition": "compositional",
+      "shortcut": "shortcut_candidate"
+    },
+    {
+      "pair_index": 24,
+      "composition": "ambiguous",
+      "shortcut": "incorrect"
+    },
+    {
+      "pair_index": 25,
+      "composition": "incorrect",
+      "shortcut": "incorrect"
+    },
+    {
+      "pair_index": 26,
+      "composition": "compositional",
+      "shortcut": "shortcut_candidate"
+    },
+    {
+      "pair_index": 27,
+      "composition": "ambiguous",
+      "shortcut": "compositional"
+    },
+    {
+      "pair_index": 28,
+      "composition": "compositional",
+      "shortcut": "shortcut_candidate"
+    },
+    {
+      "pair_index": 29,
+      "composition": "compositional",
+      "shortcut": "shortcut_candidate"
+    },
+    {
+      "pair_index": 30,
+      "composition": "shortcut_candidate",
+      "shortcut": "shortcut_candidate"
+    },
+    {
+      "pair_index": 31,
+      "composition": "ambiguous",
+      "shortcut": "ambiguous"
+    }
+  ]
+}
