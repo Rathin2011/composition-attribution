@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "inventory_path": "/projectnb/buinlp/rathin/composition-experiments/country-capital/results/influence/stage1_inventory.json",
+  "manifest_sha256": "d770716a78fe0e9fa074c89f010574fd34ec0ee750cb79188120c62047c1a270",
+  "sampling_algorithm": "python random.Random.sample over range",
+  "python_version": "3.12.14",
+  "seed": 0,
+  "train_sequence_length": 8192,
+  "window_length": 512,
+  "windows_per_train_sequence": 16,
+  "total_complete_train_sequences": 723872890,
+  "total_candidate_windows": 11581966240,
+  "hessian_count": 10000,
+  "ranking_count": 100000,
+  "hessian_unique_count": 10000,
+  "ranking_unique_count": 100000,
+  "overlap_count": 0,
+  "sets_are_disjoint": true,
+  "hessian_output": "/projectnb/buinlp/rathin/composition-experiments/country-capital/results/influence/hessian_windows.jsonl",
+  "ranking_output": "/projectnb/buinlp/rathin/composition-experiments/country-capital/results/influence/ranking_windows.jsonl"
+}
