@@ -15,6 +15,7 @@ from pathlib import Path
 OLMO_CORE_COMMIT = "600d2fe2be2b49d9d83d3bab1656508e0b33cd35"
 MODEL_ID = "allenai/Olmo-3-1025-7B"
 MODEL_REVISION = "stage1-step1413814"
+MODEL_COMMIT = "373bad25002f1624757a73235c5ca844c6375c25"
 
 DATA_ROOT = "https://olmo-data.org"
 TOKENIZER_PLACEHOLDER = "{TOKENIZER}"
@@ -131,4 +132,3 @@ def load_official_manifest(path: str | Path) -> list[ManifestEntry]:
             f"got {len(entries)}"
         )
     return entries
-

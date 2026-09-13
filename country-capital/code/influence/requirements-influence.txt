@@ -1,0 +1,2 @@
+# Public EK-FAC implementation on which Ruis et al. base their internal code.
+kronfluence==1.0.1

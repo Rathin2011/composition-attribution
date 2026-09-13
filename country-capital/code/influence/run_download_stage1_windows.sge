@@ -1,0 +1,28 @@
+#!/bin/bash -l
+#$ -P buinlp
+#$ -N olmo3_stage1_windows
+#$ -cwd
+#$ -j y
+#$ -o /projectnb/buinlp/rathin/composition-experiments/country-capital/results/influence
+#$ -pe omp 4
+
+set -euo pipefail
+
+module load python3/3.12.4
+
+readonly EXPERIMENT_DIR="/projectnb/buinlp/rathin/composition-experiments/country-capital"
+readonly CODE_DIR="$EXPERIMENT_DIR/code/influence"
+readonly PYTHON_BIN="/projectnb/buinlp/rathin/influence-composition/.venv/bin/python"
+readonly COHORT="${COHORT:?Submit with -v COHORT=hessian or -v COHORT=ranking}"
+readonly MAX_WORKERS="${MAX_WORKERS:-32}"
+
+if [[ "$COHORT" != "hessian" && "$COHORT" != "ranking" ]]; then
+    echo "COHORT must be hessian or ranking; received: $COHORT" >&2
+    exit 2
+fi
+
+cd "$CODE_DIR"
+
+"$PYTHON_BIN" download_stage1_windows.py \
+    --cohort "$COHORT" \
+    --max-workers "$MAX_WORKERS"

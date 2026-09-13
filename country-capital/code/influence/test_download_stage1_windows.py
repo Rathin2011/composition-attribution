@@ -38,6 +38,15 @@ class FakeResponse:
 
 
 class DownloadStageOneWindowsTest(unittest.TestCase):
+    def test_cohort_configs_are_separate_and_have_expected_sizes(self) -> None:
+        hessian = download.COHORTS["hessian"]
+        ranking = download.COHORTS["ranking"]
+        self.assertEqual(hessian.expected_count, 10_000)
+        self.assertEqual(ranking.expected_count, 100_000)
+        self.assertNotEqual(hessian.samples_path, ranking.samples_path)
+        self.assertNotEqual(hessian.tokens_path, ranking.tokens_path)
+        self.assertNotEqual(hessian.summary_path, ranking.summary_path)
+
     def test_fetch_byte_range_sets_and_validates_exact_range(self) -> None:
         raw_bytes = bytes(range(8))
 
@@ -108,6 +117,160 @@ class DownloadStageOneWindowsTest(unittest.TestCase):
         self.assertIn("Bytes received: 2,048", output.getvalue())
         self.assertIn("Token IDs received: 512", output.getvalue())
         self.assertIn("First 20 token IDs", output.getvalue())
+
+    def test_download_cohort_preserves_sample_order(self) -> None:
+        with tempfile.TemporaryDirectory() as temp_dir:
+            directory = Path(temp_dir)
+            records = [
+                {
+                    "cohort": "test",
+                    "sample_index": index,
+                    "global_window_id": index + 10,
+                    "url": f"https://example.test/{index}.npy",
+                    "source": "source",
+                    "manifest_index": index,
+                    "byte_start": index * 2048,
+                    "byte_end": (index + 1) * 2048,
+                }
+                for index in range(3)
+            ]
+            samples_path = directory / "samples.jsonl"
+            samples_path.write_text(
+                "".join(json.dumps(record) + "\n" for record in records),
+                encoding="utf-8",
+            )
+            config = download.CohortConfig(
+                name="test",
+                samples_path=samples_path,
+                expected_count=3,
+                tokens_path=directory / "tokens.npy",
+                summary_path=directory / "summary.json",
+            )
+
+            def fake_fetcher(
+                url: str, byte_start: int, byte_end: int, *, timeout: float
+            ) -> bytes:
+                row = byte_start // 2048
+                return np.full(512, row, dtype="<u4").tobytes()
+
+            summary = download.download_cohort(
+                config,
+                max_workers=2,
+                retries=1,
+                progress_interval=1,
+                range_fetcher=fake_fetcher,
+            )
+            tokens = np.load(config.tokens_path)
+
+            self.assertEqual(tokens.shape, (3, 512))
+            np.testing.assert_array_equal(tokens[:, 0], np.array([0, 1, 2]))
+            self.assertEqual(summary["cohort"], "test")
+            self.assertEqual(summary["records"], 3)
+            self.assertTrue(config.summary_path.is_file())
+            partial_tokens, completion_bitmap = download.progress_paths(
+                config.tokens_path
+            )
+            self.assertFalse(partial_tokens.exists())
+            self.assertFalse(completion_bitmap.exists())
+
+    def test_download_cohort_resumes_completed_rows(self) -> None:
+        with tempfile.TemporaryDirectory() as temp_dir:
+            directory = Path(temp_dir)
+            records = [
+                {
+                    "cohort": "test",
+                    "sample_index": index,
+                    "global_window_id": index,
+                    "url": f"https://example.test/{index}.npy",
+                    "source": "source",
+                    "manifest_index": 0,
+                    "byte_start": index * 2048,
+                    "byte_end": (index + 1) * 2048,
+                }
+                for index in range(2)
+            ]
+            samples_path = directory / "samples.jsonl"
+            samples_path.write_text(
+                "".join(json.dumps(record) + "\n" for record in records),
+                encoding="utf-8",
+            )
+            config = download.CohortConfig(
+                name="test",
+                samples_path=samples_path,
+                expected_count=2,
+                tokens_path=directory / "tokens.npy",
+                summary_path=directory / "summary.json",
+            )
+            calls: list[int] = []
+
+            def interrupted_fetcher(
+                url: str, byte_start: int, byte_end: int, *, timeout: float
+            ) -> bytes:
+                row = byte_start // 2048
+                calls.append(row)
+                if row == 1:
+                    raise TimeoutError("interrupted")
+                return np.full(512, row, dtype="<u4").tobytes()
+
+            with self.assertRaises(TimeoutError):
+                download.download_cohort(
+                    config,
+                    max_workers=1,
+                    retries=1,
+                    progress_interval=1,
+                    range_fetcher=interrupted_fetcher,
+                )
+
+            resumed_calls: list[int] = []
+
+            def resumed_fetcher(
+                url: str, byte_start: int, byte_end: int, *, timeout: float
+            ) -> bytes:
+                row = byte_start // 2048
+                resumed_calls.append(row)
+                return np.full(512, row, dtype="<u4").tobytes()
+
+            summary = download.download_cohort(
+                config,
+                max_workers=1,
+                retries=1,
+                progress_interval=1,
+                range_fetcher=resumed_fetcher,
+            )
+
+            self.assertEqual(calls, [0, 1])
+            self.assertEqual(resumed_calls, [1])
+            self.assertTrue(summary["resumed"])
+
+    def test_load_cohort_records_rejects_mixed_cohort(self) -> None:
+        with tempfile.TemporaryDirectory() as temp_dir:
+            directory = Path(temp_dir)
+            samples_path = directory / "samples.jsonl"
+            samples_path.write_text(
+                json.dumps(
+                    {
+                        "cohort": "ranking",
+                        "sample_index": 0,
+                        "global_window_id": 1,
+                        "url": "https://example.test/shard.npy",
+                        "source": "source",
+                        "manifest_index": 0,
+                        "byte_start": 0,
+                        "byte_end": 2048,
+                    }
+                )
+                + "\n",
+                encoding="utf-8",
+            )
+            config = download.CohortConfig(
+                name="hessian",
+                samples_path=samples_path,
+                expected_count=1,
+                tokens_path=directory / "tokens.npy",
+                summary_path=directory / "summary.json",
+            )
+            with self.assertRaisesRegex(ValueError, "not 'hessian'"):
+                download.load_cohort_records(config)
 
 
 if __name__ == "__main__":

@@ -14,6 +14,10 @@ class StageOneDataTest(unittest.TestCase):
         self.assertEqual(stream.GLOBAL_BATCH_SEQUENCES, 512)
         self.assertEqual(stream.STAGE_ONE_SHUFFLE_SEED, 34_522)
         self.assertEqual(stream.STAGE_ONE_INSTANCES_SEEN, 723_872_768)
+        self.assertEqual(
+            stream.MODEL_COMMIT,
+            "373bad25002f1624757a73235c5ca844c6375c25",
+        )
 
     def test_parse_manifest_resolves_official_tokenizer(self) -> None:
         text = (
