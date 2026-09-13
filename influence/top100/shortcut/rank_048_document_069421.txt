@@ -1,0 +1,22 @@
+part is www.cfos.de). <status> is either an HTTP response code or permanent (301), temp (302), seeother (303) or gone (410). <regex> is a regular expression as in the RedirectMatch directive. <dest> is the destination host. The redirect location is the HTTP protocol + <dest> + original URL + original query string. This directive allows easy mapping to a canonical host, e.g. redirect all requests to cfos.de to www.cfos.de.
+
+SSIStartTagHow server side include directives start, default <!--#
+
+SSIEndTagHow server side include directives start, default -->
+
+AuthTypeType of authorization to access the current folder and all its sub-folders:
+basic Username and Password are transmitted as clear-text.
+digest Instead of a clear-text password, a digest value is calculated and transmitted. Thereby an attacker cannot read the password. This method is also secure against re-play attacks, because one digest values cannot be used twice.
+Note: cFos PNet can also use HTTP authorization from Javascript. This may eliminate the need for session tracking / session cookies in many cases. See below for more information.
+
+RequireWhich authorization entity is required:
+user <x> The user named <x> must be authorized to access content in the folder.
+group <x> The user must be in group <x> to access the content.
+valid-user Any valid user can access the content.
+
+actual-user A valid user, where the last path part matches the user name (e.g. /private/test/index.htm matches user name test).
+
+all granted Always allow access all denied Always deny access, answer the HTTP request with a 403 Forbidden response. method <method-list>method-list is a space-separated list of HTTP methods. Only allow access if the current HTTP methods is one of the methods specified in the method list, e.g. GET, POST, PUT, etc. env <environment-var-list>environment-var-list is a space-separated list of environment variables. Only allow access if one of the listed environment variables is defined and not empty.
+AuthNameThe <name> of the authorization realm. This is the name, the browser displays in the password window. It is also evaluated by the browser to re-use the username/password for subsequent authorization requests. By choosing a common name, you can allow the browser to authorize the user automatically for different urls / content locations within your site.
+
+AuthUserFile<file or folder location> of user information. If it is a file, the format is (Apache

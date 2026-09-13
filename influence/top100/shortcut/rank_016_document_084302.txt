@@ -1,0 +1,39 @@
+telemetry, etc.), satellite mission classification and analysis, planetary celestial mechanics applied to spacecraft and satellites, rocket propulsion technology and telecommunications.The primary requisites for this course are mechanics that includes Newton's gravitation theory and rigid body rotation and mathematics at the calculus level. Elementary knowledge on the operation of electronic technology and devices will be useful.
+
+Recommended prerequisites
+
+FYS-1001 Mechanics, MAT-1002 Calculus 2
+
+Objective of the course
+
+Knowledge - The student can:
+
+  • describe satellite technology with regard to elementary physical principles (e.g. satellite and spacecraft orbits) and the technologies employed in the construction and operation of satellites (e.g., propulsion, attitude control, telemetry, etc.) ¿
+  • explain satellite and spacecraft missions from inception to launch to operation and decommissioning
+  • explain the use of satellites and spacecraft to accomplish well known categories of missions (e.g., communication, navigation, remote Earth monitoring and others) ¿
+  • explain rocket propulsion technologies ¿
+
+Skills - The student can:
+
+  • ¿participate in satellite and rocket projects and missions ¿
+  • utilize satellites and rockets for the investigation and research of the near Earth environment
+
+General expertise - The student can:
+
+  • continue studies of more specialized and advanced courses on satellite/rocket technology and/or applications ¿
+  • understand space weather the nature of the environment where satellites and spacecraft operate
+  • appreciate the importance of space and space technologies for the proper functioning of our modern and global society
+
+Language of instruction
+
+The language of instruction is English and all of the syllabus material is in English. Examination questions will be given in English, but may be answered either in English or a Scandinavian language.
+
+Teaching methods
+
+Lectures: 40 hours Exercises: 40 hours
+
+The course might include a field trip to Andøya Space Center.
+
+Portfolio assessment of a mid-term assignment counting about 20 % and a final oral examination counting about 80 %. Assessment scale: Letter grades A-F. Re-sit examination (section 22): There is no access to a re-sit examination in this course. Postponed examination (sections 17 and 21): Students with valid grounds for absence will be offered a postponed examination. Both postponed mid-term assignment and postponed oral examination are arranged during the semester if possible, otherwise early in the following semester. See indicated sections in Regulations for examinations at the UiT The arctic university of Norway for more information.
+
+Coursework requirements: Access to the final examination requires submission of a mid-term assignment

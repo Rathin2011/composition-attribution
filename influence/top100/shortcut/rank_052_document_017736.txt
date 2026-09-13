@@ -1,0 +1,25 @@
+- Water: ad libitum, tap water
+- Acclimation period: At least 5 adaptation days and animals were acclimatised to the test apparatus for approx. 1 hour on 2 days prior to testing.
+
+- Temperature (°C): 22 +/- 3
+- Humidity (%): 55 +/- 15
+- Photoperiod: 12 hours dark/light cycle
+
+Administration / exposure
+
+Route of administration:
+inhalation: dust
+Type of inhalation exposure:
+nose only
+Details on inhalation exposure:
+- Exposure apparatus: The study was carried out using a dynamic inhalation apparatus (air changes/h (≥ 12 times)) with a nose-only exposure of the animals according to KIMMERLE & EBEN. The apparatus consists of a cylindrical exposure chamber which holds the animals in pyrex tubes at the edge of the chamber in a radial position.
+- Exposure chamber volume: 40 L
+- Source and rate of air: Air was taken from the surrounding atmosphere of the laboratory room and filtered using an in-line disposable gas-filter. At the bottom of the exposure chamber, the air was sucked off at a lower flow rate than it was created by the dust generator in order to produce a homogenous distribution and a positive pressure in the exposure chamber (inflow 900 L/h, outflow 800 L/h, 22.5 air changes per hour).
+- System of generating particulates/aerosols: The dust of the test material was generated with a rotating brush dust generator. The generator was fed with compressed air (5.0 bar) from a compressor.
+- Treatment of exhaust air: The exhaust air was drawn through gas wash-bottles.
+- Temperature, humidity, pressure in air chamber: Temperature (26.5°C ± 0.8°C) and humidity (69.2% ± 1.4%) were measured once every hour with a climate control monitor.
+
+- Brief description of analytical method used: The actual dust concentration in the inhalation chamber was measured gravimetrically with an air sample filter and pump, controlled by a rotameter. Dust samples were taken once every hour during the exposure.
+- Samples taken from breathing zone: yes; a probe was placed close to the animals' noses and air was drawn through the air sample filter at a constant flow of air of 5 L/min for 1 minute. The filters were weighed before and after sampling (accuracy 0.1 mg).
+
+TEST ATMOSPHERE (if not tab

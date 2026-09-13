@@ -1,0 +1,23 @@
+{
+  "source_experiment": "completed older landmark-country-capital influence run",
+  "documents_per_curve": 100000,
+  "composition_queries": 60,
+  "composition_definition": "peak reciprocal rank >= 0.5",
+  "shortcut_queries": 27,
+  "shortcut_definition": "peak reciprocal rank <= 0.2",
+  "aggregation": "mean influence after per-query correct-completion information normalization",
+  "sorting": "each group curve independently sorted from greatest to least influence",
+  "columns": [
+    "rank",
+    "composition_mean_normalized_influence",
+    "shortcut_mean_normalized_influence"
+  ],
+  "composition_range": [
+    -11499.655697589193,
+    24355.61046062154
+  ],
+  "shortcut_range": [
+    -35973.54741166247,
+    18724.98403159719
+  ]
+}

@@ -1,0 +1,35 @@
+step is:
+
+Learning from the training set
+
+This involves taking a sample data set of several drinks for which the colour and alcohol percentage is specified. Now, we have to define the description of each classification, that is wine and beer, in terms of the value of parameters for each type. The model can use the description to decide if a new drink is a wine or beer.
+
+You can represent the values of the parameters, ‘colour’ and ‘alcohol percentages’ as ‘x’ and ‘y’ respectively. Then (x,y) defines the parameters of each drink in the training data. This set of data is called a training set. These values, when plotted on a graph, present a hypothesis in the form of a line, a rectangle, or a polynomial that fits best to the desired results.
+
+The second step is to measure error
+
+Once the model is trained on a defined training set, it needs to be checked for discrepancies and errors. We use a fresh set of data to accomplish this task. The outcome of this test would be one of these four:
+
+  • True Positive: When the model predicts the condition when it is present
+  • True Negative: When the model does not predict a condition when it is absent
+  • False Positive: When the model predicts a condition when it is absent
+  • False Negative: When the model does not predict a condition when it is present
+what is machine learning process
+
+The sum of FP and FN is the total error in the model.
+
+Manage Noise
+
+For the sake of simplicity, we have considered only two parameters to approach a machine learning problem here that is the colour and alcohol percentage. But in reality, you will have to consider hundreds of parameters and a broad set of learning data to solve a machine learning problem.
+
+  • The hypothesis then created will have a lot more errors because of the noise. Noise is the unwanted anomalies that disguise the underlying relationship in the data set and weakens the learning process. Various reasons for this noise to occur are: 
+  • Large training data set
+  • Errors in input data
+  • Data labelling errors 
+  • Unobservable attributes that might affect the classification but are not considered in the training set due to lack of data
+
+You can accept a certain degree of training error due to noise to keep the hypothesis as simple as possible. 
+
+Testing and Generalisation
+
+While it is possible for an algorithm or hypothesis to fit well to a training set, it might fail when applied to another set of data outside of the training

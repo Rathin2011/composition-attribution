@@ -1,0 +1,21 @@
+Flux, Highest melting point of any common stone.
+Stone Gabbro 12,160°U (2192°F/1200°C) Igneous intrusive layer stone
+Stone Ilmenite . 12,457°U (2489°F/1365°C) Gabbro(S)
+Stone Kaolinite = 13,150°U (3182°F/1751°C) All Sedimentary(L) dark red, porcelain
+Stone Mica v 12,295°U (2327°F/1275°C) All Metamorphic(L), Granite(L)
+Stone Obsidian 13,600°U (3632°F/2001°C) Igneous extrusive layer stone value 3, can be "manufactured"
+Stone Olivine % 13,168°U (3200°F/1761°C) Gabbro(L) green
+Stone Orthoclase % 12,250°U (2282°F/1250°C) All Igneous intrusive(L), All Metamorphic(L) yellow
+Stone Periclase , 15,040°U (5072°F/2803°C) Marble(S)
+Stone Petrified wood % 12,970°U (3002°F/1650°C) All Sedimentary(S) bright red, least dense magma-safe non-economic stone
+Stone Pitchblende * 12,070°U (2102°F/1149°C) Granite(S) purple
+Stone Quartzite - 12,970°U (3002°F/1650°C) Metamorphic layer stone
+Stone Rutile ` 13,285°U (3214°F/1826°C) All Metamorphic(S), Granite(S) purple
+Stone Sandstone # 12,070°U (2102°F/1149°C) Sedimentary layer stone
+Stone Talc | 12,700°U (2732°F/1500°C) Dolomite(L)
+Metal Adamantine X 25,000°U (15,032°F/8333°C) Highest value/utility material in game
+Metal Iron X 12,768°U (2800°F/1538°C)
+Metal Nickel X 12,619°U (2651°F/1455°C)
+Metal Pig iron X 12,106°U (2138°F/1170°C) used in steel making process
+Metal Platinum X 13,182°U (3214°F/1768°C) High value metal
+Metal

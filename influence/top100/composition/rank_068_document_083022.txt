@@ -1,0 +1,31 @@
+61Gravity Intolerance (*)62-67Lameness
+68-72Low Pain Threshold73-78Missing Parts (2)79-83Rank Loss (2)
+84-89Slow Healing90-94Weak Bones (2)95-00Weakness (2)
+
+Table 25: Mental Quirks (deleterious)
+01-03Action Addict04-06Attitude (*)07-09Bluntness (*)
+10-12Bully (*)13-15Combat Paralysis (*)16-18Compulsiveness (*)
+19-20Cowardice (*)21-23Cyber-neurosis24-26Fanaticism (*)
+27-29Frenzied30-32Greed (*)33-35Gullibility (*)
+36-38Honesty (*)39-40Impulsiveness (*)41-43Inept (*)
+44-46Insanity (2)47-49Insomnia50-52Jealousy (*)
+53-55Karmic Dearth (2)56-58Laziness (*)59-60Learning Disorder
+61-63Low Stress Threshold (*)64-66Mania (*)67-69Multiple Personality (*)
+70-72Pacifism (*)73-75Paranoia (*)76-78Personal Code (*)
+79-80Phobia (*)81-83Pushover84-86Rudeness (*)
+87-89Short Attention Span90-92Shyness (*)93-95Stubborn (*)
+96-98Temper (*) 99-00Vow (*)
+
+Table 26: Role Play Quirks (beneficial)
+01-09Ally10-18Assistant19-27Attractive (*)
+38-36Benefactor (*)37-45Cash Flow46-54Charmed
+55-63Fame (*)64-72Fan Club73-81Good Reputation
+82-90Likability (2) 91-00Lucky (2)
+
+Table 27: Role Play Quirks (deleterious)
+01-06Alien Culture (*)07-12Bad Reputation13-18Bigotry (*)
+19-24Dependent25-29Enemy (*)30-35Illiteracy
+36-41Jinxed42-47Loner (*)48-53Nerd
+54-59Poverty60-65Repugnant Personality (*)66-71Snob
+72-77Social Dependent (*)78-82Unattractive (*)83-88Unlucky (2)
+89-94Un

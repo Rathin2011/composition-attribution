@@ -1,0 +1,14 @@
+10,136,'* Voyager en Afrique, en Asie, en Amerique Latine ..........................................................................'); $this->Text(180,136,$row["q13"]);
+	$this->Text(10,143,'* Eu des relations sexuelles extra-conjugales non prot�g�es ........................................................');$this->Text(180,143,$row["q14"]);
+	$this->Text(10,150,'* Pris des drogues par voie injectable ou nasale ..............................................................................'); $this->Text(180,150,$row["q15"]);
+	$this->Text(10,157,'Dans les 4 derniers mois, avez-vous :');                                                            
+	$this->Text(10,164,'* Et� op�r�(e) au cours d\'une hospitalisation et/ou subi une anesth�sie gen�rale ou locor�gionale ');$this->Text(180,164,$row["q16"]);
+	$this->Text(10,171,'* Et� vaccin�(e).....................................................................................................................................');$this->Text(180,171,$row["q17"]);
+	$this->Text(10,178,'* Subi une endoscopie .......................................................................................................................');$this->Text(180,178,$row["q18"]);
+	$this->Text(10,185,'* Subi un tatouage ou un piercing .....................................................................................................'); $this->Text(180,185,$row["q19"]);
+	$this->Text(10,192,'* Eu une infection urinaire ..................................................................................................................');$this->Text(180,192,$row["q20"]);
+	$this->Text(10,199,'Pour la femme :');                                                                                  
+	$this->Text(10,206,'* Etes vous enceinte............................................................................................................................'); $this->Text(180,206,$row["q21"]);
+	$this->Text(10,213,'* Avez-vous accouch� ou fait une fausse couche depuis moins de 06 mois ...............................');$this->Text(180,213,$row["q22"]);
+	$this->Text(10,220,'Depuis une semaine, avez-vous :');                                                                  
+	$this->Text(10,227,'* Pris des m�dicaments ATB, CTC, Aspirine ....................................................................................'); $this->Text(180,227,$row["q23"]);

@@ -1,0 +1,19 @@
+4
+
+April 2014
+
+May 12th, 2014
+
+Hacking Day And Linuxwochen
+
+In the last weeks, I spent some time on developer events, which I always embrace a lot because the "hallway tracks" are a constant great flow of interesting information and discussions - and of course the official talks are often quite interesting as well! :)
+
+Image No. 23215
+
+First up was the Mozilla Hacking Day in Berlin on Saturday, April 26. I met Arpad Borsos, fellow Mozillian from Vienna, already at Vienna airport on Friday, as we incidentally were hopping over from the Austrian to the German capital in the same plane. Later in Berlin, we met more Mozillians at the hotel and went out for dinner together.
+At the actual Hacking Day, we had ~70 people streaming in for some introductory talks, and then people split up into hacking sessions and some more in-depth talks (like the one in the picture, where fellow "Desktop QA" team member Henrik talked about automated testing), which were followed by even more hands-on hacking. I spent most of the time talking to various people about different topics, showing off Firefox OS a bit (after I had reflashed my Geeksphone Peak and got it into a working stage again during the talks) and my actual "hacking" achievement: Together with Georg Fritzsche, we could find out that an issue with my Lantea Maps app freezing was a WebGL-related bug in Gecko, found a stack, reported it as a new bug and set a needinfo flag to a gfx developer. (Yesterday, I found a hacky workaround so Lantea Maps will soon work again despite that bug.)
+On Sunday, I also was able to squeeze in some sightseeing and photo-taking, marching through Berlin for ~3.5h before returning to the airport.
+
+Image No. 23216 Image No. 23217 Image No. 23218
+
+And last week, May 8-10, it was time for the yearly Linuxwochen conference in Vienna. As we do not have an organized group of Mozillians here, we didn't have a Mozilla booth, but I usually share the OpenStreetMap booth (that's why you'll spot that in the pictures), as I'm pretty active in the local community there, and just run around with Mozilla T-shirts and talk about Mozilla stuff in addition to OSM things. I also had submitted talks about Firefox OS and the Makey Makey,

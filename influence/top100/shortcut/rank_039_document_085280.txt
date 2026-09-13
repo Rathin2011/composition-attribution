@@ -1,0 +1,10 @@
+amar','I. de Margarita','Nueva Esparta','4980','Venezuela');
+INSERT INTO orders (id, customer_code, employee_id, order_date, required_date, shipped_date, ship_via_id, freight, ship_name, ship_address, ship_city, ship_region, ship_postal_code, ship_country)
+ VALUES (10406,'QUEEN',7,'1997-01-07','1997-02-18','1997-01-13',1,108.04,'Queen Cozinha','Alameda dos Canàrios, 891','Sao Paulo','SP','05487-020','Brazil');
+INSERT INTO orders (id, customer_code, employee_id, order_date, required_date, shipped_date, ship_via_id, freight, ship_name, ship_address, ship_city, ship_region, ship_postal_code, ship_country)
+ VALUES (10407,'OTTIK',2,'1997-01-07','1997-02-04','1997-01-30',2,91.48,'Ottilies Käseladen','Mehrheimerstr. 369','Köln',NULL,'50739','Germany');
+INSERT INTO orders (id, customer_code, employee_id, order_date, required_date, shipped_date, ship_via_id, freight, ship_name, ship_address, ship_city, ship_region, ship_postal_code, ship_country)
+ VALUES (10408,'FOLIG',8,'1997-01-08','1997-02-05','1997-01-14',1,11.26,'Folies gourmandes','184, chaussée de Tournai','Lille',NULL,'59000','France');
+INSERT INTO orders (id, customer_code, employee_id, order_date, required_date, shipped_date, ship_via_id, freight, ship_name, ship_address, ship_city, ship_region, ship_postal_code, ship_country)
+ VALUES (10409,'OCEAN',3,'1997-01-09','1997-02-06','1997-01-14',1,29.83,'Océano Atlántico Ltda.','Ing. Gustavo Moncada 8585 Piso 20-A','Buenos Aires',NULL,'1010','Argentina');
+INSERT INTO orders (id, customer_code, employee_id, order_date, required_date, shipped_date, ship_via_id, freight, ship_name, ship_address,

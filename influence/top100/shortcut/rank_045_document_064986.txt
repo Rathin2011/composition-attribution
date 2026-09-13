@@ -1,0 +1,74 @@
+", str::from_utf8(&remote_file.into_inner()).unwrap());
+
+    // Terminate the connection to the server.
+    let _ = ftp_stream.quit();
+}
+
+#[allow(dead_code)]
+fn read_n<R>(reader: R, bytes_to_read: u64) -> Result<Vec<u8>, i32>
+    where R: Read,
+{
+    let mut buf = vec![];
+    let mut chunk = reader.take(bytes_to_read);
+    let status = chunk.read_to_end(&mut buf);
+    // Do appropriate error handling
+    match status {
+        Ok(0) => Err(0),
+        Ok(_) => Ok(buf),
+        _ => panic!("Didn't read enough"),
+    }
+}
+
+// Function that uses futures
+#[allow(dead_code)]
+#[allow(unused_variables, unused_mut)]
+fn http_download_single_file_work(url: hyper::Uri,  destination: &str){
+
+    let mut core = tokio_core::reactor::Core::new().unwrap();
+    let handle = core.handle();
+    let client = Client::new(&handle);
+
+    let work = client.get(url).and_then(|res| {
+        println!("Response: {}", res.status());
+        println!("Headers: \n{}", res.headers());
+
+        res.body().for_each(|chunk| {
+            io::stdout().write_all(&chunk).map_err(From::from)
+        })
+    }).map(|_| {
+        println!("\n\nDone.");
+    });
+
+    core.run(work).unwrap();
+}
+
+
+// Function that downloads a single file
+// It doesnt user futures - blocking and not very effective
+fn http_download_single_file(url: hyper::Uri, destination: &str){
+
+		let mut core = tokio_core::reactor::Core::new().unwrap();
+    let handle = core.handle();
+		let client = Client::new(&handle);
+
+    let work = client.get(url);
+    let reponse = core.run(work).unwrap();
+
+    let buf2 = reponse.body().collect();
+    let finally = match core.run(buf2){
+    	Ok(res) => res,
+    	Err(_) => panic!("OMG"),
+    };
+
+    let path = Path::new(destination);
+
+    let display = path.display();
+    // Open a file in write-only mode, returns `io::Result<File>`
+    let mut file = match File::create(&path) {
+        Err(why) => panic!("couldn't create {}: {}",
+                           display,
+                           why.description()),
+        Ok(file) => file,
+    };
+
+    for x

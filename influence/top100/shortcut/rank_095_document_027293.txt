@@ -1,0 +1,51 @@
+x, y)
+!   x-coordinate
+!   y-coordinate
+!   x-axis and y-axis
+!   the origin
+Formulas
+!   Midpoint Formula
+!   Given 2 points (x1, x2) and (y1, y2) the midpoint, M, is:
+2 y1 +y2
+M ( x1 +x
+, 2 )
+2
+!   Distance Formula
+!   Given 2 points (x1, x2) and (y1, y2) the distance between
+them, d, is:
+d=
+�
+(x2 − x1 )2 + (y2 − y1 )2
+!   Pythagorean Theorem (only works for right triangles)
+where h is the length of the hypotenuse and a &amp; b are the length of the legs
+a 2 + b 2 = h2
+Examples:
+!   Ex. 1: Find coordinates of a point 10
+units to the left of y-axis and 3 units
+above the x-axis.
+!   Ex. 2: If –x &gt; 0 and y &lt; 0, what
+Examples cont.
+!   Ex. 3: : Find the distance between
+(-3, -2) and (4, 1).
+!   Ex. 4: Find the midpoint of the line
+segment between (5, 2) and (-3, -1).
+Examples cont.
+!   Ex. 5: An airplane flies from Naples,
+Italy in a straight line to Rome, Italy,
+which is 120 km north and 150 km
+west of Naples. How far does the
+plane fly?
+Examples cont.
+!   Ex. 6: A room is 1&frac12; times as long as
+it is wide, and its perimeter is 25
+meters. Find the dimensions of the
+room.
+Review: Inequalities
+1 &lt; 2x + 3 ≤ 9
+−4(x + 1) &lt; 2x + 3
+|x − 20| ≤ 6
+|9 − 2x| − 2 &gt; −1
+Identify &amp; Correct the error:
+Ex. 1:
+5 &divide; 50 = 50 &divide; 5
+Ex. 2:

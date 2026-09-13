@@ -1,0 +1,35 @@
+keysToConsume ["ALL"]
+	enabled TRUE
+
+Filter: X3D only | Avalon only | All
+id Name DataType PartType Default ValueType Description
+SFString triggerName SFString initializeOnly Timer Name of the dynamic context-slot which is used by the run-time environment (e.g. Jobs) to trigger the node. Life-Nodes will automatically connect the context-eventOutut to the triggerSlot-eventInput Slot.
+MFString keysToConsume MFString inputOutput ALL List of keys this sensor should consume, i.e. NOT pass on to the viewareas. The sensor will still react to ALL key presses. Keys can be specified as characters (e.g. 'a'), as key codes ('#123'), or as Navigator-ActionKey strings (e.g. 'ESC'). The special string 'ALL' means the sensor whould consume all events (default behavior).
+SFString description SFString inputOutput Text description to comment the sensor task. Can be used in run-time systems to give usefull feedback to the user and developer
+SFBool enabled SFBool inputOutput TRUE Enables/disables the sensor node.
+SFBool isActive SFBool outputOnly FALSE isActive true/false events are sent when the sensor gets active
+SFTime triggerSlot SFTime inputOnly slot which is used internally to connect a dynamic context-slot which name is set by the triggerName value. Its used automatically to install run-time environment trigger.
+MFString logFeature MFString inputOutput state, child, parent, route, eventIn, eventOut controls the logging of changes, state: log state changes (e.g. live), child: log child add/remove, parent: log parent add/remove, route: log route add/remove; eventIn: log receiving of events, eventOut: log sending of events: guiView, runtime system should create node-view, guiEdit: runtime system should create node-editeverything: log everything
+SFNode metadata SFNode inputOutput MetadataObject container for payload metadata inside MetadataSet elementUpdates & Support
+
+  • Image of two hands holding coffee cups for FarOffice Limited
+
+    Keep Up-To-Date
+
+    the painless way
+
+  • Plate of jelly babies for FarOffice Limited
+
+    Keep Your Site Sweet
+
+    don't let it get stale
+
+  • Desk and equipment for FarOffice Limited
+
+    Keep Your Site Updated
+
+    let FarOffice help you
+
+What do I do now I’ve got a website?
+
+You’re the proud owner of a shiny new website, so that’s it - you don

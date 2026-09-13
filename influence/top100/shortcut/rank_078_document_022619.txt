@@ -1,0 +1,69 @@
+Golden Girdle
+BELT03 - Girdle of Bluntness
+BELT04 - Girdle of Piercing
+BELT05 - Girdle of Sex Change
+
+BLUN01 - Club
+BLUN02 - Flail
+BLUN03 - Flail +1
+BLUN04 - Mace
+BLUN05 - Mace +1
+BLUN06 - Morning Star
+BLUN07 - Morning Star +1
+
+BOLT01 - Bolt
+BOLT02 - Bolt +1
+BOLT03 - Bolt of Lightning
+BOLT04 - Bolt of Biting
+BOLT05 - Bolt of Polymorphing
+BOLT06 - Bolt +2
+
+BOOK01 - Magical Book
+BOOK02 - Spell Book
+BOOK03 - +1 con
+BOOK04 - +1 str
+BOOK05 - +1 dex
+BOOK06 - +1 int
+BOOK07 - +1 chr
+BOOK08 - +1 wis
+BOOK09 - Normal Book
+
+BOOT01 - Boots of Speed
+BOOT02 - Boots of Stealth
+BOOT03 - Boots of the North
+BOOT04 - Boots of Avoidance
+BOOT05 - Boots of Grounding
+
+BOW01 - Composite Long Bow
+BOW02 - Composite Long Bow +1
+BOW03 - Long Bow
+BOW04 - Long Bow +1
+BOW05 - Short Bow
+BOW06 - Short Bow +1
+BOW07 - Long Bow of Marksmanship
+BOW08 - Eagle Bow
+
+BRAC01 - Bracers of Defense AC 8
+BRAC02 - Bracers of Defense AC 7
+BRAC03 - Bracers of Defense AC 6
+BRAC04 - Bracers of Archery
+BRAC05 - Bracers
+BRAC06 - Gauntlets of Ogre Power
+BRAC07 - Gauntlets of Dexterity
+BRAC08 - Gauntlets of Fumbling
+BRAC09 - Gauntlets of Weapon Skill
+BRAC10 - Gauntlets of Weapon Expertise
+
+BULL01 - Bullet
+BULL02 - Bullet +1
+BULL03 - Bullet +2
+
+CHAN01 - Chainmail
+CHAN02 - Chainmail +1
+CHAN03 - Chainmail +2
+CHAN04 - Splint Mail
+CHAN05 - Splint Mail +1
+CHAN06 - Mithril Chain Mail +4
+
+CLCK01 - Cloak of Protection +1
+CLCK02 - Cloak of Protection +2

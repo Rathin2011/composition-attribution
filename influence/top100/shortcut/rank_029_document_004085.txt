@@ -1,0 +1,10 @@
+dimethyl oxalate (not all of these are acids). All thirteen species reacted with MnO₂ by reductive dissolution that yielded Mn(II) at room temperature (to the extent that they reacted at all). Urea was not effective in dissolving MnO₂. Fosamine was the slowest dissolver of the other twelve organics. Dissolution rate data are included in the paper. The authors concluded that of the thirteen species, only oxalic acid could produce a stable complex at a Mn oxidation state above two. They concluded that an Mn(III) oxalate complex should be stable at about pH 5.0 but not at pH 6.0. The other chemicals drove the Mn from Mn(IV) to Mn(II) without any stable intermediate complexes at oxidation states three or four. It appears from the data that at least one form of MnO₂ is unstable with respect to water once pH falls below 3.5 (delta form).
+
+The paper includes a reference to a thorough review of α-hydroxycarboxylic acid-metal ion complex stability. These compounds contain two donor groups, a hydroxyl group and a carboxylate group. Thus, they are all potentially bidentate ligands. An example is 2-hydroxyacetic acid (glycolic acid). Lactic acid also falls in this class of compounds. The relative position of the two donor groups on the molecule has a strong impact on its complexing behavior. The elements listed in the metal complex tables for various individual acids include many of the insoluble cations in sludge waste.
+
+4.1.5 Powell Paper on U(VI) and Boehmite
+An abstract for this paper indicates that addition of 1-hydroxyethane-1,1-diphosphonic acid (HEDPA) enhanced dissolution of Al(III) in the form of boehmite (AlOOH) in the pH range
+of 4-9. The Al(III) was complexed by the HEDPA. The HEDPA also promoted U(VI) dissolution in this range.
+
+4.1.6 Al-Hobaib Paper on Ra Desorption, Mn, and Fe Reductive Dissolution
+This group of researchers studied the removal of radium adsorbed on iron and manganese oxides/hydroxides held on sand filter particles. The radium removal was accomplished via reductive dissolution using organic acids. The authors ranked the acids for radium removal efficiency

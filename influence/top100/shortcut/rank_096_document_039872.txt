@@ -1,0 +1,38 @@
+eye out for the "New In Development Version" sections.
+
+My app and/or models are not showing up on the home page of the admin
+
+  • Is the app listed in INSTALLED_APPS?
+  • Is your models.py free of syntax errors?
+  • Do you have an "Admin" inner class in your model?
+  • Have you tried restarting the server (this includes the dev server)?
+
+My media/static files (CSS, images, etc.) aren't showing up.
+
+Django doesn't serve static media automatically (except for the admin, which has special code to handle this).
+
+If you're running the development server, read this: http://www.djangoproject.com/documentation/static_files/
+
+If you're running Apache, read this: http://www.djangoproject.com/documentation/modpython/#serving-media-files
+
+Confusingly, though the MEDIA_* settings in your settings.py file refer to your media files, not the Admin app's media files, the default path for Admin app media (ADMIN_MEDIA_PREFIX) is set to "/media/". Many Django users change this to "/admin_media/" or "/adminmedia/" to reduce potential confusion; note the application porting checklist if you're coming from an older version of Django.
+
+See the StringEncoding page for an overview of how Django handles Unicode text.
+
+How to do Stuff
+
+How do I create a subclass of an existing model?
+
+Model inheritance (aka model subclassing) is available in Django trunk as of r7477.
+
+If you're using it, make sure you've read the documentation and understand the difference between abstract base class and multi-table inheritance options. The latter can be confusing to newcomers because an instance of a parent class will also contain, on an attribute named after a child class, that same object represented as an instance of the child class. Got that?
+
+An established mechanism for adding additional information to Django User objects without subclassing is known as "profiles"; you can read about it in the Definitive Guide.
+
+For an important alternatve viewpoint on model subclassing, see: http://www.b-list.org/weblog/2007/02/20/about-model-subclassing
+
+I think Ajax is awesome! How do I do Ajax with Django?
+
+Choose your favorite excellent Javascript library and go to it. Django provides serializers to JSON and XML, which you can read about in the documentation: http://www.djangoproject.com/documentation/serialization/
+
+Also see this helpful article from James Bennett (with bonus anti-Javascript-helpers rant!): http://www.b-list.org/weblog/200

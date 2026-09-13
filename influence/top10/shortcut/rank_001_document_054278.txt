@@ -1,0 +1,41 @@
+clans.
+* Clan wars - clans can declare war againts clans of opposite faction.
+Voiced Commands
+* .info - used during events to show the top players, the score of each team, the goal of the current event and to see own score.
+* .playalone / .playinparty - turn on/off random parties while joining events.
+* .shotsoff / .animon / .animoff / .allanimoff - show/hide animations, use if have client lags.
+* .scoreon / .scoreoff - show/hide the scorebar during events.
+* .msgon / .msgoff - show/hide killing streak messages on screen.
+* .radaron / .radaroff - show/hide player radar in events.
+* .setpin / .changepin / .writepin - manage character-level security pincode.
+* .elo - if used on others can show others Elo points, otherwise shows self Elo points.
+* .joinparty - auto join a party during an event.
+* .progress - use to get information about server current stage, next stage and progress to next stage.
+* Unique achievements system with levels and amazing rewards.
+* Rebirth system with skills as rewards.
+* Global vote reward system for Adena.
+* Personal vote reward system for temporary passive skill.
+* Double EXP/SP event at random times during the day.
+* Shift+click players in town to view their items/stats/clan and skills.
+* Ctrl+click on GCP/QHP to activate auto use of them.
+* Player ranks system.
+* Killing spree system.
+* Events voting system.
+* Announcements upon raidbosses/grandbosses death.
+* Advanced GM shop with stages, gifts, stocks and more.
+* Grand master for subclasses, clan/ally management, skill learning and more.
+* Toggle skill for CP/HP/MP instead of potions.
+* Return skill for all classes instead of SoE.
+* Free 1st/2nd/3rd class change.
+* Free subclass.
+* Dedicated private store zone.
+* Special town for both factions for improved server economy.
+* Base starting level 74 (including subclasses).
+* Max level 80 (including subclasses).
+* Offline shops.
+* Trade chat is faction only chat.
+* Shout chat is region chat and will show player's faction.
+* Hero chat is global chat and will show player's faction.
+* Players can duel in town.
+* Services NPC (faction change, gender change etc...).
+* Tranining

@@ -1,0 +1,41 @@
+rev
+
+This article has been republished on Monkey and Crow.
+
+We’re going to take a look at another little piece of ruby’s standard library, this time it is Abbrev, a tiny library that generates abbreviations for a set of words. We will expand ever so slightly on the one-liner from my last post to show an example of Abbrev in action:
+
+require 'abbrev'
+commands = Dir[*ENV['PATH'].split(':').map{|p| p+"/*"}].select{|f| File.executable? f}.map{|f| File.basename f}.uniq.abbrev
+commands['ls']   #=> 'ls'
+commands['spli'] #=> 'split'
+commands['spl']  #=> nil
+
+This will match anything on your path, or any substring that will match only one longer string. Combine this with Shellwords, and you have the pieces for an auto completing console. It could also be used for matching rake tasks, tests, or giving suggestions for mistyped methods.
+
+How it Works
+
+So that is what Abbrev does, but how does it work? If you open up the library (qw abbrev if you have Qwandry), you will see that it is pretty small, there’s just one method, and then a helper that extends array.
+
+Starting from the beginning, we see that it takes an array of words and an optional pattern. It stores the abbreviations in table, and tracks of occurrences of each abbreviation in seen using the counting idiom I mentioned in Hash Tricks.
+
+def abbrev(words, pattern = nil)
+  seen = Hash.new(0)
+
+The pattern can be a RegularExpression or a String:
+
+  if pattern.is_a?(String)
+    pattern = /^#{Regexp.quote(pattern)}/	# regard as a prefix
+
+If it’s a String, it is converted to a RegularExpression. Notice that Regexp.quote(pattern) is used so that any characters that have special meanings as RegularExpressions will get escaped. If this pattern is present, it is used to ignore any abbreviations that don’t match it. Next we see how the abbreviations are generated for each word:
+
+  words.each do |word|
+    next if (abbrev = word).empty?
+    while (len = abbrev.rindex(/[\w\W]\z/)) > 0
+      abbrev = word[0,len]
+
+      next if pattern && pattern !~ abbrev
+
+    	case seen[abbrev] += 1
+    	when 1
+    	  table[abbrev] = word
+    	when
