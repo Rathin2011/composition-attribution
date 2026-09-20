@@ -1,0 +1,17 @@
+{
+  "expected_queries": 370,
+  "completed_queries": 370,
+  "complete": true,
+  "model": "allenai/Olmo-3-1025-7B",
+  "model_commit": "373bad25002f1624757a73235c5ca844c6375c25",
+  "stage_one_revision": "stage1-step1413814",
+  "dtype": "bfloat16",
+  "input": "/projectnb/buinlp/rathin/composition-experiments/country-capital/results/olmo3_stage1_landmark_country_capital.compositional.jsonl",
+  "input_sha256": "8d75a9bc13b6bf19f3c66e5e2db9849e7cf89ee825ac4f907769dae13396c0a6",
+  "fresh_baseline_correct": 370,
+  "fresh_baseline_accuracy": 1.0,
+  "fresh_matches_saved_prediction": 370,
+  "multi_token_answers": 33,
+  "mean_completion_logprob": -0.93305467752035,
+  "mean_completion_probability": 0.4607274948842789
+}

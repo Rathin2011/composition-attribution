@@ -1,0 +1,78 @@
+#!/bin/bash -l
+#$ -clear
+#$ -P buinlp
+#$ -N olmo3_cc_baseline
+#$ -cwd
+#$ -j y
+#$ -o /projectnb/buinlp/rathin/composition-experiments/country-capital-mechanisms/results/logs
+#$ -pe omp 4
+#$ -l gpus=1
+#$ -l gpu_type=A40|A100|L40|L40S|A6000
+
+# Fresh, unedited OLMo 3 baselines for all 370 saved compositional queries.
+# This job performs inference only and intentionally has no explicit time limit.
+set -euo pipefail
+module load python3/3.12.4
+
+readonly EXPERIMENT_DIR="/projectnb/buinlp/rathin/composition-experiments/country-capital-mechanisms"
+readonly SCRIPT="$EXPERIMENT_DIR/experiments/00_validate_baseline.py"
+readonly SOURCE_DIR="/projectnb/buinlp/rathin/composition-experiments/country-capital"
+readonly INPUT="$SOURCE_DIR/results/olmo3_stage1_landmark_country_capital.compositional.jsonl"
+readonly RAW_OUTPUT="$EXPERIMENT_DIR/results/raw/baseline_370.jsonl"
+readonly SUMMARY_OUTPUT="$EXPERIMENT_DIR/results/summaries/baseline_370_summary.json"
+readonly PYTHON_BIN="/projectnb/buinlp/rathin/influence-composition/.venv/bin/python"
+readonly HF_CACHE_ROOT="/projectnb/buinlp/rathin/influence-composition/.cache/huggingface"
+
+cd "$EXPERIMENT_DIR"
+
+test -x "$PYTHON_BIN"
+test -r "$SCRIPT"
+test -r "$INPUT"
+test -r "$EXPERIMENT_DIR/src/country_capital/config.py"
+test -r "$EXPERIMENT_DIR/src/country_capital/data.py"
+test -r "$EXPERIMENT_DIR/src/country_capital/model.py"
+test -r "$EXPERIMENT_DIR/src/country_capital/activations.py"
+test -r "$EXPERIMENT_DIR/src/country_capital/metrics.py"
+test -r "$EXPERIMENT_DIR/src/country_capital/runner.py"
+test -d "$EXPERIMENT_DIR/results/raw"
+test -d "$EXPERIMENT_DIR/results/summaries"
+test -d "$EXPERIMENT_DIR/results/logs"
+test -d "$HF_CACHE_ROOT/hub"
+
+if [[ -e "$RAW_OUTPUT" || -e "$SUMMARY_OUTPUT" ]]; then
+    printf 'Existing baseline output found; refusing to overwrite it.\n' >&2
+    exit 1
+fi
+
+export CPATH="$SCC_PYTHON3_INCLUDE/python3.12${CPATH:+:$CPATH}"
+export PYTHONPATH="$EXPERIMENT_DIR/src${PYTHONPATH:+:$PYTHONPATH}"
+export HF_HOME="$HF_CACHE_ROOT"
+export HF_HUB_OFFLINE=1
+export TRANSFORMERS_OFFLINE=1
+export TOKENIZERS_PARALLELISM=false
+export PYTHONUNBUFFERED=1
+export OMP_NUM_THREADS="${NSLOTS:-4}"
+export MKL_NUM_THREADS="${NSLOTS:-4}"
+
+printf 'Country-capital baseline validation: job=%s slots=%s\n' "${JOB_ID:-unknown}" "${NSLOTS:-unknown}"
+date -u '+Started: %Y-%m-%d %H:%M:%S UTC'
+nvidia-smi
+sha256sum \
+    "$SCRIPT" \
+    "$EXPERIMENT_DIR/src/country_capital/config.py" \
+    "$EXPERIMENT_DIR/src/country_capital/data.py" \
+    "$EXPERIMENT_DIR/src/country_capital/model.py" \
+    "$EXPERIMENT_DIR/src/country_capital/activations.py" \
+    "$EXPERIMENT_DIR/src/country_capital/metrics.py" \
+    "$EXPERIMENT_DIR/src/country_capital/runner.py" \
+    "$INPUT"
+
+"$PYTHON_BIN" "$SCRIPT" \
+    --input "$INPUT" \
+    --cache-dir "$HF_CACHE_ROOT/hub" \
+    --output "$RAW_OUTPUT" \
+    --summary "$SUMMARY_OUTPUT" \
+    --expected-queries 370 \
+    --max-new-tokens 20
+
+date -u '+Finished: %Y-%m-%d %H:%M:%S UTC'

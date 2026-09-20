@@ -1,3 +1,6 @@
 __pycache__/
 *.py[cod]
 
+# Large/generated outputs from the country-capital mechanism experiments.
+country-capital-mechanisms/results/raw/
+country-capital-mechanisms/results/logs/
