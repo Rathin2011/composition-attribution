@@ -50,8 +50,14 @@ class ReadoutGeometry:
             rms_weight=model.model.norm.weight.detach().float().cpu(),
         )
 
-    def direction(self, token_id: int) -> torch.Tensor:
-        """Construct the centered residual-space direction for one token ID."""
+    def centered_token_direction(self, token_id: int) -> torch.Tensor:
+        """Return the unit direction that raises one token relative to the mean.
+
+        Input:
+            One vocabulary token ID.
+        Output:
+            ``unit(gamma * (W_token - mean(W)))`` as a float32 CPU vector.
+        """
         if not 0 <= token_id < self.head.shape[0]:
             raise ValueError("token ID is outside the output vocabulary")
         return centered_token_direction(
@@ -59,6 +65,33 @@ class ReadoutGeometry:
             self.vocabulary_mean,
             self.rms_weight,
         )
+
+    def raw_token_direction(self, token_id: int) -> torch.Tensor:
+        """Return one token's unnormalized RMS-weighted readout direction.
+
+        Input:
+            One vocabulary token ID.
+        Output:
+            ``gamma * W_token`` as a float64 CPU vector.
+
+        The capital-preserving experiment uses this raw direction because it
+        protects the capital's actual local logit numerator, not a unit-length
+        or vocabulary-centered proxy.
+        """
+        if not 0 <= token_id < self.head.shape[0]:
+            raise ValueError("token ID is outside the output vocabulary")
+        return (
+            self.head[token_id].detach().double().cpu()
+            * self.rms_weight.double()
+        )
+
+    def vocabulary_mean_direction(self) -> torch.Tensor:
+        """Return ``gamma * mean(W)`` as a float64 CPU vector.
+
+        Protecting this direction together with the raw capital direction also
+        protects the capital logit relative to the vocabulary-wide mean.
+        """
+        return self.vocabulary_mean.double() * self.rms_weight.double()
 
 
 def measure_token_evidence(
