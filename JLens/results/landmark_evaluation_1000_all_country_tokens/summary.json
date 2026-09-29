@@ -1,0 +1,56 @@
+{
+  "status": "complete",
+  "scope": "six fitted layers; original groups unchanged; all country tokens measured",
+  "model": "allenai/Olmo-3-1025-7B",
+  "stage_one_revision": "stage1-step1413814",
+  "model_commit": "373bad25002f1624757a73235c5ca844c6375c25",
+  "lens": "/projectnb/buinlp/rathin/composition-experiments/JLens/results/fit_1000/merged/jacobian_lens.pt",
+  "source_layers": [
+    12,
+    16,
+    18,
+    20,
+    22,
+    24
+  ],
+  "thresholds": {
+    "compositional_rr": 0.5,
+    "shortcut_rr": 0.2
+  },
+  "total_queries": 475,
+  "groups": {
+    "compositional": {
+      "num_queries": 370,
+      "j_lens_evidence_bands": {
+        "compositional": 362,
+        "ambiguous": 5,
+        "shortcut_candidate": 3
+      },
+      "j_lens_better_rank": 86,
+      "same_rank": 274,
+      "j_lens_worse_rank": 10,
+      "median_logit_lens_rank_fitted_layers": 1.0,
+      "median_j_lens_rank": 1.0,
+      "mean_logit_lens_peak_rr_fitted_layers": 0.8246031078403959,
+      "mean_j_lens_peak_rr": 0.9457507507507508
+    },
+    "shortcut_candidate": {
+      "num_queries": 105,
+      "j_lens_evidence_bands": {
+        "compositional": 20,
+        "ambiguous": 4,
+        "shortcut_candidate": 81
+      },
+      "j_lens_better_rank": 84,
+      "same_rank": 4,
+      "j_lens_worse_rank": 17,
+      "median_logit_lens_rank_fitted_layers": 49,
+      "median_j_lens_rank": 14,
+      "mean_logit_lens_peak_rr_fitted_layers": 0.03641640219771078,
+      "mean_j_lens_peak_rr": 0.20921617091028588
+    }
+  },
+  "outputs": {
+    "per_query": "/projectnb/buinlp/rathin/composition-experiments/JLens/results/landmark_evaluation_1000_all_country_tokens/per_query.jsonl"
+  }
+}

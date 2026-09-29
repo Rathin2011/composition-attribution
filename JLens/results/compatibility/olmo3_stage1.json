@@ -1,0 +1,45 @@
+{
+  "status": "compatible",
+  "model": "allenai/Olmo-3-1025-7B",
+  "stage_one_revision": "stage1-step1413814",
+  "model_commit": "373bad25002f1624757a73235c5ca844c6375c25",
+  "dtype": "bfloat16",
+  "jlens_commit": "581d398613e5602a5af361e1c34d3a92ea82ba8e",
+  "versions": {
+    "python": "3.12.4",
+    "torch": "2.13.0",
+    "transformers": "5.17.0",
+    "accelerate": "1.14.0"
+  },
+  "prompt": "The capital of France is",
+  "num_prompt_tokens": 6,
+  "bos_token_id": 100257,
+  "first_input_token_id": 100257,
+  "final_top_token_id": 12366,
+  "final_top_token": " Paris",
+  "adapter": {
+    "adapter_type": "HFLensModel",
+    "layout": {
+      "path": "model",
+      "layers": "layers",
+      "norm": "norm",
+      "embed": "embed_tokens",
+      "lm_head": "lm_head"
+    },
+    "num_layers": 32,
+    "hidden_size": 4096,
+    "input_device": "cuda:0"
+  },
+  "logit_comparison": {
+    "shape": [
+      1,
+      6,
+      100278
+    ],
+    "max_absolute_difference": 0.0,
+    "mean_absolute_difference": 0.0,
+    "allclose_rtol": 0.001,
+    "allclose_atol": 0.001,
+    "same_final_top_token": true
+  }
+}

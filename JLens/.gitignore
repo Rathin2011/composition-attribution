@@ -1,0 +1,18 @@
+# Local Python environment and generated interpreter caches.
+/environment/
+**/__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Scheduler output is machine-specific and reproducible from the job scripts.
+/results/logs/
+
+# Fitted lenses and resumable checkpoints are hundreds of megabytes each.
+/results/**/*.pt
+
+# The obsolete 10-prompt pilot is not part of the final experiment.
+/results/pilot/
+/results/landmark_evaluation/
+
+# These duplicate contiguous slices of the canonical 1,000-prompt manifest.
+/results/fit_1000/shards/*/prompts.jsonl

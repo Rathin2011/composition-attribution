@@ -1,0 +1,146 @@
+{
+  "status": "complete",
+  "readout": "ordinary_logit_lens",
+  "country_scores": {
+    "closed_country_set": "mean constituent-token logit",
+    "full_vocabulary": "mean and maximum constituent-token logits"
+  },
+  "comparison_sets": {
+    "closed_country_set": "all country labels in the 475 evaluated queries",
+    "full_vocabulary": "all vocabulary tokens except the target country's constituent tokens"
+  },
+  "model": "allenai/Olmo-3-1025-7B",
+  "stage_one_revision": "stage1-step1413814",
+  "model_commit": "373bad25002f1624757a73235c5ca844c6375c25",
+  "source_layers": [
+    12,
+    16,
+    18,
+    20,
+    22,
+    24
+  ],
+  "total_queries": 475,
+  "country_entity_candidates": [
+    "Armenia",
+    "Austria",
+    "Bosnia and Herzegovina",
+    "Bulgaria",
+    "Canada",
+    "Czech Republic",
+    "Denmark",
+    "Ecuador",
+    "Egypt",
+    "Estonia",
+    "Ethiopia",
+    "Finland",
+    "France",
+    "Georgia",
+    "Germany",
+    "Greece",
+    "Hungary",
+    "India",
+    "Indonesia",
+    "Iran",
+    "Ireland",
+    "Israel",
+    "Italy",
+    "Japan",
+    "Kazakhstan",
+    "Kenya",
+    "Lebanon",
+    "Lithuania",
+    "Malaysia",
+    "Malta",
+    "Mongolia",
+    "Netherlands",
+    "North Korea",
+    "Norway",
+    "People's Republic of China",
+    "Poland",
+    "Romania",
+    "Russia",
+    "Serbia",
+    "Slovakia",
+    "Slovenia",
+    "South Korea",
+    "Spain",
+    "Sweden",
+    "Switzerland",
+    "Thailand",
+    "Turkey",
+    "United Kingdom",
+    "United States",
+    "Venezuela",
+    "Vietnam"
+  ],
+  "groups": {
+    "compositional": {
+      "closed_country_set": {
+        "num_queries": 370,
+        "country_entity_evidence_bands": {
+          "compositional": 370,
+          "ambiguous": 0,
+          "shortcut_candidate": 0
+        },
+        "median_country_entity_rank": 1.0,
+        "mean_country_entity_reciprocal_rank": 1.0
+      },
+      "full_vocabulary": {
+        "num_queries": 370,
+        "country_entity_evidence_bands": {
+          "compositional": 322,
+          "ambiguous": 25,
+          "shortcut_candidate": 23
+        },
+        "median_country_entity_rank": 1.0,
+        "mean_country_entity_reciprocal_rank": 0.8129370462573252
+      },
+      "full_vocabulary_max": {
+        "num_queries": 370,
+        "country_entity_evidence_bands": {
+          "compositional": 327,
+          "ambiguous": 26,
+          "shortcut_candidate": 17
+        },
+        "median_country_entity_rank": 1.0,
+        "mean_country_entity_reciprocal_rank": 0.8285445492818374
+      }
+    },
+    "shortcut_candidate": {
+      "closed_country_set": {
+        "num_queries": 105,
+        "country_entity_evidence_bands": {
+          "compositional": 83,
+          "ambiguous": 21,
+          "shortcut_candidate": 1
+        },
+        "median_country_entity_rank": 1,
+        "mean_country_entity_reciprocal_rank": 0.7484126984126984
+      },
+      "full_vocabulary": {
+        "num_queries": 105,
+        "country_entity_evidence_bands": {
+          "compositional": 0,
+          "ambiguous": 0,
+          "shortcut_candidate": 105
+        },
+        "median_country_entity_rank": 736,
+        "mean_country_entity_reciprocal_rank": 0.012057754163595424
+      },
+      "full_vocabulary_max": {
+        "num_queries": 105,
+        "country_entity_evidence_bands": {
+          "compositional": 13,
+          "ambiguous": 2,
+          "shortcut_candidate": 90
+        },
+        "median_country_entity_rank": 28,
+        "mean_country_entity_reciprocal_rank": 0.16223859604641355
+      }
+    }
+  },
+  "outputs": {
+    "per_query": "/projectnb/buinlp/rathin/composition-experiments/JLens/results/logit_lens_country_entities_full_vocabulary_max/per_query.jsonl"
+  }
+}

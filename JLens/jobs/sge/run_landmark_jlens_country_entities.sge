@@ -1,0 +1,87 @@
+#!/bin/bash -l
+#$ -clear
+#$ -P buinlp
+#$ -N olmo3_jlens_entity
+#$ -cwd
+#$ -j y
+#$ -o /projectnb/buinlp/rathin/composition-experiments/JLens/results/logs
+#$ -pe omp 4
+#$ -l mem_per_core=12G
+#$ -l gpus=1
+#$ -l gpu_type=A40|A100|L40|L40S|A6000
+
+# Apply the merged 1,000-prompt J-Lens to every saved landmark query and rank
+# each complete, length-normalized country label against all country labels.
+# This is a forward-pass diagnostic; it does not refit the lens or overwrite
+# either earlier evaluation.
+set -euo pipefail
+module load python3/3.12.4
+
+readonly ROOT="/projectnb/buinlp/rathin/composition-experiments/JLens"
+readonly PYTHON_BIN="/projectnb/buinlp/rathin/influence-composition/.venv/bin/python"
+readonly HF_CACHE_ROOT="/projectnb/buinlp/rathin/influence-composition/.cache/huggingface"
+readonly COUNTRY_RESULTS="/projectnb/buinlp/rathin/composition-experiments/country-capital/results"
+readonly LENS="$ROOT/results/fit_1000/merged/jacobian_lens.pt"
+readonly OUTPUT_DIR="$ROOT/results/landmark_evaluation_1000_country_entities"
+readonly EXPECTED_SOURCE_SHA="c54fdb11e390221c2a2adae97f77df36561f615927588b02e5a9bb96682053b0"
+readonly EXPECTED_LENS_SHA="c7b0d3b0bc2cfda2aec1365e71261bdec3213f12548617ad6f44c3e5f0ba5821"
+readonly EXPECTED_JLENS_COMMIT="581d398613e5602a5af361e1c34d3a92ea82ba8e"
+
+cd "$ROOT"
+test -x "$PYTHON_BIN"
+test -r "$ROOT/src/jlens_experiments/evaluate_landmarks.py"
+test -r "$LENS"
+test -r "$COUNTRY_RESULTS/olmo3_stage1_landmark_country_capital.compositional.jsonl"
+test -r "$COUNTRY_RESULTS/olmo3_stage1_landmark_country_capital.shortcut_candidates.jsonl"
+test -d "$HF_CACHE_ROOT/hub"
+mkdir -p "$OUTPUT_DIR" "$ROOT/results/logs"
+
+if [[ -e "$OUTPUT_DIR/per_query.jsonl" || -e "$OUTPUT_DIR/summary.json" ]]; then
+    printf 'Completed country-entity evaluation already exists; refusing to overwrite it.\n' >&2
+    exit 1
+fi
+
+actual_source_sha="$(sha256sum "$ROOT/src/jlens_experiments/evaluate_landmarks.py" | awk '{print $1}')"
+if [[ "$actual_source_sha" != "$EXPECTED_SOURCE_SHA" ]]; then
+    printf 'Unexpected evaluator SHA-256: %s\n' "$actual_source_sha" >&2
+    exit 1
+fi
+
+actual_lens_sha="$(sha256sum "$LENS" | awk '{print $1}')"
+if [[ "$actual_lens_sha" != "$EXPECTED_LENS_SHA" ]]; then
+    printf 'Unexpected merged-lens SHA-256: %s\n' "$actual_lens_sha" >&2
+    exit 1
+fi
+
+actual_jlens_commit="$(git -C "$ROOT/vendor/jacobian-lens" rev-parse HEAD)"
+if [[ "$actual_jlens_commit" != "$EXPECTED_JLENS_COMMIT" ]]; then
+    printf 'Unexpected J-Lens commit: %s\n' "$actual_jlens_commit" >&2
+    exit 1
+fi
+
+export CPATH="$SCC_PYTHON3_INCLUDE/python3.12${CPATH:+:$CPATH}"
+export PYTHONPATH="$ROOT/environment:$ROOT/vendor/jacobian-lens:$ROOT/src${PYTHONPATH:+:$PYTHONPATH}"
+export HF_HOME="$HF_CACHE_ROOT"
+export HF_HUB_OFFLINE=1
+export TRANSFORMERS_OFFLINE=1
+export TOKENIZERS_PARALLELISM=false
+export PYTHONNOUSERSITE=1
+export PYTHONUNBUFFERED=1
+export OMP_NUM_THREADS="${NSLOTS:-4}"
+export MKL_NUM_THREADS="${NSLOTS:-4}"
+
+printf 'Country-entity J-Lens evaluation: job=%s slots=%s\n' \
+    "${JOB_ID:-unknown}" "${NSLOTS:-unknown}"
+date -u '+Started: %Y-%m-%d %H:%M:%S UTC'
+nvidia-smi
+sha256sum "$ROOT/src/jlens_experiments/evaluate_landmarks.py" "$LENS"
+
+"$PYTHON_BIN" -m jlens_experiments.evaluate_landmarks \
+    --compositional "$COUNTRY_RESULTS/olmo3_stage1_landmark_country_capital.compositional.jsonl" \
+    --shortcut "$COUNTRY_RESULTS/olmo3_stage1_landmark_country_capital.shortcut_candidates.jsonl" \
+    --lens "$LENS" \
+    --output-dir "$OUTPUT_DIR" \
+    --max-seq-len 512 \
+    --progress-every 10
+
+date -u '+Finished: %Y-%m-%d %H:%M:%S UTC'

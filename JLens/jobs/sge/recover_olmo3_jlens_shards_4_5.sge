@@ -1,0 +1,21 @@
+#!/bin/bash -l
+#$ -clear
+#$ -P buinlp
+#$ -N olmo3_jlens_recover
+#$ -cwd
+#$ -j y
+#$ -o /projectnb/buinlp/rathin/composition-experiments/JLens/results/logs
+#$ -pe omp 4
+#$ -l mem_per_core=12G
+#$ -l gpus=1
+#$ -l gpu_type=A40|A100|L40|L40S|A6000
+#$ -t 4-5
+#$ -tc 2
+
+# Recover only the two failed array tasks. SGE_TASK_ID remains 4 or 5 when the
+# main launcher is executed, so it selects shard indices 3 or 4 respectively.
+set -euo pipefail
+
+readonly MAIN_LAUNCHER="/projectnb/buinlp/rathin/composition-experiments/JLens/jobs/sge/run_olmo3_jlens_1000_array.sge"
+test -r "$MAIN_LAUNCHER"
+exec /bin/bash "$MAIN_LAUNCHER"

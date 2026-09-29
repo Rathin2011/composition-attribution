@@ -1,0 +1,87 @@
+{
+  "status": "complete",
+  "operation": "official JacobianLens.merge n_prompts-weighted mean",
+  "model": "allenai/Olmo-3-1025-7B",
+  "stage_one_revision": "stage1-step1413814",
+  "model_commit": "373bad25002f1624757a73235c5ca844c6375c25",
+  "jlens_commit": "581d398613e5602a5af361e1c34d3a92ea82ba8e",
+  "manifest": "/projectnb/buinlp/rathin/composition-experiments/JLens/results/fit_1000/prompt_manifest.jsonl",
+  "manifest_sha256": "a6ae0cfada1e54f29c94f294c0d6b755871d2cbc07d4b2672acb8ce5f71bc0d6",
+  "num_shards": 10,
+  "total_prompts": 1000,
+  "source_layers": [
+    12,
+    16,
+    18,
+    20,
+    22,
+    24
+  ],
+  "hidden_size": 4096,
+  "shards": [
+    {
+      "shard_index": 0,
+      "num_prompts": 100,
+      "lens": "/projectnb/buinlp/rathin/composition-experiments/JLens/results/fit_1000/shards/shard_00/jacobian_lens.pt",
+      "lens_sha256": "7897bd2990d0881e7784847e0b92dc82050ea9190bfa1fe9b464b08d9a865bea"
+    },
+    {
+      "shard_index": 1,
+      "num_prompts": 100,
+      "lens": "/projectnb/buinlp/rathin/composition-experiments/JLens/results/fit_1000/shards/shard_01/jacobian_lens.pt",
+      "lens_sha256": "9a6b43a93a0da9b22257d4f7d3b4de8676323501fe748317375a901495a00bd0"
+    },
+    {
+      "shard_index": 2,
+      "num_prompts": 100,
+      "lens": "/projectnb/buinlp/rathin/composition-experiments/JLens/results/fit_1000/shards/shard_02/jacobian_lens.pt",
+      "lens_sha256": "834886b09a6958fe77861b92971ab2b6c7373c13a268d1f1323aa1274fb557ab"
+    },
+    {
+      "shard_index": 3,
+      "num_prompts": 100,
+      "lens": "/projectnb/buinlp/rathin/composition-experiments/JLens/results/fit_1000/shards/shard_03/jacobian_lens.pt",
+      "lens_sha256": "e5fea18ce50dd4facff2843d2087e9ec35406e7a6a7e6590ef1041534370a25a"
+    },
+    {
+      "shard_index": 4,
+      "num_prompts": 100,
+      "lens": "/projectnb/buinlp/rathin/composition-experiments/JLens/results/fit_1000/shards/shard_04/jacobian_lens.pt",
+      "lens_sha256": "d94efdad28e90e31f2d9594a207e08203432da84b600cd1dd27c2d4c02ce8fcc"
+    },
+    {
+      "shard_index": 5,
+      "num_prompts": 100,
+      "lens": "/projectnb/buinlp/rathin/composition-experiments/JLens/results/fit_1000/shards/shard_05/jacobian_lens.pt",
+      "lens_sha256": "eab2dc68525fc01c7651c4091556e7adfb5e64204a0777afec30f88cc274caa9"
+    },
+    {
+      "shard_index": 6,
+      "num_prompts": 100,
+      "lens": "/projectnb/buinlp/rathin/composition-experiments/JLens/results/fit_1000/shards/shard_06/jacobian_lens.pt",
+      "lens_sha256": "2a5b90fa335b7e2a1de448b2e7c4cccf1b2904ce06b58517660b1b3576ef6102"
+    },
+    {
+      "shard_index": 7,
+      "num_prompts": 100,
+      "lens": "/projectnb/buinlp/rathin/composition-experiments/JLens/results/fit_1000/shards/shard_07/jacobian_lens.pt",
+      "lens_sha256": "0559a12baa1b40b40ca20f6da0208b0bd8891cb7a272a1523d27e96574931cb0"
+    },
+    {
+      "shard_index": 8,
+      "num_prompts": 100,
+      "lens": "/projectnb/buinlp/rathin/composition-experiments/JLens/results/fit_1000/shards/shard_08/jacobian_lens.pt",
+      "lens_sha256": "f4457e1a224dd930a6eec960df49c5fe4a498c734a23caa1da7dafcd4f70de79"
+    },
+    {
+      "shard_index": 9,
+      "num_prompts": 100,
+      "lens": "/projectnb/buinlp/rathin/composition-experiments/JLens/results/fit_1000/shards/shard_09/jacobian_lens.pt",
+      "lens_sha256": "7dda49d6f38861e3f12be72f4035da8f23cb611cb73265db7b2a004dca4b3bf1"
+    }
+  ],
+  "output": {
+    "lens": "/projectnb/buinlp/rathin/composition-experiments/JLens/results/fit_1000/merged/jacobian_lens.pt",
+    "lens_sha256": "c7b0d3b0bc2cfda2aec1365e71261bdec3213f12548617ad6f44c3e5f0ba5821"
+  }
+}

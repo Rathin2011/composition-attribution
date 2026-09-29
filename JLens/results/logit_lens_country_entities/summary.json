@@ -1,0 +1,96 @@
+{
+  "status": "complete",
+  "readout": "ordinary_logit_lens",
+  "country_score": "mean token logit",
+  "country_comparison_set": "all country labels in the 475 evaluated queries",
+  "model": "allenai/Olmo-3-1025-7B",
+  "stage_one_revision": "stage1-step1413814",
+  "model_commit": "373bad25002f1624757a73235c5ca844c6375c25",
+  "source_layers": [
+    12,
+    16,
+    18,
+    20,
+    22,
+    24
+  ],
+  "total_queries": 475,
+  "country_entity_candidates": [
+    "Armenia",
+    "Austria",
+    "Bosnia and Herzegovina",
+    "Bulgaria",
+    "Canada",
+    "Czech Republic",
+    "Denmark",
+    "Ecuador",
+    "Egypt",
+    "Estonia",
+    "Ethiopia",
+    "Finland",
+    "France",
+    "Georgia",
+    "Germany",
+    "Greece",
+    "Hungary",
+    "India",
+    "Indonesia",
+    "Iran",
+    "Ireland",
+    "Israel",
+    "Italy",
+    "Japan",
+    "Kazakhstan",
+    "Kenya",
+    "Lebanon",
+    "Lithuania",
+    "Malaysia",
+    "Malta",
+    "Mongolia",
+    "Netherlands",
+    "North Korea",
+    "Norway",
+    "People's Republic of China",
+    "Poland",
+    "Romania",
+    "Russia",
+    "Serbia",
+    "Slovakia",
+    "Slovenia",
+    "South Korea",
+    "Spain",
+    "Sweden",
+    "Switzerland",
+    "Thailand",
+    "Turkey",
+    "United Kingdom",
+    "United States",
+    "Venezuela",
+    "Vietnam"
+  ],
+  "groups": {
+    "compositional": {
+      "num_queries": 370,
+      "country_entity_evidence_bands": {
+        "compositional": 370,
+        "ambiguous": 0,
+        "shortcut_candidate": 0
+      },
+      "median_country_entity_rank": 1.0,
+      "mean_country_entity_reciprocal_rank": 1.0
+    },
+    "shortcut_candidate": {
+      "num_queries": 105,
+      "country_entity_evidence_bands": {
+        "compositional": 83,
+        "ambiguous": 21,
+        "shortcut_candidate": 1
+      },
+      "median_country_entity_rank": 1,
+      "mean_country_entity_reciprocal_rank": 0.7484126984126984
+    }
+  },
+  "outputs": {
+    "per_query": "/projectnb/buinlp/rathin/composition-experiments/JLens/results/logit_lens_country_entities/per_query.jsonl"
+  }
+}

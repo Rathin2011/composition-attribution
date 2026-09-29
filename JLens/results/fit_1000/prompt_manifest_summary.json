@@ -1,0 +1,16 @@
+{
+  "status": "complete",
+  "model": "allenai/Olmo-3-1025-7B",
+  "stage_one_revision": "stage1-step1413814",
+  "model_commit": "373bad25002f1624757a73235c5ca844c6375c25",
+  "token_windows": "/projectnb/buinlp/rathin/composition-experiments/country-capital/results/influence/hessian_tokens.npy",
+  "window_metadata": "/projectnb/buinlp/rathin/composition-experiments/country-capital/results/influence/hessian_windows.jsonl",
+  "available_windows": 10000,
+  "stored_tokens_per_window": 512,
+  "num_prompts": 1000,
+  "prompt_tokens": 128,
+  "seed": 0,
+  "unique_sample_indices": 1000,
+  "manifest": "/projectnb/buinlp/rathin/composition-experiments/JLens/results/fit_1000/prompt_manifest.jsonl",
+  "manifest_sha256": "a6ae0cfada1e54f29c94f294c0d6b755871d2cbc07d4b2672acb8ce5f71bc0d6"
+}

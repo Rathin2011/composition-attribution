@@ -1,0 +1,3 @@
+[submodule "JLens/vendor/jacobian-lens"]
+	path = JLens/vendor/jacobian-lens
+	url = https://github.com/anthropics/jacobian-lens.git
