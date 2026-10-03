@@ -1,0 +1,50 @@
+#!/bin/bash -l
+#$ -P buinlp
+#$ -N olmo3_mc_lens20
+#$ -cwd
+#$ -j y
+#$ -o /projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/results
+#$ -pe omp 4
+#$ -l gpus=1
+#$ -l gpu_type=A40|A100|L40S|A6000
+#$ -soft
+#$ -l buyin
+#$ -hard
+
+set -euo pipefail
+
+module load python3/3.12.4
+
+readonly EXPERIMENT_DIR="/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions"
+readonly CODE_DIR="$EXPERIMENT_DIR/code"
+readonly RESULTS_DIR="$EXPERIMENT_DIR/results"
+readonly PYTHON_BIN="/projectnb/buinlp/rathin/influence-composition/.venv/bin/python"
+readonly HF_CACHE_DIR="/projectnb/buinlp/rathin/influence-composition/.cache/huggingface"
+
+# This smoke test uses the first 20 exact-correct query-context records.  The
+# runner still preserves and reports records rejected by the paper token filter.
+readonly INPUT_PATH="$RESULTS_DIR/correct_query_contexts.jsonl"
+readonly OUTPUT_PATH="$RESULTS_DIR/logit_lens_smoke_20.jsonl"
+readonly SUMMARY_PATH="$RESULTS_DIR/logit_lens_smoke_20_summary.json"
+
+cd "$CODE_DIR"
+
+export CPATH="$SCC_PYTHON3_INCLUDE/python3.12${CPATH:+:$CPATH}"
+export HF_HOME="$HF_CACHE_DIR"
+export HF_DATASETS_OFFLINE=1
+export HF_HUB_OFFLINE=1
+export TOKENIZERS_PARALLELISM=false
+export TRANSFORMERS_OFFLINE=1
+export PYTHONUNBUFFERED=1
+
+echo "Logit Lens smoke test: first 20 correct prompt instances"
+
+"$PYTHON_BIN" evaluate_logit_lens.py \
+    --input "$INPUT_PATH" \
+    --output "$OUTPUT_PATH" \
+    --summary-output "$SUMMARY_PATH" \
+    --start-index 0 \
+    --num-records 20 \
+    --chunk-size 32 \
+    --progress-every 1 \
+    --overwrite

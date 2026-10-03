@@ -1,0 +1,56 @@
+#!/bin/bash -l
+#$ -P buinlp
+#$ -N olmo3_mc_lens
+#$ -cwd
+#$ -j y
+#$ -o /projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/results
+#$ -pe omp 4
+#$ -l gpus=1
+#$ -l gpu_type=A40|A100|L40S|A6000
+#$ -soft
+#$ -l buyin
+#$ -hard
+#$ -t 1-5
+
+set -euo pipefail
+
+module load python3/3.12.4
+
+readonly EXPERIMENT_DIR="/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions"
+readonly CODE_DIR="$EXPERIMENT_DIR/code"
+readonly RESULTS_DIR="$EXPERIMENT_DIR/results"
+readonly PYTHON_BIN="/projectnb/buinlp/rathin/influence-composition/.venv/bin/python"
+readonly HF_CACHE_DIR="/projectnb/buinlp/rathin/influence-composition/.cache/huggingface"
+
+# Five contiguous shards cover all 5,491 exact-correct prompt instances. The
+# first four tasks receive 1,099 rows; the fifth requests 1,099 and naturally
+# stops at EOF after the remaining 1,095 rows.
+readonly INPUT_PATH="$RESULTS_DIR/correct_query_contexts.jsonl"
+readonly RECORDS_PER_TASK=1099
+readonly START_INDEX=$(( (SGE_TASK_ID - 1) * RECORDS_PER_TASK ))
+printf -v SHARD_ID "%02d" "$SGE_TASK_ID"
+readonly SHARD_ID
+readonly OUTPUT_PATH="$RESULTS_DIR/logit_lens_full_shard_${SHARD_ID}.jsonl"
+readonly SUMMARY_PATH="$RESULTS_DIR/logit_lens_full_shard_${SHARD_ID}_summary.json"
+
+cd "$CODE_DIR"
+
+export CPATH="$SCC_PYTHON3_INCLUDE/python3.12${CPATH:+:$CPATH}"
+export HF_HOME="$HF_CACHE_DIR"
+export HF_DATASETS_OFFLINE=1
+export HF_HUB_OFFLINE=1
+export TOKENIZERS_PARALLELISM=false
+export TRANSFORMERS_OFFLINE=1
+export PYTHONUNBUFFERED=1
+
+echo "Task $SGE_TASK_ID: correct-input rows $START_INDEX through $((START_INDEX + RECORDS_PER_TASK - 1))"
+
+"$PYTHON_BIN" evaluate_logit_lens.py \
+    --input "$INPUT_PATH" \
+    --output "$OUTPUT_PATH" \
+    --summary-output "$SUMMARY_PATH" \
+    --start-index "$START_INDEX" \
+    --num-records "$RECORDS_PER_TASK" \
+    --chunk-size 32 \
+    --progress-every 10 \
+    --overwrite
