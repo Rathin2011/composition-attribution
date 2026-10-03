@@ -62,6 +62,25 @@ class BuildPromptManifestTest(unittest.TestCase):
             self.assertTrue(record["prompt"].endswith("Q: landmark-3\nA:"))
             self.assertEqual(record["prompt"].count("Q: "), 11)
 
+    def test_context_rng_stream_advances_between_queries(self):
+        """The same variant must not restart from the same random state."""
+
+        records, summary = build_prompt_manifest(
+            self.examples,
+            [38, 39],
+            contexts_per_query=1,
+            icl_examples=10,
+            seed=0,
+        )
+
+        self.assertNotEqual(records[0]["context"], records[1]["context"])
+        self.assertEqual(records[0]["context_seed"], 0)
+        self.assertEqual(records[1]["context_seed"], 0)
+        self.assertEqual(
+            summary["sampling_method"],
+            "continuous_rng_stream_per_context_variant",
+        )
+
     def test_selects_queries_by_landmark_and_index_without_duplicates(self):
         selected = select_query_indices(
             self.examples,

@@ -5,6 +5,10 @@ verified Khandelwal--Pavlick evaluation port.  This file adds only one new
 dimension: each selected query receives multiple independently sampled
 contexts rather than a single context.
 
+For each context variant, one seeded random-number stream is advanced across
+all selected queries.  This follows the reference evaluation's use of a
+continuous RNG stream instead of resetting the RNG for every query.
+
 This block does not load OLMo, calculate lens scores, or run interventions.
 """
 
@@ -161,13 +165,17 @@ def sample_context(
     candidate_pool: list[Example],
     *,
     icl_examples: int,
-    seed: int,
+    rng: random.Random,
 ) -> tuple[Example, ...]:
-    """Sample one valid ordered demonstration context for a query."""
+    """Sample one valid ordered context using the supplied RNG stream.
+
+    The caller owns ``rng`` so that its state continues advancing between
+    queries.  Recreating it inside this function would cause different queries
+    to receive nearly identical contexts.
+    """
 
     if icl_examples <= 0:
         raise ValueError("icl_examples must be positive")
-    rng = random.Random(seed)
     context: list[Example] = []
     attempts = 0
     max_attempts = max(1_000, 100 * len(candidate_pool))
@@ -194,6 +202,12 @@ def build_prompt_manifest(
     if contexts_per_query <= 0:
         raise ValueError("contexts_per_query must be positive")
     candidate_pool = shuffled_examples(examples, seed)
+    # Each variant is an independent reproducible stream.  Crucially, these
+    # RNGs are created once and then advance as successive queries are sampled.
+    context_rngs = [
+        random.Random(seed + context_variant)
+        for context_variant in range(contexts_per_query)
+    ]
     records = []
 
     for query_index in query_indices:
@@ -206,7 +220,7 @@ def build_prompt_manifest(
                 query,
                 candidate_pool,
                 icl_examples=icl_examples,
-                seed=context_seed,
+                rng=context_rngs[context_variant],
             )
             in_context_query = InContextQuery(context=context, query=query)
             records.append(
@@ -231,6 +245,7 @@ def build_prompt_manifest(
         "reference_code_commit": REFERENCE_CODE_COMMIT,
         "task": TASK_NAME,
         "base_seed": seed,
+        "sampling_method": "continuous_rng_stream_per_context_variant",
         "contexts_per_query": contexts_per_query,
         "icl_examples_per_context": icl_examples,
         "num_queries": len(query_indices),
