@@ -1,0 +1,49 @@
+#!/bin/bash -l
+#$ -P buinlp
+#$ -N olmo3_gen_ll5
+#$ -cwd
+#$ -j y
+#$ -o /projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/generalized-task-experiments/results/landmark-country-capital/logs
+#$ -pe omp 4
+#$ -l gpus=1
+#$ -l gpu_type=A40|A100|L40S|A6000
+#$ -l h_rt=01:00:00
+
+set -euo pipefail
+
+module load python3/3.12.4
+
+readonly EXPERIMENT_DIR="/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/generalized-task-experiments"
+readonly CODE_DIR="$EXPERIMENT_DIR/code"
+readonly PYTHON_BIN="/projectnb/buinlp/rathin/influence-composition/.venv/bin/python"
+readonly HF_CACHE_DIR="/projectnb/buinlp/rathin/influence-composition/.cache/huggingface"
+readonly TASK_NAME="${TASK_NAME:-landmark-country-capital}"
+readonly TASK_RESULTS="$EXPERIMENT_DIR/results/$TASK_NAME"
+
+mkdir -p "$TASK_RESULTS/logs"
+
+export CPATH="$SCC_PYTHON3_INCLUDE/python3.12${CPATH:+:$CPATH}"
+export HF_HOME="$HF_CACHE_DIR"
+export HF_DATASETS_OFFLINE=1
+export HF_HUB_OFFLINE=1
+export TRANSFORMERS_OFFLINE=1
+export TOKENIZERS_PARALLELISM=false
+export PYTHONUNBUFFERED=1
+export PYTHONPATH="$CODE_DIR${PYTHONPATH:+:$PYTHONPATH}"
+
+cd "$EXPERIMENT_DIR"
+
+echo "Generalized Logit Lens smoke test: first 5 correct prompt instances"
+
+"$PYTHON_BIN" "$CODE_DIR/evaluate_logit_lens.py" \
+    --task "$TASK_NAME" \
+    --input "$TASK_RESULTS/correct_instances.jsonl.gz" \
+    --catalog-summary "$TASK_RESULTS/baseline_summary.json" \
+    --output "$TASK_RESULTS/logit_lens_smoke_5.jsonl.gz" \
+    --summary-output "$TASK_RESULTS/logit_lens_smoke_5_summary.json" \
+    --start-index 0 \
+    --num-records 5 \
+    --activation-chunk-size 32 \
+    --candidate-chunk-size 16 \
+    --progress-every 1 \
+    --overwrite

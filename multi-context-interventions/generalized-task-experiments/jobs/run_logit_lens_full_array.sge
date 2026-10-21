@@ -1,0 +1,74 @@
+#!/bin/bash -l
+#$ -P buinlp
+#$ -N olmo3_gen_ll
+#$ -cwd
+#$ -j y
+#$ -o /projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/generalized-task-experiments/logs
+#$ -pe omp 4
+#$ -l gpus=1
+#$ -l gpu_type=A40|A100|L40S|A6000
+#$ -l h_rt=02:00:00
+
+set -euo pipefail
+
+module load python3/3.12.4
+
+readonly EXPERIMENT_DIR="/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/generalized-task-experiments"
+readonly CODE_DIR="$EXPERIMENT_DIR/code"
+readonly PYTHON_BIN="/projectnb/buinlp/rathin/influence-composition/.venv/bin/python"
+readonly HF_CACHE_DIR="/projectnb/buinlp/rathin/influence-composition/.cache/huggingface"
+
+# These three values are supplied at submission time.  The same script can
+# therefore evaluate any task registered by the generalized experiment code.
+readonly TASK_NAME="${TASK_NAME:?submit with TASK_NAME}"
+readonly TOTAL_RECORDS="${TOTAL_RECORDS:?submit with TOTAL_RECORDS}"
+readonly RECORDS_PER_TASK="${RECORDS_PER_TASK:-200}"
+
+readonly TASK_RESULTS="$EXPERIMENT_DIR/results/$TASK_NAME"
+readonly SHARD_DIRECTORY="$TASK_RESULTS/logit_lens_shards"
+readonly START_INDEX=$(( (SGE_TASK_ID - 1) * RECORDS_PER_TASK ))
+readonly REMAINING=$(( TOTAL_RECORDS - START_INDEX ))
+
+if (( REMAINING <= 0 )); then
+    echo "Array task $SGE_TASK_ID begins beyond the input; nothing to do."
+    exit 0
+fi
+
+if (( REMAINING < RECORDS_PER_TASK )); then
+    readonly NUM_RECORDS="$REMAINING"
+else
+    readonly NUM_RECORDS="$RECORDS_PER_TASK"
+fi
+
+printf -v SHARD_ID "%03d" "$SGE_TASK_ID"
+readonly SHARD_ID
+readonly OUTPUT_PATH="$SHARD_DIRECTORY/logit_lens_shard_${SHARD_ID}.jsonl.gz"
+readonly SUMMARY_PATH="$SHARD_DIRECTORY/logit_lens_shard_${SHARD_ID}_summary.json"
+
+mkdir -p "$SHARD_DIRECTORY"
+
+export CPATH="$SCC_PYTHON3_INCLUDE/python3.12${CPATH:+:$CPATH}"
+export HF_HOME="$HF_CACHE_DIR"
+export HF_DATASETS_OFFLINE=1
+export HF_HUB_OFFLINE=1
+export TRANSFORMERS_OFFLINE=1
+export TOKENIZERS_PARALLELISM=false
+export PYTHONUNBUFFERED=1
+export PYTHONPATH="$CODE_DIR${PYTHONPATH:+:$PYTHONPATH}"
+
+cd "$EXPERIMENT_DIR"
+
+echo "Task $SGE_TASK_ID: start=$START_INDEX count=$NUM_RECORDS total=$TOTAL_RECORDS"
+
+"$PYTHON_BIN" "$CODE_DIR/evaluate_logit_lens.py" \
+    --task "$TASK_NAME" \
+    --input "$TASK_RESULTS/correct_instances.jsonl.gz" \
+    --catalog-summary "$TASK_RESULTS/baseline_summary.json" \
+    --output "$OUTPUT_PATH" \
+    --summary-output "$SUMMARY_PATH" \
+    --start-index "$START_INDEX" \
+    --num-records "$NUM_RECORDS" \
+    --activation-chunk-size 32 \
+    --candidate-chunk-size 16 \
+    --progress-every 10 \
+    --overwrite

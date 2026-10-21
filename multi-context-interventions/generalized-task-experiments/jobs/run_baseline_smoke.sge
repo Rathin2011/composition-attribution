@@ -1,0 +1,45 @@
+#!/bin/bash -l
+#$ -P buinlp
+#$ -N olmo3_gen_base
+#$ -cwd
+#$ -j y
+#$ -o /projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/generalized-task-experiments/results/landmark-country-capital/logs
+#$ -pe omp 4
+#$ -l gpus=1
+#$ -l gpu_type=A40|A100|L40S|A6000
+#$ -l h_rt=01:00:00
+
+set -euo pipefail
+
+module load python3/3.12.4
+
+readonly EXPERIMENT_DIR="/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/generalized-task-experiments"
+readonly CODE_DIR="$EXPERIMENT_DIR/code"
+readonly PYTHON_BIN="/projectnb/buinlp/rathin/influence-composition/.venv/bin/python"
+readonly HF_CACHE_DIR="/projectnb/buinlp/rathin/influence-composition/.cache/huggingface"
+readonly TASK_NAME="${TASK_NAME:-landmark-country-capital}"
+readonly TASK_RESULTS="$EXPERIMENT_DIR/results/$TASK_NAME"
+
+mkdir -p "$TASK_RESULTS/logs"
+
+export CPATH="$SCC_PYTHON3_INCLUDE/python3.12${CPATH:+:$CPATH}"
+export HF_HOME="$HF_CACHE_DIR"
+export HF_DATASETS_OFFLINE=1
+export HF_HUB_OFFLINE=1
+export TRANSFORMERS_OFFLINE=1
+export TOKENIZERS_PARALLELISM=false
+export PYTHONUNBUFFERED=1
+export PYTHONPATH="$CODE_DIR${PYTHONPATH:+:$PYTHONPATH}"
+
+cd "$EXPERIMENT_DIR"
+
+"$PYTHON_BIN" "$CODE_DIR/evaluate_baseline.py" \
+    --task "$TASK_NAME" \
+    --input "$TASK_RESULTS/prompt_manifest.jsonl" \
+    --output "$TASK_RESULTS/baseline_smoke_100.jsonl" \
+    --summary-output "$TASK_RESULTS/baseline_smoke_100_summary.json" \
+    --batch-size 4 \
+    --start-index 0 \
+    --num-records 100 \
+    --progress-every 5 \
+    --overwrite

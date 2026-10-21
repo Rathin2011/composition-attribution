@@ -1,0 +1,96 @@
+#!/bin/bash -l
+#$ -clear
+#$ -P buinlp
+#$ -N olmo3_gen_jl
+#$ -cwd
+#$ -j y
+#$ -o /projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/generalized-task-experiments/logs
+#$ -pe omp 4
+#$ -l mem_per_core=12G
+#$ -l gpus=1
+#$ -l gpu_type=A40|A100|L40|L40S|A6000
+#$ -l h_rt=03:00:00
+#$ -tc 6
+
+set -euo pipefail
+
+module load python3/3.12.4
+
+readonly EXPERIMENT_DIR="/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/generalized-task-experiments"
+readonly CODE_DIR="$EXPERIMENT_DIR/code"
+readonly PYTHON_BIN="/projectnb/buinlp/rathin/influence-composition/.venv/bin/python"
+readonly HF_CACHE_DIR="/projectnb/buinlp/rathin/influence-composition/.cache/huggingface"
+readonly JLENS_DIR="/projectnb/buinlp/rathin/composition-experiments/JLens"
+readonly LENS_PATH="$JLENS_DIR/results/fit_1000/merged/jacobian_lens.pt"
+
+# Submission supplies the task and its exact number of correct prompt
+# instances.  Keeping these as parameters lets the same script serve every
+# generalized Khandelwal--Pavlick task.
+readonly TASK_NAME="${TASK_NAME:?submit with TASK_NAME}"
+readonly TOTAL_RECORDS="${TOTAL_RECORDS:?submit with TOTAL_RECORDS}"
+readonly RECORDS_PER_TASK="${RECORDS_PER_TASK:-500}"
+
+readonly TASK_RESULTS="$EXPERIMENT_DIR/results/$TASK_NAME"
+readonly SHARD_DIRECTORY="$TASK_RESULTS/jlens_shards"
+readonly START_INDEX=$(( (SGE_TASK_ID - 1) * RECORDS_PER_TASK ))
+readonly REMAINING=$(( TOTAL_RECORDS - START_INDEX ))
+
+if (( REMAINING <= 0 )); then
+    echo "Array task $SGE_TASK_ID begins beyond the input; nothing to do."
+    exit 0
+fi
+
+if (( REMAINING < RECORDS_PER_TASK )); then
+    readonly NUM_RECORDS="$REMAINING"
+else
+    readonly NUM_RECORDS="$RECORDS_PER_TASK"
+fi
+
+printf -v SHARD_ID "%03d" "$SGE_TASK_ID"
+readonly SHARD_ID
+readonly OUTPUT_PATH="$SHARD_DIRECTORY/jlens_shard_${SHARD_ID}.jsonl.gz"
+readonly SUMMARY_PATH="$SHARD_DIRECTORY/jlens_shard_${SHARD_ID}_summary.json"
+
+test -x "$PYTHON_BIN"
+test -r "$CODE_DIR/evaluate_jlens.py"
+test -r "$TASK_RESULTS/logit_lens_evaluation.jsonl.gz"
+test -r "$TASK_RESULTS/baseline_summary.json"
+test -r "$LENS_PATH"
+test -d "$JLENS_DIR/vendor/jacobian-lens/jlens"
+test -d "$HF_CACHE_DIR/hub"
+mkdir -p "$SHARD_DIRECTORY"
+
+export CPATH="$SCC_PYTHON3_INCLUDE/python3.12${CPATH:+:$CPATH}"
+export PYTHONPATH="$CODE_DIR:$JLENS_DIR/environment:$JLENS_DIR/vendor/jacobian-lens${PYTHONPATH:+:$PYTHONPATH}"
+export HF_HOME="$HF_CACHE_DIR"
+export HF_DATASETS_OFFLINE=1
+export HF_HUB_OFFLINE=1
+export TRANSFORMERS_OFFLINE=1
+export TOKENIZERS_PARALLELISM=false
+export PYTHONNOUSERSITE=1
+export PYTHONUNBUFFERED=1
+export OMP_NUM_THREADS="${NSLOTS:-4}"
+export MKL_NUM_THREADS="${NSLOTS:-4}"
+
+cd "$EXPERIMENT_DIR"
+
+printf 'Generalized J-Lens: task=%s array_task=%s start=%s count=%s total=%s\n' \
+    "$TASK_NAME" "$SGE_TASK_ID" "$START_INDEX" "$NUM_RECORDS" "$TOTAL_RECORDS"
+date -u '+Started: %Y-%m-%d %H:%M:%S UTC'
+sha256sum "$CODE_DIR/evaluate_jlens.py" "$LENS_PATH"
+
+"$PYTHON_BIN" "$CODE_DIR/evaluate_jlens.py" \
+    --task "$TASK_NAME" \
+    --input "$TASK_RESULTS/logit_lens_evaluation.jsonl.gz" \
+    --catalog-summary "$TASK_RESULTS/baseline_summary.json" \
+    --lens "$LENS_PATH" \
+    --output "$OUTPUT_PATH" \
+    --summary-output "$SUMMARY_PATH" \
+    --start-index "$START_INDEX" \
+    --num-records "$NUM_RECORDS" \
+    --max-seq-len 512 \
+    --candidate-chunk-size 16 \
+    --progress-every 10 \
+    --overwrite
+
+date -u '+Finished: %Y-%m-%d %H:%M:%S UTC'
