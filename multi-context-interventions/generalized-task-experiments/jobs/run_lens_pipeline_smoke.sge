@@ -1,0 +1,63 @@
+#!/bin/bash -l
+#$ -P buinlp
+#$ -N olmo3_lens_smoke
+#$ -cwd
+#$ -j y
+#$ -pe omp 4
+#$ -l gpus=1
+#$ -l gpu_type=A40|A100|L40S|A6000
+#$ -l h_rt=00:30:00
+set -euo pipefail
+module load python3/3.12.4
+readonly EXPERIMENT_DIR="/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/generalized-task-experiments"
+readonly CODE_DIR="$EXPERIMENT_DIR/code"
+readonly PYTHON_BIN="/projectnb/buinlp/rathin/influence-composition/.venv/bin/python"
+readonly JLENS_DIR="/projectnb/buinlp/rathin/composition-experiments/JLens"
+readonly LENS_PATH="$JLENS_DIR/results/fit_1000/merged/jacobian_lens.pt"
+case "$SGE_TASK_ID" in
+  1) TASK_NAME=antonym-spanish ;;
+  2) TASK_NAME=plus-ten-times-two ;;
+  3) TASK_NAME=book-author-birthyear ;;
+  *) exit 2 ;;
+esac
+readonly TASK_RESULTS="$EXPERIMENT_DIR/results/gfx_only_all_tasks/$TASK_NAME"
+readonly SMOKE="$TASK_RESULTS/lens_pipeline_smoke"
+export HF_HOME="/projectnb/buinlp/rathin/influence-composition/.cache/huggingface"
+export HF_DATASETS_OFFLINE=1 HF_HUB_OFFLINE=1 TRANSFORMERS_OFFLINE=1
+export TOKENIZERS_PARALLELISM=false PYTHONUNBUFFERED=1 PYTHONNOUSERSITE=1
+export OMP_NUM_THREADS=4 MKL_NUM_THREADS=4
+export CPATH="$SCC_PYTHON3_INCLUDE/python3.12${CPATH:+:$CPATH}"
+export PYTHONPATH="$CODE_DIR:$JLENS_DIR/environment:$JLENS_DIR/vendor/jacobian-lens${PYTHONPATH:+:$PYTHONPATH}"
+test -r "$TASK_RESULTS/correct_instances.jsonl.gz"
+test ! -e "$SMOKE"
+mkdir -p "$SMOKE/logit_lens_shards" "$SMOKE/jlens_shards"
+"$PYTHON_BIN" - "$TASK_RESULTS" "$SMOKE" <<'PY'
+import json,sys
+from itertools import islice
+from pathlib import Path
+from evaluate_baseline import read_jsonl,open_text
+rows=list(islice(read_jsonl(Path(sys.argv[1])/'correct_instances.jsonl.gz'),5))
+assert len(rows)==5, 'Smoke requires five correct instances'
+with open_text(Path(sys.argv[2])/'correct_instances.jsonl.gz','wt') as f:
+    for row in rows: f.write(json.dumps(row,ensure_ascii=False)+'\n')
+PY
+"$PYTHON_BIN" "$CODE_DIR/evaluate_logit_lens.py" --task "$TASK_NAME" \
+  --input "$SMOKE/correct_instances.jsonl.gz" --catalog-summary "$TASK_RESULTS/baseline_summary.json" \
+  --output "$SMOKE/logit_lens_shards/logit_lens_shard_001.jsonl.gz" \
+  --summary-output "$SMOKE/logit_lens_shards/logit_lens_shard_001_summary.json" \
+  --start-index 0 --num-records 5 --progress-every 1
+"$PYTHON_BIN" "$CODE_DIR/merge_logit_lens_shards.py" --task "$TASK_NAME" \
+  --source "$SMOKE/correct_instances.jsonl.gz" --shard-directory "$SMOKE/logit_lens_shards" \
+  --output "$SMOKE/logit_lens_evaluation.jsonl.gz" --summary-output "$SMOKE/logit_lens_summary.json"
+"$PYTHON_BIN" "$CODE_DIR/evaluate_jlens.py" --task "$TASK_NAME" \
+  --input "$SMOKE/logit_lens_evaluation.jsonl.gz" --catalog-summary "$TASK_RESULTS/baseline_summary.json" \
+  --lens "$LENS_PATH" --output "$SMOKE/jlens_shards/jlens_shard_001.jsonl.gz" \
+  --summary-output "$SMOKE/jlens_shards/jlens_shard_001_summary.json" \
+  --start-index 0 --num-records 5 --max-seq-len 512 --progress-every 1
+"$PYTHON_BIN" "$CODE_DIR/merge_jlens_shards.py" --task "$TASK_NAME" \
+  --source "$SMOKE/logit_lens_evaluation.jsonl.gz" --shard-directory "$SMOKE/jlens_shards" \
+  --output "$SMOKE/jlens_evaluation.jsonl.gz" --summary-output "$SMOKE/jlens_summary.json"
+"$PYTHON_BIN" "$CODE_DIR/export_lens_results.py" --task "$TASK_NAME" \
+  --input "$SMOKE/jlens_evaluation.jsonl.gz" --catalog-summary "$TASK_RESULTS/baseline_summary.json" \
+  --output "$SMOKE/experiment_results.json"
+echo "SMOKE COMPLETE: $TASK_NAME"
