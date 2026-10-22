@@ -1,0 +1,35 @@
+#!/bin/bash -l
+#$ -P buinlp
+#$ -N olmo3_all_ll
+#$ -cwd
+#$ -j y
+#$ -pe omp 4
+#$ -l gpus=1
+#$ -l gpu_type=A40|A100|L40S|A6000
+#$ -l h_rt=02:00:00
+#$ -tc 4
+set -euo pipefail
+module load python3/3.12.4
+readonly EXPERIMENT_DIR="/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/generalized-task-experiments"
+readonly CODE_DIR="$EXPERIMENT_DIR/code"
+readonly PYTHON_BIN="/projectnb/buinlp/rathin/influence-composition/.venv/bin/python"
+readonly PLAN="$EXPERIMENT_DIR/results/gfx_only_all_tasks/logit_lens_array_plan.json"
+export HF_HOME="/projectnb/buinlp/rathin/influence-composition/.cache/huggingface"
+export HF_DATASETS_OFFLINE=1 HF_HUB_OFFLINE=1 TRANSFORMERS_OFFLINE=1
+export TOKENIZERS_PARALLELISM=false PYTHONUNBUFFERED=1
+export CPATH="$SCC_PYTHON3_INCLUDE/python3.12${CPATH:+:$CPATH}"
+export PYTHONPATH="$CODE_DIR${PYTHONPATH:+:$PYTHONPATH}"
+export OMP_NUM_THREADS=4 MKL_NUM_THREADS=4
+FIELDS=$("$PYTHON_BIN" -c 'import json,sys; r=json.load(open(sys.argv[1]))[int(sys.argv[2])-1]; print(r["task"],r["directory"],r["start"],r["count"],r["total"],sep="\t")' "$PLAN" "$SGE_TASK_ID")
+IFS=$'\t' read -r TASK_NAME TASK_DIRECTORY START COUNT TOTAL <<< "$FIELDS"
+printf -v SHARD '%06d' "$START"
+readonly SHARD_DIRECTORY="$TASK_DIRECTORY/logit_lens_shards"
+mkdir -p "$SHARD_DIRECTORY"
+echo "task=$TASK_NAME start=$START count=$COUNT total=$TOTAL"
+"$PYTHON_BIN" "$CODE_DIR/evaluate_logit_lens.py" \
+  --task "$TASK_NAME" --input "$TASK_DIRECTORY/correct_instances.jsonl.gz" \
+  --catalog-summary "$TASK_DIRECTORY/baseline_summary.json" \
+  --output "$SHARD_DIRECTORY/logit_lens_shard_${SHARD}.jsonl.gz" \
+  --summary-output "$SHARD_DIRECTORY/logit_lens_shard_${SHARD}_summary.json" \
+  --start-index "$START" --num-records "$COUNT" \
+  --activation-chunk-size 32 --candidate-chunk-size 16 --progress-every 10
