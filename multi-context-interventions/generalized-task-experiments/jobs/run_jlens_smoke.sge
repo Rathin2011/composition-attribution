@@ -24,7 +24,9 @@ readonly LENS_PATH="$JLENS_DIR/results/fit_1000/merged/jacobian_lens.pt"
 
 readonly TASK_NAME="${TASK_NAME:-landmark-country-capital}"
 readonly NUM_RECORDS="${NUM_RECORDS:-5}"
-readonly TASK_RESULTS="$EXPERIMENT_DIR/results/$TASK_NAME"
+RESULTS_ROOT="$(realpath -e "${RESULTS_ROOT:-$EXPERIMENT_DIR/results}")"
+readonly RESULTS_ROOT
+readonly TASK_RESULTS="$RESULTS_ROOT/$TASK_NAME"
 readonly INPUT_PATH="${INPUT_PATH:-$TASK_RESULTS/logit_lens_evaluation.jsonl.gz}"
 readonly OUTPUT_PATH="$TASK_RESULTS/jlens_smoke_${NUM_RECORDS}.jsonl.gz"
 readonly SUMMARY_PATH="$TASK_RESULTS/jlens_smoke_${NUM_RECORDS}_summary.json"

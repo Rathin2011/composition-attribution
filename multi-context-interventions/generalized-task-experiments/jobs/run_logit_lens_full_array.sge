@@ -24,7 +24,10 @@ readonly TASK_NAME="${TASK_NAME:?submit with TASK_NAME}"
 readonly TOTAL_RECORDS="${TOTAL_RECORDS:?submit with TOTAL_RECORDS}"
 readonly RECORDS_PER_TASK="${RECORDS_PER_TASK:-200}"
 
-readonly TASK_RESULTS="$EXPERIMENT_DIR/results/$TASK_NAME"
+# Optional root for new runs; resolve it before changing working directory.
+RESULTS_ROOT="$(realpath -e "${RESULTS_ROOT:-$EXPERIMENT_DIR/results}")"
+readonly RESULTS_ROOT
+readonly TASK_RESULTS="$RESULTS_ROOT/$TASK_NAME"
 readonly SHARD_DIRECTORY="$TASK_RESULTS/logit_lens_shards"
 readonly START_INDEX=$(( (SGE_TASK_ID - 1) * RECORDS_PER_TASK ))
 readonly REMAINING=$(( TOTAL_RECORDS - START_INDEX ))

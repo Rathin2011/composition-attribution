@@ -483,6 +483,7 @@ def main() -> None:
         "position_tie_break": "earliest_query_position",
         "composition_rr_threshold": COMPOSITION_RR_THRESHOLD,
         "shortcut_rr_threshold": SHORTCUT_RR_THRESHOLD,
+        "classification_rank_rule": "rank<=2 compositional; rank 3-4 ambiguous; rank>=5 shortcut_candidate",
         **counters.as_dict(),
     }
     summary_path.write_text(

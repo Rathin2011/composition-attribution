@@ -95,6 +95,8 @@ def validate_summaries(
     expected_start = 0
     for shard, summary in zip(shards, summaries, strict=True):
         for key in SHARED_SUMMARY_KEYS:
+            if key not in summary:
+                raise ValueError(f"J-Lens summary for {shard} is missing {key!r}")
             if summary.get(key) != reference.get(key):
                 raise ValueError(f"J-Lens summaries disagree on {key!r}")
         if summary.get("output") != str(shard):

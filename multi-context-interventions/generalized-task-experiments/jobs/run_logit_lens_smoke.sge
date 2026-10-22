@@ -18,7 +18,9 @@ readonly CODE_DIR="$EXPERIMENT_DIR/code"
 readonly PYTHON_BIN="/projectnb/buinlp/rathin/influence-composition/.venv/bin/python"
 readonly HF_CACHE_DIR="/projectnb/buinlp/rathin/influence-composition/.cache/huggingface"
 readonly TASK_NAME="${TASK_NAME:-landmark-country-capital}"
-readonly TASK_RESULTS="$EXPERIMENT_DIR/results/$TASK_NAME"
+RESULTS_ROOT="$(realpath -e "${RESULTS_ROOT:-$EXPERIMENT_DIR/results}")"
+readonly RESULTS_ROOT
+readonly TASK_RESULTS="$RESULTS_ROOT/$TASK_NAME"
 
 mkdir -p "$TASK_RESULTS/logs"
 
