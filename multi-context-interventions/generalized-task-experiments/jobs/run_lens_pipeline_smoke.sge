@@ -21,7 +21,7 @@ case "$SGE_TASK_ID" in
   *) exit 2 ;;
 esac
 readonly TASK_RESULTS="$EXPERIMENT_DIR/results/gfx_only_all_tasks/$TASK_NAME"
-readonly SMOKE="$TASK_RESULTS/lens_pipeline_smoke"
+readonly SMOKE="${SMOKE_DIR:-$TASK_RESULTS/lens_pipeline_smoke}"
 export HF_HOME="/projectnb/buinlp/rathin/influence-composition/.cache/huggingface"
 export HF_DATASETS_OFFLINE=1 HF_HUB_OFFLINE=1 TRANSFORMERS_OFFLINE=1
 export TOKENIZERS_PARALLELISM=false PYTHONUNBUFFERED=1 PYTHONNOUSERSITE=1
@@ -33,11 +33,23 @@ test ! -e "$SMOKE"
 mkdir -p "$SMOKE/logit_lens_shards" "$SMOKE/jlens_shards"
 "$PYTHON_BIN" - "$TASK_RESULTS" "$SMOKE" <<'PY'
 import json,sys
-from itertools import islice
 from pathlib import Path
-from evaluate_baseline import read_jsonl,open_text
-rows=list(islice(read_jsonl(Path(sys.argv[1])/'correct_instances.jsonl.gz'),5))
-assert len(rows)==5, 'Smoke requires five correct instances'
+from transformers import AutoTokenizer
+from evaluate_baseline import read_jsonl,open_text,MODEL_ID,STAGE_ONE_COMMIT
+from evaluate_logit_lens import node_token_info,paper_token_filter_reason
+tokenizer=AutoTokenizer.from_pretrained(MODEL_ID,revision=STAGE_ONE_COMMIT,local_files_only=True)
+rows=[]
+seen=set()
+for row in read_jsonl(Path(sys.argv[1])/'correct_instances.jsonl.gz'):
+    if row['query']['x'] in seen:
+        continue
+    info=node_token_info(tokenizer,row['query'],task=row['task'])
+    if paper_token_filter_reason(info) is not None:
+        continue
+    rows.append(row)
+    seen.add(row['query']['x'])
+    if len(rows)==5: break
+assert len(rows)==5, 'Smoke requires five eligible correct queries'
 with open_text(Path(sys.argv[2])/'correct_instances.jsonl.gz','wt') as f:
     for row in rows: f.write(json.dumps(row,ensure_ascii=False)+'\n')
 PY
@@ -60,4 +72,14 @@ PY
 "$PYTHON_BIN" "$CODE_DIR/export_lens_results.py" --task "$TASK_NAME" \
   --input "$SMOKE/jlens_evaluation.jsonl.gz" --catalog-summary "$TASK_RESULTS/baseline_summary.json" \
   --output "$SMOKE/experiment_results.json"
+"$PYTHON_BIN" - "$SMOKE/experiment_results.json" <<'PY'
+import json,sys
+with open(sys.argv[1]) as f: result=json.load(f)
+assert len(result['results_lenses'])==5, 'Smoke did not exercise five eligible records'
+for row in result['results_lenses']:
+    assert len(row['llens_z'])==len(result['Fx'])
+    assert len(row['jlens_z'])==len(result['Fx'])
+    assert all(len(z)==32 for z in row['llens_z'])
+    assert all(len(z)==6 for z in row['jlens_z'])
+PY
 echo "SMOKE COMPLETE: $TASK_NAME"
