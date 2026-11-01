@@ -1,0 +1,568 @@
+{
+  "task": "park-country-capital",
+  "method": "conservative_single_identifying_token_alias_postprocessing",
+  "original_jlens": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/generalized-task-experiments/results/park-country-capital/jlens_evaluation.jsonl.gz",
+  "alias_policy": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/generalized-task-experiments/code/jlens_alias_reclassification/alias_filter_policy.json",
+  "source_shards": [
+    {
+      "data": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/generalized-task-experiments/results/jlens_alias_reclassification/park-country-capital/shards/alias_reclassification_000000.jsonl.gz",
+      "data_sha256": "cb4f44bfce0d67fb1bac8ce3429d2612b4897ae5570f7480383b85e7335b4b54",
+      "summary": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/generalized-task-experiments/results/jlens_alias_reclassification/park-country-capital/shards/alias_reclassification_000000_summary.json",
+      "summary_sha256": "60cc70177ac98728a49b6d89fc58a1fea405dea18d7fb708b98865ac080e625a",
+      "records": 50
+    },
+    {
+      "data": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/generalized-task-experiments/results/jlens_alias_reclassification/park-country-capital/shards/alias_reclassification_000050.jsonl.gz",
+      "data_sha256": "8fce1396c49b39db1b58d06ba58b7cf03dd389f6ac115b5f4898d6e0c572beae",
+      "summary": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/generalized-task-experiments/results/jlens_alias_reclassification/park-country-capital/shards/alias_reclassification_000050_summary.json",
+      "summary_sha256": "d02c45c3ee49b1d22eac2a557cf65846468f5041c621417c6c2fc0aa67e8362f",
+      "records": 50
+    },
+    {
+      "data": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/generalized-task-experiments/results/jlens_alias_reclassification/park-country-capital/shards/alias_reclassification_000100.jsonl.gz",
+      "data_sha256": "3a5580a1deb0d414350da22aae2614f2e1a719d7743d66286f6ed20d413ba001",
+      "summary": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/generalized-task-experiments/results/jlens_alias_reclassification/park-country-capital/shards/alias_reclassification_000100_summary.json",
+      "summary_sha256": "57b69e4a034201d77fac353df74b69d53d51db0493e13fb9486f66e4110f86aa",
+      "records": 50
+    },
+    {
+      "data": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/generalized-task-experiments/results/jlens_alias_reclassification/park-country-capital/shards/alias_reclassification_000150.jsonl.gz",
+      "data_sha256": "6dedc9205fb3ac58505ea3437b31ef142fd8674c4453b7f4961c1c16501c9280",
+      "summary": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/generalized-task-experiments/results/jlens_alias_reclassification/park-country-capital/shards/alias_reclassification_000150_summary.json",
+      "summary_sha256": "dca6e550dc489f6e5fd4abfb27deb587fe8e7c30324adf7cc87cab20e63cba33",
+      "records": 50
+    },
+    {
+      "data": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/generalized-task-experiments/results/jlens_alias_reclassification/park-country-capital/shards/alias_reclassification_000200.jsonl.gz",
+      "data_sha256": "6e50c625e8b7c1fead6cf46615ef48b42db5b5497e9767f9b285868a16a05876",
+      "summary": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/generalized-task-experiments/results/jlens_alias_reclassification/park-country-capital/shards/alias_reclassification_000200_summary.json",
+      "summary_sha256": "8c3f76b7aa90cd56c2551fc2d8553e2d8e4e6b8b945a7463f66fd3fb32f0f806",
+      "records": 50
+    },
+    {
+      "data": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/generalized-task-experiments/results/jlens_alias_reclassification/park-country-capital/shards/alias_reclassification_000250.jsonl.gz",
+      "data_sha256": "2779e10250e6972226967673c4fa998856832507545efa27dc39382d58721132",
+      "summary": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/generalized-task-experiments/results/jlens_alias_reclassification/park-country-capital/shards/alias_reclassification_000250_summary.json",
+      "summary_sha256": "18bf7669f8fb1b961d9c3aa5b98b9f164021efb3ed772551c8eff44756ab5a8f",
+      "records": 50
+    },
+    {
+      "data": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/generalized-task-experiments/results/jlens_alias_reclassification/park-country-capital/shards/alias_reclassification_000300.jsonl.gz",
+      "data_sha256": "5a8f967055d16e5c47f590e3feb3d032c3548224871d742ffdf0984189831e3a",
+      "summary": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/generalized-task-experiments/results/jlens_alias_reclassification/park-country-capital/shards/alias_reclassification_000300_summary.json",
+      "summary_sha256": "21ff40d40812269b0deec7dd0f5fe69dfa351f02b6f8e4627bab2bbf15d7dd4c",
+      "records": 50
+    },
+    {
+      "data": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/generalized-task-experiments/results/jlens_alias_reclassification/park-country-capital/shards/alias_reclassification_000350.jsonl.gz",
+      "data_sha256": "48c8ff7fe0c308fba560450b7c19dd994ae9aae694ab0edb0579b5120abd3862",
+      "summary": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/generalized-task-experiments/results/jlens_alias_reclassification/park-country-capital/shards/alias_reclassification_000350_summary.json",
+      "summary_sha256": "f5d825a3102568819417a95f0342037e0d9e16378adba8b8c01375b3686b94e4",
+      "records": 50
+    },
+    {
+      "data": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/generalized-task-experiments/results/jlens_alias_reclassification/park-country-capital/shards/alias_reclassification_000400.jsonl.gz",
+      "data_sha256": "41a457d396e4885b5a685b5551f9e2f89c2ee044759ff8142140e2a7191c45fc",
+      "summary": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/generalized-task-experiments/results/jlens_alias_reclassification/park-country-capital/shards/alias_reclassification_000400_summary.json",
+      "summary_sha256": "fe2f08b036cf931ac5391176e0bc927edce0e0ac0f2982a9f7a2f9fd437afcef",
+      "records": 19
+    }
+  ],
+  "num_original_shortcut_records": 419,
+  "num_records_without_primary_alias": 266,
+  "canonical_drift_transitions": {
+    "shortcut_candidate->ambiguous": 1,
+    "shortcut_candidate->shortcut_candidate": 418
+  },
+  "primary_alias_transitions_from_canonical_rerun": {
+    "ambiguous->ambiguous": 1,
+    "shortcut_candidate->ambiguous": 37,
+    "shortcut_candidate->compositional": 102,
+    "shortcut_candidate->shortcut_candidate": 279
+  },
+  "sensitivity_alias_transitions_from_canonical_rerun": {
+    "ambiguous->ambiguous": 1,
+    "shortcut_candidate->ambiguous": 37,
+    "shortcut_candidate->compositional": 102,
+    "shortcut_candidate->shortcut_candidate": 279
+  },
+  "alias_audit_counts": {
+    "rejected": 37,
+    "accepted": 7,
+    "sensitivity_only": 1
+  },
+  "per_country": {
+    "Azerbaijan": {
+      "original_shortcut_records": 1,
+      "unique_queries": 1,
+      "primary_classification_counts": {
+        "compositional": 0,
+        "ambiguous": 0,
+        "shortcut_candidate": 1
+      },
+      "primary_transition_counts": {
+        "shortcut_candidate->shortcut_candidate": 1
+      },
+      "records_without_primary_alias": 1,
+      "primary_aliases": [],
+      "sensitivity_aliases": []
+    },
+    "Botswana": {
+      "original_shortcut_records": 7,
+      "unique_queries": 1,
+      "primary_classification_counts": {
+        "compositional": 0,
+        "ambiguous": 0,
+        "shortcut_candidate": 7
+      },
+      "primary_transition_counts": {
+        "shortcut_candidate->shortcut_candidate": 7
+      },
+      "records_without_primary_alias": 7,
+      "primary_aliases": [],
+      "sensitivity_aliases": []
+    },
+    "Canada": {
+      "original_shortcut_records": 1,
+      "unique_queries": 1,
+      "primary_classification_counts": {
+        "compositional": 0,
+        "ambiguous": 0,
+        "shortcut_candidate": 1
+      },
+      "primary_transition_counts": {
+        "shortcut_candidate->shortcut_candidate": 1
+      },
+      "records_without_primary_alias": 1,
+      "primary_aliases": [],
+      "sensitivity_aliases": []
+    },
+    "Central African Republic": {
+      "original_shortcut_records": 9,
+      "unique_queries": 1,
+      "primary_classification_counts": {
+        "compositional": 0,
+        "ambiguous": 0,
+        "shortcut_candidate": 9
+      },
+      "primary_transition_counts": {
+        "shortcut_candidate->shortcut_candidate": 9
+      },
+      "records_without_primary_alias": 9,
+      "primary_aliases": [],
+      "sensitivity_aliases": []
+    },
+    "Democratic Republic of the Congo": {
+      "original_shortcut_records": 28,
+      "unique_queries": 5,
+      "primary_classification_counts": {
+        "compositional": 0,
+        "ambiguous": 0,
+        "shortcut_candidate": 28
+      },
+      "primary_transition_counts": {
+        "shortcut_candidate->shortcut_candidate": 28
+      },
+      "records_without_primary_alias": 28,
+      "primary_aliases": [],
+      "sensitivity_aliases": []
+    },
+    "Egypt": {
+      "original_shortcut_records": 1,
+      "unique_queries": 1,
+      "primary_classification_counts": {
+        "compositional": 0,
+        "ambiguous": 0,
+        "shortcut_candidate": 1
+      },
+      "primary_transition_counts": {
+        "shortcut_candidate->shortcut_candidate": 1
+      },
+      "records_without_primary_alias": 1,
+      "primary_aliases": [],
+      "sensitivity_aliases": []
+    },
+    "Ethiopia": {
+      "original_shortcut_records": 1,
+      "unique_queries": 1,
+      "primary_classification_counts": {
+        "compositional": 0,
+        "ambiguous": 0,
+        "shortcut_candidate": 1
+      },
+      "primary_transition_counts": {
+        "shortcut_candidate->shortcut_candidate": 1
+      },
+      "records_without_primary_alias": 1,
+      "primary_aliases": [],
+      "sensitivity_aliases": []
+    },
+    "Gabon": {
+      "original_shortcut_records": 15,
+      "unique_queries": 2,
+      "primary_classification_counts": {
+        "compositional": 0,
+        "ambiguous": 0,
+        "shortcut_candidate": 15
+      },
+      "primary_transition_counts": {
+        "shortcut_candidate->shortcut_candidate": 15
+      },
+      "records_without_primary_alias": 15,
+      "primary_aliases": [],
+      "sensitivity_aliases": []
+    },
+    "Georgia": {
+      "original_shortcut_records": 10,
+      "unique_queries": 1,
+      "primary_classification_counts": {
+        "compositional": 0,
+        "ambiguous": 0,
+        "shortcut_candidate": 10
+      },
+      "primary_transition_counts": {
+        "shortcut_candidate->shortcut_candidate": 10
+      },
+      "records_without_primary_alias": 10,
+      "primary_aliases": [],
+      "sensitivity_aliases": []
+    },
+    "Germany": {
+      "original_shortcut_records": 6,
+      "unique_queries": 1,
+      "primary_classification_counts": {
+        "compositional": 0,
+        "ambiguous": 1,
+        "shortcut_candidate": 5
+      },
+      "primary_transition_counts": {
+        "ambiguous->ambiguous": 1,
+        "shortcut_candidate->shortcut_candidate": 5
+      },
+      "records_without_primary_alias": 6,
+      "primary_aliases": [],
+      "sensitivity_aliases": []
+    },
+    "Hungary": {
+      "original_shortcut_records": 1,
+      "unique_queries": 1,
+      "primary_classification_counts": {
+        "compositional": 0,
+        "ambiguous": 0,
+        "shortcut_candidate": 1
+      },
+      "primary_transition_counts": {
+        "shortcut_candidate->shortcut_candidate": 1
+      },
+      "records_without_primary_alias": 1,
+      "primary_aliases": [],
+      "sensitivity_aliases": []
+    },
+    "India": {
+      "original_shortcut_records": 1,
+      "unique_queries": 1,
+      "primary_classification_counts": {
+        "compositional": 0,
+        "ambiguous": 0,
+        "shortcut_candidate": 1
+      },
+      "primary_transition_counts": {
+        "shortcut_candidate->shortcut_candidate": 1
+      },
+      "records_without_primary_alias": 1,
+      "primary_aliases": [],
+      "sensitivity_aliases": []
+    },
+    "Indonesia": {
+      "original_shortcut_records": 2,
+      "unique_queries": 2,
+      "primary_classification_counts": {
+        "compositional": 0,
+        "ambiguous": 0,
+        "shortcut_candidate": 2
+      },
+      "primary_transition_counts": {
+        "shortcut_candidate->shortcut_candidate": 2
+      },
+      "records_without_primary_alias": 2,
+      "primary_aliases": [],
+      "sensitivity_aliases": []
+    },
+    "Italy": {
+      "original_shortcut_records": 2,
+      "unique_queries": 1,
+      "primary_classification_counts": {
+        "compositional": 0,
+        "ambiguous": 0,
+        "shortcut_candidate": 2
+      },
+      "primary_transition_counts": {
+        "shortcut_candidate->shortcut_candidate": 2
+      },
+      "records_without_primary_alias": 2,
+      "primary_aliases": [],
+      "sensitivity_aliases": []
+    },
+    "Kyrgyzstan": {
+      "original_shortcut_records": 3,
+      "unique_queries": 1,
+      "primary_classification_counts": {
+        "compositional": 0,
+        "ambiguous": 0,
+        "shortcut_candidate": 3
+      },
+      "primary_transition_counts": {
+        "shortcut_candidate->shortcut_candidate": 3
+      },
+      "records_without_primary_alias": 3,
+      "primary_aliases": [],
+      "sensitivity_aliases": []
+    },
+    "Lesotho": {
+      "original_shortcut_records": 2,
+      "unique_queries": 1,
+      "primary_classification_counts": {
+        "compositional": 0,
+        "ambiguous": 0,
+        "shortcut_candidate": 2
+      },
+      "primary_transition_counts": {
+        "shortcut_candidate->shortcut_candidate": 2
+      },
+      "records_without_primary_alias": 2,
+      "primary_aliases": [],
+      "sensitivity_aliases": []
+    },
+    "Malawi": {
+      "original_shortcut_records": 10,
+      "unique_queries": 1,
+      "primary_classification_counts": {
+        "compositional": 0,
+        "ambiguous": 0,
+        "shortcut_candidate": 10
+      },
+      "primary_transition_counts": {
+        "shortcut_candidate->shortcut_candidate": 10
+      },
+      "records_without_primary_alias": 10,
+      "primary_aliases": [],
+      "sensitivity_aliases": []
+    },
+    "Namibia": {
+      "original_shortcut_records": 4,
+      "unique_queries": 1,
+      "primary_classification_counts": {
+        "compositional": 0,
+        "ambiguous": 0,
+        "shortcut_candidate": 4
+      },
+      "primary_transition_counts": {
+        "shortcut_candidate->shortcut_candidate": 4
+      },
+      "records_without_primary_alias": 4,
+      "primary_aliases": [],
+      "sensitivity_aliases": []
+    },
+    "New Zealand": {
+      "original_shortcut_records": 116,
+      "unique_queries": 14,
+      "primary_classification_counts": {
+        "compositional": 0,
+        "ambiguous": 0,
+        "shortcut_candidate": 116
+      },
+      "primary_transition_counts": {
+        "shortcut_candidate->shortcut_candidate": 116
+      },
+      "records_without_primary_alias": 116,
+      "primary_aliases": [],
+      "sensitivity_aliases": []
+    },
+    "North Macedonia": {
+      "original_shortcut_records": 20,
+      "unique_queries": 2,
+      "primary_classification_counts": {
+        "compositional": 20,
+        "ambiguous": 0,
+        "shortcut_candidate": 0
+      },
+      "primary_transition_counts": {
+        "shortcut_candidate->compositional": 20
+      },
+      "records_without_primary_alias": 0,
+      "primary_aliases": [
+        "Macedonia"
+      ],
+      "sensitivity_aliases": [
+        "Macedonia"
+      ]
+    },
+    "People's Republic of China": {
+      "original_shortcut_records": 13,
+      "unique_queries": 2,
+      "primary_classification_counts": {
+        "compositional": 3,
+        "ambiguous": 7,
+        "shortcut_candidate": 3
+      },
+      "primary_transition_counts": {
+        "shortcut_candidate->ambiguous": 7,
+        "shortcut_candidate->compositional": 3,
+        "shortcut_candidate->shortcut_candidate": 3
+      },
+      "records_without_primary_alias": 0,
+      "primary_aliases": [
+        "China"
+      ],
+      "sensitivity_aliases": [
+        "China"
+      ]
+    },
+    "Republic of the Congo": {
+      "original_shortcut_records": 19,
+      "unique_queries": 2,
+      "primary_classification_counts": {
+        "compositional": 0,
+        "ambiguous": 0,
+        "shortcut_candidate": 19
+      },
+      "primary_transition_counts": {
+        "shortcut_candidate->shortcut_candidate": 19
+      },
+      "records_without_primary_alias": 19,
+      "primary_aliases": [],
+      "sensitivity_aliases": []
+    },
+    "Russia": {
+      "original_shortcut_records": 4,
+      "unique_queries": 2,
+      "primary_classification_counts": {
+        "compositional": 0,
+        "ambiguous": 0,
+        "shortcut_candidate": 4
+      },
+      "primary_transition_counts": {
+        "shortcut_candidate->shortcut_candidate": 4
+      },
+      "records_without_primary_alias": 4,
+      "primary_aliases": [],
+      "sensitivity_aliases": []
+    },
+    "Senegal": {
+      "original_shortcut_records": 20,
+      "unique_queries": 2,
+      "primary_classification_counts": {
+        "compositional": 0,
+        "ambiguous": 0,
+        "shortcut_candidate": 20
+      },
+      "primary_transition_counts": {
+        "shortcut_candidate->shortcut_candidate": 20
+      },
+      "records_without_primary_alias": 20,
+      "primary_aliases": [],
+      "sensitivity_aliases": []
+    },
+    "Serbia": {
+      "original_shortcut_records": 1,
+      "unique_queries": 1,
+      "primary_classification_counts": {
+        "compositional": 0,
+        "ambiguous": 0,
+        "shortcut_candidate": 1
+      },
+      "primary_transition_counts": {
+        "shortcut_candidate->shortcut_candidate": 1
+      },
+      "records_without_primary_alias": 1,
+      "primary_aliases": [],
+      "sensitivity_aliases": []
+    },
+    "South Korea": {
+      "original_shortcut_records": 2,
+      "unique_queries": 1,
+      "primary_classification_counts": {
+        "compositional": 0,
+        "ambiguous": 0,
+        "shortcut_candidate": 2
+      },
+      "primary_transition_counts": {
+        "shortcut_candidate->shortcut_candidate": 2
+      },
+      "records_without_primary_alias": 2,
+      "primary_aliases": [],
+      "sensitivity_aliases": []
+    },
+    "United Kingdom": {
+      "original_shortcut_records": 111,
+      "unique_queries": 13,
+      "primary_classification_counts": {
+        "compositional": 72,
+        "ambiguous": 29,
+        "shortcut_candidate": 10
+      },
+      "primary_transition_counts": {
+        "shortcut_candidate->ambiguous": 29,
+        "shortcut_candidate->compositional": 72,
+        "shortcut_candidate->shortcut_candidate": 10
+      },
+      "records_without_primary_alias": 0,
+      "primary_aliases": [
+        "UK",
+        "Britain"
+      ],
+      "sensitivity_aliases": [
+        "UK",
+        "Britain"
+      ]
+    },
+    "United States": {
+      "original_shortcut_records": 9,
+      "unique_queries": 7,
+      "primary_classification_counts": {
+        "compositional": 7,
+        "ambiguous": 1,
+        "shortcut_candidate": 1
+      },
+      "primary_transition_counts": {
+        "shortcut_candidate->ambiguous": 1,
+        "shortcut_candidate->compositional": 7,
+        "shortcut_candidate->shortcut_candidate": 1
+      },
+      "records_without_primary_alias": 0,
+      "primary_aliases": [
+        "USA"
+      ],
+      "sensitivity_aliases": [
+        "USA",
+        "US"
+      ]
+    }
+  },
+  "query_level": {
+    "definition": "shortcut rate = shortcut contexts / paper-token-eligible contexts; majority is strictly greater than one half",
+    "num_queries": 516,
+    "num_queries_with_original_shortcut_context": 70,
+    "original_majority_shortcut_queries": 53,
+    "final_majority_shortcut_queries": 35,
+    "original_all_context_shortcut_queries": 48,
+    "final_all_context_shortcut_queries": 31
+  },
+  "limitations": [
+    "Aliases use first-token scoring; full-name scoring was not performed.",
+    "There is no wrong-country alias null control.",
+    "Canonical names retain original first-token scoring while primary aliases must be complete single tokens.",
+    "The score maximizes over a fixed alias set whose size differs by country."
+  ],
+  "alias_catalog_metadata": {
+    "version": 1,
+    "scope": "Conservative English country-name aliases for the landmark-country-capital and park-country-capital tasks.",
+    "policy": "Aliases are fixed before inspecting alias logits. Ambiguous bare forms such as Congo and Korea are omitted. The canonical dataset value is added by the evaluator and must not appear here."
+  },
+  "outputs": {
+    "records": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/generalized-task-experiments/results/jlens_alias_reclassification/park-country-capital/final/alias_reclassification.jsonl.gz",
+    "queries": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/generalized-task-experiments/results/jlens_alias_reclassification/park-country-capital/final/alias_reclassification_queries.jsonl",
+    "audit": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/generalized-task-experiments/results/jlens_alias_reclassification/park-country-capital/final/alias_audit.json",
+    "summary": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/generalized-task-experiments/results/jlens_alias_reclassification/park-country-capital/final/alias_reclassification_summary.json"
+  }
+}

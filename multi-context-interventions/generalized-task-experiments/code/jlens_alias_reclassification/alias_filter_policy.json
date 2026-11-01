@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "primary_requires_complete_single_token_alias": true,
+  "reject_token_shared_with_other_country": true,
+  "explicit_reject": {
+    "CAR": "common English word when case is ignored"
+  },
+  "sensitivity_only": {
+    "US": "also the English pronoun 'us' when case is ignored"
+  },
+  "notes": [
+    "Canonical country names retain the original first-token measurement even when multi-token.",
+    "Primary aliases must be complete single tokens; this is deliberately more conservative than canonical scoring.",
+    "Sensitivity-only aliases are excluded from the primary result."
+  ]
+}

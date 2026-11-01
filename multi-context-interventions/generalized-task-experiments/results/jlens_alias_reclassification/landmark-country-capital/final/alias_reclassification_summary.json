@@ -1,0 +1,513 @@
+{
+  "task": "landmark-country-capital",
+  "method": "conservative_single_identifying_token_alias_postprocessing",
+  "original_jlens": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/generalized-task-experiments/results/landmark-country-capital/jlens_evaluation.jsonl.gz",
+  "alias_policy": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/generalized-task-experiments/code/jlens_alias_reclassification/alias_filter_policy.json",
+  "source_shards": [
+    {
+      "data": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/generalized-task-experiments/results/jlens_alias_reclassification/landmark-country-capital/shards/alias_reclassification_000000.jsonl.gz",
+      "data_sha256": "201001c504ffc13277e4de806b5e20b85df522c9ab99b3024f1477c6c6cbdc40",
+      "summary": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/generalized-task-experiments/results/jlens_alias_reclassification/landmark-country-capital/shards/alias_reclassification_000000_summary.json",
+      "summary_sha256": "339bbcab99f2417d5ef1cc6d5b1b3837a846899affe61e37d055d9d05c65aca5",
+      "records": 50
+    },
+    {
+      "data": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/generalized-task-experiments/results/jlens_alias_reclassification/landmark-country-capital/shards/alias_reclassification_000050.jsonl.gz",
+      "data_sha256": "d48262fc628158a3f720120f316cf9ba0850afc99417bd51d19166f873498577",
+      "summary": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/generalized-task-experiments/results/jlens_alias_reclassification/landmark-country-capital/shards/alias_reclassification_000050_summary.json",
+      "summary_sha256": "2ff9655abfdbbddff7ce30f73c11cb8839631b5f33ef010fbbc1144277d3e696",
+      "records": 50
+    },
+    {
+      "data": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/generalized-task-experiments/results/jlens_alias_reclassification/landmark-country-capital/shards/alias_reclassification_000100.jsonl.gz",
+      "data_sha256": "23def7ac5f8e00238b94ab5cf7e432dfaea05398ac0ec96064e9a973fd82293c",
+      "summary": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/generalized-task-experiments/results/jlens_alias_reclassification/landmark-country-capital/shards/alias_reclassification_000100_summary.json",
+      "summary_sha256": "8d822806ee3e524e494bbdbbc54252c5891b991989b16eb8260aec90aee59839",
+      "records": 50
+    },
+    {
+      "data": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/generalized-task-experiments/results/jlens_alias_reclassification/landmark-country-capital/shards/alias_reclassification_000150.jsonl.gz",
+      "data_sha256": "0975148c5c46f32a6edd54af3f2647df07f128cc24aef5a735a5515d75169b56",
+      "summary": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/generalized-task-experiments/results/jlens_alias_reclassification/landmark-country-capital/shards/alias_reclassification_000150_summary.json",
+      "summary_sha256": "ed635db6ad9d9b7b0e7da1648a9d7acc80dd2a159004af0431a5e607b83ef59b",
+      "records": 50
+    },
+    {
+      "data": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/generalized-task-experiments/results/jlens_alias_reclassification/landmark-country-capital/shards/alias_reclassification_000200.jsonl.gz",
+      "data_sha256": "6d16da091ad0967ea330f01743afb8fc8011816fe520142841660762ad185b84",
+      "summary": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/generalized-task-experiments/results/jlens_alias_reclassification/landmark-country-capital/shards/alias_reclassification_000200_summary.json",
+      "summary_sha256": "6f9f606b8d3df9c5aba7ce9303010a5ff618eaeb7df5247f5c7f0f28256c932a",
+      "records": 50
+    },
+    {
+      "data": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/generalized-task-experiments/results/jlens_alias_reclassification/landmark-country-capital/shards/alias_reclassification_000250.jsonl.gz",
+      "data_sha256": "b1f9d1f5d55be9c9bfac56bcbbdb1ea703fa30f98310316461d51d08ea0321eb",
+      "summary": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/generalized-task-experiments/results/jlens_alias_reclassification/landmark-country-capital/shards/alias_reclassification_000250_summary.json",
+      "summary_sha256": "7e9919b43d90ae4a0fcadfb97ae6494fd0a6a46f1dea293cf52133768c3b7b3a",
+      "records": 50
+    },
+    {
+      "data": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/generalized-task-experiments/results/jlens_alias_reclassification/landmark-country-capital/shards/alias_reclassification_000300.jsonl.gz",
+      "data_sha256": "6a527fa875c7414381f4e6851b7c0c2c09efee8c5d48c75d7fed41a2036434d7",
+      "summary": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/generalized-task-experiments/results/jlens_alias_reclassification/landmark-country-capital/shards/alias_reclassification_000300_summary.json",
+      "summary_sha256": "c4ba71ad54659c549ab7b78ba4808daae0ebfdfd06e8d8940508958a05c67eb1",
+      "records": 50
+    },
+    {
+      "data": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/generalized-task-experiments/results/jlens_alias_reclassification/landmark-country-capital/shards/alias_reclassification_000350.jsonl.gz",
+      "data_sha256": "646766c9e5123a727b6944426b5fd568efde9b03e9fd7b7d3ae5a98ea846d636",
+      "summary": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/generalized-task-experiments/results/jlens_alias_reclassification/landmark-country-capital/shards/alias_reclassification_000350_summary.json",
+      "summary_sha256": "af3d118cdde3c17f3dc45fa456b7abb1f596b2a0df611f8d2f60fa2711dc12c8",
+      "records": 50
+    },
+    {
+      "data": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/generalized-task-experiments/results/jlens_alias_reclassification/landmark-country-capital/shards/alias_reclassification_000400.jsonl.gz",
+      "data_sha256": "4fcd9fef1fb37442c72bbc847cd983c9d4fd64ce0756e05d7e98a131faed91ae",
+      "summary": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/generalized-task-experiments/results/jlens_alias_reclassification/landmark-country-capital/shards/alias_reclassification_000400_summary.json",
+      "summary_sha256": "5c3249cb8cfac10c05cf28f3406544f16ff2c3a77fcb8e4ad64e76a89711e60a",
+      "records": 50
+    },
+    {
+      "data": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/generalized-task-experiments/results/jlens_alias_reclassification/landmark-country-capital/shards/alias_reclassification_000450.jsonl.gz",
+      "data_sha256": "3840104834947ab9ced1d12e5c4e0465a50e72af406ff33ab6cf1c823c31602a",
+      "summary": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/generalized-task-experiments/results/jlens_alias_reclassification/landmark-country-capital/shards/alias_reclassification_000450_summary.json",
+      "summary_sha256": "a6d6ed2dec6d6c8f9e8fdcf9087cc921de1a6469b72bcbc331d41c0cf8c69df1",
+      "records": 50
+    },
+    {
+      "data": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/generalized-task-experiments/results/jlens_alias_reclassification/landmark-country-capital/shards/alias_reclassification_000500.jsonl.gz",
+      "data_sha256": "7552a740277e77abbe76618407ac5462241b520806c51c92ce2161e3d09acaf2",
+      "summary": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/generalized-task-experiments/results/jlens_alias_reclassification/landmark-country-capital/shards/alias_reclassification_000500_summary.json",
+      "summary_sha256": "48c3afeb0ac8940dfd88deb30f6fc75796952e4cd43f58a8ae5845b3dc2769f1",
+      "records": 50
+    },
+    {
+      "data": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/generalized-task-experiments/results/jlens_alias_reclassification/landmark-country-capital/shards/alias_reclassification_000550.jsonl.gz",
+      "data_sha256": "fd218e3f274333501140ee9825e6fd66a07cc6d7554cf3542da853249436ee7f",
+      "summary": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/generalized-task-experiments/results/jlens_alias_reclassification/landmark-country-capital/shards/alias_reclassification_000550_summary.json",
+      "summary_sha256": "565a8438cba0a7058f58877748eb29710e4fda3d4dd75c1b203cdb4133e1f3ad",
+      "records": 50
+    },
+    {
+      "data": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/generalized-task-experiments/results/jlens_alias_reclassification/landmark-country-capital/shards/alias_reclassification_000600.jsonl.gz",
+      "data_sha256": "28c1d0af0ad8969320423ba20840b5b487f93e52d437f9428fc40ec6234e97c0",
+      "summary": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/generalized-task-experiments/results/jlens_alias_reclassification/landmark-country-capital/shards/alias_reclassification_000600_summary.json",
+      "summary_sha256": "4567581b1263494fc28c9c2972b7e34b80ef952c0ddeaca68bb340e11814af31",
+      "records": 50
+    },
+    {
+      "data": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/generalized-task-experiments/results/jlens_alias_reclassification/landmark-country-capital/shards/alias_reclassification_000650.jsonl.gz",
+      "data_sha256": "63d5bdf82e507e88f5a6a64f49f02183f75c31cc29995e02d38d9b46d47e5083",
+      "summary": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/generalized-task-experiments/results/jlens_alias_reclassification/landmark-country-capital/shards/alias_reclassification_000650_summary.json",
+      "summary_sha256": "13fa41a11356b2d38d4ba110cf982fed992fe6368e0633deafacd50b074e9d0b",
+      "records": 50
+    },
+    {
+      "data": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/generalized-task-experiments/results/jlens_alias_reclassification/landmark-country-capital/shards/alias_reclassification_000700.jsonl.gz",
+      "data_sha256": "232a9fbe5a209fa650cc03f14f4747e0db547b1c78ab94d2937a8211365d4023",
+      "summary": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/generalized-task-experiments/results/jlens_alias_reclassification/landmark-country-capital/shards/alias_reclassification_000700_summary.json",
+      "summary_sha256": "331181cdf498490f35a8d40d9cd9409f43f55f7c55727fdddfdba88710af453d",
+      "records": 50
+    },
+    {
+      "data": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/generalized-task-experiments/results/jlens_alias_reclassification/landmark-country-capital/shards/alias_reclassification_000750.jsonl.gz",
+      "data_sha256": "63b634c72458fbc28b30aae522eed1b4965a8fe1500c6084a1560b315ee84626",
+      "summary": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/generalized-task-experiments/results/jlens_alias_reclassification/landmark-country-capital/shards/alias_reclassification_000750_summary.json",
+      "summary_sha256": "2b77834c1f8199d13d77bcd4421f60d982e2c393e058a51f9bab66d8857d07c5",
+      "records": 50
+    },
+    {
+      "data": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/generalized-task-experiments/results/jlens_alias_reclassification/landmark-country-capital/shards/alias_reclassification_000800.jsonl.gz",
+      "data_sha256": "c0f557cbc996c34c1edb6196e5febb167c0a454e1959337cd66b2454c5974e43",
+      "summary": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/generalized-task-experiments/results/jlens_alias_reclassification/landmark-country-capital/shards/alias_reclassification_000800_summary.json",
+      "summary_sha256": "f37582520581fa93a627b2d2ce25a48067779d0c63cd71a9e22b4547da650672",
+      "records": 50
+    },
+    {
+      "data": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/generalized-task-experiments/results/jlens_alias_reclassification/landmark-country-capital/shards/alias_reclassification_000850.jsonl.gz",
+      "data_sha256": "2c5693dfbf8d0b20986f8578ce0ac4548621eb3378eed2a8c37f92658caceb63",
+      "summary": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/generalized-task-experiments/results/jlens_alias_reclassification/landmark-country-capital/shards/alias_reclassification_000850_summary.json",
+      "summary_sha256": "ebe6730e26c4da5e0fdd2ffb03b8514dbf634a4fc9a401f94b59d284a9ba8015",
+      "records": 50
+    },
+    {
+      "data": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/generalized-task-experiments/results/jlens_alias_reclassification/landmark-country-capital/shards/alias_reclassification_000900.jsonl.gz",
+      "data_sha256": "08358984ba34be97ee25a254961c7c85f013a4da8f066f0920e59706ed531b39",
+      "summary": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/generalized-task-experiments/results/jlens_alias_reclassification/landmark-country-capital/shards/alias_reclassification_000900_summary.json",
+      "summary_sha256": "672530d7e04e9b531331c8f9f089fd8846719db035a46896b8e311a66727d56d",
+      "records": 40
+    }
+  ],
+  "num_original_shortcut_records": 940,
+  "num_records_without_primary_alias": 110,
+  "canonical_drift_transitions": {
+    "shortcut_candidate->shortcut_candidate": 940
+  },
+  "primary_alias_transitions_from_canonical_rerun": {
+    "shortcut_candidate->ambiguous": 93,
+    "shortcut_candidate->compositional": 713,
+    "shortcut_candidate->shortcut_candidate": 134
+  },
+  "sensitivity_alias_transitions_from_canonical_rerun": {
+    "shortcut_candidate->ambiguous": 93,
+    "shortcut_candidate->compositional": 713,
+    "shortcut_candidate->shortcut_candidate": 134
+  },
+  "alias_audit_counts": {
+    "rejected": 37,
+    "accepted": 7,
+    "sensitivity_only": 1
+  },
+  "per_country": {
+    "Egypt": {
+      "original_shortcut_records": 11,
+      "unique_queries": 2,
+      "primary_classification_counts": {
+        "compositional": 0,
+        "ambiguous": 0,
+        "shortcut_candidate": 11
+      },
+      "primary_transition_counts": {
+        "shortcut_candidate->shortcut_candidate": 11
+      },
+      "records_without_primary_alias": 11,
+      "primary_aliases": [],
+      "sensitivity_aliases": []
+    },
+    "Georgia": {
+      "original_shortcut_records": 2,
+      "unique_queries": 1,
+      "primary_classification_counts": {
+        "compositional": 0,
+        "ambiguous": 0,
+        "shortcut_candidate": 2
+      },
+      "primary_transition_counts": {
+        "shortcut_candidate->shortcut_candidate": 2
+      },
+      "records_without_primary_alias": 2,
+      "primary_aliases": [],
+      "sensitivity_aliases": []
+    },
+    "Germany": {
+      "original_shortcut_records": 9,
+      "unique_queries": 4,
+      "primary_classification_counts": {
+        "compositional": 0,
+        "ambiguous": 0,
+        "shortcut_candidate": 9
+      },
+      "primary_transition_counts": {
+        "shortcut_candidate->shortcut_candidate": 9
+      },
+      "records_without_primary_alias": 9,
+      "primary_aliases": [],
+      "sensitivity_aliases": []
+    },
+    "Indonesia": {
+      "original_shortcut_records": 1,
+      "unique_queries": 1,
+      "primary_classification_counts": {
+        "compositional": 0,
+        "ambiguous": 0,
+        "shortcut_candidate": 1
+      },
+      "primary_transition_counts": {
+        "shortcut_candidate->shortcut_candidate": 1
+      },
+      "records_without_primary_alias": 1,
+      "primary_aliases": [],
+      "sensitivity_aliases": []
+    },
+    "Iran": {
+      "original_shortcut_records": 7,
+      "unique_queries": 4,
+      "primary_classification_counts": {
+        "compositional": 0,
+        "ambiguous": 0,
+        "shortcut_candidate": 7
+      },
+      "primary_transition_counts": {
+        "shortcut_candidate->shortcut_candidate": 7
+      },
+      "records_without_primary_alias": 7,
+      "primary_aliases": [],
+      "sensitivity_aliases": []
+    },
+    "Iraq": {
+      "original_shortcut_records": 6,
+      "unique_queries": 2,
+      "primary_classification_counts": {
+        "compositional": 0,
+        "ambiguous": 0,
+        "shortcut_candidate": 6
+      },
+      "primary_transition_counts": {
+        "shortcut_candidate->shortcut_candidate": 6
+      },
+      "records_without_primary_alias": 6,
+      "primary_aliases": [],
+      "sensitivity_aliases": []
+    },
+    "Italy": {
+      "original_shortcut_records": 19,
+      "unique_queries": 5,
+      "primary_classification_counts": {
+        "compositional": 0,
+        "ambiguous": 0,
+        "shortcut_candidate": 19
+      },
+      "primary_transition_counts": {
+        "shortcut_candidate->shortcut_candidate": 19
+      },
+      "records_without_primary_alias": 19,
+      "primary_aliases": [],
+      "sensitivity_aliases": []
+    },
+    "Jordan": {
+      "original_shortcut_records": 3,
+      "unique_queries": 2,
+      "primary_classification_counts": {
+        "compositional": 0,
+        "ambiguous": 0,
+        "shortcut_candidate": 3
+      },
+      "primary_transition_counts": {
+        "shortcut_candidate->shortcut_candidate": 3
+      },
+      "records_without_primary_alias": 3,
+      "primary_aliases": [],
+      "sensitivity_aliases": []
+    },
+    "Montenegro": {
+      "original_shortcut_records": 1,
+      "unique_queries": 1,
+      "primary_classification_counts": {
+        "compositional": 0,
+        "ambiguous": 0,
+        "shortcut_candidate": 1
+      },
+      "primary_transition_counts": {
+        "shortcut_candidate->shortcut_candidate": 1
+      },
+      "records_without_primary_alias": 1,
+      "primary_aliases": [],
+      "sensitivity_aliases": []
+    },
+    "North Korea": {
+      "original_shortcut_records": 9,
+      "unique_queries": 1,
+      "primary_classification_counts": {
+        "compositional": 0,
+        "ambiguous": 0,
+        "shortcut_candidate": 9
+      },
+      "primary_transition_counts": {
+        "shortcut_candidate->shortcut_candidate": 9
+      },
+      "records_without_primary_alias": 9,
+      "primary_aliases": [],
+      "sensitivity_aliases": []
+    },
+    "People's Republic of China": {
+      "original_shortcut_records": 178,
+      "unique_queries": 33,
+      "primary_classification_counts": {
+        "compositional": 165,
+        "ambiguous": 10,
+        "shortcut_candidate": 3
+      },
+      "primary_transition_counts": {
+        "shortcut_candidate->ambiguous": 10,
+        "shortcut_candidate->compositional": 165,
+        "shortcut_candidate->shortcut_candidate": 3
+      },
+      "records_without_primary_alias": 0,
+      "primary_aliases": [
+        "China"
+      ],
+      "sensitivity_aliases": [
+        "China"
+      ]
+    },
+    "Russia": {
+      "original_shortcut_records": 15,
+      "unique_queries": 5,
+      "primary_classification_counts": {
+        "compositional": 0,
+        "ambiguous": 0,
+        "shortcut_candidate": 15
+      },
+      "primary_transition_counts": {
+        "shortcut_candidate->shortcut_candidate": 15
+      },
+      "records_without_primary_alias": 15,
+      "primary_aliases": [],
+      "sensitivity_aliases": []
+    },
+    "Senegal": {
+      "original_shortcut_records": 4,
+      "unique_queries": 1,
+      "primary_classification_counts": {
+        "compositional": 0,
+        "ambiguous": 0,
+        "shortcut_candidate": 4
+      },
+      "primary_transition_counts": {
+        "shortcut_candidate->shortcut_candidate": 4
+      },
+      "records_without_primary_alias": 4,
+      "primary_aliases": [],
+      "sensitivity_aliases": []
+    },
+    "South Korea": {
+      "original_shortcut_records": 15,
+      "unique_queries": 2,
+      "primary_classification_counts": {
+        "compositional": 0,
+        "ambiguous": 0,
+        "shortcut_candidate": 15
+      },
+      "primary_transition_counts": {
+        "shortcut_candidate->shortcut_candidate": 15
+      },
+      "records_without_primary_alias": 15,
+      "primary_aliases": [],
+      "sensitivity_aliases": []
+    },
+    "Spain": {
+      "original_shortcut_records": 5,
+      "unique_queries": 3,
+      "primary_classification_counts": {
+        "compositional": 0,
+        "ambiguous": 0,
+        "shortcut_candidate": 5
+      },
+      "primary_transition_counts": {
+        "shortcut_candidate->shortcut_candidate": 5
+      },
+      "records_without_primary_alias": 5,
+      "primary_aliases": [],
+      "sensitivity_aliases": []
+    },
+    "Sweden": {
+      "original_shortcut_records": 1,
+      "unique_queries": 1,
+      "primary_classification_counts": {
+        "compositional": 0,
+        "ambiguous": 0,
+        "shortcut_candidate": 1
+      },
+      "primary_transition_counts": {
+        "shortcut_candidate->shortcut_candidate": 1
+      },
+      "records_without_primary_alias": 1,
+      "primary_aliases": [],
+      "sensitivity_aliases": []
+    },
+    "Syria": {
+      "original_shortcut_records": 2,
+      "unique_queries": 1,
+      "primary_classification_counts": {
+        "compositional": 0,
+        "ambiguous": 0,
+        "shortcut_candidate": 2
+      },
+      "primary_transition_counts": {
+        "shortcut_candidate->shortcut_candidate": 2
+      },
+      "records_without_primary_alias": 2,
+      "primary_aliases": [],
+      "sensitivity_aliases": []
+    },
+    "United Arab Emirates": {
+      "original_shortcut_records": 10,
+      "unique_queries": 1,
+      "primary_classification_counts": {
+        "compositional": 9,
+        "ambiguous": 1,
+        "shortcut_candidate": 0
+      },
+      "primary_transition_counts": {
+        "shortcut_candidate->ambiguous": 1,
+        "shortcut_candidate->compositional": 9
+      },
+      "records_without_primary_alias": 0,
+      "primary_aliases": [
+        "UAE"
+      ],
+      "sensitivity_aliases": [
+        "UAE"
+      ]
+    },
+    "United Kingdom": {
+      "original_shortcut_records": 638,
+      "unique_queries": 82,
+      "primary_classification_counts": {
+        "compositional": 535,
+        "ambiguous": 82,
+        "shortcut_candidate": 21
+      },
+      "primary_transition_counts": {
+        "shortcut_candidate->ambiguous": 82,
+        "shortcut_candidate->compositional": 535,
+        "shortcut_candidate->shortcut_candidate": 21
+      },
+      "records_without_primary_alias": 0,
+      "primary_aliases": [
+        "UK",
+        "Britain"
+      ],
+      "sensitivity_aliases": [
+        "UK",
+        "Britain"
+      ]
+    },
+    "United States": {
+      "original_shortcut_records": 4,
+      "unique_queries": 4,
+      "primary_classification_counts": {
+        "compositional": 4,
+        "ambiguous": 0,
+        "shortcut_candidate": 0
+      },
+      "primary_transition_counts": {
+        "shortcut_candidate->compositional": 4
+      },
+      "records_without_primary_alias": 0,
+      "primary_aliases": [
+        "USA"
+      ],
+      "sensitivity_aliases": [
+        "USA",
+        "US"
+      ]
+    }
+  },
+  "query_level": {
+    "definition": "shortcut rate = shortcut contexts / paper-token-eligible contexts; majority is strictly greater than one half",
+    "num_queries": 828,
+    "num_queries_with_original_shortcut_context": 156,
+    "original_majority_shortcut_queries": 138,
+    "final_majority_shortcut_queries": 22,
+    "original_all_context_shortcut_queries": 111,
+    "final_all_context_shortcut_queries": 16
+  },
+  "limitations": [
+    "Aliases use first-token scoring; full-name scoring was not performed.",
+    "There is no wrong-country alias null control.",
+    "Canonical names retain original first-token scoring while primary aliases must be complete single tokens.",
+    "The score maximizes over a fixed alias set whose size differs by country."
+  ],
+  "alias_catalog_metadata": {
+    "version": 1,
+    "scope": "Conservative English country-name aliases for the landmark-country-capital and park-country-capital tasks.",
+    "policy": "Aliases are fixed before inspecting alias logits. Ambiguous bare forms such as Congo and Korea are omitted. The canonical dataset value is added by the evaluator and must not appear here."
+  },
+  "outputs": {
+    "records": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/generalized-task-experiments/results/jlens_alias_reclassification/landmark-country-capital/final/alias_reclassification.jsonl.gz",
+    "queries": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/generalized-task-experiments/results/jlens_alias_reclassification/landmark-country-capital/final/alias_reclassification_queries.jsonl",
+    "audit": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/generalized-task-experiments/results/jlens_alias_reclassification/landmark-country-capital/final/alias_audit.json",
+    "summary": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/generalized-task-experiments/results/jlens_alias_reclassification/landmark-country-capital/final/alias_reclassification_summary.json"
+  }
+}

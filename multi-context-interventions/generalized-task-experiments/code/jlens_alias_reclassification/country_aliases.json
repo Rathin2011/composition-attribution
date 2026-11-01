@@ -1,0 +1,32 @@
+{
+  "metadata": {
+    "version": 1,
+    "scope": "Conservative English country-name aliases for the landmark-country-capital and park-country-capital tasks.",
+    "policy": "Aliases are fixed before inspecting alias logits. Ambiguous bare forms such as Congo and Korea are omitted. The canonical dataset value is added by the evaluator and must not appear here."
+  },
+  "aliases": {
+    "Central African Republic": ["CAR", "C.A.R."],
+    "Czech Republic": ["Czechia"],
+    "Democratic Republic of the Congo": ["DRC", "D.R.C.", "DR Congo", "Congo-Kinshasa"],
+    "Iran": ["Islamic Republic of Iran"],
+    "Ivory Coast": ["Côte d'Ivoire", "Cote d'Ivoire"],
+    "Kyrgyzstan": ["Kyrgyz Republic"],
+    "Laos": ["Lao PDR", "Lao People's Democratic Republic"],
+    "Myanmar": ["Burma"],
+    "New Zealand": ["Aotearoa New Zealand", "Aotearoa"],
+    "North Korea": ["DPRK", "D.P.R.K.", "Democratic People's Republic of Korea"],
+    "North Macedonia": ["Macedonia"],
+    "People's Republic of China": ["China", "PRC", "P.R.C."],
+    "Republic of the Congo": ["Congo-Brazzaville"],
+    "Russia": ["Russian Federation"],
+    "South Korea": ["Republic of Korea", "ROK", "R.O.K."],
+    "Syria": ["Syrian Arab Republic"],
+    "Tanzania": ["United Republic of Tanzania"],
+    "Turkey": ["Türkiye", "Turkiye"],
+    "United Arab Emirates": ["UAE", "U.A.E."],
+    "United Kingdom": ["UK", "U.K.", "Britain", "Great Britain"],
+    "United States": ["US", "U.S.", "USA", "U.S.A.", "United States of America"],
+    "Venezuela": ["Bolivarian Republic of Venezuela"],
+    "Vietnam": ["Viet Nam"]
+  }
+}

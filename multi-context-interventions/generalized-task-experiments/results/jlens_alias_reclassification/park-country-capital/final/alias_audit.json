@@ -1,0 +1,935 @@
+{
+  "task": "park-country-capital",
+  "policy": {
+    "version": 1,
+    "primary_requires_complete_single_token_alias": true,
+    "reject_token_shared_with_other_country": true,
+    "explicit_reject": {
+      "CAR": "common English word when case is ignored"
+    },
+    "sensitivity_only": {
+      "US": "also the English pronoun 'us' when case is ignored"
+    },
+    "notes": [
+      "Canonical country names retain the original first-token measurement even when multi-token.",
+      "Primary aliases must be complete single tokens; this is deliberately more conservative than canonical scoring.",
+      "Sensitivity-only aliases are excluded from the primary result."
+    ]
+  },
+  "country_catalogs": [
+    "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/generalized-task-experiments/results/landmark-country-capital/baseline_summary.json",
+    "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/generalized-task-experiments/results/park-country-capital/baseline_summary.json"
+  ],
+  "aliases": [
+    {
+      "country": "Central African Republic",
+      "alias": "CAR",
+      "token_ids": [
+        28876
+      ],
+      "measured_token_id": 28876,
+      "measured_token": " CAR",
+      "status": "rejected",
+      "rejection_reasons": [
+        "explicit_common_word_rejection"
+      ],
+      "explicit_reject_reason": "common English word when case is ignored",
+      "sensitivity_reason": null,
+      "other_canonical_countries_with_token": [],
+      "other_alias_countries_with_token": []
+    },
+    {
+      "country": "Central African Republic",
+      "alias": "C.A.R.",
+      "token_ids": [
+        356,
+        885,
+        2056,
+        13
+      ],
+      "measured_token_id": 356,
+      "measured_token": " C",
+      "status": "rejected",
+      "rejection_reasons": [
+        "multi_token_alias",
+        "token_shared_with_other_country_alias"
+      ],
+      "explicit_reject_reason": null,
+      "sensitivity_reason": null,
+      "other_canonical_countries_with_token": [],
+      "other_alias_countries_with_token": [
+        "Ivory Coast"
+      ]
+    },
+    {
+      "country": "Czech Republic",
+      "alias": "Czechia",
+      "token_ids": [
+        34250,
+        689
+      ],
+      "measured_token_id": 34250,
+      "measured_token": " Czech",
+      "status": "rejected",
+      "rejection_reasons": [
+        "multi_token_alias",
+        "same_measured_token_as_canonical"
+      ],
+      "explicit_reject_reason": null,
+      "sensitivity_reason": null,
+      "other_canonical_countries_with_token": [],
+      "other_alias_countries_with_token": []
+    },
+    {
+      "country": "Democratic Republic of the Congo",
+      "alias": "DRC",
+      "token_ids": [
+        423,
+        7532
+      ],
+      "measured_token_id": 423,
+      "measured_token": " D",
+      "status": "rejected",
+      "rejection_reasons": [
+        "multi_token_alias",
+        "token_shared_with_other_country_alias"
+      ],
+      "explicit_reject_reason": null,
+      "sensitivity_reason": null,
+      "other_canonical_countries_with_token": [],
+      "other_alias_countries_with_token": [
+        "North Korea"
+      ]
+    },
+    {
+      "country": "Democratic Republic of the Congo",
+      "alias": "D.R.C.",
+      "token_ids": [
+        423,
+        2056,
+        732,
+        13
+      ],
+      "measured_token_id": 423,
+      "measured_token": " D",
+      "status": "rejected",
+      "rejection_reasons": [
+        "multi_token_alias",
+        "token_shared_with_other_country_alias"
+      ],
+      "explicit_reject_reason": null,
+      "sensitivity_reason": null,
+      "other_canonical_countries_with_token": [],
+      "other_alias_countries_with_token": [
+        "North Korea"
+      ]
+    },
+    {
+      "country": "Democratic Republic of the Congo",
+      "alias": "DR Congo",
+      "token_ids": [
+        14644,
+        54932
+      ],
+      "measured_token_id": 14644,
+      "measured_token": " DR",
+      "status": "rejected",
+      "rejection_reasons": [
+        "multi_token_alias"
+      ],
+      "explicit_reject_reason": null,
+      "sensitivity_reason": null,
+      "other_canonical_countries_with_token": [],
+      "other_alias_countries_with_token": []
+    },
+    {
+      "country": "Democratic Republic of the Congo",
+      "alias": "Congo-Kinshasa",
+      "token_ids": [
+        54932,
+        16222,
+        258,
+        939,
+        15790
+      ],
+      "measured_token_id": 54932,
+      "measured_token": " Congo",
+      "status": "rejected",
+      "rejection_reasons": [
+        "multi_token_alias",
+        "token_shared_with_other_country_alias"
+      ],
+      "explicit_reject_reason": null,
+      "sensitivity_reason": null,
+      "other_canonical_countries_with_token": [],
+      "other_alias_countries_with_token": [
+        "Republic of the Congo"
+      ]
+    },
+    {
+      "country": "Iran",
+      "alias": "Islamic Republic of Iran",
+      "token_ids": [
+        15558,
+        5545,
+        315,
+        10471
+      ],
+      "measured_token_id": 15558,
+      "measured_token": " Islamic",
+      "status": "rejected",
+      "rejection_reasons": [
+        "multi_token_alias"
+      ],
+      "explicit_reject_reason": null,
+      "sensitivity_reason": null,
+      "other_canonical_countries_with_token": [],
+      "other_alias_countries_with_token": []
+    },
+    {
+      "country": "Ivory Coast",
+      "alias": "Côte d'Ivoire",
+      "token_ids": [
+        356,
+        90486,
+        294,
+        42069,
+        3415,
+        556
+      ],
+      "measured_token_id": 356,
+      "measured_token": " C",
+      "status": "rejected",
+      "rejection_reasons": [
+        "multi_token_alias",
+        "token_shared_with_other_country_alias"
+      ],
+      "explicit_reject_reason": null,
+      "sensitivity_reason": null,
+      "other_canonical_countries_with_token": [],
+      "other_alias_countries_with_token": [
+        "Central African Republic"
+      ]
+    },
+    {
+      "country": "Ivory Coast",
+      "alias": "Cote d'Ivoire",
+      "token_ids": [
+        356,
+        1295,
+        294,
+        42069,
+        3415,
+        556
+      ],
+      "measured_token_id": 356,
+      "measured_token": " C",
+      "status": "rejected",
+      "rejection_reasons": [
+        "multi_token_alias",
+        "token_shared_with_other_country_alias"
+      ],
+      "explicit_reject_reason": null,
+      "sensitivity_reason": null,
+      "other_canonical_countries_with_token": [],
+      "other_alias_countries_with_token": [
+        "Central African Republic"
+      ]
+    },
+    {
+      "country": "Kyrgyzstan",
+      "alias": "Kyrgyz Republic",
+      "token_ids": [
+        23727,
+        99962,
+        5545
+      ],
+      "measured_token_id": 23727,
+      "measured_token": " Ky",
+      "status": "rejected",
+      "rejection_reasons": [
+        "multi_token_alias",
+        "same_measured_token_as_canonical"
+      ],
+      "explicit_reject_reason": null,
+      "sensitivity_reason": null,
+      "other_canonical_countries_with_token": [],
+      "other_alias_countries_with_token": []
+    },
+    {
+      "country": "Laos",
+      "alias": "Lao PDR",
+      "token_ids": [
+        445,
+        3524,
+        393,
+        7842
+      ],
+      "measured_token_id": 445,
+      "measured_token": " L",
+      "status": "rejected",
+      "rejection_reasons": [
+        "multi_token_alias"
+      ],
+      "explicit_reject_reason": null,
+      "sensitivity_reason": null,
+      "other_canonical_countries_with_token": [],
+      "other_alias_countries_with_token": []
+    },
+    {
+      "country": "Laos",
+      "alias": "Lao People's Democratic Republic",
+      "token_ids": [
+        445,
+        3524,
+        9029,
+        596,
+        11650,
+        5545
+      ],
+      "measured_token_id": 445,
+      "measured_token": " L",
+      "status": "rejected",
+      "rejection_reasons": [
+        "multi_token_alias"
+      ],
+      "explicit_reject_reason": null,
+      "sensitivity_reason": null,
+      "other_canonical_countries_with_token": [],
+      "other_alias_countries_with_token": []
+    },
+    {
+      "country": "Myanmar",
+      "alias": "Burma",
+      "token_ids": [
+        92671
+      ],
+      "measured_token_id": 92671,
+      "measured_token": " Burma",
+      "status": "accepted",
+      "rejection_reasons": [],
+      "explicit_reject_reason": null,
+      "sensitivity_reason": null,
+      "other_canonical_countries_with_token": [],
+      "other_alias_countries_with_token": []
+    },
+    {
+      "country": "New Zealand",
+      "alias": "Aotearoa New Zealand",
+      "token_ids": [
+        362,
+        354,
+        686,
+        20103,
+        1561,
+        17340
+      ],
+      "measured_token_id": 362,
+      "measured_token": " A",
+      "status": "rejected",
+      "rejection_reasons": [
+        "multi_token_alias"
+      ],
+      "explicit_reject_reason": null,
+      "sensitivity_reason": null,
+      "other_canonical_countries_with_token": [],
+      "other_alias_countries_with_token": []
+    },
+    {
+      "country": "New Zealand",
+      "alias": "Aotearoa",
+      "token_ids": [
+        362,
+        354,
+        686,
+        20103
+      ],
+      "measured_token_id": 362,
+      "measured_token": " A",
+      "status": "rejected",
+      "rejection_reasons": [
+        "multi_token_alias"
+      ],
+      "explicit_reject_reason": null,
+      "sensitivity_reason": null,
+      "other_canonical_countries_with_token": [],
+      "other_alias_countries_with_token": []
+    },
+    {
+      "country": "North Korea",
+      "alias": "DPRK",
+      "token_ids": [
+        89001,
+        42
+      ],
+      "measured_token_id": 89001,
+      "measured_token": " DPR",
+      "status": "rejected",
+      "rejection_reasons": [
+        "multi_token_alias"
+      ],
+      "explicit_reject_reason": null,
+      "sensitivity_reason": null,
+      "other_canonical_countries_with_token": [],
+      "other_alias_countries_with_token": []
+    },
+    {
+      "country": "North Korea",
+      "alias": "D.P.R.K.",
+      "token_ids": [
+        423,
+        1087,
+        2056,
+        11606,
+        13
+      ],
+      "measured_token_id": 423,
+      "measured_token": " D",
+      "status": "rejected",
+      "rejection_reasons": [
+        "multi_token_alias",
+        "token_shared_with_other_country_alias"
+      ],
+      "explicit_reject_reason": null,
+      "sensitivity_reason": null,
+      "other_canonical_countries_with_token": [],
+      "other_alias_countries_with_token": [
+        "Democratic Republic of the Congo"
+      ]
+    },
+    {
+      "country": "North Korea",
+      "alias": "Democratic People's Republic of Korea",
+      "token_ids": [
+        11650,
+        9029,
+        596,
+        5545,
+        315,
+        12126
+      ],
+      "measured_token_id": 11650,
+      "measured_token": " Democratic",
+      "status": "rejected",
+      "rejection_reasons": [
+        "multi_token_alias",
+        "token_shared_with_other_canonical_country"
+      ],
+      "explicit_reject_reason": null,
+      "sensitivity_reason": null,
+      "other_canonical_countries_with_token": [
+        "Democratic Republic of the Congo"
+      ],
+      "other_alias_countries_with_token": []
+    },
+    {
+      "country": "North Macedonia",
+      "alias": "Macedonia",
+      "token_ids": [
+        77509
+      ],
+      "measured_token_id": 77509,
+      "measured_token": " Macedonia",
+      "status": "accepted",
+      "rejection_reasons": [],
+      "explicit_reject_reason": null,
+      "sensitivity_reason": null,
+      "other_canonical_countries_with_token": [],
+      "other_alias_countries_with_token": []
+    },
+    {
+      "country": "People's Republic of China",
+      "alias": "China",
+      "token_ids": [
+        5734
+      ],
+      "measured_token_id": 5734,
+      "measured_token": " China",
+      "status": "accepted",
+      "rejection_reasons": [],
+      "explicit_reject_reason": null,
+      "sensitivity_reason": null,
+      "other_canonical_countries_with_token": [],
+      "other_alias_countries_with_token": []
+    },
+    {
+      "country": "People's Republic of China",
+      "alias": "PRC",
+      "token_ids": [
+        393,
+        7532
+      ],
+      "measured_token_id": 393,
+      "measured_token": " P",
+      "status": "rejected",
+      "rejection_reasons": [
+        "multi_token_alias"
+      ],
+      "explicit_reject_reason": null,
+      "sensitivity_reason": null,
+      "other_canonical_countries_with_token": [],
+      "other_alias_countries_with_token": []
+    },
+    {
+      "country": "People's Republic of China",
+      "alias": "P.R.C.",
+      "token_ids": [
+        393,
+        2056,
+        732,
+        13
+      ],
+      "measured_token_id": 393,
+      "measured_token": " P",
+      "status": "rejected",
+      "rejection_reasons": [
+        "multi_token_alias"
+      ],
+      "explicit_reject_reason": null,
+      "sensitivity_reason": null,
+      "other_canonical_countries_with_token": [],
+      "other_alias_countries_with_token": []
+    },
+    {
+      "country": "Republic of the Congo",
+      "alias": "Congo-Brazzaville",
+      "token_ids": [
+        54932,
+        7826,
+        8875,
+        89,
+        402,
+        4618
+      ],
+      "measured_token_id": 54932,
+      "measured_token": " Congo",
+      "status": "rejected",
+      "rejection_reasons": [
+        "multi_token_alias",
+        "token_shared_with_other_country_alias"
+      ],
+      "explicit_reject_reason": null,
+      "sensitivity_reason": null,
+      "other_canonical_countries_with_token": [],
+      "other_alias_countries_with_token": [
+        "Democratic Republic of the Congo"
+      ]
+    },
+    {
+      "country": "Russia",
+      "alias": "Russian Federation",
+      "token_ids": [
+        8690,
+        28331
+      ],
+      "measured_token_id": 8690,
+      "measured_token": " Russian",
+      "status": "rejected",
+      "rejection_reasons": [
+        "multi_token_alias"
+      ],
+      "explicit_reject_reason": null,
+      "sensitivity_reason": null,
+      "other_canonical_countries_with_token": [],
+      "other_alias_countries_with_token": []
+    },
+    {
+      "country": "South Korea",
+      "alias": "Republic of Korea",
+      "token_ids": [
+        5545,
+        315,
+        12126
+      ],
+      "measured_token_id": 5545,
+      "measured_token": " Republic",
+      "status": "rejected",
+      "rejection_reasons": [
+        "multi_token_alias",
+        "token_shared_with_other_canonical_country"
+      ],
+      "explicit_reject_reason": null,
+      "sensitivity_reason": null,
+      "other_canonical_countries_with_token": [
+        "Republic of the Congo"
+      ],
+      "other_alias_countries_with_token": []
+    },
+    {
+      "country": "South Korea",
+      "alias": "ROK",
+      "token_ids": [
+        432,
+        4012
+      ],
+      "measured_token_id": 432,
+      "measured_token": " R",
+      "status": "rejected",
+      "rejection_reasons": [
+        "multi_token_alias"
+      ],
+      "explicit_reject_reason": null,
+      "sensitivity_reason": null,
+      "other_canonical_countries_with_token": [],
+      "other_alias_countries_with_token": []
+    },
+    {
+      "country": "South Korea",
+      "alias": "R.O.K.",
+      "token_ids": [
+        432,
+        8548,
+        11606,
+        13
+      ],
+      "measured_token_id": 432,
+      "measured_token": " R",
+      "status": "rejected",
+      "rejection_reasons": [
+        "multi_token_alias"
+      ],
+      "explicit_reject_reason": null,
+      "sensitivity_reason": null,
+      "other_canonical_countries_with_token": [],
+      "other_alias_countries_with_token": []
+    },
+    {
+      "country": "Syria",
+      "alias": "Syrian Arab Republic",
+      "token_ids": [
+        18636,
+        10989,
+        5545
+      ],
+      "measured_token_id": 18636,
+      "measured_token": " Syrian",
+      "status": "rejected",
+      "rejection_reasons": [
+        "multi_token_alias"
+      ],
+      "explicit_reject_reason": null,
+      "sensitivity_reason": null,
+      "other_canonical_countries_with_token": [],
+      "other_alias_countries_with_token": []
+    },
+    {
+      "country": "Tanzania",
+      "alias": "United Republic of Tanzania",
+      "token_ids": [
+        3723,
+        5545,
+        315,
+        69894
+      ],
+      "measured_token_id": 3723,
+      "measured_token": " United",
+      "status": "rejected",
+      "rejection_reasons": [
+        "multi_token_alias",
+        "token_shared_with_other_canonical_country",
+        "token_shared_with_other_country_alias"
+      ],
+      "explicit_reject_reason": null,
+      "sensitivity_reason": null,
+      "other_canonical_countries_with_token": [
+        "United Arab Emirates",
+        "United Kingdom",
+        "United States"
+      ],
+      "other_alias_countries_with_token": [
+        "United States"
+      ]
+    },
+    {
+      "country": "Turkey",
+      "alias": "Türkiye",
+      "token_ids": [
+        58458,
+        96303
+      ],
+      "measured_token_id": 58458,
+      "measured_token": " Tür",
+      "status": "rejected",
+      "rejection_reasons": [
+        "multi_token_alias"
+      ],
+      "explicit_reject_reason": null,
+      "sensitivity_reason": null,
+      "other_canonical_countries_with_token": [],
+      "other_alias_countries_with_token": []
+    },
+    {
+      "country": "Turkey",
+      "alias": "Turkiye",
+      "token_ids": [
+        8877,
+        96303
+      ],
+      "measured_token_id": 8877,
+      "measured_token": " Tur",
+      "status": "rejected",
+      "rejection_reasons": [
+        "multi_token_alias"
+      ],
+      "explicit_reject_reason": null,
+      "sensitivity_reason": null,
+      "other_canonical_countries_with_token": [],
+      "other_alias_countries_with_token": []
+    },
+    {
+      "country": "United Arab Emirates",
+      "alias": "UAE",
+      "token_ids": [
+        47949
+      ],
+      "measured_token_id": 47949,
+      "measured_token": " UAE",
+      "status": "accepted",
+      "rejection_reasons": [],
+      "explicit_reject_reason": null,
+      "sensitivity_reason": null,
+      "other_canonical_countries_with_token": [],
+      "other_alias_countries_with_token": []
+    },
+    {
+      "country": "United Arab Emirates",
+      "alias": "U.A.E.",
+      "token_ids": [
+        549,
+        885,
+        5253,
+        13
+      ],
+      "measured_token_id": 549,
+      "measured_token": " U",
+      "status": "rejected",
+      "rejection_reasons": [
+        "multi_token_alias",
+        "token_shared_with_other_country_alias"
+      ],
+      "explicit_reject_reason": null,
+      "sensitivity_reason": null,
+      "other_canonical_countries_with_token": [],
+      "other_alias_countries_with_token": [
+        "United Kingdom",
+        "United States"
+      ]
+    },
+    {
+      "country": "United Kingdom",
+      "alias": "UK",
+      "token_ids": [
+        6560
+      ],
+      "measured_token_id": 6560,
+      "measured_token": " UK",
+      "status": "accepted",
+      "rejection_reasons": [],
+      "explicit_reject_reason": null,
+      "sensitivity_reason": null,
+      "other_canonical_countries_with_token": [],
+      "other_alias_countries_with_token": []
+    },
+    {
+      "country": "United Kingdom",
+      "alias": "U.K.",
+      "token_ids": [
+        549,
+        11606,
+        13
+      ],
+      "measured_token_id": 549,
+      "measured_token": " U",
+      "status": "rejected",
+      "rejection_reasons": [
+        "multi_token_alias",
+        "token_shared_with_other_country_alias"
+      ],
+      "explicit_reject_reason": null,
+      "sensitivity_reason": null,
+      "other_canonical_countries_with_token": [],
+      "other_alias_countries_with_token": [
+        "United Arab Emirates",
+        "United States"
+      ]
+    },
+    {
+      "country": "United Kingdom",
+      "alias": "Britain",
+      "token_ids": [
+        13527
+      ],
+      "measured_token_id": 13527,
+      "measured_token": " Britain",
+      "status": "accepted",
+      "rejection_reasons": [],
+      "explicit_reject_reason": null,
+      "sensitivity_reason": null,
+      "other_canonical_countries_with_token": [],
+      "other_alias_countries_with_token": []
+    },
+    {
+      "country": "United Kingdom",
+      "alias": "Great Britain",
+      "token_ids": [
+        8681,
+        13527
+      ],
+      "measured_token_id": 8681,
+      "measured_token": " Great",
+      "status": "rejected",
+      "rejection_reasons": [
+        "multi_token_alias"
+      ],
+      "explicit_reject_reason": null,
+      "sensitivity_reason": null,
+      "other_canonical_countries_with_token": [],
+      "other_alias_countries_with_token": []
+    },
+    {
+      "country": "United States",
+      "alias": "US",
+      "token_ids": [
+        2326
+      ],
+      "measured_token_id": 2326,
+      "measured_token": " US",
+      "status": "sensitivity_only",
+      "rejection_reasons": [],
+      "explicit_reject_reason": null,
+      "sensitivity_reason": "also the English pronoun 'us' when case is ignored",
+      "other_canonical_countries_with_token": [],
+      "other_alias_countries_with_token": []
+    },
+    {
+      "country": "United States",
+      "alias": "U.S.",
+      "token_ids": [
+        549,
+        815,
+        13
+      ],
+      "measured_token_id": 549,
+      "measured_token": " U",
+      "status": "rejected",
+      "rejection_reasons": [
+        "multi_token_alias",
+        "token_shared_with_other_country_alias"
+      ],
+      "explicit_reject_reason": null,
+      "sensitivity_reason": null,
+      "other_canonical_countries_with_token": [],
+      "other_alias_countries_with_token": [
+        "United Arab Emirates",
+        "United Kingdom"
+      ]
+    },
+    {
+      "country": "United States",
+      "alias": "USA",
+      "token_ids": [
+        7427
+      ],
+      "measured_token_id": 7427,
+      "measured_token": " USA",
+      "status": "accepted",
+      "rejection_reasons": [],
+      "explicit_reject_reason": null,
+      "sensitivity_reason": null,
+      "other_canonical_countries_with_token": [],
+      "other_alias_countries_with_token": []
+    },
+    {
+      "country": "United States",
+      "alias": "U.S.A.",
+      "token_ids": [
+        549,
+        815,
+        885,
+        13
+      ],
+      "measured_token_id": 549,
+      "measured_token": " U",
+      "status": "rejected",
+      "rejection_reasons": [
+        "multi_token_alias",
+        "token_shared_with_other_country_alias"
+      ],
+      "explicit_reject_reason": null,
+      "sensitivity_reason": null,
+      "other_canonical_countries_with_token": [],
+      "other_alias_countries_with_token": [
+        "United Arab Emirates",
+        "United Kingdom"
+      ]
+    },
+    {
+      "country": "United States",
+      "alias": "United States of America",
+      "token_ids": [
+        3723,
+        4273,
+        315,
+        5270
+      ],
+      "measured_token_id": 3723,
+      "measured_token": " United",
+      "status": "rejected",
+      "rejection_reasons": [
+        "multi_token_alias",
+        "same_measured_token_as_canonical",
+        "token_shared_with_other_canonical_country",
+        "token_shared_with_other_country_alias"
+      ],
+      "explicit_reject_reason": null,
+      "sensitivity_reason": null,
+      "other_canonical_countries_with_token": [
+        "United Arab Emirates",
+        "United Kingdom"
+      ],
+      "other_alias_countries_with_token": [
+        "Tanzania"
+      ]
+    },
+    {
+      "country": "Venezuela",
+      "alias": "Bolivarian Republic of Venezuela",
+      "token_ids": [
+        25007,
+        344,
+        8997,
+        5545,
+        315,
+        37003
+      ],
+      "measured_token_id": 25007,
+      "measured_token": " Bol",
+      "status": "rejected",
+      "rejection_reasons": [
+        "multi_token_alias"
+      ],
+      "explicit_reject_reason": null,
+      "sensitivity_reason": null,
+      "other_canonical_countries_with_token": [],
+      "other_alias_countries_with_token": []
+    },
+    {
+      "country": "Vietnam",
+      "alias": "Viet Nam",
+      "token_ids": [
+        18203,
+        31074
+      ],
+      "measured_token_id": 18203,
+      "measured_token": " Viet",
+      "status": "rejected",
+      "rejection_reasons": [
+        "multi_token_alias"
+      ],
+      "explicit_reject_reason": null,
+      "sensitivity_reason": null,
+      "other_canonical_countries_with_token": [],
+      "other_alias_countries_with_token": []
+    }
+  ]
+}

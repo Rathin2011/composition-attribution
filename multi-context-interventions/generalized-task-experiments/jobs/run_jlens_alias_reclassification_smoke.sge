@@ -1,0 +1,50 @@
+#!/bin/bash -l
+#$ -P buinlp
+#$ -N jl_alias_smoke
+#$ -cwd
+#$ -j y
+#$ -o /projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/generalized-task-experiments/logs
+#$ -pe omp 2
+#$ -l gpus=1
+#$ -l gpu_type=A40|A100|L40S|A6000
+#$ -l h_rt=00:30:00
+
+set -euo pipefail
+
+module load python3/3.12.4
+
+readonly EXPERIMENT_DIR="/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/generalized-task-experiments"
+readonly CODE_DIR="$EXPERIMENT_DIR/code"
+readonly RESULTS_DIR="$EXPERIMENT_DIR/results"
+readonly PYTHON_BIN="/projectnb/buinlp/rathin/influence-composition/.venv/bin/python"
+readonly JLENS_DIR="/projectnb/buinlp/rathin/composition-experiments/JLens"
+readonly LENS_PATH="$JLENS_DIR/results/fit_1000/merged/jacobian_lens.pt"
+readonly RUNNER="$CODE_DIR/jlens_alias_reclassification/evaluate_aliases.py"
+readonly INPUT="$RESULTS_DIR/landmark-country-capital/jlens_evaluation.jsonl.gz"
+readonly OUTPUT_DIR="$RESULTS_DIR/jlens_alias_reclassification/landmark-country-capital/smoke"
+readonly OUTPUT="$OUTPUT_DIR/alias_reclassification_retry_5.jsonl.gz"
+readonly SUMMARY="$OUTPUT_DIR/alias_reclassification_retry_5_summary.json"
+
+for path in "$PYTHON_BIN" "$RUNNER" "$INPUT" "$LENS_PATH"; do
+    test -r "$path"
+done
+test ! -e "$OUTPUT"
+test ! -e "$SUMMARY"
+mkdir -p "$OUTPUT_DIR"
+
+export CPATH="$SCC_PYTHON3_INCLUDE/python3.12${CPATH:+:$CPATH}"
+export PYTHONPATH="$CODE_DIR:$JLENS_DIR/environment:$JLENS_DIR/vendor/jacobian-lens${PYTHONPATH:+:$PYTHONPATH}"
+export HF_HOME="/projectnb/buinlp/rathin/influence-composition/.cache/huggingface"
+export HF_DATASETS_OFFLINE=1 HF_HUB_OFFLINE=1 TRANSFORMERS_OFFLINE=1
+export TOKENIZERS_PARALLELISM=false PYTHONNOUSERSITE=1 PYTHONUNBUFFERED=1
+export OMP_NUM_THREADS=2 MKL_NUM_THREADS=2
+
+"$PYTHON_BIN" "$RUNNER" \
+    --task landmark-country-capital \
+    --input "$INPUT" \
+    --lens "$LENS_PATH" \
+    --output "$OUTPUT" \
+    --summary-output "$SUMMARY" \
+    --start-index 0 \
+    --num-records 5 \
+    --progress-every 1
