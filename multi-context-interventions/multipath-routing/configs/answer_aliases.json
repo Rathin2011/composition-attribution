@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "normalization": "strip outer whitespace and collapse internal whitespace; compare case-insensitively",
+  "eligibility": {
+    "max_words": 12,
+    "reject_multiline": true,
+    "reject_prompt_markers": true,
+    "require_alphanumeric": true
+  },
+  "tasks": {
+    "landmark-country-capital": {
+      "aliases": {
+        "Washington, D.C.": ["Washington D.C.", "Washington DC"],
+        "City of Brussels": ["Brussels"],
+        "Prishtina": ["Pristina"],
+        "Kyiv": ["Kiev"],
+        "Reykjavík": ["Reykjavik"],
+        "Bogotá": ["Bogota"],
+        "Brasília": ["Brasilia"]
+      }
+    },
+    "park-country-capital": {
+      "aliases": {
+        "Washington, D.C.": ["Washington D.C.", "Washington DC"],
+        "Prishtina": ["Pristina"],
+        "Kyiv": ["Kiev"],
+        "Reykjavík": ["Reykjavik"],
+        "Bogotá": ["Bogota"],
+        "Brasília": ["Brasilia"],
+        "San José": ["San Jose"]
+      }
+    },
+    "product-company-hq": {
+      "aliases": {}
+    },
+    "product-company-ceo": {
+      "aliases": {}
+    },
+    "antonym-spanish": {
+      "aliases": {}
+    }
+  }
+}
+

@@ -1,0 +1,6693 @@
+{
+  "schema_version": 1,
+  "task": "park-country-capital",
+  "entities": [
+    {
+      "query_index": 0,
+      "x": "Kampinos National Park",
+      "Fx": "Poland",
+      "GFx": "Warsaw",
+      "split": "test",
+      "stratum_size": 20,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 1,
+      "x": "Guadarrama National Park",
+      "Fx": "Spain",
+      "GFx": "Madrid",
+      "split": "test",
+      "stratum_size": 20,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 2,
+      "x": "Prince Albert National Park",
+      "Fx": "Canada",
+      "GFx": "Ottawa",
+      "split": "test",
+      "stratum_size": 39,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 3,
+      "x": "Sarek National Park",
+      "Fx": "Sweden",
+      "GFx": "Stockholm",
+      "split": "test",
+      "stratum_size": 28,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 4,
+      "x": "Galápagos National Park",
+      "Fx": "Ecuador",
+      "GFx": "Quito",
+      "split": "selection",
+      "stratum_size": 5,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 5,
+      "x": "Madison Square and Madison Square Park",
+      "Fx": "United States",
+      "GFx": "Washington, D.C.",
+      "split": "test",
+      "stratum_size": 86,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 6,
+      "x": "Berchtesgaden National Park",
+      "Fx": "Germany",
+      "GFx": "Berlin",
+      "split": "test",
+      "stratum_size": 23,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 7,
+      "x": "Puerto Princesa River",
+      "Fx": "Philippines",
+      "GFx": "Manila",
+      "split": "test",
+      "stratum_size": 1,
+      "singleton_stratum": true
+    },
+    {
+      "query_index": 8,
+      "x": "Tijuca National Park",
+      "Fx": "Brazil",
+      "GFx": "Brasília",
+      "split": "test",
+      "stratum_size": 13,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 9,
+      "x": "Dry Tortugas National Park",
+      "Fx": "United States",
+      "GFx": "Washington, D.C.",
+      "split": "test",
+      "stratum_size": 86,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 10,
+      "x": "Jigme Dorji National Park",
+      "Fx": "Bhutan",
+      "GFx": "Thimphu",
+      "split": "test",
+      "stratum_size": 1,
+      "singleton_stratum": true
+    },
+    {
+      "query_index": 11,
+      "x": "Los Katíos National Park",
+      "Fx": "Colombia",
+      "GFx": "Bogotá",
+      "split": "selection",
+      "stratum_size": 5,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 12,
+      "x": "Mariy Chodra National Park",
+      "Fx": "Russia",
+      "GFx": "Moscow",
+      "split": "selection",
+      "stratum_size": 24,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 13,
+      "x": "Nikkō National Park",
+      "Fx": "Japan",
+      "GFx": "Tokyo",
+      "split": "test",
+      "stratum_size": 19,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 14,
+      "x": "Mill Ends Park",
+      "Fx": "United States",
+      "GFx": "Washington, D.C.",
+      "split": "selection",
+      "stratum_size": 86,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 15,
+      "x": "Ängsö National Park",
+      "Fx": "Sweden",
+      "GFx": "Stockholm",
+      "split": "selection",
+      "stratum_size": 28,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 16,
+      "x": "Nouabalé-Ndoki National Park",
+      "Fx": "Republic of the Congo",
+      "GFx": "Brazzaville",
+      "split": "selection",
+      "stratum_size": 2,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 17,
+      "x": "Aukštaitija National Park",
+      "Fx": "Lithuania",
+      "GFx": "Vilnius",
+      "split": "test",
+      "stratum_size": 5,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 18,
+      "x": "Herodium",
+      "Fx": "West Bank",
+      "GFx": "Ramallah",
+      "split": "test",
+      "stratum_size": 1,
+      "singleton_stratum": true
+    },
+    {
+      "query_index": 19,
+      "x": "Ånderdalen National Park",
+      "Fx": "Norway",
+      "GFx": "Oslo",
+      "split": "test",
+      "stratum_size": 16,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 20,
+      "x": "Bikin National Park",
+      "Fx": "Russia",
+      "GFx": "Moscow",
+      "split": "selection",
+      "stratum_size": 24,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 21,
+      "x": "Aso Kujū National Park",
+      "Fx": "Japan",
+      "GFx": "Tokyo",
+      "split": "test",
+      "stratum_size": 19,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 22,
+      "x": "Riisitunturi National Park",
+      "Fx": "Finland",
+      "GFx": "Helsinki",
+      "split": "test",
+      "stratum_size": 23,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 23,
+      "x": "Peneda-Gerês National Park",
+      "Fx": "Portugal",
+      "GFx": "Lisbon",
+      "split": "test",
+      "stratum_size": 2,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 24,
+      "x": "Valbonë Valley National Park",
+      "Fx": "Albania",
+      "GFx": "Tirana",
+      "split": "selection",
+      "stratum_size": 8,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 25,
+      "x": "Bashkiria National Park",
+      "Fx": "Russia",
+      "GFx": "Moscow",
+      "split": "test",
+      "stratum_size": 24,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 26,
+      "x": "Cairngorms National Park",
+      "Fx": "United Kingdom",
+      "GFx": "London",
+      "split": "test",
+      "stratum_size": 20,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 27,
+      "x": "Pyramids of Güímar",
+      "Fx": "Spain",
+      "GFx": "Madrid",
+      "split": "test",
+      "stratum_size": 20,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 28,
+      "x": "Rila National Park",
+      "Fx": "Bulgaria",
+      "GFx": "Sofia",
+      "split": "test",
+      "stratum_size": 3,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 29,
+      "x": "Simien Mountains National Park",
+      "Fx": "Ethiopia",
+      "GFx": "Addis Ababa",
+      "split": "selection",
+      "stratum_size": 6,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 30,
+      "x": "Vuntut National Park",
+      "Fx": "Canada",
+      "GFx": "Ottawa",
+      "split": "test",
+      "stratum_size": 39,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 31,
+      "x": "Kootenay National Park",
+      "Fx": "Canada",
+      "GFx": "Ottawa",
+      "split": "test",
+      "stratum_size": 39,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 32,
+      "x": "Hot Springs National Park",
+      "Fx": "United States",
+      "GFx": "Washington, D.C.",
+      "split": "test",
+      "stratum_size": 86,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 33,
+      "x": "Zion National Park",
+      "Fx": "United States",
+      "GFx": "Washington, D.C.",
+      "split": "selection",
+      "stratum_size": 86,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 34,
+      "x": "Naracoorte Caves National Park",
+      "Fx": "Australia",
+      "GFx": "Canberra",
+      "split": "test",
+      "stratum_size": 13,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 35,
+      "x": "Hirkan National Park",
+      "Fx": "Azerbaijan",
+      "GFx": "Baku",
+      "split": "test",
+      "stratum_size": 7,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 36,
+      "x": "Hampstead Heath",
+      "Fx": "United Kingdom",
+      "GFx": "London",
+      "split": "test",
+      "stratum_size": 20,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 37,
+      "x": "Kolkheti National Park",
+      "Fx": "Georgia",
+      "GFx": "Tbilisi",
+      "split": "test",
+      "stratum_size": 5,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 38,
+      "x": "Jotunheimen National Park",
+      "Fx": "Norway",
+      "GFx": "Oslo",
+      "split": "selection",
+      "stratum_size": 16,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 39,
+      "x": "Zakouma National Park",
+      "Fx": "Chad",
+      "GFx": "N'Djamena",
+      "split": "test",
+      "stratum_size": 1,
+      "singleton_stratum": true
+    },
+    {
+      "query_index": 40,
+      "x": "Algonquin Provincial Park",
+      "Fx": "Canada",
+      "GFx": "Ottawa",
+      "split": "selection",
+      "stratum_size": 39,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 41,
+      "x": "Sagarmatha National Park",
+      "Fx": "Nepal",
+      "GFx": "Kathmandu",
+      "split": "test",
+      "stratum_size": 8,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 42,
+      "x": "Ordesa y Monte Perdido National Park",
+      "Fx": "Spain",
+      "GFx": "Madrid",
+      "split": "selection",
+      "stratum_size": 20,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 43,
+      "x": "Flushing Meadows–Corona Park",
+      "Fx": "United States",
+      "GFx": "Washington, D.C.",
+      "split": "selection",
+      "stratum_size": 86,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 44,
+      "x": "National Park Kornati",
+      "Fx": "Croatia",
+      "GFx": "Zagreb",
+      "split": "selection",
+      "stratum_size": 6,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 45,
+      "x": "Lençóis Maranhenses National Park",
+      "Fx": "Brazil",
+      "GFx": "Brasília",
+      "split": "test",
+      "stratum_size": 13,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 46,
+      "x": "Bory Tucholskie National Park",
+      "Fx": "Poland",
+      "GFx": "Warsaw",
+      "split": "test",
+      "stratum_size": 20,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 47,
+      "x": "Kosciuszko National Park",
+      "Fx": "Australia",
+      "GFx": "Canberra",
+      "split": "test",
+      "stratum_size": 13,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 48,
+      "x": "Bruce Peninsula National Park",
+      "Fx": "Canada",
+      "GFx": "Ottawa",
+      "split": "test",
+      "stratum_size": 39,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 49,
+      "x": "Tomb of Caecilia Metella",
+      "Fx": "Italy",
+      "GFx": "Rome",
+      "split": "test",
+      "stratum_size": 28,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 50,
+      "x": "Lore Lindu National Park",
+      "Fx": "Indonesia",
+      "GFx": "Jakarta",
+      "split": "test",
+      "stratum_size": 17,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 51,
+      "x": "Banc d'Arguin National Park",
+      "Fx": "Mauritania",
+      "GFx": "Nouakchott",
+      "split": "test",
+      "stratum_size": 1,
+      "singleton_stratum": true
+    },
+    {
+      "query_index": 52,
+      "x": "Desembarco del Granma National Park",
+      "Fx": "Cuba",
+      "GFx": "Havana",
+      "split": "selection",
+      "stratum_size": 2,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 53,
+      "x": "Black Canyon of the Gunnison National Park",
+      "Fx": "United States",
+      "GFx": "Washington, D.C.",
+      "split": "test",
+      "stratum_size": 86,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 54,
+      "x": "Kauhaneva–Pohjankangas National Park",
+      "Fx": "Finland",
+      "GFx": "Helsinki",
+      "split": "test",
+      "stratum_size": 23,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 55,
+      "x": "Haparanda Archipelago National Park",
+      "Fx": "Sweden",
+      "GFx": "Stockholm",
+      "split": "test",
+      "stratum_size": 28,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 56,
+      "x": "Way Kambas National Park",
+      "Fx": "Indonesia",
+      "GFx": "Jakarta",
+      "split": "selection",
+      "stratum_size": 17,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 57,
+      "x": "Volcanoes National Park",
+      "Fx": "Rwanda",
+      "GFx": "Kigali",
+      "split": "selection",
+      "stratum_size": 3,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 58,
+      "x": "Ivindo National Park",
+      "Fx": "Gabon",
+      "GFx": "Libreville",
+      "split": "test",
+      "stratum_size": 2,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 59,
+      "x": "Mana Pools",
+      "Fx": "Zimbabwe",
+      "GFx": "Harare",
+      "split": "test",
+      "stratum_size": 4,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 60,
+      "x": "Shenandoah National Park",
+      "Fx": "United States",
+      "GFx": "Washington, D.C.",
+      "split": "test",
+      "stratum_size": 86,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 61,
+      "x": "Belvoir Fortress",
+      "Fx": "Israel",
+      "GFx": "Jerusalem",
+      "split": "test",
+      "stratum_size": 11,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 62,
+      "x": "Fundy National Park",
+      "Fx": "Canada",
+      "GFx": "Ottawa",
+      "split": "test",
+      "stratum_size": 39,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 63,
+      "x": "Channel Islands National Park",
+      "Fx": "United States",
+      "GFx": "Washington, D.C.",
+      "split": "selection",
+      "stratum_size": 86,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 64,
+      "x": "Nahanni National Park Reserve",
+      "Fx": "Canada",
+      "GFx": "Ottawa",
+      "split": "test",
+      "stratum_size": 39,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 65,
+      "x": "Tyresta National Park",
+      "Fx": "Sweden",
+      "GFx": "Stockholm",
+      "split": "selection",
+      "stratum_size": 28,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 66,
+      "x": "Gorongosa National Park",
+      "Fx": "Mozambique",
+      "GFx": "Maputo",
+      "split": "test",
+      "stratum_size": 1,
+      "singleton_stratum": true
+    },
+    {
+      "query_index": 67,
+      "x": "Arusha National Park",
+      "Fx": "Tanzania",
+      "GFx": "Dodoma",
+      "split": "test",
+      "stratum_size": 8,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 68,
+      "x": "Lower Saxon Wadden Sea National Park",
+      "Fx": "Germany",
+      "GFx": "Berlin",
+      "split": "selection",
+      "stratum_size": 23,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 69,
+      "x": "Skaftafell",
+      "Fx": "Iceland",
+      "GFx": "Reykjavík",
+      "split": "selection",
+      "stratum_size": 3,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 70,
+      "x": "Zyuratkul National Park",
+      "Fx": "Russia",
+      "GFx": "Moscow",
+      "split": "selection",
+      "stratum_size": 24,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 71,
+      "x": "Comoé National Park",
+      "Fx": "Ivory Coast",
+      "GFx": "Yamoussoukro",
+      "split": "selection",
+      "stratum_size": 2,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 72,
+      "x": "Canaima National Park",
+      "Fx": "Venezuela",
+      "GFx": "Caracas",
+      "split": "test",
+      "stratum_size": 1,
+      "singleton_stratum": true
+    },
+    {
+      "query_index": 73,
+      "x": "Kozara National Park",
+      "Fx": "Bosnia and Herzegovina",
+      "GFx": "Sarajevo",
+      "split": "test",
+      "stratum_size": 4,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 74,
+      "x": "Muránska planina National Park",
+      "Fx": "Slovakia",
+      "GFx": "Bratislava",
+      "split": "selection",
+      "stratum_size": 5,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 75,
+      "x": "Saguaro National Park",
+      "Fx": "United States",
+      "GFx": "Washington, D.C.",
+      "split": "selection",
+      "stratum_size": 86,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 76,
+      "x": "El Kala National Park",
+      "Fx": "Algeria",
+      "GFx": "Algiers",
+      "split": "test",
+      "stratum_size": 2,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 77,
+      "x": "Artis",
+      "Fx": "Netherlands",
+      "GFx": "Amsterdam",
+      "split": "test",
+      "stratum_size": 7,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 78,
+      "x": "Őrség National Park",
+      "Fx": "Hungary",
+      "GFx": "Budapest",
+      "split": "selection",
+      "stratum_size": 8,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 79,
+      "x": "Nahuel Huapi National Park",
+      "Fx": "Argentina",
+      "GFx": "Buenos Aires",
+      "split": "test",
+      "stratum_size": 17,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 80,
+      "x": "Los Glaciares National Park",
+      "Fx": "Argentina",
+      "GFx": "Buenos Aires",
+      "split": "selection",
+      "stratum_size": 17,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 81,
+      "x": "Bwindi Impenetrable National Park",
+      "Fx": "Uganda",
+      "GFx": "Kampala",
+      "split": "test",
+      "stratum_size": 8,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 82,
+      "x": "Brühl's Terrace",
+      "Fx": "Germany",
+      "GFx": "Berlin",
+      "split": "selection",
+      "stratum_size": 23,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 83,
+      "x": "Pembrokeshire Coast National Park",
+      "Fx": "United Kingdom",
+      "GFx": "London",
+      "split": "test",
+      "stratum_size": 20,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 84,
+      "x": "Poloniny National Park",
+      "Fx": "Slovakia",
+      "GFx": "Bratislava",
+      "split": "test",
+      "stratum_size": 5,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 85,
+      "x": "Altyn-Emel National Park",
+      "Fx": "Kazakhstan",
+      "GFx": "Astana",
+      "split": "test",
+      "stratum_size": 1,
+      "singleton_stratum": true
+    },
+    {
+      "query_index": 86,
+      "x": "Murchison Falls National Park",
+      "Fx": "Uganda",
+      "GFx": "Kampala",
+      "split": "test",
+      "stratum_size": 8,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 87,
+      "x": "Podyjí National Park",
+      "Fx": "Czech Republic",
+      "GFx": "Prague",
+      "split": "selection",
+      "stratum_size": 3,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 88,
+      "x": "Baluran National Park",
+      "Fx": "Indonesia",
+      "GFx": "Jakarta",
+      "split": "selection",
+      "stratum_size": 17,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 89,
+      "x": "Arthur's Pass National Park",
+      "Fx": "New Zealand",
+      "GFx": "Wellington",
+      "split": "test",
+      "stratum_size": 14,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 90,
+      "x": "Olympic National Park",
+      "Fx": "United States",
+      "GFx": "Washington, D.C.",
+      "split": "test",
+      "stratum_size": 86,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 91,
+      "x": "Atlantic Islands of Galicia National Park",
+      "Fx": "Spain",
+      "GFx": "Madrid",
+      "split": "selection",
+      "stratum_size": 20,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 92,
+      "x": "Blue Grotto",
+      "Fx": "Italy",
+      "GFx": "Rome",
+      "split": "test",
+      "stratum_size": 28,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 93,
+      "x": "Mikumi National Park",
+      "Fx": "Tanzania",
+      "GFx": "Dodoma",
+      "split": "test",
+      "stratum_size": 8,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 94,
+      "x": "Talampaya National Park",
+      "Fx": "Argentina",
+      "GFx": "Buenos Aires",
+      "split": "test",
+      "stratum_size": 17,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 95,
+      "x": "Olympiapark",
+      "Fx": "Germany",
+      "GFx": "Berlin",
+      "split": "test",
+      "stratum_size": 23,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 96,
+      "x": "Valle dei Templi",
+      "Fx": "Italy",
+      "GFx": "Rome",
+      "split": "test",
+      "stratum_size": 28,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 97,
+      "x": "Capitol Reef National Park",
+      "Fx": "United States",
+      "GFx": "Washington, D.C.",
+      "split": "test",
+      "stratum_size": 86,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 98,
+      "x": "Denali National Park and Preserve",
+      "Fx": "United States",
+      "GFx": "Washington, D.C.",
+      "split": "selection",
+      "stratum_size": 86,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 99,
+      "x": "Ivvavik National Park",
+      "Fx": "Canada",
+      "GFx": "Ottawa",
+      "split": "test",
+      "stratum_size": 39,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 100,
+      "x": "Aberdare National Park",
+      "Fx": "Kenya",
+      "GFx": "Nairobi",
+      "split": "test",
+      "stratum_size": 8,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 101,
+      "x": "Pombia Safari Park",
+      "Fx": "Italy",
+      "GFx": "Rome",
+      "split": "test",
+      "stratum_size": 28,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 102,
+      "x": "Bardiya National Park",
+      "Fx": "Nepal",
+      "GFx": "Kathmandu",
+      "split": "test",
+      "stratum_size": 8,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 103,
+      "x": "Darién National Park",
+      "Fx": "Panama",
+      "GFx": "Panama City",
+      "split": "selection",
+      "stratum_size": 2,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 104,
+      "x": "Cangandala National Park",
+      "Fx": "Angola",
+      "GFx": "Luanda",
+      "split": "selection",
+      "stratum_size": 4,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 105,
+      "x": "Mamshit",
+      "Fx": "Israel",
+      "GFx": "Jerusalem",
+      "split": "selection",
+      "stratum_size": 11,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 106,
+      "x": "Saltfjellet–Svartisen National Park",
+      "Fx": "Norway",
+      "GFx": "Oslo",
+      "split": "selection",
+      "stratum_size": 16,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 107,
+      "x": "Laguna San Rafael National Park",
+      "Fx": "Chile",
+      "GFx": "Santiago",
+      "split": "selection",
+      "stratum_size": 11,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 108,
+      "x": "Toubkal National Park",
+      "Fx": "Morocco",
+      "GFx": "Rabat",
+      "split": "selection",
+      "stratum_size": 2,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 109,
+      "x": "Great Smoky Mountains National Park",
+      "Fx": "United States",
+      "GFx": "Washington, D.C.",
+      "split": "test",
+      "stratum_size": 86,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 110,
+      "x": "Arcipelago Toscano National Park",
+      "Fx": "Italy",
+      "GFx": "Rome",
+      "split": "test",
+      "stratum_size": 28,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 111,
+      "x": "Aoraki / Mount Cook National Park",
+      "Fx": "New Zealand",
+      "GFx": "Wellington",
+      "split": "test",
+      "stratum_size": 14,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 112,
+      "x": "Grand Teton National Park",
+      "Fx": "United States",
+      "GFx": "Washington, D.C.",
+      "split": "test",
+      "stratum_size": 86,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 113,
+      "x": "South Luangwa National Park",
+      "Fx": "Zambia",
+      "GFx": "Lusaka",
+      "split": "test",
+      "stratum_size": 2,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 114,
+      "x": "Westland Tai Poutini National Park",
+      "Fx": "New Zealand",
+      "GFx": "Wellington",
+      "split": "test",
+      "stratum_size": 14,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 115,
+      "x": "Lassen Volcanic National Park",
+      "Fx": "United States",
+      "GFx": "Washington, D.C.",
+      "split": "test",
+      "stratum_size": 86,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 116,
+      "x": "Bronx Zoo",
+      "Fx": "United States",
+      "GFx": "Washington, D.C.",
+      "split": "selection",
+      "stratum_size": 86,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 117,
+      "x": "Periyar National Park",
+      "Fx": "India",
+      "GFx": "New Delhi",
+      "split": "test",
+      "stratum_size": 27,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 118,
+      "x": "Omo National Park",
+      "Fx": "Ethiopia",
+      "GFx": "Addis Ababa",
+      "split": "test",
+      "stratum_size": 6,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 119,
+      "x": "Himera",
+      "Fx": "Italy",
+      "GFx": "Rome",
+      "split": "test",
+      "stratum_size": 28,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 120,
+      "x": "Segesta",
+      "Fx": "Italy",
+      "GFx": "Rome",
+      "split": "selection",
+      "stratum_size": 28,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 121,
+      "x": "Alaniya National Park",
+      "Fx": "Russia",
+      "GFx": "Moscow",
+      "split": "test",
+      "stratum_size": 24,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 122,
+      "x": "Frogner Park",
+      "Fx": "Norway",
+      "GFx": "Oslo",
+      "split": "selection",
+      "stratum_size": 16,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 123,
+      "x": "Cévennes National Park",
+      "Fx": "France",
+      "GFx": "Paris",
+      "split": "selection",
+      "stratum_size": 10,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 124,
+      "x": "Calilegua National Park",
+      "Fx": "Argentina",
+      "GFx": "Buenos Aires",
+      "split": "test",
+      "stratum_size": 17,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 125,
+      "x": "Vodlozersky National Park",
+      "Fx": "Russia",
+      "GFx": "Moscow",
+      "split": "selection",
+      "stratum_size": 24,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 126,
+      "x": "Matobo National Park",
+      "Fx": "Zimbabwe",
+      "GFx": "Harare",
+      "split": "test",
+      "stratum_size": 4,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 127,
+      "x": "Sochi National Park",
+      "Fx": "Russia",
+      "GFx": "Moscow",
+      "split": "test",
+      "stratum_size": 24,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 128,
+      "x": "Hohe Tauern National Park",
+      "Fx": "Austria",
+      "GFx": "Vienna",
+      "split": "test",
+      "stratum_size": 6,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 129,
+      "x": "Manu National Park",
+      "Fx": "Peru",
+      "GFx": "Lima",
+      "split": "test",
+      "stratum_size": 3,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 130,
+      "x": "Urho Kekkonen National Park",
+      "Fx": "Finland",
+      "GFx": "Helsinki",
+      "split": "test",
+      "stratum_size": 23,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 131,
+      "x": "Hawaiʻi Volcanoes National Park",
+      "Fx": "United States",
+      "GFx": "Washington, D.C.",
+      "split": "test",
+      "stratum_size": 86,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 132,
+      "x": "Norra Kvill National Park",
+      "Fx": "Sweden",
+      "GFx": "Stockholm",
+      "split": "test",
+      "stratum_size": 28,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 133,
+      "x": "Kibira National Park",
+      "Fx": "Burundi",
+      "GFx": "Gitega",
+      "split": "test",
+      "stratum_size": 1,
+      "singleton_stratum": true
+    },
+    {
+      "query_index": 134,
+      "x": "Buddha Park",
+      "Fx": "Laos",
+      "GFx": "Vientiane",
+      "split": "selection",
+      "stratum_size": 1,
+      "singleton_stratum": true
+    },
+    {
+      "query_index": 135,
+      "x": "Aggtelek National Park",
+      "Fx": "Hungary",
+      "GFx": "Budapest",
+      "split": "test",
+      "stratum_size": 8,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 136,
+      "x": "Point Pelee National Park",
+      "Fx": "Canada",
+      "GFx": "Ottawa",
+      "split": "selection",
+      "stratum_size": 39,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 137,
+      "x": "Paklenica",
+      "Fx": "Croatia",
+      "GFx": "Zagreb",
+      "split": "test",
+      "stratum_size": 6,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 138,
+      "x": "San Diego Zoo",
+      "Fx": "United States",
+      "GFx": "Washington, D.C.",
+      "split": "test",
+      "stratum_size": 86,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 139,
+      "x": "Kiskunság National Park",
+      "Fx": "Hungary",
+      "GFx": "Budapest",
+      "split": "selection",
+      "stratum_size": 8,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 140,
+      "x": "Port-Cros National Park",
+      "Fx": "France",
+      "GFx": "Paris",
+      "split": "selection",
+      "stratum_size": 10,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 141,
+      "x": "Yugyd Va National Park",
+      "Fx": "Russia",
+      "GFx": "Moscow",
+      "split": "test",
+      "stratum_size": 24,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 142,
+      "x": "Killarney National Park",
+      "Fx": "Ireland",
+      "GFx": "Dublin",
+      "split": "test",
+      "stratum_size": 5,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 143,
+      "x": "Gran Sasso e Monti della Laga National Park",
+      "Fx": "Italy",
+      "GFx": "Rome",
+      "split": "test",
+      "stratum_size": 28,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 144,
+      "x": "Gateway Arch",
+      "Fx": "United States",
+      "GFx": "Washington, D.C.",
+      "split": "selection",
+      "stratum_size": 86,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 145,
+      "x": "Buzuluksky Bor National Park",
+      "Fx": "Russia",
+      "GFx": "Moscow",
+      "split": "selection",
+      "stratum_size": 24,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 146,
+      "x": "Melbourne Zoo",
+      "Fx": "Australia",
+      "GFx": "Canberra",
+      "split": "test",
+      "stratum_size": 13,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 147,
+      "x": "Caldera de Taburiente National Park",
+      "Fx": "Spain",
+      "GFx": "Madrid",
+      "split": "selection",
+      "stratum_size": 20,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 148,
+      "x": "Danube-Ipoly National Park",
+      "Fx": "Hungary",
+      "GFx": "Budapest",
+      "split": "test",
+      "stratum_size": 8,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 149,
+      "x": "Megara Hyblaea",
+      "Fx": "Italy",
+      "GFx": "Rome",
+      "split": "selection",
+      "stratum_size": 28,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 150,
+      "x": "Jasmund National Park",
+      "Fx": "Germany",
+      "GFx": "Berlin",
+      "split": "selection",
+      "stratum_size": 23,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 151,
+      "x": "Great Sand Dunes National Park and Preserve",
+      "Fx": "United States",
+      "GFx": "Washington, D.C.",
+      "split": "test",
+      "stratum_size": 86,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 152,
+      "x": "Golden Gate Park",
+      "Fx": "United States",
+      "GFx": "Washington, D.C.",
+      "split": "test",
+      "stratum_size": 86,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 153,
+      "x": "Guadalupe Mountains National Park",
+      "Fx": "United States",
+      "GFx": "Washington, D.C.",
+      "split": "test",
+      "stratum_size": 86,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 154,
+      "x": "Đerdap national park",
+      "Fx": "Serbia",
+      "GFx": "Belgrade",
+      "split": "test",
+      "stratum_size": 1,
+      "singleton_stratum": true
+    },
+    {
+      "query_index": 155,
+      "x": "Krkonoše National Park",
+      "Fx": "Czech Republic",
+      "GFx": "Prague",
+      "split": "test",
+      "stratum_size": 3,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 156,
+      "x": "Sofiyivsky Park",
+      "Fx": "Ukraine",
+      "GFx": "Kyiv",
+      "split": "test",
+      "stratum_size": 4,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 157,
+      "x": "Awash National Park",
+      "Fx": "Ethiopia",
+      "GFx": "Addis Ababa",
+      "split": "test",
+      "stratum_size": 6,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 158,
+      "x": "Vesuvius National Park",
+      "Fx": "Italy",
+      "GFx": "Rome",
+      "split": "selection",
+      "stratum_size": 28,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 159,
+      "x": "Virunga National Park",
+      "Fx": "Democratic Republic of the Congo",
+      "GFx": "Kinshasa",
+      "split": "selection",
+      "stratum_size": 6,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 160,
+      "x": "Saxon Switzerland National Park",
+      "Fx": "Germany",
+      "GFx": "Berlin",
+      "split": "test",
+      "stratum_size": 23,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 161,
+      "x": "Azov-Syvash National Nature Park",
+      "Fx": "Ukraine",
+      "GFx": "Kyiv",
+      "split": "selection",
+      "stratum_size": 4,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 162,
+      "x": "Patvinsuo National Park",
+      "Fx": "Finland",
+      "GFx": "Helsinki",
+      "split": "test",
+      "stratum_size": 23,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 163,
+      "x": "Towada-Hachimantai National Park",
+      "Fx": "Japan",
+      "GFx": "Tokyo",
+      "split": "test",
+      "stratum_size": 19,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 164,
+      "x": "Erawan National Park",
+      "Fx": "Thailand",
+      "GFx": "Bangkok",
+      "split": "test",
+      "stratum_size": 6,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 165,
+      "x": "Kenai Fjords National Park",
+      "Fx": "United States",
+      "GFx": "Washington, D.C.",
+      "split": "selection",
+      "stratum_size": 86,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 166,
+      "x": "Jiuzhaigou Valley",
+      "Fx": "People's Republic of China",
+      "GFx": "Beijing",
+      "split": "test",
+      "stratum_size": 2,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 167,
+      "x": "Minami Alps National Park",
+      "Fx": "Japan",
+      "GFx": "Tokyo",
+      "split": "selection",
+      "stratum_size": 19,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 168,
+      "x": "Białowieża National Park",
+      "Fx": "Poland",
+      "GFx": "Warsaw",
+      "split": "selection",
+      "stratum_size": 20,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 169,
+      "x": "Odori Park",
+      "Fx": "Japan",
+      "GFx": "Tokyo",
+      "split": "test",
+      "stratum_size": 19,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 170,
+      "x": "Miniatürk",
+      "Fx": "Turkey",
+      "GFx": "Ankara",
+      "split": "test",
+      "stratum_size": 5,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 171,
+      "x": "Trakai Historical National Park",
+      "Fx": "Lithuania",
+      "GFx": "Vilnius",
+      "split": "selection",
+      "stratum_size": 5,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 172,
+      "x": "Arcipelago di La Maddalena National Park",
+      "Fx": "Italy",
+      "GFx": "Rome",
+      "split": "selection",
+      "stratum_size": 28,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 173,
+      "x": "Fiordland National Park",
+      "Fx": "New Zealand",
+      "GFx": "Wellington",
+      "split": "selection",
+      "stratum_size": 14,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 174,
+      "x": "Rago National Park",
+      "Fx": "Norway",
+      "GFx": "Oslo",
+      "split": "test",
+      "stratum_size": 16,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 175,
+      "x": "Odzala National Park",
+      "Fx": "Republic of the Congo",
+      "GFx": "Brazzaville",
+      "split": "test",
+      "stratum_size": 2,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 176,
+      "x": "Vigeland installation",
+      "Fx": "Norway",
+      "GFx": "Oslo",
+      "split": "selection",
+      "stratum_size": 16,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 177,
+      "x": "Ichkeul National Park",
+      "Fx": "Tunisia",
+      "GFx": "Tunis",
+      "split": "selection",
+      "stratum_size": 2,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 178,
+      "x": "Vatnajökull National Park",
+      "Fx": "Iceland",
+      "GFx": "Reykjavík",
+      "split": "test",
+      "stratum_size": 3,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 179,
+      "x": "Sirmilik National Park",
+      "Fx": "Canada",
+      "GFx": "Ottawa",
+      "split": "test",
+      "stratum_size": 39,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 180,
+      "x": "Purnululu National Park",
+      "Fx": "Australia",
+      "GFx": "Canberra",
+      "split": "test",
+      "stratum_size": 13,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 181,
+      "x": "Chavash Varmane Bor National Park",
+      "Fx": "Russia",
+      "GFx": "Moscow",
+      "split": "selection",
+      "stratum_size": 24,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 182,
+      "x": "Belavezhskaya Pushcha National Park",
+      "Fx": "Belarus",
+      "GFx": "Minsk",
+      "split": "test",
+      "stratum_size": 4,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 183,
+      "x": "Alberto de Agostini National Park",
+      "Fx": "Chile",
+      "GFx": "Santiago",
+      "split": "test",
+      "stratum_size": 11,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 184,
+      "x": "Riding Mountain National Park",
+      "Fx": "Canada",
+      "GFx": "Ottawa",
+      "split": "selection",
+      "stratum_size": 39,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 185,
+      "x": "Bandipur National Park",
+      "Fx": "India",
+      "GFx": "New Delhi",
+      "split": "test",
+      "stratum_size": 27,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 186,
+      "x": "Øvre Dividal National Park",
+      "Fx": "Norway",
+      "GFx": "Oslo",
+      "split": "test",
+      "stratum_size": 16,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 187,
+      "x": "Harz National Park",
+      "Fx": "Germany",
+      "GFx": "Berlin",
+      "split": "test",
+      "stratum_size": 23,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 188,
+      "x": "Shivta",
+      "Fx": "Israel",
+      "GFx": "Jerusalem",
+      "split": "test",
+      "stratum_size": 11,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 189,
+      "x": "Kosterhavet National Park",
+      "Fx": "Sweden",
+      "GFx": "Stockholm",
+      "split": "test",
+      "stratum_size": 28,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 190,
+      "x": "Babia Góra National Park",
+      "Fx": "Poland",
+      "GFx": "Warsaw",
+      "split": "selection",
+      "stratum_size": 20,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 191,
+      "x": "Death Valley National Park",
+      "Fx": "United States",
+      "GFx": "Washington, D.C.",
+      "split": "test",
+      "stratum_size": 86,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 192,
+      "x": "Ise-Shima National Park",
+      "Fx": "Japan",
+      "GFx": "Tokyo",
+      "split": "test",
+      "stratum_size": 19,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 193,
+      "x": "Rara National Park",
+      "Fx": "Nepal",
+      "GFx": "Kathmandu",
+      "split": "test",
+      "stratum_size": 8,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 194,
+      "x": "Great Himalayan National Park",
+      "Fx": "India",
+      "GFx": "New Delhi",
+      "split": "test",
+      "stratum_size": 27,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 195,
+      "x": "Akan Mashu National Park",
+      "Fx": "Japan",
+      "GFx": "Tokyo",
+      "split": "test",
+      "stratum_size": 19,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 196,
+      "x": "Vänorts Park",
+      "Fx": "Sweden",
+      "GFx": "Stockholm",
+      "split": "selection",
+      "stratum_size": 28,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 197,
+      "x": "Namib-Naukluft National Park",
+      "Fx": "Namibia",
+      "GFx": "Windhoek",
+      "split": "test",
+      "stratum_size": 2,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 198,
+      "x": "Stabbursdalen National Park",
+      "Fx": "Norway",
+      "GFx": "Oslo",
+      "split": "test",
+      "stratum_size": 16,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 199,
+      "x": "Mago National Park",
+      "Fx": "Ethiopia",
+      "GFx": "Addis Ababa",
+      "split": "test",
+      "stratum_size": 6,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 200,
+      "x": "Muddus National Park",
+      "Fx": "Sweden",
+      "GFx": "Stockholm",
+      "split": "test",
+      "stratum_size": 28,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 201,
+      "x": "Yoho National Park",
+      "Fx": "Canada",
+      "GFx": "Ottawa",
+      "split": "selection",
+      "stratum_size": 39,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 202,
+      "x": "Simlipal National Park",
+      "Fx": "India",
+      "GFx": "New Delhi",
+      "split": "test",
+      "stratum_size": 27,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 203,
+      "x": "Bou-Hedma National Park",
+      "Fx": "Tunisia",
+      "GFx": "Tunis",
+      "split": "test",
+      "stratum_size": 2,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 204,
+      "x": "Shikotsu-Tōya National Park",
+      "Fx": "Japan",
+      "GFx": "Tokyo",
+      "split": "selection",
+      "stratum_size": 19,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 205,
+      "x": "Pamir National Park",
+      "Fx": "Tajikistan",
+      "GFx": "Dushanbe",
+      "split": "test",
+      "stratum_size": 1,
+      "singleton_stratum": true
+    },
+    {
+      "query_index": 206,
+      "x": "Nanda Devi National Park",
+      "Fx": "India",
+      "GFx": "New Delhi",
+      "split": "selection",
+      "stratum_size": 27,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 207,
+      "x": "Itatiaia National Park",
+      "Fx": "Brazil",
+      "GFx": "Brasília",
+      "split": "selection",
+      "stratum_size": 13,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 208,
+      "x": "Yellowstone National Park",
+      "Fx": "United States",
+      "GFx": "Washington, D.C.",
+      "split": "test",
+      "stratum_size": 86,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 209,
+      "x": "Louisiana Museum of Modern Art",
+      "Fx": "Denmark",
+      "GFx": "Copenhagen",
+      "split": "selection",
+      "stratum_size": 2,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 210,
+      "x": "Pyhä-Luosto National Park",
+      "Fx": "Finland",
+      "GFx": "Helsinki",
+      "split": "selection",
+      "stratum_size": 23,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 211,
+      "x": "Tiilikkajärvi National Park",
+      "Fx": "Finland",
+      "GFx": "Helsinki",
+      "split": "test",
+      "stratum_size": 23,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 212,
+      "x": "Redwood National and State Parks",
+      "Fx": "United States",
+      "GFx": "Washington, D.C.",
+      "split": "test",
+      "stratum_size": 86,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 213,
+      "x": "Monfragüe National Park",
+      "Fx": "Spain",
+      "GFx": "Madrid",
+      "split": "selection",
+      "stratum_size": 20,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 214,
+      "x": "Manovo-Gounda St. Floris National Park",
+      "Fx": "Central African Republic",
+      "GFx": "Bangui",
+      "split": "test",
+      "stratum_size": 1,
+      "singleton_stratum": true
+    },
+    {
+      "query_index": 215,
+      "x": "Butrint National Park",
+      "Fx": "Albania",
+      "GFx": "Tirana",
+      "split": "test",
+      "stratum_size": 8,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 216,
+      "x": "Central Park",
+      "Fx": "United States",
+      "GFx": "Washington, D.C.",
+      "split": "test",
+      "stratum_size": 86,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 217,
+      "x": "Vikos–Aoös National Park",
+      "Fx": "Greece",
+      "GFx": "Athens",
+      "split": "test",
+      "stratum_size": 4,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 218,
+      "x": "Marojejy National Park",
+      "Fx": "Madagascar",
+      "GFx": "Antananarivo",
+      "split": "test",
+      "stratum_size": 6,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 219,
+      "x": "Shivapuri Nagarjun National Park",
+      "Fx": "Nepal",
+      "GFx": "Kathmandu",
+      "split": "test",
+      "stratum_size": 8,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 220,
+      "x": "Chūbu-Sangaku National Park",
+      "Fx": "Japan",
+      "GFx": "Tokyo",
+      "split": "test",
+      "stratum_size": 19,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 221,
+      "x": "Hadrian's Villa",
+      "Fx": "Italy",
+      "GFx": "Rome",
+      "split": "selection",
+      "stratum_size": 28,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 222,
+      "x": "Mole National Park",
+      "Fx": "Ghana",
+      "GFx": "Accra",
+      "split": "selection",
+      "stratum_size": 2,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 223,
+      "x": "Cíes Islands",
+      "Fx": "Spain",
+      "GFx": "Madrid",
+      "split": "test",
+      "stratum_size": 20,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 224,
+      "x": "Gir Forest",
+      "Fx": "India",
+      "GFx": "New Delhi",
+      "split": "selection",
+      "stratum_size": 27,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 225,
+      "x": "Hainich National Park",
+      "Fx": "Germany",
+      "GFx": "Berlin",
+      "split": "test",
+      "stratum_size": 23,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 226,
+      "x": "Grasslands National Park",
+      "Fx": "Canada",
+      "GFx": "Ottawa",
+      "split": "test",
+      "stratum_size": 39,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 227,
+      "x": "Alacahöyük",
+      "Fx": "Turkey",
+      "GFx": "Ankara",
+      "split": "test",
+      "stratum_size": 5,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 228,
+      "x": "Primrose Hill",
+      "Fx": "United Kingdom",
+      "GFx": "London",
+      "split": "test",
+      "stratum_size": 20,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 229,
+      "x": "Rokua National Park",
+      "Fx": "Finland",
+      "GFx": "Helsinki",
+      "split": "selection",
+      "stratum_size": 23,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 230,
+      "x": "Sundarbans National Park",
+      "Fx": "India",
+      "GFx": "New Delhi",
+      "split": "selection",
+      "stratum_size": 27,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 231,
+      "x": "Vicente Pérez Rosales National Park",
+      "Fx": "Chile",
+      "GFx": "Santiago",
+      "split": "test",
+      "stratum_size": 11,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 232,
+      "x": "Gardens of Bomarzo",
+      "Fx": "Italy",
+      "GFx": "Rome",
+      "split": "test",
+      "stratum_size": 28,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 233,
+      "x": "Bavarian Forest National Park",
+      "Fx": "Germany",
+      "GFx": "Berlin",
+      "split": "test",
+      "stratum_size": 23,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 234,
+      "x": "Slovak Karst National Park",
+      "Fx": "Slovakia",
+      "GFx": "Bratislava",
+      "split": "selection",
+      "stratum_size": 5,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 235,
+      "x": "Reisa National Park",
+      "Fx": "Norway",
+      "GFx": "Oslo",
+      "split": "test",
+      "stratum_size": 16,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 236,
+      "x": "Saloum Delta National Park",
+      "Fx": "Senegal",
+      "GFx": "Dakar",
+      "split": "test",
+      "stratum_size": 3,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 237,
+      "x": "Fort Jesus Museum",
+      "Fx": "Kenya",
+      "GFx": "Nairobi",
+      "split": "test",
+      "stratum_size": 8,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 238,
+      "x": "Kudremukh",
+      "Fx": "India",
+      "GFx": "New Delhi",
+      "split": "selection",
+      "stratum_size": 27,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 239,
+      "x": "Lake Malawi National Park",
+      "Fx": "Malawi",
+      "GFx": "Lilongwe",
+      "split": "selection",
+      "stratum_size": 2,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 240,
+      "x": "Bandai-Asahi National Park",
+      "Fx": "Japan",
+      "GFx": "Tokyo",
+      "split": "selection",
+      "stratum_size": 19,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 241,
+      "x": "Río Abiseo National Park",
+      "Fx": "Peru",
+      "GFx": "Lima",
+      "split": "selection",
+      "stratum_size": 3,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 242,
+      "x": "Šumava National Park",
+      "Fx": "Czech Republic",
+      "GFx": "Prague",
+      "split": "test",
+      "stratum_size": 3,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 243,
+      "x": "Nechisar National Park",
+      "Fx": "Ethiopia",
+      "GFx": "Addis Ababa",
+      "split": "test",
+      "stratum_size": 6,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 244,
+      "x": "Torres del Paine National Park",
+      "Fx": "Chile",
+      "GFx": "Santiago",
+      "split": "selection",
+      "stratum_size": 11,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 245,
+      "x": "Kafue National Park",
+      "Fx": "Zambia",
+      "GFx": "Lusaka",
+      "split": "selection",
+      "stratum_size": 2,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 246,
+      "x": "Ras Muhammad National Park",
+      "Fx": "Egypt",
+      "GFx": "Cairo",
+      "split": "test",
+      "stratum_size": 2,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 247,
+      "x": "Komodo National Park",
+      "Fx": "Indonesia",
+      "GFx": "Jakarta",
+      "split": "test",
+      "stratum_size": 17,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 248,
+      "x": "Gombe National Park",
+      "Fx": "Tanzania",
+      "GFx": "Dodoma",
+      "split": "test",
+      "stratum_size": 8,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 249,
+      "x": "Swiss National Park",
+      "Fx": "Switzerland",
+      "GFx": "Bern",
+      "split": "selection",
+      "stratum_size": 1,
+      "singleton_stratum": true
+    },
+    {
+      "query_index": 250,
+      "x": "Mu Ko Ang Thong National Park",
+      "Fx": "Thailand",
+      "GFx": "Bangkok",
+      "split": "test",
+      "stratum_size": 6,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 251,
+      "x": "Auyuittuq National Park",
+      "Fx": "Canada",
+      "GFx": "Ottawa",
+      "split": "test",
+      "stratum_size": 39,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 252,
+      "x": "Manuel Antonio National Park",
+      "Fx": "Costa Rica",
+      "GFx": "San José",
+      "split": "selection",
+      "stratum_size": 3,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 253,
+      "x": "Acadia National Park",
+      "Fx": "United States",
+      "GFx": "Washington, D.C.",
+      "split": "test",
+      "stratum_size": 86,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 254,
+      "x": "Bothnian Bay National Park",
+      "Fx": "Finland",
+      "GFx": "Helsinki",
+      "split": "test",
+      "stratum_size": 23,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 255,
+      "x": "Kilimanjaro National Park",
+      "Fx": "Tanzania",
+      "GFx": "Dodoma",
+      "split": "test",
+      "stratum_size": 8,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 256,
+      "x": "Dessau-Wörlitz Garden Realm",
+      "Fx": "Germany",
+      "GFx": "Berlin",
+      "split": "test",
+      "stratum_size": 23,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 257,
+      "x": "Shuklaphanta National Park",
+      "Fx": "Nepal",
+      "GFx": "Kathmandu",
+      "split": "test",
+      "stratum_size": 8,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 258,
+      "x": "Vondelpark",
+      "Fx": "Netherlands",
+      "GFx": "Amsterdam",
+      "split": "test",
+      "stratum_size": 7,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 259,
+      "x": "Virgin Islands National Park",
+      "Fx": "United States",
+      "GFx": "Washington, D.C.",
+      "split": "test",
+      "stratum_size": 86,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 260,
+      "x": "Kakum National Park",
+      "Fx": "Ghana",
+      "GFx": "Accra",
+      "split": "test",
+      "stratum_size": 2,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 261,
+      "x": "Bergpark Wilhelmshöhe",
+      "Fx": "Germany",
+      "GFx": "Berlin",
+      "split": "test",
+      "stratum_size": 23,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 262,
+      "x": "Shirvan National Park",
+      "Fx": "Azerbaijan",
+      "GFx": "Baku",
+      "split": "test",
+      "stratum_size": 7,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 263,
+      "x": "Una National Park",
+      "Fx": "Bosnia and Herzegovina",
+      "GFx": "Sarajevo",
+      "split": "test",
+      "stratum_size": 4,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 264,
+      "x": "Loro Parque",
+      "Fx": "Spain",
+      "GFx": "Madrid",
+      "split": "test",
+      "stratum_size": 20,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 265,
+      "x": "Russian Arctic National Park",
+      "Fx": "Russia",
+      "GFx": "Moscow",
+      "split": "test",
+      "stratum_size": 24,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 266,
+      "x": "Blue Mountains National Park",
+      "Fx": "Australia",
+      "GFx": "Canberra",
+      "split": "selection",
+      "stratum_size": 13,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 267,
+      "x": "Nuuksio National Park",
+      "Fx": "Finland",
+      "GFx": "Helsinki",
+      "split": "selection",
+      "stratum_size": 23,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 268,
+      "x": "Hardangervidda National Park",
+      "Fx": "Norway",
+      "GFx": "Oslo",
+      "split": "test",
+      "stratum_size": 16,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 269,
+      "x": "Quinta da Regaleira",
+      "Fx": "Portugal",
+      "GFx": "Lisbon",
+      "split": "selection",
+      "stratum_size": 2,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 270,
+      "x": "Cheile Nerei-Beușnița National Park",
+      "Fx": "Romania",
+      "GFx": "Bucharest",
+      "split": "selection",
+      "stratum_size": 2,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 271,
+      "x": "Bletchley Park",
+      "Fx": "United Kingdom",
+      "GFx": "London",
+      "split": "test",
+      "stratum_size": 20,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 272,
+      "x": "Everglades National Park",
+      "Fx": "United States",
+      "GFx": "Washington, D.C.",
+      "split": "selection",
+      "stratum_size": 86,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 273,
+      "x": "Villa Romana del Casale",
+      "Fx": "Italy",
+      "GFx": "Rome",
+      "split": "test",
+      "stratum_size": 28,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 274,
+      "x": "Preah Monivong National Park",
+      "Fx": "Cambodia",
+      "GFx": "Phnom Penh",
+      "split": "test",
+      "stratum_size": 1,
+      "singleton_stratum": true
+    },
+    {
+      "query_index": 275,
+      "x": "Tarangire National Park",
+      "Fx": "Tanzania",
+      "GFx": "Dodoma",
+      "split": "test",
+      "stratum_size": 8,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 276,
+      "x": "Rishiri-Rebun-Sarobetsu National Park",
+      "Fx": "Japan",
+      "GFx": "Tokyo",
+      "split": "test",
+      "stratum_size": 19,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 277,
+      "x": "Bhitarkanika National Park",
+      "Fx": "India",
+      "GFx": "New Delhi",
+      "split": "test",
+      "stratum_size": 27,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 278,
+      "x": "Skuleskogen National Park",
+      "Fx": "Sweden",
+      "GFx": "Stockholm",
+      "split": "test",
+      "stratum_size": 28,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 279,
+      "x": "Whanganui National Park",
+      "Fx": "New Zealand",
+      "GFx": "Wellington",
+      "split": "selection",
+      "stratum_size": 14,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 280,
+      "x": "Champaner-Pavagadh Archaeological Park",
+      "Fx": "India",
+      "GFx": "New Delhi",
+      "split": "selection",
+      "stratum_size": 27,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 281,
+      "x": "Pollino National Park",
+      "Fx": "Italy",
+      "GFx": "Rome",
+      "split": "test",
+      "stratum_size": 28,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 282,
+      "x": "Müritz National Park",
+      "Fx": "Germany",
+      "GFx": "Berlin",
+      "split": "test",
+      "stratum_size": 23,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 283,
+      "x": "Ba Bể National Park",
+      "Fx": "Vietnam",
+      "GFx": "Hanoi",
+      "split": "test",
+      "stratum_size": 2,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 284,
+      "x": "Andasibe-Mantadia National Park",
+      "Fx": "Madagascar",
+      "GFx": "Antananarivo",
+      "split": "selection",
+      "stratum_size": 6,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 285,
+      "x": "Rocky Mountain National Park",
+      "Fx": "United States",
+      "GFx": "Washington, D.C.",
+      "split": "selection",
+      "stratum_size": 86,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 286,
+      "x": "Kaziranga National Park",
+      "Fx": "India",
+      "GFx": "New Delhi",
+      "split": "selection",
+      "stratum_size": 27,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 287,
+      "x": "Tel Hazor",
+      "Fx": "Israel",
+      "GFx": "Jerusalem",
+      "split": "selection",
+      "stratum_size": 11,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 288,
+      "x": "Drawa National Park",
+      "Fx": "Poland",
+      "GFx": "Warsaw",
+      "split": "test",
+      "stratum_size": 20,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 289,
+      "x": "Cape Breton Highlands National Park",
+      "Fx": "Canada",
+      "GFx": "Ottawa",
+      "split": "selection",
+      "stratum_size": 39,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 290,
+      "x": "Aulavik National Park",
+      "Fx": "Canada",
+      "GFx": "Ottawa",
+      "split": "test",
+      "stratum_size": 39,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 291,
+      "x": "Pyhä-Häkki National Park",
+      "Fx": "Finland",
+      "GFx": "Helsinki",
+      "split": "test",
+      "stratum_size": 23,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 292,
+      "x": "Pribaikalsky National Park",
+      "Fx": "Russia",
+      "GFx": "Moscow",
+      "split": "test",
+      "stratum_size": 24,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 293,
+      "x": "Djurö National Park",
+      "Fx": "Sweden",
+      "GFx": "Stockholm",
+      "split": "selection",
+      "stratum_size": 28,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 294,
+      "x": "Arches National Park",
+      "Fx": "United States",
+      "GFx": "Washington, D.C.",
+      "split": "test",
+      "stratum_size": 86,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 295,
+      "x": "Wood Buffalo National Park",
+      "Fx": "Canada",
+      "GFx": "Ottawa",
+      "split": "test",
+      "stratum_size": 39,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 296,
+      "x": "Biogradska Gora",
+      "Fx": "Montenegro",
+      "GFx": "Podgorica",
+      "split": "test",
+      "stratum_size": 1,
+      "singleton_stratum": true
+    },
+    {
+      "query_index": 297,
+      "x": "Lanín National Park",
+      "Fx": "Argentina",
+      "GFx": "Buenos Aires",
+      "split": "test",
+      "stratum_size": 17,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 298,
+      "x": "Parc de la Ciutadella",
+      "Fx": "Spain",
+      "GFx": "Madrid",
+      "split": "test",
+      "stratum_size": 20,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 299,
+      "x": "Wolin National Park",
+      "Fx": "Poland",
+      "GFx": "Warsaw",
+      "split": "test",
+      "stratum_size": 20,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 300,
+      "x": "Cát Tiên National Park",
+      "Fx": "Vietnam",
+      "GFx": "Hanoi",
+      "split": "selection",
+      "stratum_size": 2,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 301,
+      "x": "Stora Sjöfallet National Park",
+      "Fx": "Sweden",
+      "GFx": "Stockholm",
+      "split": "test",
+      "stratum_size": 28,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 302,
+      "x": "Nyungwe Forest",
+      "Fx": "Rwanda",
+      "GFx": "Kigali",
+      "split": "test",
+      "stratum_size": 3,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 303,
+      "x": "Eastern Gulf of Finland National Park",
+      "Fx": "Finland",
+      "GFx": "Helsinki",
+      "split": "test",
+      "stratum_size": 23,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 304,
+      "x": "Nairobi National Park",
+      "Fx": "Kenya",
+      "GFx": "Nairobi",
+      "split": "test",
+      "stratum_size": 8,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 305,
+      "x": "Gesäuse National Park",
+      "Fx": "Austria",
+      "GFx": "Vienna",
+      "split": "selection",
+      "stratum_size": 6,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 306,
+      "x": "Lurë-Dejë Mountain National Park",
+      "Fx": "Albania",
+      "GFx": "Tirana",
+      "split": "test",
+      "stratum_size": 8,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 307,
+      "x": "Petrified Forest National Park",
+      "Fx": "United States",
+      "GFx": "Washington, D.C.",
+      "split": "test",
+      "stratum_size": 86,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 308,
+      "x": "Lorentz National Park",
+      "Fx": "Indonesia",
+      "GFx": "Jakarta",
+      "split": "selection",
+      "stratum_size": 17,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 309,
+      "x": "Padjelanta National Park",
+      "Fx": "Sweden",
+      "GFx": "Stockholm",
+      "split": "test",
+      "stratum_size": 28,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 310,
+      "x": "Wicklow Mountains National Park",
+      "Fx": "Ireland",
+      "GFx": "Dublin",
+      "split": "test",
+      "stratum_size": 5,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 311,
+      "x": "White Desert",
+      "Fx": "Egypt",
+      "GFx": "Cairo",
+      "split": "selection",
+      "stratum_size": 2,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 312,
+      "x": "Mount Arbel",
+      "Fx": "Israel",
+      "GFx": "Jerusalem",
+      "split": "test",
+      "stratum_size": 11,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 313,
+      "x": "Dzūkija National Park",
+      "Fx": "Lithuania",
+      "GFx": "Vilnius",
+      "split": "selection",
+      "stratum_size": 5,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 314,
+      "x": "Isle Royale National Park",
+      "Fx": "United States",
+      "GFx": "Washington, D.C.",
+      "split": "test",
+      "stratum_size": 86,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 315,
+      "x": "Vauxhall Gardens",
+      "Fx": "United Kingdom",
+      "GFx": "London",
+      "split": "test",
+      "stratum_size": 20,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 316,
+      "x": "Rakiura National Park",
+      "Fx": "New Zealand",
+      "GFx": "Wellington",
+      "split": "test",
+      "stratum_size": 14,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 317,
+      "x": "Zengezur National Park",
+      "Fx": "Azerbaijan",
+      "GFx": "Baku",
+      "split": "test",
+      "stratum_size": 7,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 318,
+      "x": "Fertő-Hanság National Park",
+      "Fx": "Hungary",
+      "GFx": "Budapest",
+      "split": "test",
+      "stratum_size": 8,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 319,
+      "x": "Valley of Flowers National Park",
+      "Fx": "India",
+      "GFx": "New Delhi",
+      "split": "test",
+      "stratum_size": 27,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 320,
+      "x": "Thingvellir National Park",
+      "Fx": "Iceland",
+      "GFx": "Reykjavík",
+      "split": "test",
+      "stratum_size": 3,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 321,
+      "x": "Vanoise National Park",
+      "Fx": "France",
+      "GFx": "Paris",
+      "split": "test",
+      "stratum_size": 10,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 322,
+      "x": "Rāzna National Park",
+      "Fx": "Latvia",
+      "GFx": "Riga",
+      "split": "test",
+      "stratum_size": 4,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 323,
+      "x": "Tumucumaque National Park",
+      "Fx": "Brazil",
+      "GFx": "Brasília",
+      "split": "test",
+      "stratum_size": 13,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 324,
+      "x": "Banff National Park",
+      "Fx": "Canada",
+      "GFx": "Ottawa",
+      "split": "selection",
+      "stratum_size": 39,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 325,
+      "x": "Wind Cave National Park",
+      "Fx": "United States",
+      "GFx": "Washington, D.C.",
+      "split": "selection",
+      "stratum_size": 86,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 326,
+      "x": "Dajti National Park",
+      "Fx": "Albania",
+      "GFx": "Tirana",
+      "split": "test",
+      "stratum_size": 8,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 327,
+      "x": "London Zoo",
+      "Fx": "United Kingdom",
+      "GFx": "London",
+      "split": "test",
+      "stratum_size": 20,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 328,
+      "x": "Carlsbad Caverns National Park",
+      "Fx": "United States",
+      "GFx": "Washington, D.C.",
+      "split": "test",
+      "stratum_size": 86,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 329,
+      "x": "Björnlandet National Park",
+      "Fx": "Sweden",
+      "GFx": "Stockholm",
+      "split": "test",
+      "stratum_size": 28,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 330,
+      "x": "Ranomafana National Park",
+      "Fx": "Madagascar",
+      "GFx": "Antananarivo",
+      "split": "selection",
+      "stratum_size": 6,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 331,
+      "x": "Amboseli National Park",
+      "Fx": "Kenya",
+      "GFx": "Nairobi",
+      "split": "test",
+      "stratum_size": 8,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 332,
+      "x": "Los Arrayanes National Park",
+      "Fx": "Argentina",
+      "GFx": "Buenos Aires",
+      "split": "test",
+      "stratum_size": 17,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 333,
+      "x": "Waza National Park",
+      "Fx": "Cameroon",
+      "GFx": "Yaoundé",
+      "split": "test",
+      "stratum_size": 3,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 334,
+      "x": "Central Park Zoo",
+      "Fx": "United States",
+      "GFx": "Washington, D.C.",
+      "split": "test",
+      "stratum_size": 86,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 335,
+      "x": "Cotopaxi National Park",
+      "Fx": "Ecuador",
+      "GFx": "Quito",
+      "split": "test",
+      "stratum_size": 5,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 336,
+      "x": "Manusela National Park",
+      "Fx": "Indonesia",
+      "GFx": "Jakarta",
+      "split": "test",
+      "stratum_size": 17,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 337,
+      "x": "Etosha National Park",
+      "Fx": "Namibia",
+      "GFx": "Windhoek",
+      "split": "selection",
+      "stratum_size": 2,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 338,
+      "x": "North Cascades National Park",
+      "Fx": "United States",
+      "GFx": "Washington, D.C.",
+      "split": "selection",
+      "stratum_size": 86,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 339,
+      "x": "Western Pomerania Lagoon Area National Park",
+      "Fx": "Germany",
+      "GFx": "Berlin",
+      "split": "selection",
+      "stratum_size": 23,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 340,
+      "x": "Jaú National Park",
+      "Fx": "Brazil",
+      "GFx": "Brasília",
+      "split": "test",
+      "stratum_size": 13,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 341,
+      "x": "Wapusk National Park",
+      "Fx": "Canada",
+      "GFx": "Ottawa",
+      "split": "test",
+      "stratum_size": 39,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 342,
+      "x": "National Park Sjeverni Velebit",
+      "Fx": "Croatia",
+      "GFx": "Zagreb",
+      "split": "selection",
+      "stratum_size": 6,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 343,
+      "x": "Paanajärvi National Park",
+      "Fx": "Russia",
+      "GFx": "Moscow",
+      "split": "test",
+      "stratum_size": 24,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 344,
+      "x": "Presidio of San Francisco",
+      "Fx": "United States",
+      "GFx": "Washington, D.C.",
+      "split": "selection",
+      "stratum_size": 86,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 345,
+      "x": "Kluane National Park and Reserve",
+      "Fx": "Canada",
+      "GFx": "Ottawa",
+      "split": "test",
+      "stratum_size": 39,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 346,
+      "x": "Waterton Lakes National Park",
+      "Fx": "Canada",
+      "GFx": "Ottawa",
+      "split": "test",
+      "stratum_size": 39,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 347,
+      "x": "Tanjung Puting",
+      "Fx": "Indonesia",
+      "GFx": "Jakarta",
+      "split": "test",
+      "stratum_size": 17,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 348,
+      "x": "Narew National Park",
+      "Fx": "Poland",
+      "GFx": "Warsaw",
+      "split": "test",
+      "stratum_size": 20,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 349,
+      "x": "Isalo National Park",
+      "Fx": "Madagascar",
+      "GFx": "Antananarivo",
+      "split": "test",
+      "stratum_size": 6,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 350,
+      "x": "Doñana National and Natural Park",
+      "Fx": "Spain",
+      "GFx": "Madrid",
+      "split": "test",
+      "stratum_size": 20,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 351,
+      "x": "Lauca National Park",
+      "Fx": "Chile",
+      "GFx": "Santiago",
+      "split": "selection",
+      "stratum_size": 11,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 352,
+      "x": "Chiribiquete National Park",
+      "Fx": "Colombia",
+      "GFx": "Bogotá",
+      "split": "test",
+      "stratum_size": 5,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 353,
+      "x": "Stanley Park",
+      "Fx": "Canada",
+      "GFx": "Ottawa",
+      "split": "test",
+      "stratum_size": 39,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 354,
+      "x": "Georgian Bay Islands National Park",
+      "Fx": "Canada",
+      "GFx": "Ottawa",
+      "split": "test",
+      "stratum_size": 39,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 355,
+      "x": "Oze National Park",
+      "Fx": "Japan",
+      "GFx": "Tokyo",
+      "split": "test",
+      "stratum_size": 19,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 356,
+      "x": "Egmont National Park",
+      "Fx": "New Zealand",
+      "GFx": "Wellington",
+      "split": "test",
+      "stratum_size": 14,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 357,
+      "x": "Ladonia",
+      "Fx": "Sweden",
+      "GFx": "Stockholm",
+      "split": "test",
+      "stratum_size": 28,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 358,
+      "x": "Kanha National Park",
+      "Fx": "India",
+      "GFx": "New Delhi",
+      "split": "test",
+      "stratum_size": 27,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 359,
+      "x": "Söderåsen National Park",
+      "Fx": "Sweden",
+      "GFx": "Stockholm",
+      "split": "test",
+      "stratum_size": 28,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 360,
+      "x": "Shahdag National Park",
+      "Fx": "Azerbaijan",
+      "GFx": "Baku",
+      "split": "selection",
+      "stratum_size": 7,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 361,
+      "x": "Päijänne National Park",
+      "Fx": "Finland",
+      "GFx": "Helsinki",
+      "split": "selection",
+      "stratum_size": 23,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 362,
+      "x": "Pench National Park",
+      "Fx": "India",
+      "GFx": "New Delhi",
+      "split": "test",
+      "stratum_size": 27,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 363,
+      "x": "Green Park",
+      "Fx": "United Kingdom",
+      "GFx": "London",
+      "split": "selection",
+      "stratum_size": 20,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 364,
+      "x": "Aghgol National Park",
+      "Fx": "Azerbaijan",
+      "GFx": "Baku",
+      "split": "selection",
+      "stratum_size": 7,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 365,
+      "x": "Mini Israel",
+      "Fx": "Israel",
+      "GFx": "Jerusalem",
+      "split": "selection",
+      "stratum_size": 11,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 366,
+      "x": "Jim Corbett National Park",
+      "Fx": "India",
+      "GFx": "New Delhi",
+      "split": "test",
+      "stratum_size": 27,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 367,
+      "x": "Slovak Paradise National Park",
+      "Fx": "Slovakia",
+      "GFx": "Bratislava",
+      "split": "test",
+      "stratum_size": 5,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 368,
+      "x": "Minimundus",
+      "Fx": "Austria",
+      "GFx": "Vienna",
+      "split": "selection",
+      "stratum_size": 6,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 369,
+      "x": "San Agustin archeological park",
+      "Fx": "Colombia",
+      "GFx": "Bogotá",
+      "split": "selection",
+      "stratum_size": 5,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 370,
+      "x": "Prospect Park",
+      "Fx": "United States",
+      "GFx": "Washington, D.C.",
+      "split": "test",
+      "stratum_size": 86,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 371,
+      "x": "Big Bend National Park",
+      "Fx": "United States",
+      "GFx": "Washington, D.C.",
+      "split": "test",
+      "stratum_size": 86,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 372,
+      "x": "Nara Park",
+      "Fx": "Japan",
+      "GFx": "Tokyo",
+      "split": "test",
+      "stratum_size": 19,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 373,
+      "x": "Keibul Lamjao National Park",
+      "Fx": "India",
+      "GFx": "New Delhi",
+      "split": "test",
+      "stratum_size": 27,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 374,
+      "x": "Neverland Ranch",
+      "Fx": "United States",
+      "GFx": "Washington, D.C.",
+      "split": "test",
+      "stratum_size": 86,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 375,
+      "x": "Ruaha National Park",
+      "Fx": "Tanzania",
+      "GFx": "Dodoma",
+      "split": "test",
+      "stratum_size": 8,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 376,
+      "x": "Färnebofjärden National Park",
+      "Fx": "Sweden",
+      "GFx": "Stockholm",
+      "split": "test",
+      "stratum_size": 28,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 377,
+      "x": "Biscayne National Park",
+      "Fx": "United States",
+      "GFx": "Washington, D.C.",
+      "split": "test",
+      "stratum_size": 86,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 378,
+      "x": "Narachanski National Park",
+      "Fx": "Belarus",
+      "GFx": "Minsk",
+      "split": "test",
+      "stratum_size": 4,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 379,
+      "x": "Golestan National Park",
+      "Fx": "Iran",
+      "GFx": "Tehran",
+      "split": "test",
+      "stratum_size": 2,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 380,
+      "x": "Danube-Auen National Park",
+      "Fx": "Austria",
+      "GFx": "Vienna",
+      "split": "test",
+      "stratum_size": 6,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 381,
+      "x": "Teide National Park",
+      "Fx": "Spain",
+      "GFx": "Madrid",
+      "split": "selection",
+      "stratum_size": 20,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 382,
+      "x": "Kungsträdgården",
+      "Fx": "Sweden",
+      "GFx": "Stockholm",
+      "split": "test",
+      "stratum_size": 28,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 383,
+      "x": "Iguaçu National Park",
+      "Fx": "Brazil",
+      "GFx": "Brasília",
+      "split": "test",
+      "stratum_size": 13,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 384,
+      "x": "Soluntum",
+      "Fx": "Italy",
+      "GFx": "Rome",
+      "split": "test",
+      "stratum_size": 28,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 385,
+      "x": "Børgefjell National Park",
+      "Fx": "Norway",
+      "GFx": "Oslo",
+      "split": "test",
+      "stratum_size": 16,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 386,
+      "x": "Guiana Amazonian Park",
+      "Fx": "France",
+      "GFx": "Paris",
+      "split": "selection",
+      "stratum_size": 10,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 387,
+      "x": "El Cajas National Park",
+      "Fx": "Ecuador",
+      "GFx": "Quito",
+      "split": "test",
+      "stratum_size": 5,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 388,
+      "x": "Mainau",
+      "Fx": "Germany",
+      "GFx": "Berlin",
+      "split": "selection",
+      "stratum_size": 23,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 389,
+      "x": "Bromo Tengger Semeru National Park",
+      "Fx": "Indonesia",
+      "GFx": "Jakarta",
+      "split": "test",
+      "stratum_size": 17,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 390,
+      "x": "Alkhanay National Park",
+      "Fx": "Russia",
+      "GFx": "Moscow",
+      "split": "test",
+      "stratum_size": 24,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 391,
+      "x": "Świętokrzyski National Park",
+      "Fx": "Poland",
+      "GFx": "Warsaw",
+      "split": "selection",
+      "stratum_size": 20,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 392,
+      "x": "Hyde Park",
+      "Fx": "United Kingdom",
+      "GFx": "London",
+      "split": "test",
+      "stratum_size": 20,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 393,
+      "x": "Loch Lomond and The Trossachs National Park",
+      "Fx": "United Kingdom",
+      "GFx": "London",
+      "split": "selection",
+      "stratum_size": 20,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 394,
+      "x": "Mount Rainier National Park",
+      "Fx": "United States",
+      "GFx": "Washington, D.C.",
+      "split": "test",
+      "stratum_size": 86,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 395,
+      "x": "Aparados da Serra National Park",
+      "Fx": "Brazil",
+      "GFx": "Brasília",
+      "split": "test",
+      "stratum_size": 13,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 396,
+      "x": "Tierradentro",
+      "Fx": "Colombia",
+      "GFx": "Bogotá",
+      "split": "test",
+      "stratum_size": 5,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 397,
+      "x": "Algeti National Park",
+      "Fx": "Georgia",
+      "GFx": "Tbilisi",
+      "split": "test",
+      "stratum_size": 5,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 398,
+      "x": "Polesie National Park",
+      "Fx": "Poland",
+      "GFx": "Warsaw",
+      "split": "test",
+      "stratum_size": 20,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 399,
+      "x": "Göygöl National Park",
+      "Fx": "Azerbaijan",
+      "GFx": "Baku",
+      "split": "test",
+      "stratum_size": 7,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 400,
+      "x": "Pallas-Yllästunturi National Park",
+      "Fx": "Finland",
+      "GFx": "Helsinki",
+      "split": "selection",
+      "stratum_size": 23,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 401,
+      "x": "Gates of the Arctic National Park and Preserve",
+      "Fx": "United States",
+      "GFx": "Washington, D.C.",
+      "split": "test",
+      "stratum_size": 86,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 402,
+      "x": "Jasper National Park",
+      "Fx": "Canada",
+      "GFx": "Ottawa",
+      "split": "test",
+      "stratum_size": 39,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 403,
+      "x": "Theodore Roosevelt National Park",
+      "Fx": "United States",
+      "GFx": "Washington, D.C.",
+      "split": "selection",
+      "stratum_size": 86,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 404,
+      "x": "Tortuguero National Park",
+      "Fx": "Costa Rica",
+      "GFx": "San José",
+      "split": "test",
+      "stratum_size": 3,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 405,
+      "x": "U Thant Island",
+      "Fx": "United States",
+      "GFx": "Washington, D.C.",
+      "split": "test",
+      "stratum_size": 86,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 406,
+      "x": "Congaree National Park",
+      "Fx": "United States",
+      "GFx": "Washington, D.C.",
+      "split": "selection",
+      "stratum_size": 86,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 407,
+      "x": "Bosque Fray Jorge National Park",
+      "Fx": "Chile",
+      "GFx": "Santiago",
+      "split": "test",
+      "stratum_size": 11,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 408,
+      "x": "Park Güell",
+      "Fx": "Spain",
+      "GFx": "Madrid",
+      "split": "test",
+      "stratum_size": 20,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 409,
+      "x": "Kröller-Müller Museum",
+      "Fx": "Netherlands",
+      "GFx": "Amsterdam",
+      "split": "test",
+      "stratum_size": 7,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 410,
+      "x": "Grand Canyon National Park",
+      "Fx": "United States",
+      "GFx": "Washington, D.C.",
+      "split": "selection",
+      "stratum_size": 86,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 411,
+      "x": "Shantar Islands National Park",
+      "Fx": "Russia",
+      "GFx": "Moscow",
+      "split": "test",
+      "stratum_size": 24,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 412,
+      "x": "Bernardo O'Higgins National Park",
+      "Fx": "Chile",
+      "GFx": "Santiago",
+      "split": "test",
+      "stratum_size": 11,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 413,
+      "x": "Hortobágy National Park",
+      "Fx": "Hungary",
+      "GFx": "Budapest",
+      "split": "test",
+      "stratum_size": 8,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 414,
+      "x": "Lake Clark National Park and Preserve",
+      "Fx": "United States",
+      "GFx": "Washington, D.C.",
+      "split": "test",
+      "stratum_size": 86,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 415,
+      "x": "Słowiński National Park",
+      "Fx": "Poland",
+      "GFx": "Warsaw",
+      "split": "selection",
+      "stratum_size": 20,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 416,
+      "x": "Rwenzori Mountains National Park",
+      "Fx": "Uganda",
+      "GFx": "Kampala",
+      "split": "test",
+      "stratum_size": 8,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 417,
+      "x": "Taronga Zoo",
+      "Fx": "Australia",
+      "GFx": "Canberra",
+      "split": "test",
+      "stratum_size": 13,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 418,
+      "x": "Bandhavgarh National Park",
+      "Fx": "India",
+      "GFx": "New Delhi",
+      "split": "test",
+      "stratum_size": 27,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 419,
+      "x": "Ukkusiksalik National Park",
+      "Fx": "Canada",
+      "GFx": "Ottawa",
+      "split": "selection",
+      "stratum_size": 39,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 420,
+      "x": "Summer Garden",
+      "Fx": "Russia",
+      "GFx": "Moscow",
+      "split": "selection",
+      "stratum_size": 24,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 421,
+      "x": "Terra Nova National Park",
+      "Fx": "Canada",
+      "GFx": "Ottawa",
+      "split": "test",
+      "stratum_size": 39,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 422,
+      "x": "Kakadu National Park",
+      "Fx": "Australia",
+      "GFx": "Canberra",
+      "split": "test",
+      "stratum_size": 13,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 423,
+      "x": "Koli National Park",
+      "Fx": "Finland",
+      "GFx": "Helsinki",
+      "split": "test",
+      "stratum_size": 23,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 424,
+      "x": "Liwonde National Park",
+      "Fx": "Malawi",
+      "GFx": "Lilongwe",
+      "split": "test",
+      "stratum_size": 2,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 425,
+      "x": "Alas Purwo National Park",
+      "Fx": "Indonesia",
+      "GFx": "Jakarta",
+      "split": "test",
+      "stratum_size": 17,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 426,
+      "x": "Ujung Kulon National Park",
+      "Fx": "Indonesia",
+      "GFx": "Jakarta",
+      "split": "test",
+      "stratum_size": 17,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 427,
+      "x": "Llogara National Park",
+      "Fx": "Albania",
+      "GFx": "Tirana",
+      "split": "test",
+      "stratum_size": 8,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 428,
+      "x": "Kibale National Park",
+      "Fx": "Uganda",
+      "GFx": "Kampala",
+      "split": "selection",
+      "stratum_size": 8,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 429,
+      "x": "Curonian Spit National Park",
+      "Fx": "Lithuania",
+      "GFx": "Vilnius",
+      "split": "test",
+      "stratum_size": 5,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 430,
+      "x": "Lopé National Park",
+      "Fx": "Gabon",
+      "GFx": "Libreville",
+      "split": "selection",
+      "stratum_size": 2,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 431,
+      "x": "Gwaii Haanas National Park Reserve and Haida Heritage Site",
+      "Fx": "Canada",
+      "GFx": "Ottawa",
+      "split": "selection",
+      "stratum_size": 39,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 432,
+      "x": "Stelvio National Park",
+      "Fx": "Italy",
+      "GFx": "Rome",
+      "split": "selection",
+      "stratum_size": 28,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 433,
+      "x": "Vrelo Bosne",
+      "Fx": "Bosnia and Herzegovina",
+      "GFx": "Sarajevo",
+      "split": "test",
+      "stratum_size": 4,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 434,
+      "x": "Dulce River",
+      "Fx": "Guatemala",
+      "GFx": "Guatemala City",
+      "split": "test",
+      "stratum_size": 3,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 435,
+      "x": "Pacaya",
+      "Fx": "Guatemala",
+      "GFx": "Guatemala City",
+      "split": "selection",
+      "stratum_size": 3,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 436,
+      "x": "Wigry National Park",
+      "Fx": "Poland",
+      "GFx": "Warsaw",
+      "split": "test",
+      "stratum_size": 20,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 437,
+      "x": "Pripyatsky National Park",
+      "Fx": "Belarus",
+      "GFx": "Minsk",
+      "split": "selection",
+      "stratum_size": 4,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 438,
+      "x": "Kerinci Seblat National Park",
+      "Fx": "Indonesia",
+      "GFx": "Jakarta",
+      "split": "selection",
+      "stratum_size": 17,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 439,
+      "x": "Namdapha National Park",
+      "Fx": "India",
+      "GFx": "New Delhi",
+      "split": "test",
+      "stratum_size": 27,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 440,
+      "x": "Kinabalu Park",
+      "Fx": "Malaysia",
+      "GFx": "Kuala Lumpur",
+      "split": "selection",
+      "stratum_size": 2,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 441,
+      "x": "The Broads",
+      "Fx": "United Kingdom",
+      "GFx": "London",
+      "split": "test",
+      "stratum_size": 20,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 442,
+      "x": "Bushy Park",
+      "Fx": "United Kingdom",
+      "GFx": "London",
+      "split": "selection",
+      "stratum_size": 20,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 443,
+      "x": "Bryant Park",
+      "Fx": "United States",
+      "GFx": "Washington, D.C.",
+      "split": "test",
+      "stratum_size": 86,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 444,
+      "x": "Iguazú National Park",
+      "Fx": "Argentina",
+      "GFx": "Buenos Aires",
+      "split": "test",
+      "stratum_size": 17,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 445,
+      "x": "Sybaris",
+      "Fx": "Italy",
+      "GFx": "Rome",
+      "split": "test",
+      "stratum_size": 28,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 446,
+      "x": "Goryōkaku",
+      "Fx": "Japan",
+      "GFx": "Tokyo",
+      "split": "selection",
+      "stratum_size": 19,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 447,
+      "x": "Bénoué National Park",
+      "Fx": "Cameroon",
+      "GFx": "Yaoundé",
+      "split": "selection",
+      "stratum_size": 3,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 448,
+      "x": "Serra da Capivara National Park",
+      "Fx": "Brazil",
+      "GFx": "Brasília",
+      "split": "test",
+      "stratum_size": 13,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 449,
+      "x": "Khao Sam Roi Yot National Park",
+      "Fx": "Thailand",
+      "GFx": "Bangkok",
+      "split": "test",
+      "stratum_size": 6,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 450,
+      "x": "Miniatur Wunderland",
+      "Fx": "Germany",
+      "GFx": "Berlin",
+      "split": "test",
+      "stratum_size": 23,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 451,
+      "x": "Dovrefjell–Sunndalsfjella National Park",
+      "Fx": "Norway",
+      "GFx": "Oslo",
+      "split": "test",
+      "stratum_size": 16,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 452,
+      "x": "Gauja National Park",
+      "Fx": "Latvia",
+      "GFx": "Riga",
+      "split": "selection",
+      "stratum_size": 4,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 453,
+      "x": "Kejimkujik National Park",
+      "Fx": "Canada",
+      "GFx": "Ottawa",
+      "split": "test",
+      "stratum_size": 39,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 454,
+      "x": "The Battery",
+      "Fx": "United States",
+      "GFx": "Washington, D.C.",
+      "split": "selection",
+      "stratum_size": 86,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 455,
+      "x": "Englischer Garten",
+      "Fx": "Germany",
+      "GFx": "Berlin",
+      "split": "selection",
+      "stratum_size": 23,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 456,
+      "x": "Sangay National Park",
+      "Fx": "Ecuador",
+      "GFx": "Quito",
+      "split": "selection",
+      "stratum_size": 5,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 457,
+      "x": "Göreme National Park",
+      "Fx": "Turkey",
+      "GFx": "Ankara",
+      "split": "selection",
+      "stratum_size": 5,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 458,
+      "x": "Nagarhole National Park",
+      "Fx": "India",
+      "GFx": "New Delhi",
+      "split": "test",
+      "stratum_size": 27,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 459,
+      "x": "Land of the Leopard National Park",
+      "Fx": "Russia",
+      "GFx": "Moscow",
+      "split": "test",
+      "stratum_size": 24,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 460,
+      "x": "Thousand Islands National Park",
+      "Fx": "Canada",
+      "GFx": "Ottawa",
+      "split": "test",
+      "stratum_size": 39,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 461,
+      "x": "Canyonlands National Park",
+      "Fx": "United States",
+      "GFx": "Washington, D.C.",
+      "split": "test",
+      "stratum_size": 86,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 462,
+      "x": "Union Square",
+      "Fx": "United States",
+      "GFx": "Washington, D.C.",
+      "split": "test",
+      "stratum_size": 86,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 463,
+      "x": "Ojców National Park",
+      "Fx": "Poland",
+      "GFx": "Warsaw",
+      "split": "test",
+      "stratum_size": 20,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 464,
+      "x": "Makalu Barun National Park",
+      "Fx": "Nepal",
+      "GFx": "Kathmandu",
+      "split": "selection",
+      "stratum_size": 8,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 465,
+      "x": "Miguasha National Park",
+      "Fx": "Canada",
+      "GFx": "Ottawa",
+      "split": "test",
+      "stratum_size": 39,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 466,
+      "x": "Anyuysky National Park",
+      "Fx": "Russia",
+      "GFx": "Moscow",
+      "split": "test",
+      "stratum_size": 24,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 467,
+      "x": "Kensington Gardens",
+      "Fx": "United Kingdom",
+      "GFx": "London",
+      "split": "selection",
+      "stratum_size": 20,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 468,
+      "x": "Nambung National Park",
+      "Fx": "Australia",
+      "GFx": "Canberra",
+      "split": "selection",
+      "stratum_size": 13,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 469,
+      "x": "Lake Mburo National Park",
+      "Fx": "Uganda",
+      "GFx": "Kampala",
+      "split": "selection",
+      "stratum_size": 8,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 470,
+      "x": "Mount Aspiring National Park",
+      "Fx": "New Zealand",
+      "GFx": "Wellington",
+      "split": "test",
+      "stratum_size": 14,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 471,
+      "x": "Mount Kenya National Park",
+      "Fx": "Kenya",
+      "GFx": "Nairobi",
+      "split": "selection",
+      "stratum_size": 8,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 472,
+      "x": "Salamajärvi National Park",
+      "Fx": "Finland",
+      "GFx": "Helsinki",
+      "split": "test",
+      "stratum_size": 23,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 473,
+      "x": "Takalik Abaj",
+      "Fx": "Guatemala",
+      "GFx": "Guatemala City",
+      "split": "test",
+      "stratum_size": 3,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 474,
+      "x": "Tunkinsky National Park",
+      "Fx": "Russia",
+      "GFx": "Moscow",
+      "split": "test",
+      "stratum_size": 24,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 475,
+      "x": "Timanfaya National Park",
+      "Fx": "Spain",
+      "GFx": "Madrid",
+      "split": "test",
+      "stratum_size": 20,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 476,
+      "x": "Archipelago National Park",
+      "Fx": "Finland",
+      "GFx": "Helsinki",
+      "split": "test",
+      "stratum_size": 23,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 477,
+      "x": "Hamra National Park",
+      "Fx": "Sweden",
+      "GFx": "Stockholm",
+      "split": "test",
+      "stratum_size": 28,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 478,
+      "x": "Sila National Park",
+      "Fx": "Italy",
+      "GFx": "Rome",
+      "split": "test",
+      "stratum_size": 28,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 479,
+      "x": "Victoria Falls National Park",
+      "Fx": "Zimbabwe",
+      "GFx": "Harare",
+      "split": "selection",
+      "stratum_size": 4,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 480,
+      "x": "High Line",
+      "Fx": "United States",
+      "GFx": "Washington, D.C.",
+      "split": "selection",
+      "stratum_size": 86,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 481,
+      "x": "Amber Mountain National Park",
+      "Fx": "Madagascar",
+      "GFx": "Antananarivo",
+      "split": "test",
+      "stratum_size": 6,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 482,
+      "x": "Pyrénées National Park",
+      "Fx": "France",
+      "GFx": "Paris",
+      "split": "test",
+      "stratum_size": 10,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 483,
+      "x": "Gülhane Park",
+      "Fx": "Turkey",
+      "GFx": "Ankara",
+      "split": "test",
+      "stratum_size": 5,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 484,
+      "x": "Picos de Europa National Park",
+      "Fx": "Spain",
+      "GFx": "Madrid",
+      "split": "selection",
+      "stratum_size": 20,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 485,
+      "x": "Tayrona National Natural Park",
+      "Fx": "Colombia",
+      "GFx": "Bogotá",
+      "split": "test",
+      "stratum_size": 5,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 486,
+      "x": "Pendjari National Park",
+      "Fx": "Benin",
+      "GFx": "Porto-Novo",
+      "split": "selection",
+      "stratum_size": 1,
+      "singleton_stratum": true
+    },
+    {
+      "query_index": 487,
+      "x": "Fulufjället National Park",
+      "Fx": "Sweden",
+      "GFx": "Stockholm",
+      "split": "test",
+      "stratum_size": 28,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 488,
+      "x": "Tatshenshini-Alsek Provincial Park",
+      "Fx": "Canada",
+      "GFx": "Ottawa",
+      "split": "selection",
+      "stratum_size": 39,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 489,
+      "x": "Serra dos Órgãos National Park",
+      "Fx": "Brazil",
+      "GFx": "Brasília",
+      "split": "selection",
+      "stratum_size": 13,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 490,
+      "x": "Lower Oder Valley National Park",
+      "Fx": "Germany",
+      "GFx": "Berlin",
+      "split": "test",
+      "stratum_size": 23,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 491,
+      "x": "Museumplein",
+      "Fx": "Netherlands",
+      "GFx": "Amsterdam",
+      "split": "selection",
+      "stratum_size": 7,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 492,
+      "x": "Magura National Park",
+      "Fx": "Poland",
+      "GFx": "Warsaw",
+      "split": "test",
+      "stratum_size": 20,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 493,
+      "x": "Rondane National Park",
+      "Fx": "Norway",
+      "GFx": "Oslo",
+      "split": "test",
+      "stratum_size": 16,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 494,
+      "x": "Huascarán National Park",
+      "Fx": "Peru",
+      "GFx": "Lima",
+      "split": "test",
+      "stratum_size": 3,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 495,
+      "x": "Øvre Pasvik National Park",
+      "Fx": "Norway",
+      "GFx": "Oslo",
+      "split": "test",
+      "stratum_size": 16,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 496,
+      "x": "Grūtas Park",
+      "Fx": "Lithuania",
+      "GFx": "Vilnius",
+      "split": "test",
+      "stratum_size": 5,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 497,
+      "x": "Georgia Aquarium",
+      "Fx": "United States",
+      "GFx": "Washington, D.C.",
+      "split": "test",
+      "stratum_size": 86,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 498,
+      "x": "Réunion National Park",
+      "Fx": "France",
+      "GFx": "Paris",
+      "split": "test",
+      "stratum_size": 10,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 499,
+      "x": "Sehlabathebe National Park",
+      "Fx": "Lesotho",
+      "GFx": "Maseru",
+      "split": "test",
+      "stratum_size": 1,
+      "singleton_stratum": true
+    },
+    {
+      "query_index": 500,
+      "x": "Kobuk Valley National Park",
+      "Fx": "United States",
+      "GFx": "Washington, D.C.",
+      "split": "test",
+      "stratum_size": 86,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 501,
+      "x": "Palace of Caserta",
+      "Fx": "Italy",
+      "GFx": "Rome",
+      "split": "selection",
+      "stratum_size": 28,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 502,
+      "x": "Selinunte",
+      "Fx": "Italy",
+      "GFx": "Rome",
+      "split": "test",
+      "stratum_size": 28,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 503,
+      "x": "Podilski Tovtry National Park",
+      "Fx": "Ukraine",
+      "GFx": "Kyiv",
+      "split": "test",
+      "stratum_size": 4,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 504,
+      "x": "Hoge Veluwe National Park",
+      "Fx": "Netherlands",
+      "GFx": "Amsterdam",
+      "split": "test",
+      "stratum_size": 7,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 505,
+      "x": "Jostedalsbreen National Park",
+      "Fx": "Norway",
+      "GFx": "Oslo",
+      "split": "selection",
+      "stratum_size": 16,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 506,
+      "x": "Iriomote-Ishigaki National Park",
+      "Fx": "Japan",
+      "GFx": "Tokyo",
+      "split": "selection",
+      "stratum_size": 19,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 507,
+      "x": "Ranthambore National Park",
+      "Fx": "India",
+      "GFx": "New Delhi",
+      "split": "test",
+      "stratum_size": 27,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 508,
+      "x": "Mesa Verde National Park",
+      "Fx": "United States",
+      "GFx": "Washington, D.C.",
+      "split": "test",
+      "stratum_size": 86,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 509,
+      "x": "Maiko National Park",
+      "Fx": "Democratic Republic of the Congo",
+      "GFx": "Kinshasa",
+      "split": "test",
+      "stratum_size": 6,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 510,
+      "x": "Uluṟu-Kata Tjuṯa National Park",
+      "Fx": "Australia",
+      "GFx": "Canberra",
+      "split": "selection",
+      "stratum_size": 13,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 511,
+      "x": "Kurjenrahka National Park",
+      "Fx": "Finland",
+      "GFx": "Helsinki",
+      "split": "test",
+      "stratum_size": 23,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 512,
+      "x": "Tübän Kama National Park",
+      "Fx": "Russia",
+      "GFx": "Moscow",
+      "split": "test",
+      "stratum_size": 24,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 513,
+      "x": "Seoraksan National Park",
+      "Fx": "South Korea",
+      "GFx": "Seoul",
+      "split": "test",
+      "stratum_size": 1,
+      "singleton_stratum": true
+    },
+    {
+      "query_index": 514,
+      "x": "Sierra de las Quijadas National Park",
+      "Fx": "Argentina",
+      "GFx": "Buenos Aires",
+      "split": "test",
+      "stratum_size": 17,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 515,
+      "x": "Sonfjället National Park",
+      "Fx": "Sweden",
+      "GFx": "Stockholm",
+      "split": "selection",
+      "stratum_size": 28,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 516,
+      "x": "Pelister National Park",
+      "Fx": "North Macedonia",
+      "GFx": "Skopje",
+      "split": "test",
+      "stratum_size": 2,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 517,
+      "x": "Djurdjura National Park",
+      "Fx": "Algeria",
+      "GFx": "Algiers",
+      "split": "selection",
+      "stratum_size": 2,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 518,
+      "x": "Kenting National Park",
+      "Fx": "Taiwan",
+      "GFx": "Taipei",
+      "split": "selection",
+      "stratum_size": 2,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 519,
+      "x": "Forillon National Park",
+      "Fx": "Canada",
+      "GFx": "Ottawa",
+      "split": "test",
+      "stratum_size": 39,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 520,
+      "x": "Taroko National Park",
+      "Fx": "Taiwan",
+      "GFx": "Taipei",
+      "split": "test",
+      "stratum_size": 2,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 521,
+      "x": "Orangery Palace",
+      "Fx": "Germany",
+      "GFx": "Berlin",
+      "split": "test",
+      "stratum_size": 23,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 522,
+      "x": "Ein Gedi",
+      "Fx": "Israel",
+      "GFx": "Jerusalem",
+      "split": "test",
+      "stratum_size": 11,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 523,
+      "x": "Borjomi-Kharagauli National Park",
+      "Fx": "Georgia",
+      "GFx": "Tbilisi",
+      "split": "selection",
+      "stratum_size": 5,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 524,
+      "x": "Hamburg Wadden Sea National Park",
+      "Fx": "Germany",
+      "GFx": "Berlin",
+      "split": "test",
+      "stratum_size": 23,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 525,
+      "x": "Langtang National Park",
+      "Fx": "Nepal",
+      "GFx": "Kathmandu",
+      "split": "selection",
+      "stratum_size": 8,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 526,
+      "x": "Baths of Caracalla",
+      "Fx": "Italy",
+      "GFx": "Rome",
+      "split": "test",
+      "stratum_size": 28,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 527,
+      "x": "Khao Sok",
+      "Fx": "Thailand",
+      "GFx": "Bangkok",
+      "split": "selection",
+      "stratum_size": 6,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 528,
+      "x": "Shalamar Gardens",
+      "Fx": "Pakistan",
+      "GFx": "Islamabad",
+      "split": "selection",
+      "stratum_size": 2,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 529,
+      "x": "Connemara National Park",
+      "Fx": "Ireland",
+      "GFx": "Dublin",
+      "split": "selection",
+      "stratum_size": 5,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 530,
+      "x": "Hwange National Park",
+      "Fx": "Zimbabwe",
+      "GFx": "Harare",
+      "split": "test",
+      "stratum_size": 4,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 531,
+      "x": "Oulanka National Park",
+      "Fx": "Finland",
+      "GFx": "Helsinki",
+      "split": "test",
+      "stratum_size": 23,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 532,
+      "x": "Khao Yai National Park",
+      "Fx": "Thailand",
+      "GFx": "Bangkok",
+      "split": "test",
+      "stratum_size": 6,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 533,
+      "x": "Cradle Mountain-Lake St Clair National Park",
+      "Fx": "Australia",
+      "GFx": "Canberra",
+      "split": "test",
+      "stratum_size": 13,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 534,
+      "x": "Mount Revelstoke National Park",
+      "Fx": "Canada",
+      "GFx": "Ottawa",
+      "split": "selection",
+      "stratum_size": 39,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 535,
+      "x": "Su Nuraxi di Barumini",
+      "Fx": "Italy",
+      "GFx": "Rome",
+      "split": "selection",
+      "stratum_size": 28,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 536,
+      "x": "Corcovado National Park",
+      "Fx": "Costa Rica",
+      "GFx": "San José",
+      "split": "test",
+      "stratum_size": 3,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 537,
+      "x": "Ķemeri National Park",
+      "Fx": "Latvia",
+      "GFx": "Riga",
+      "split": "test",
+      "stratum_size": 4,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 538,
+      "x": "Dudhwa National Park",
+      "Fx": "India",
+      "GFx": "New Delhi",
+      "split": "test",
+      "stratum_size": 27,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 539,
+      "x": "Hell's Gate National Park",
+      "Fx": "Kenya",
+      "GFx": "Nairobi",
+      "split": "test",
+      "stratum_size": 8,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 540,
+      "x": "Sharr Mountains National Park",
+      "Fx": "Kosovo",
+      "GFx": "Prishtina",
+      "split": "selection",
+      "stratum_size": 1,
+      "singleton_stratum": true
+    },
+    {
+      "query_index": 541,
+      "x": "Veluwezoom National Park",
+      "Fx": "Netherlands",
+      "GFx": "Amsterdam",
+      "split": "selection",
+      "stratum_size": 7,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 542,
+      "x": "Abel Tasman National Park",
+      "Fx": "New Zealand",
+      "GFx": "Wellington",
+      "split": "selection",
+      "stratum_size": 14,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 543,
+      "x": "Gran Paradiso National Park",
+      "Fx": "Italy",
+      "GFx": "Rome",
+      "split": "test",
+      "stratum_size": 28,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 544,
+      "x": "Sibiloi National Park",
+      "Fx": "Kenya",
+      "GFx": "Nairobi",
+      "split": "selection",
+      "stratum_size": 8,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 545,
+      "x": "Rapa Nui National Park",
+      "Fx": "Chile",
+      "GFx": "Santiago",
+      "split": "test",
+      "stratum_size": 11,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 546,
+      "x": "Isojärvi National Park",
+      "Fx": "Finland",
+      "GFx": "Helsinki",
+      "split": "test",
+      "stratum_size": 23,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 547,
+      "x": "Badlands National Park",
+      "Fx": "United States",
+      "GFx": "Washington, D.C.",
+      "split": "selection",
+      "stratum_size": 86,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 548,
+      "x": "Tierpark Hagenbeck",
+      "Fx": "Germany",
+      "GFx": "Berlin",
+      "split": "test",
+      "stratum_size": 23,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 549,
+      "x": "Shiretoko National Park",
+      "Fx": "Japan",
+      "GFx": "Tokyo",
+      "split": "test",
+      "stratum_size": 19,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 550,
+      "x": "Kevladev National Park",
+      "Fx": "India",
+      "GFx": "New Delhi",
+      "split": "test",
+      "stratum_size": 27,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 551,
+      "x": "Döbelns park",
+      "Fx": "Sweden",
+      "GFx": "Stockholm",
+      "split": "test",
+      "stratum_size": 28,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 552,
+      "x": "Tablas de Daimiel National Park",
+      "Fx": "Spain",
+      "GFx": "Madrid",
+      "split": "test",
+      "stratum_size": 20,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 553,
+      "x": "Joshua Tree National Park",
+      "Fx": "United States",
+      "GFx": "Washington, D.C.",
+      "split": "test",
+      "stratum_size": 86,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 554,
+      "x": "Abisko National Park",
+      "Fx": "Sweden",
+      "GFx": "Stockholm",
+      "split": "test",
+      "stratum_size": 28,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 555,
+      "x": "Kundelungu National Park",
+      "Fx": "Democratic Republic of the Congo",
+      "GFx": "Kinshasa",
+      "split": "test",
+      "stratum_size": 6,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 556,
+      "x": "Skansen",
+      "Fx": "Sweden",
+      "GFx": "Stockholm",
+      "split": "selection",
+      "stratum_size": 28,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 557,
+      "x": "Los Alerces National Park",
+      "Fx": "Argentina",
+      "GFx": "Buenos Aires",
+      "split": "test",
+      "stratum_size": 17,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 558,
+      "x": "Mammoth Cave National Park",
+      "Fx": "United States",
+      "GFx": "Washington, D.C.",
+      "split": "test",
+      "stratum_size": 86,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 559,
+      "x": "Beringia National Park",
+      "Fx": "Russia",
+      "GFx": "Moscow",
+      "split": "test",
+      "stratum_size": 24,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 560,
+      "x": "Lobéké National Park",
+      "Fx": "Cameroon",
+      "GFx": "Yaoundé",
+      "split": "test",
+      "stratum_size": 3,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 561,
+      "x": "Madurodam",
+      "Fx": "Netherlands",
+      "GFx": "Amsterdam",
+      "split": "test",
+      "stratum_size": 7,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 562,
+      "x": "Divjakë-Karavasta National Park",
+      "Fx": "Albania",
+      "GFx": "Tirana",
+      "split": "test",
+      "stratum_size": 8,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 563,
+      "x": "Katmai National Park and Preserve",
+      "Fx": "United States",
+      "GFx": "Washington, D.C.",
+      "split": "test",
+      "stratum_size": 86,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 564,
+      "x": "Umedalens Skulpturpark",
+      "Fx": "Sweden",
+      "GFx": "Stockholm",
+      "split": "selection",
+      "stratum_size": 28,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 565,
+      "x": "Karkonosze National Park",
+      "Fx": "Poland",
+      "GFx": "Warsaw",
+      "split": "test",
+      "stratum_size": 20,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 566,
+      "x": "Mount Olympus",
+      "Fx": "Greece",
+      "GFx": "Athens",
+      "split": "selection",
+      "stratum_size": 4,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 567,
+      "x": "Gunung Palung National Park",
+      "Fx": "Indonesia",
+      "GFx": "Jakarta",
+      "split": "test",
+      "stratum_size": 17,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 568,
+      "x": "Royal Parks of London",
+      "Fx": "United Kingdom",
+      "GFx": "London",
+      "split": "test",
+      "stratum_size": 20,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 569,
+      "x": "Triglav National Park",
+      "Fx": "Slovenia",
+      "GFx": "Ljubljana",
+      "split": "test",
+      "stratum_size": 1,
+      "singleton_stratum": true
+    },
+    {
+      "query_index": 570,
+      "x": "Pinnacles National Park",
+      "Fx": "United States",
+      "GFx": "Washington, D.C.",
+      "split": "test",
+      "stratum_size": 86,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 571,
+      "x": "Coiba",
+      "Fx": "Panama",
+      "GFx": "Panama City",
+      "split": "test",
+      "stratum_size": 2,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 572,
+      "x": "Souss-Massa National Park",
+      "Fx": "Morocco",
+      "GFx": "Rabat",
+      "split": "test",
+      "stratum_size": 2,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 573,
+      "x": "Grant Park",
+      "Fx": "United States",
+      "GFx": "Washington, D.C.",
+      "split": "test",
+      "stratum_size": 86,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 574,
+      "x": "Pindus National Park",
+      "Fx": "Greece",
+      "GFx": "Athens",
+      "split": "test",
+      "stratum_size": 4,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 575,
+      "x": "Arsuf",
+      "Fx": "Israel",
+      "GFx": "Jerusalem",
+      "split": "test",
+      "stratum_size": 11,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 576,
+      "x": "Tongariro National Park",
+      "Fx": "New Zealand",
+      "GFx": "Wellington",
+      "split": "test",
+      "stratum_size": 14,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 577,
+      "x": "Hemis National Park",
+      "Fx": "India",
+      "GFx": "New Delhi",
+      "split": "test",
+      "stratum_size": 27,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 578,
+      "x": "Dalby Söderskog National Park",
+      "Fx": "Sweden",
+      "GFx": "Stockholm",
+      "split": "test",
+      "stratum_size": 28,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 579,
+      "x": "Deosai National Park",
+      "Fx": "Pakistan",
+      "GFx": "Islamabad",
+      "split": "test",
+      "stratum_size": 2,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 580,
+      "x": "Te Urewera National Park",
+      "Fx": "New Zealand",
+      "GFx": "Wellington",
+      "split": "test",
+      "stratum_size": 14,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 581,
+      "x": "Mgahinga Gorilla National Park",
+      "Fx": "Uganda",
+      "GFx": "Kampala",
+      "split": "test",
+      "stratum_size": 8,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 582,
+      "x": "Abruzzo, Lazio and Molise National Park",
+      "Fx": "Italy",
+      "GFx": "Rome",
+      "split": "test",
+      "stratum_size": 28,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 583,
+      "x": "Cameia National Park",
+      "Fx": "Angola",
+      "GFx": "Luanda",
+      "split": "test",
+      "stratum_size": 4,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 584,
+      "x": "Emas National Park",
+      "Fx": "Brazil",
+      "GFx": "Brasília",
+      "split": "selection",
+      "stratum_size": 13,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 585,
+      "x": "Quissama National Park",
+      "Fx": "Angola",
+      "GFx": "Luanda",
+      "split": "test",
+      "stratum_size": 4,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 586,
+      "x": "Shebenik National Park",
+      "Fx": "Albania",
+      "GFx": "Tirana",
+      "split": "selection",
+      "stratum_size": 8,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 587,
+      "x": "Nelson Lakes National Park",
+      "Fx": "New Zealand",
+      "GFx": "Wellington",
+      "split": "test",
+      "stratum_size": 14,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 588,
+      "x": "Hiidenportti National Park",
+      "Fx": "Finland",
+      "GFx": "Helsinki",
+      "split": "selection",
+      "stratum_size": 23,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 589,
+      "x": "Gorce National Park",
+      "Fx": "Poland",
+      "GFx": "Warsaw",
+      "split": "test",
+      "stratum_size": 20,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 590,
+      "x": "Kenozyorsky National Park",
+      "Fx": "Russia",
+      "GFx": "Moscow",
+      "split": "test",
+      "stratum_size": 24,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 591,
+      "x": "Kushiro-shitsugen National Park",
+      "Fx": "Japan",
+      "GFx": "Tokyo",
+      "split": "selection",
+      "stratum_size": 19,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 592,
+      "x": "Perito Moreno National Park",
+      "Fx": "Argentina",
+      "GFx": "Buenos Aires",
+      "split": "test",
+      "stratum_size": 17,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 593,
+      "x": "Chitwan National Park",
+      "Fx": "Nepal",
+      "GFx": "Kathmandu",
+      "split": "test",
+      "stratum_size": 8,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 594,
+      "x": "Stenshuvud National Park",
+      "Fx": "Sweden",
+      "GFx": "Stockholm",
+      "split": "selection",
+      "stratum_size": 28,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 595,
+      "x": "Iona National Park",
+      "Fx": "Angola",
+      "GFx": "Luanda",
+      "split": "test",
+      "stratum_size": 4,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 596,
+      "x": "Repovesi National Park",
+      "Fx": "Finland",
+      "GFx": "Helsinki",
+      "split": "selection",
+      "stratum_size": 23,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 597,
+      "x": "Mudumalai National Park",
+      "Fx": "India",
+      "GFx": "New Delhi",
+      "split": "selection",
+      "stratum_size": 27,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 598,
+      "x": "Great Basin National Park",
+      "Fx": "United States",
+      "GFx": "Washington, D.C.",
+      "split": "selection",
+      "stratum_size": 86,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 599,
+      "x": "Masoala National Park",
+      "Fx": "Madagascar",
+      "GFx": "Antananarivo",
+      "split": "test",
+      "stratum_size": 6,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 600,
+      "x": "Disney's Animal Kingdom",
+      "Fx": "United States",
+      "GFx": "Washington, D.C.",
+      "split": "test",
+      "stratum_size": 86,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 601,
+      "x": "Vashlovani National Park",
+      "Fx": "Georgia",
+      "GFx": "Tbilisi",
+      "split": "selection",
+      "stratum_size": 5,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 602,
+      "x": "Manas National Park",
+      "Fx": "India",
+      "GFx": "New Delhi",
+      "split": "test",
+      "stratum_size": 27,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 603,
+      "x": "Tierra del Fuego National Park",
+      "Fx": "Argentina",
+      "GFx": "Buenos Aires",
+      "split": "test",
+      "stratum_size": 17,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 604,
+      "x": "Greenwich Park",
+      "Fx": "United Kingdom",
+      "GFx": "London",
+      "split": "test",
+      "stratum_size": 20,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 605,
+      "x": "Cabañeros National Park",
+      "Fx": "Spain",
+      "GFx": "Madrid",
+      "split": "test",
+      "stratum_size": 20,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 606,
+      "x": "Kahurangi National Park",
+      "Fx": "New Zealand",
+      "GFx": "Wellington",
+      "split": "selection",
+      "stratum_size": 14,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 607,
+      "x": "Los Angeles Zoo",
+      "Fx": "United States",
+      "GFx": "Washington, D.C.",
+      "split": "test",
+      "stratum_size": 86,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 608,
+      "x": "Alexander von Humboldt National Park",
+      "Fx": "Cuba",
+      "GFx": "Havana",
+      "split": "test",
+      "stratum_size": 2,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 609,
+      "x": "Garamba National Park",
+      "Fx": "Democratic Republic of the Congo",
+      "GFx": "Kinshasa",
+      "split": "test",
+      "stratum_size": 6,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 610,
+      "x": "Salonga National Park",
+      "Fx": "Democratic Republic of the Congo",
+      "GFx": "Kinshasa",
+      "split": "test",
+      "stratum_size": 6,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 611,
+      "x": "El Rey National Park",
+      "Fx": "Argentina",
+      "GFx": "Buenos Aires",
+      "split": "selection",
+      "stratum_size": 17,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 612,
+      "x": "Aspromonte National Park",
+      "Fx": "Italy",
+      "GFx": "Rome",
+      "split": "test",
+      "stratum_size": 28,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 613,
+      "x": "Low Tatras National Park",
+      "Fx": "Slovakia",
+      "GFx": "Bratislava",
+      "split": "test",
+      "stratum_size": 5,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 614,
+      "x": "Richmond Park",
+      "Fx": "United Kingdom",
+      "GFx": "London",
+      "split": "test",
+      "stratum_size": 20,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 615,
+      "x": "Ashizuri-Uwakai National Park",
+      "Fx": "Japan",
+      "GFx": "Tokyo",
+      "split": "test",
+      "stratum_size": 19,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 616,
+      "x": "Gobi Gurvansaikhan National Park",
+      "Fx": "Mongolia",
+      "GFx": "Ulaanbaatar",
+      "split": "test",
+      "stratum_size": 1,
+      "singleton_stratum": true
+    },
+    {
+      "query_index": 617,
+      "x": "Kidepo Valley National Park",
+      "Fx": "Uganda",
+      "GFx": "Kampala",
+      "split": "test",
+      "stratum_size": 8,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 618,
+      "x": "Djoudj National Bird Sanctuary",
+      "Fx": "Senegal",
+      "GFx": "Dakar",
+      "split": "selection",
+      "stratum_size": 3,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 619,
+      "x": "Brimstone Hill Fortress National Park",
+      "Fx": "Saint Kitts and Nevis",
+      "GFx": "Basseterre",
+      "split": "test",
+      "stratum_size": 1,
+      "singleton_stratum": true
+    },
+    {
+      "query_index": 620,
+      "x": "Batang Gadis National Park",
+      "Fx": "Indonesia",
+      "GFx": "Jakarta",
+      "split": "test",
+      "stratum_size": 17,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 621,
+      "x": "Cuyahoga Valley National Park",
+      "Fx": "United States",
+      "GFx": "Washington, D.C.",
+      "split": "test",
+      "stratum_size": 86,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 622,
+      "x": "Tsavo East National Park",
+      "Fx": "Kenya",
+      "GFx": "Nairobi",
+      "split": "test",
+      "stratum_size": 8,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 623,
+      "x": "Paparoa National Park",
+      "Fx": "New Zealand",
+      "GFx": "Wellington",
+      "split": "test",
+      "stratum_size": 14,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 624,
+      "x": "Elk Island National Park",
+      "Fx": "Canada",
+      "GFx": "Ottawa",
+      "split": "test",
+      "stratum_size": 39,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 625,
+      "x": "Gunung Leuser National Park",
+      "Fx": "Indonesia",
+      "GFx": "Jakarta",
+      "split": "test",
+      "stratum_size": 17,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 626,
+      "x": "Tallinn Zoo",
+      "Fx": "Estonia",
+      "GFx": "Tallinn",
+      "split": "test",
+      "stratum_size": 1,
+      "singleton_stratum": true
+    },
+    {
+      "query_index": 627,
+      "x": "Bukit Barisan Selatan National Park",
+      "Fx": "Indonesia",
+      "GFx": "Jakarta",
+      "split": "test",
+      "stratum_size": 17,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 628,
+      "x": "Kavir National Park",
+      "Fx": "Iran",
+      "GFx": "Tehran",
+      "split": "selection",
+      "stratum_size": 2,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 629,
+      "x": "Plitvice Lakes National Park",
+      "Fx": "Croatia",
+      "GFx": "Zagreb",
+      "split": "test",
+      "stratum_size": 6,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 630,
+      "x": "Naxos",
+      "Fx": "Italy",
+      "GFx": "Rome",
+      "split": "test",
+      "stratum_size": 28,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 631,
+      "x": "Northumberland National Park",
+      "Fx": "United Kingdom",
+      "GFx": "London",
+      "split": "selection",
+      "stratum_size": 20,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 632,
+      "x": "Bannau Brycheiniog National Park",
+      "Fx": "United Kingdom",
+      "GFx": "London",
+      "split": "test",
+      "stratum_size": 20,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 633,
+      "x": "Pieljekaise National Park",
+      "Fx": "Sweden",
+      "GFx": "Stockholm",
+      "split": "test",
+      "stratum_size": 28,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 634,
+      "x": "Lago Puelo National Park",
+      "Fx": "Argentina",
+      "GFx": "Buenos Aires",
+      "split": "selection",
+      "stratum_size": 17,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 635,
+      "x": "Retezat National Park",
+      "Fx": "Romania",
+      "GFx": "Bucharest",
+      "split": "test",
+      "stratum_size": 2,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 636,
+      "x": "Guadeloupe National Park",
+      "Fx": "France",
+      "GFx": "Paris",
+      "split": "test",
+      "stratum_size": 10,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 637,
+      "x": "Cilento, Vallo di Diano and Alburni National Park",
+      "Fx": "Italy",
+      "GFx": "Rome",
+      "split": "test",
+      "stratum_size": 28,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 638,
+      "x": "Yu Garden",
+      "Fx": "People's Republic of China",
+      "GFx": "Beijing",
+      "split": "selection",
+      "stratum_size": 2,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 639,
+      "x": "St James's Park",
+      "Fx": "United Kingdom",
+      "GFx": "London",
+      "split": "selection",
+      "stratum_size": 20,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 640,
+      "x": "Prielbrusye National Park",
+      "Fx": "Russia",
+      "GFx": "Moscow",
+      "split": "test",
+      "stratum_size": 24,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 641,
+      "x": "Sierra Nevada National and Natural Park",
+      "Fx": "Spain",
+      "GFx": "Madrid",
+      "split": "test",
+      "stratum_size": 20,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 642,
+      "x": "Katavi National Park",
+      "Fx": "Tanzania",
+      "GFx": "Dodoma",
+      "split": "selection",
+      "stratum_size": 8,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 643,
+      "x": "Copenhagen Zoo",
+      "Fx": "Denmark",
+      "GFx": "Copenhagen",
+      "split": "test",
+      "stratum_size": 2,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 644,
+      "x": "Yasuni National Park",
+      "Fx": "Ecuador",
+      "GFx": "Quito",
+      "split": "test",
+      "stratum_size": 5,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 645,
+      "x": "West Bali National Park",
+      "Fx": "Indonesia",
+      "GFx": "Jakarta",
+      "split": "selection",
+      "stratum_size": 17,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 646,
+      "x": "White Sands National Park",
+      "Fx": "United States",
+      "GFx": "Washington, D.C.",
+      "split": "test",
+      "stratum_size": 86,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 647,
+      "x": "Gros Morne National Park",
+      "Fx": "Canada",
+      "GFx": "Ottawa",
+      "split": "test",
+      "stratum_size": 39,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 648,
+      "x": "Royal National Park",
+      "Fx": "Australia",
+      "GFx": "Canberra",
+      "split": "test",
+      "stratum_size": 13,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 649,
+      "x": "Bryce Canyon National Park",
+      "Fx": "United States",
+      "GFx": "Washington, D.C.",
+      "split": "test",
+      "stratum_size": 86,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 650,
+      "x": "Sør-Spitsbergen National Park",
+      "Fx": "Norway",
+      "GFx": "Oslo",
+      "split": "test",
+      "stratum_size": 16,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 651,
+      "x": "Southwest National Park",
+      "Fx": "Australia",
+      "GFx": "Canberra",
+      "split": "test",
+      "stratum_size": 13,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 652,
+      "x": "Chobe National Park",
+      "Fx": "Botswana",
+      "GFx": "Gaborone",
+      "split": "test",
+      "stratum_size": 1,
+      "singleton_stratum": true
+    },
+    {
+      "query_index": 653,
+      "x": "Queen Elizabeth National Park",
+      "Fx": "Uganda",
+      "GFx": "Kampala",
+      "split": "test",
+      "stratum_size": 8,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 654,
+      "x": "Chiloé National Park",
+      "Fx": "Chile",
+      "GFx": "Santiago",
+      "split": "test",
+      "stratum_size": 11,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 655,
+      "x": "Biebrza National Park",
+      "Fx": "Poland",
+      "GFx": "Warsaw",
+      "split": "selection",
+      "stratum_size": 20,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 656,
+      "x": "Garajonay National Park",
+      "Fx": "Spain",
+      "GFx": "Madrid",
+      "split": "test",
+      "stratum_size": 20,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 657,
+      "x": "Baritú National Park",
+      "Fx": "Argentina",
+      "GFx": "Buenos Aires",
+      "split": "test",
+      "stratum_size": 17,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 658,
+      "x": "Écrins National Park",
+      "Fx": "France",
+      "GFx": "Paris",
+      "split": "test",
+      "stratum_size": 10,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 659,
+      "x": "Dachigam National Park",
+      "Fx": "India",
+      "GFx": "New Delhi",
+      "split": "selection",
+      "stratum_size": 27,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 660,
+      "x": "Krka National Park",
+      "Fx": "Croatia",
+      "GFx": "Zagreb",
+      "split": "test",
+      "stratum_size": 6,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 661,
+      "x": "Tbilisi National Park",
+      "Fx": "Georgia",
+      "GFx": "Tbilisi",
+      "split": "test",
+      "stratum_size": 5,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 662,
+      "x": "Chapada dos Veadeiros National Park",
+      "Fx": "Brazil",
+      "GFx": "Brasília",
+      "split": "selection",
+      "stratum_size": 13,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 663,
+      "x": "Slītere National Park",
+      "Fx": "Latvia",
+      "GFx": "Riga",
+      "split": "test",
+      "stratum_size": 4,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 664,
+      "x": "Tiveden National Park",
+      "Fx": "Sweden",
+      "GFx": "Stockholm",
+      "split": "test",
+      "stratum_size": 28,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 665,
+      "x": "Calanques National Park",
+      "Fx": "France",
+      "GFx": "Paris",
+      "split": "test",
+      "stratum_size": 10,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 666,
+      "x": "Bieszczady National Park",
+      "Fx": "Poland",
+      "GFx": "Warsaw",
+      "split": "test",
+      "stratum_size": 20,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 667,
+      "x": "National Garden of Athens",
+      "Fx": "Greece",
+      "GFx": "Athens",
+      "split": "test",
+      "stratum_size": 4,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 668,
+      "x": "Tomorr Mountain National Park",
+      "Fx": "Albania",
+      "GFx": "Tirana",
+      "split": "test",
+      "stratum_size": 8,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 669,
+      "x": "Tzippori",
+      "Fx": "Israel",
+      "GFx": "Jerusalem",
+      "split": "test",
+      "stratum_size": 11,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 670,
+      "x": "Kellerwald-Edersee National Park",
+      "Fx": "Germany",
+      "GFx": "Berlin",
+      "split": "test",
+      "stratum_size": 23,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 671,
+      "x": "Chapada Diamantina National Park",
+      "Fx": "Brazil",
+      "GFx": "Brasília",
+      "split": "test",
+      "stratum_size": 13,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 672,
+      "x": "Kings Canyon National Park",
+      "Fx": "United States",
+      "GFx": "Washington, D.C.",
+      "split": "selection",
+      "stratum_size": 86,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 673,
+      "x": "National Park of American Samoa",
+      "Fx": "United States",
+      "GFx": "Washington, D.C.",
+      "split": "selection",
+      "stratum_size": 86,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 674,
+      "x": "Crater Lake National Park",
+      "Fx": "United States",
+      "GFx": "Washington, D.C.",
+      "split": "test",
+      "stratum_size": 86,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 675,
+      "x": "Niokolo-Koba National Park",
+      "Fx": "Senegal",
+      "GFx": "Dakar",
+      "split": "test",
+      "stratum_size": 3,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 676,
+      "x": "Danube-Drava National Park",
+      "Fx": "Hungary",
+      "GFx": "Budapest",
+      "split": "test",
+      "stratum_size": 8,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 677,
+      "x": "Pacific Rim National Park Reserve",
+      "Fx": "Canada",
+      "GFx": "Ottawa",
+      "split": "selection",
+      "stratum_size": 39,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 678,
+      "x": "Carpathian National Nature Park",
+      "Fx": "Ukraine",
+      "GFx": "Kyiv",
+      "split": "test",
+      "stratum_size": 4,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 679,
+      "x": "Risnjak National Park",
+      "Fx": "Croatia",
+      "GFx": "Zagreb",
+      "split": "test",
+      "stratum_size": 6,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 680,
+      "x": "Washington Square Park",
+      "Fx": "United States",
+      "GFx": "Washington, D.C.",
+      "split": "test",
+      "stratum_size": 86,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 681,
+      "x": "Cincinnati Zoo and Botanical Garden",
+      "Fx": "United States",
+      "GFx": "Washington, D.C.",
+      "split": "test",
+      "stratum_size": 86,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 682,
+      "x": "Khangchendzonga National Park",
+      "Fx": "India",
+      "GFx": "New Delhi",
+      "split": "test",
+      "stratum_size": 27,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 683,
+      "x": "Glacier Bay National Park and Preserve",
+      "Fx": "United States",
+      "GFx": "Washington, D.C.",
+      "split": "selection",
+      "stratum_size": 86,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 684,
+      "x": "Ala-Archa National Park",
+      "Fx": "Kyrgyzstan",
+      "GFx": "Bishkek",
+      "split": "test",
+      "stratum_size": 1,
+      "singleton_stratum": true
+    },
+    {
+      "query_index": 685,
+      "x": "El Palmar National Park",
+      "Fx": "Argentina",
+      "GFx": "Buenos Aires",
+      "split": "test",
+      "stratum_size": 17,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 686,
+      "x": "Dinosaur Provincial Park",
+      "Fx": "Canada",
+      "GFx": "Ottawa",
+      "split": "test",
+      "stratum_size": 39,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 687,
+      "x": "Prince Edward Island National Park",
+      "Fx": "Canada",
+      "GFx": "Ottawa",
+      "split": "test",
+      "stratum_size": 39,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 688,
+      "x": "Bale Mountains National Park",
+      "Fx": "Ethiopia",
+      "GFx": "Addis Ababa",
+      "split": "selection",
+      "stratum_size": 6,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 689,
+      "x": "Northeast Greenland National Park",
+      "Fx": "Greenland",
+      "GFx": "Nuuk",
+      "split": "test",
+      "stratum_size": 1,
+      "singleton_stratum": true
+    },
+    {
+      "query_index": 690,
+      "x": "Tel Be'er Sheva",
+      "Fx": "Israel",
+      "GFx": "Jerusalem",
+      "split": "test",
+      "stratum_size": 11,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 691,
+      "x": "Los Cardones National Park",
+      "Fx": "Argentina",
+      "GFx": "Buenos Aires",
+      "split": "selection",
+      "stratum_size": 17,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 692,
+      "x": "Morne Trois Pitons National Park",
+      "Fx": "Dominica",
+      "GFx": "Roseau",
+      "split": "selection",
+      "stratum_size": 1,
+      "singleton_stratum": true
+    },
+    {
+      "query_index": 693,
+      "x": "Helvetinjärvi National Park",
+      "Fx": "Finland",
+      "GFx": "Helsinki",
+      "split": "test",
+      "stratum_size": 23,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 694,
+      "x": "Yosemite National Park",
+      "Fx": "United States",
+      "GFx": "Washington, D.C.",
+      "split": "test",
+      "stratum_size": 86,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 695,
+      "x": "Gunung Mulu National Park",
+      "Fx": "Malaysia",
+      "GFx": "Kuala Lumpur",
+      "split": "test",
+      "stratum_size": 2,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 696,
+      "x": "Ischigualasto Provincial Park",
+      "Fx": "Argentina",
+      "GFx": "Buenos Aires",
+      "split": "selection",
+      "stratum_size": 17,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 697,
+      "x": "Kalkalpen National Park",
+      "Fx": "Austria",
+      "GFx": "Vienna",
+      "split": "test",
+      "stratum_size": 6,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 698,
+      "x": "Quttinirpaaq National Park",
+      "Fx": "Canada",
+      "GFx": "Ottawa",
+      "split": "selection",
+      "stratum_size": 39,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 699,
+      "x": "Roztocze National Park",
+      "Fx": "Poland",
+      "GFx": "Warsaw",
+      "split": "test",
+      "stratum_size": 20,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 700,
+      "x": "Ujście Warty National Park",
+      "Fx": "Poland",
+      "GFx": "Warsaw",
+      "split": "test",
+      "stratum_size": 20,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 701,
+      "x": "Mercantour National Park",
+      "Fx": "France",
+      "GFx": "Paris",
+      "split": "test",
+      "stratum_size": 10,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 702,
+      "x": "Central Balkan National Park",
+      "Fx": "Bulgaria",
+      "GFx": "Sofia",
+      "split": "selection",
+      "stratum_size": 3,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 703,
+      "x": "Wild Nephin National Park",
+      "Fx": "Ireland",
+      "GFx": "Dublin",
+      "split": "test",
+      "stratum_size": 5,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 704,
+      "x": "Glenveagh National Park",
+      "Fx": "Ireland",
+      "GFx": "Dublin",
+      "split": "selection",
+      "stratum_size": 5,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 705,
+      "x": "Altyaghach National Park",
+      "Fx": "Azerbaijan",
+      "GFx": "Baku",
+      "split": "test",
+      "stratum_size": 7,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 706,
+      "x": "Kahuzi-Biéga National Park",
+      "Fx": "Democratic Republic of the Congo",
+      "GFx": "Kinshasa",
+      "split": "selection",
+      "stratum_size": 6,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 707,
+      "x": "Gezi Park",
+      "Fx": "Turkey",
+      "GFx": "Ankara",
+      "split": "selection",
+      "stratum_size": 5,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 708,
+      "x": "Kaeng Krachan National Park",
+      "Fx": "Thailand",
+      "GFx": "Bangkok",
+      "split": "selection",
+      "stratum_size": 6,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 709,
+      "x": "Lemmenjoki National Park",
+      "Fx": "Finland",
+      "GFx": "Helsinki",
+      "split": "test",
+      "stratum_size": 23,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 710,
+      "x": "Haleakalā National Park",
+      "Fx": "United States",
+      "GFx": "Washington, D.C.",
+      "split": "test",
+      "stratum_size": 86,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 711,
+      "x": "Leningrad Zoo",
+      "Fx": "Russia",
+      "GFx": "Moscow",
+      "split": "test",
+      "stratum_size": 24,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 712,
+      "x": "Aigüestortes i Estany de Sant Maurici National Park",
+      "Fx": "Spain",
+      "GFx": "Madrid",
+      "split": "test",
+      "stratum_size": 20,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 713,
+      "x": "Berbak National Park",
+      "Fx": "Indonesia",
+      "GFx": "Jakarta",
+      "split": "test",
+      "stratum_size": 17,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 714,
+      "x": "Cahokia",
+      "Fx": "United States",
+      "GFx": "Washington, D.C.",
+      "split": "test",
+      "stratum_size": 86,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 715,
+      "x": "Hearst Castle",
+      "Fx": "United States",
+      "GFx": "Washington, D.C.",
+      "split": "test",
+      "stratum_size": 86,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 716,
+      "x": "Daisetsuzan National Park",
+      "Fx": "Japan",
+      "GFx": "Tokyo",
+      "split": "test",
+      "stratum_size": 19,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 717,
+      "x": "Gateway Arch National Park",
+      "Fx": "United States",
+      "GFx": "Washington, D.C.",
+      "split": "selection",
+      "stratum_size": 86,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 718,
+      "x": "Cabo de Hornos National Park",
+      "Fx": "Chile",
+      "GFx": "Santiago",
+      "split": "test",
+      "stratum_size": 11,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 719,
+      "x": "Mavrovo National Park",
+      "Fx": "North Macedonia",
+      "GFx": "Skopje",
+      "split": "selection",
+      "stratum_size": 2,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 720,
+      "x": "Braslaw Lakes National Park",
+      "Fx": "Belarus",
+      "GFx": "Minsk",
+      "split": "test",
+      "stratum_size": 4,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 721,
+      "x": "Schleswig-Holstein Wadden Sea National Park",
+      "Fx": "Germany",
+      "GFx": "Berlin",
+      "split": "selection",
+      "stratum_size": 23,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 722,
+      "x": "Pirin National Park",
+      "Fx": "Bulgaria",
+      "GFx": "Sofia",
+      "split": "test",
+      "stratum_size": 3,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 723,
+      "x": "Lake Manyara National Park",
+      "Fx": "Tanzania",
+      "GFx": "Dodoma",
+      "split": "selection",
+      "stratum_size": 8,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 724,
+      "x": "Band-e Amir National Park",
+      "Fx": "Afghanistan",
+      "GFx": "Kabul",
+      "split": "test",
+      "stratum_size": 1,
+      "singleton_stratum": true
+    },
+    {
+      "query_index": 725,
+      "x": "Carlton Gardens",
+      "Fx": "Australia",
+      "GFx": "Canberra",
+      "split": "selection",
+      "stratum_size": 13,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 726,
+      "x": "Dilijan National Park",
+      "Fx": "Armenia",
+      "GFx": "Yerevan",
+      "split": "test",
+      "stratum_size": 1,
+      "singleton_stratum": true
+    },
+    {
+      "query_index": 727,
+      "x": "Ibirapuera Park",
+      "Fx": "Brazil",
+      "GFx": "Brasília",
+      "split": "test",
+      "stratum_size": 13,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 728,
+      "x": "Wielkopolska National Park",
+      "Fx": "Poland",
+      "GFx": "Warsaw",
+      "split": "selection",
+      "stratum_size": 20,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 729,
+      "x": "Regent's Park",
+      "Fx": "United Kingdom",
+      "GFx": "London",
+      "split": "test",
+      "stratum_size": 20,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 730,
+      "x": "Conguillío National Park",
+      "Fx": "Chile",
+      "GFx": "Santiago",
+      "split": "test",
+      "stratum_size": 11,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 731,
+      "x": "Wrangell–St. Elias National Park and Preserve",
+      "Fx": "United States",
+      "GFx": "Washington, D.C.",
+      "split": "test",
+      "stratum_size": 86,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 732,
+      "x": "Schlossberg",
+      "Fx": "Austria",
+      "GFx": "Vienna",
+      "split": "test",
+      "stratum_size": 6,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 733,
+      "x": "Voyageurs National Park",
+      "Fx": "United States",
+      "GFx": "Washington, D.C.",
+      "split": "selection",
+      "stratum_size": 86,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 734,
+      "x": "Eifel National Park",
+      "Fx": "Germany",
+      "GFx": "Berlin",
+      "split": "test",
+      "stratum_size": 23,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 735,
+      "x": "Akagera National Park",
+      "Fx": "Rwanda",
+      "GFx": "Kigali",
+      "split": "test",
+      "stratum_size": 3,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 736,
+      "x": "Taï National Park",
+      "Fx": "Ivory Coast",
+      "GFx": "Yamoussoukro",
+      "split": "test",
+      "stratum_size": 2,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 737,
+      "x": "Sutjeska National Park",
+      "Fx": "Bosnia and Herzegovina",
+      "GFx": "Sarajevo",
+      "split": "selection",
+      "stratum_size": 4,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 738,
+      "x": "Bükk National Park",
+      "Fx": "Hungary",
+      "GFx": "Budapest",
+      "split": "test",
+      "stratum_size": 8,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 739,
+      "x": "Beit Guvrin National Park",
+      "Fx": "Israel",
+      "GFx": "Jerusalem",
+      "split": "test",
+      "stratum_size": 11,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 740,
+      "x": "Sequoia National Park",
+      "Fx": "United States",
+      "GFx": "Washington, D.C.",
+      "split": "test",
+      "stratum_size": 86,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 741,
+      "x": "Barcelona Zoo",
+      "Fx": "Spain",
+      "GFx": "Madrid",
+      "split": "test",
+      "stratum_size": 20,
+      "singleton_stratum": false
+    },
+    {
+      "query_index": 742,
+      "x": "Millennium Park",
+      "Fx": "United States",
+      "GFx": "Washington, D.C.",
+      "split": "test",
+      "stratum_size": 86,
+      "singleton_stratum": false
+    }
+  ]
+}

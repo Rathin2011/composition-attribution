@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "num_icl_examples": 10,
+  "tasks": {
+    "landmark-country-capital": {
+      "source_directory": "generalized-task-experiments/results/landmark-country-capital",
+      "split_method": "intermediate_answer_stratified"
+    },
+    "park-country-capital": {
+      "source_directory": "generalized-task-experiments/results/park-country-capital",
+      "split_method": "intermediate_answer_stratified"
+    },
+    "product-company-hq": {
+      "source_directory": "generalized-task-experiments/results/gfx_only_all_tasks/product-company-hq",
+      "split_method": "intermediate_answer_stratified"
+    },
+    "product-company-ceo": {
+      "source_directory": "generalized-task-experiments/results/gfx_only_all_tasks/product-company-ceo",
+      "split_method": "intermediate_answer_stratified"
+    },
+    "antonym-spanish": {
+      "source_directory": "generalized-task-experiments/results/gfx_only_all_tasks/antonym-spanish",
+      "split_method": "entity_random"
+    }
+  }
+}
+
