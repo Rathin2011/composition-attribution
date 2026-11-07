@@ -1,0 +1,7006 @@
+{
+  "schema_version": 2,
+  "task": "park-country-capital",
+  "answer_type": "city",
+  "source": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/results/park-country-capital/icl_10/01_prepare/prompt_targets.jsonl.gz",
+  "num_prepared_records": 7430,
+  "model": {
+    "model": "allenai/Olmo-3-1025-7B",
+    "stage_one_revision": "stage1-step1413814",
+    "model_commit": "373bad25002f1624757a73235c5ca844c6375c25",
+    "dtype": "bfloat16",
+    "batch_size": 4,
+    "max_new_tokens": 20,
+    "stop_sequence": "\n\n"
+  },
+  "task_intermediates": [
+    "Afghanistan",
+    "Albania",
+    "Algeria",
+    "Angola",
+    "Argentina",
+    "Armenia",
+    "Australia",
+    "Austria",
+    "Azerbaijan",
+    "Belarus",
+    "Benin",
+    "Bhutan",
+    "Bosnia and Herzegovina",
+    "Botswana",
+    "Brazil",
+    "Bulgaria",
+    "Burundi",
+    "Cambodia",
+    "Cameroon",
+    "Canada",
+    "Central African Republic",
+    "Chad",
+    "Chile",
+    "Colombia",
+    "Costa Rica",
+    "Croatia",
+    "Cuba",
+    "Czech Republic",
+    "Democratic Republic of the Congo",
+    "Denmark",
+    "Dominica",
+    "Ecuador",
+    "Egypt",
+    "Estonia",
+    "Ethiopia",
+    "Finland",
+    "France",
+    "Gabon",
+    "Georgia",
+    "Germany",
+    "Ghana",
+    "Greece",
+    "Greenland",
+    "Guatemala",
+    "Hungary",
+    "Iceland",
+    "India",
+    "Indonesia",
+    "Iran",
+    "Ireland",
+    "Israel",
+    "Italy",
+    "Ivory Coast",
+    "Japan",
+    "Kazakhstan",
+    "Kenya",
+    "Kosovo",
+    "Kyrgyzstan",
+    "Laos",
+    "Latvia",
+    "Lesotho",
+    "Lithuania",
+    "Madagascar",
+    "Malawi",
+    "Malaysia",
+    "Mauritania",
+    "Mongolia",
+    "Montenegro",
+    "Morocco",
+    "Mozambique",
+    "Namibia",
+    "Nepal",
+    "Netherlands",
+    "New Zealand",
+    "North Macedonia",
+    "Norway",
+    "Pakistan",
+    "Panama",
+    "People's Republic of China",
+    "Peru",
+    "Philippines",
+    "Poland",
+    "Portugal",
+    "Republic of the Congo",
+    "Romania",
+    "Russia",
+    "Rwanda",
+    "Saint Kitts and Nevis",
+    "Senegal",
+    "Serbia",
+    "Slovakia",
+    "Slovenia",
+    "South Korea",
+    "Spain",
+    "Sweden",
+    "Switzerland",
+    "Taiwan",
+    "Tajikistan",
+    "Tanzania",
+    "Thailand",
+    "Tunisia",
+    "Turkey",
+    "Uganda",
+    "Ukraine",
+    "United Kingdom",
+    "United States",
+    "Venezuela",
+    "Vietnam",
+    "West Bank",
+    "Zambia",
+    "Zimbabwe"
+  ],
+  "modes": {
+    "true": [
+      {
+        "target_id": "true_c0006dc233757cd5da99",
+        "target_mode": "true",
+        "answer": "Accra",
+        "answer_type": "city",
+        "prompt_count": 20,
+        "num_query_entities": 2,
+        "relevant_intermediates": [
+          "Ghana"
+        ]
+      },
+      {
+        "target_id": "true_8a640c7be3ab767ea512",
+        "target_mode": "true",
+        "answer": "Addis Ababa",
+        "answer_type": "city",
+        "prompt_count": 60,
+        "num_query_entities": 6,
+        "relevant_intermediates": [
+          "Ethiopia"
+        ]
+      },
+      {
+        "target_id": "true_82ad77335d052cfda8d8",
+        "target_mode": "true",
+        "answer": "Algiers",
+        "answer_type": "city",
+        "prompt_count": 20,
+        "num_query_entities": 2,
+        "relevant_intermediates": [
+          "Algeria"
+        ]
+      },
+      {
+        "target_id": "true_c30a76b93cacfed3b0c2",
+        "target_mode": "true",
+        "answer": "Amsterdam",
+        "answer_type": "city",
+        "prompt_count": 70,
+        "num_query_entities": 7,
+        "relevant_intermediates": [
+          "Netherlands"
+        ]
+      },
+      {
+        "target_id": "true_68f090c78a4e56f4b7f4",
+        "target_mode": "true",
+        "answer": "Ankara",
+        "answer_type": "city",
+        "prompt_count": 50,
+        "num_query_entities": 5,
+        "relevant_intermediates": [
+          "Turkey"
+        ]
+      },
+      {
+        "target_id": "true_e459bd9df92b241e2a6c",
+        "target_mode": "true",
+        "answer": "Antananarivo",
+        "answer_type": "city",
+        "prompt_count": 60,
+        "num_query_entities": 6,
+        "relevant_intermediates": [
+          "Madagascar"
+        ]
+      },
+      {
+        "target_id": "true_2bb07a6f29af2d81dcb3",
+        "target_mode": "true",
+        "answer": "Astana",
+        "answer_type": "city",
+        "prompt_count": 10,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Kazakhstan"
+        ]
+      },
+      {
+        "target_id": "true_d4d433aa98f0a48aac59",
+        "target_mode": "true",
+        "answer": "Athens",
+        "answer_type": "city",
+        "prompt_count": 40,
+        "num_query_entities": 4,
+        "relevant_intermediates": [
+          "Greece"
+        ]
+      },
+      {
+        "target_id": "true_8f8956bf0c2981aff43b",
+        "target_mode": "true",
+        "answer": "Baku",
+        "answer_type": "city",
+        "prompt_count": 70,
+        "num_query_entities": 7,
+        "relevant_intermediates": [
+          "Azerbaijan"
+        ]
+      },
+      {
+        "target_id": "true_1868696a9cefb7567809",
+        "target_mode": "true",
+        "answer": "Bangkok",
+        "answer_type": "city",
+        "prompt_count": 60,
+        "num_query_entities": 6,
+        "relevant_intermediates": [
+          "Thailand"
+        ]
+      },
+      {
+        "target_id": "true_e9d25229e78ea28a9ab3",
+        "target_mode": "true",
+        "answer": "Bangui",
+        "answer_type": "city",
+        "prompt_count": 10,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Central African Republic"
+        ]
+      },
+      {
+        "target_id": "true_f00a9898eedd67df3fa8",
+        "target_mode": "true",
+        "answer": "Basseterre",
+        "answer_type": "city",
+        "prompt_count": 10,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Saint Kitts and Nevis"
+        ]
+      },
+      {
+        "target_id": "true_7968d638044897c17184",
+        "target_mode": "true",
+        "answer": "Beijing",
+        "answer_type": "city",
+        "prompt_count": 20,
+        "num_query_entities": 2,
+        "relevant_intermediates": [
+          "People's Republic of China"
+        ]
+      },
+      {
+        "target_id": "true_da1c607b8b7aa8a0eef0",
+        "target_mode": "true",
+        "answer": "Belgrade",
+        "answer_type": "city",
+        "prompt_count": 10,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Serbia"
+        ]
+      },
+      {
+        "target_id": "true_45a94fcfbebf0955eb56",
+        "target_mode": "true",
+        "answer": "Berlin",
+        "answer_type": "city",
+        "prompt_count": 230,
+        "num_query_entities": 23,
+        "relevant_intermediates": [
+          "Germany"
+        ]
+      },
+      {
+        "target_id": "true_6b00b220ebb7a6d851cc",
+        "target_mode": "true",
+        "answer": "Bern",
+        "answer_type": "city",
+        "prompt_count": 10,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Switzerland"
+        ]
+      },
+      {
+        "target_id": "true_2b5e1a6bcc1cf7806b3a",
+        "target_mode": "true",
+        "answer": "Bishkek",
+        "answer_type": "city",
+        "prompt_count": 10,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Kyrgyzstan"
+        ]
+      },
+      {
+        "target_id": "true_48188108d375c7ef6b94",
+        "target_mode": "true",
+        "answer": "Bogotá",
+        "answer_type": "city",
+        "prompt_count": 50,
+        "num_query_entities": 5,
+        "relevant_intermediates": [
+          "Colombia"
+        ]
+      },
+      {
+        "target_id": "true_697c611a2cfcdaab732f",
+        "target_mode": "true",
+        "answer": "Brasília",
+        "answer_type": "city",
+        "prompt_count": 130,
+        "num_query_entities": 13,
+        "relevant_intermediates": [
+          "Brazil"
+        ]
+      },
+      {
+        "target_id": "true_6d89a0cd389b9ed018d3",
+        "target_mode": "true",
+        "answer": "Bratislava",
+        "answer_type": "city",
+        "prompt_count": 50,
+        "num_query_entities": 5,
+        "relevant_intermediates": [
+          "Slovakia"
+        ]
+      },
+      {
+        "target_id": "true_c56faea99d1384a6bc30",
+        "target_mode": "true",
+        "answer": "Brazzaville",
+        "answer_type": "city",
+        "prompt_count": 20,
+        "num_query_entities": 2,
+        "relevant_intermediates": [
+          "Republic of the Congo"
+        ]
+      },
+      {
+        "target_id": "true_d3168850c5ad6a81bf9f",
+        "target_mode": "true",
+        "answer": "Bucharest",
+        "answer_type": "city",
+        "prompt_count": 20,
+        "num_query_entities": 2,
+        "relevant_intermediates": [
+          "Romania"
+        ]
+      },
+      {
+        "target_id": "true_66c2b1ad32caf4186607",
+        "target_mode": "true",
+        "answer": "Budapest",
+        "answer_type": "city",
+        "prompt_count": 80,
+        "num_query_entities": 8,
+        "relevant_intermediates": [
+          "Hungary"
+        ]
+      },
+      {
+        "target_id": "true_4aee60d5dd87bf1d63fc",
+        "target_mode": "true",
+        "answer": "Buenos Aires",
+        "answer_type": "city",
+        "prompt_count": 170,
+        "num_query_entities": 17,
+        "relevant_intermediates": [
+          "Argentina"
+        ]
+      },
+      {
+        "target_id": "true_07968433331375738669",
+        "target_mode": "true",
+        "answer": "Cairo",
+        "answer_type": "city",
+        "prompt_count": 20,
+        "num_query_entities": 2,
+        "relevant_intermediates": [
+          "Egypt"
+        ]
+      },
+      {
+        "target_id": "true_b18db99e34a9a1a9f0b0",
+        "target_mode": "true",
+        "answer": "Canberra",
+        "answer_type": "city",
+        "prompt_count": 130,
+        "num_query_entities": 13,
+        "relevant_intermediates": [
+          "Australia"
+        ]
+      },
+      {
+        "target_id": "true_4cebee88c25b7c8bb6b2",
+        "target_mode": "true",
+        "answer": "Caracas",
+        "answer_type": "city",
+        "prompt_count": 10,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Venezuela"
+        ]
+      },
+      {
+        "target_id": "true_587034fe97f1b897b34d",
+        "target_mode": "true",
+        "answer": "Copenhagen",
+        "answer_type": "city",
+        "prompt_count": 20,
+        "num_query_entities": 2,
+        "relevant_intermediates": [
+          "Denmark"
+        ]
+      },
+      {
+        "target_id": "true_7e8151faa95e6568a3c7",
+        "target_mode": "true",
+        "answer": "Dakar",
+        "answer_type": "city",
+        "prompt_count": 30,
+        "num_query_entities": 3,
+        "relevant_intermediates": [
+          "Senegal"
+        ]
+      },
+      {
+        "target_id": "true_5e3d5f165fae276c710f",
+        "target_mode": "true",
+        "answer": "Dodoma",
+        "answer_type": "city",
+        "prompt_count": 80,
+        "num_query_entities": 8,
+        "relevant_intermediates": [
+          "Tanzania"
+        ]
+      },
+      {
+        "target_id": "true_aa8145e898a9a869daf3",
+        "target_mode": "true",
+        "answer": "Dublin",
+        "answer_type": "city",
+        "prompt_count": 50,
+        "num_query_entities": 5,
+        "relevant_intermediates": [
+          "Ireland"
+        ]
+      },
+      {
+        "target_id": "true_96dad8938618a6e7394c",
+        "target_mode": "true",
+        "answer": "Dushanbe",
+        "answer_type": "city",
+        "prompt_count": 10,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Tajikistan"
+        ]
+      },
+      {
+        "target_id": "true_7ea02ac4b282ae450bca",
+        "target_mode": "true",
+        "answer": "Gaborone",
+        "answer_type": "city",
+        "prompt_count": 10,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Botswana"
+        ]
+      },
+      {
+        "target_id": "true_04d5147ee31dccd41fd6",
+        "target_mode": "true",
+        "answer": "Gitega",
+        "answer_type": "city",
+        "prompt_count": 10,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Burundi"
+        ]
+      },
+      {
+        "target_id": "true_804b7b63e4e5aacd028c",
+        "target_mode": "true",
+        "answer": "Guatemala City",
+        "answer_type": "city",
+        "prompt_count": 30,
+        "num_query_entities": 3,
+        "relevant_intermediates": [
+          "Guatemala"
+        ]
+      },
+      {
+        "target_id": "true_172e9abbca73fb923779",
+        "target_mode": "true",
+        "answer": "Hanoi",
+        "answer_type": "city",
+        "prompt_count": 20,
+        "num_query_entities": 2,
+        "relevant_intermediates": [
+          "Vietnam"
+        ]
+      },
+      {
+        "target_id": "true_3d3791ee25e4ca931942",
+        "target_mode": "true",
+        "answer": "Harare",
+        "answer_type": "city",
+        "prompt_count": 40,
+        "num_query_entities": 4,
+        "relevant_intermediates": [
+          "Zimbabwe"
+        ]
+      },
+      {
+        "target_id": "true_4acf9e4a84e7823af5df",
+        "target_mode": "true",
+        "answer": "Havana",
+        "answer_type": "city",
+        "prompt_count": 20,
+        "num_query_entities": 2,
+        "relevant_intermediates": [
+          "Cuba"
+        ]
+      },
+      {
+        "target_id": "true_258960d18f18ae5f59c1",
+        "target_mode": "true",
+        "answer": "Helsinki",
+        "answer_type": "city",
+        "prompt_count": 230,
+        "num_query_entities": 23,
+        "relevant_intermediates": [
+          "Finland"
+        ]
+      },
+      {
+        "target_id": "true_bc557ab05a28fb4888b4",
+        "target_mode": "true",
+        "answer": "Islamabad",
+        "answer_type": "city",
+        "prompt_count": 20,
+        "num_query_entities": 2,
+        "relevant_intermediates": [
+          "Pakistan"
+        ]
+      },
+      {
+        "target_id": "true_33d2fda3d2c46a11aa23",
+        "target_mode": "true",
+        "answer": "Jakarta",
+        "answer_type": "city",
+        "prompt_count": 170,
+        "num_query_entities": 17,
+        "relevant_intermediates": [
+          "Indonesia"
+        ]
+      },
+      {
+        "target_id": "true_10c489cb552662ef9c46",
+        "target_mode": "true",
+        "answer": "Jerusalem",
+        "answer_type": "city",
+        "prompt_count": 110,
+        "num_query_entities": 11,
+        "relevant_intermediates": [
+          "Israel"
+        ]
+      },
+      {
+        "target_id": "true_6b60423cbbc5c7c97328",
+        "target_mode": "true",
+        "answer": "Kabul",
+        "answer_type": "city",
+        "prompt_count": 10,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Afghanistan"
+        ]
+      },
+      {
+        "target_id": "true_d18072661ff88951c8f7",
+        "target_mode": "true",
+        "answer": "Kampala",
+        "answer_type": "city",
+        "prompt_count": 80,
+        "num_query_entities": 8,
+        "relevant_intermediates": [
+          "Uganda"
+        ]
+      },
+      {
+        "target_id": "true_6fec8d5446bdcdb0e7af",
+        "target_mode": "true",
+        "answer": "Kathmandu",
+        "answer_type": "city",
+        "prompt_count": 80,
+        "num_query_entities": 8,
+        "relevant_intermediates": [
+          "Nepal"
+        ]
+      },
+      {
+        "target_id": "true_4f3c2dc473947d2e4f07",
+        "target_mode": "true",
+        "answer": "Kigali",
+        "answer_type": "city",
+        "prompt_count": 30,
+        "num_query_entities": 3,
+        "relevant_intermediates": [
+          "Rwanda"
+        ]
+      },
+      {
+        "target_id": "true_7009bc880e2991a2cd72",
+        "target_mode": "true",
+        "answer": "Kinshasa",
+        "answer_type": "city",
+        "prompt_count": 60,
+        "num_query_entities": 6,
+        "relevant_intermediates": [
+          "Democratic Republic of the Congo"
+        ]
+      },
+      {
+        "target_id": "true_ef2b2987178429381a95",
+        "target_mode": "true",
+        "answer": "Kuala Lumpur",
+        "answer_type": "city",
+        "prompt_count": 20,
+        "num_query_entities": 2,
+        "relevant_intermediates": [
+          "Malaysia"
+        ]
+      },
+      {
+        "target_id": "true_95bbf5e29a35cde4b130",
+        "target_mode": "true",
+        "answer": "Kyiv",
+        "answer_type": "city",
+        "prompt_count": 40,
+        "num_query_entities": 4,
+        "relevant_intermediates": [
+          "Ukraine"
+        ]
+      },
+      {
+        "target_id": "true_5d6bf0b54f513837b5e1",
+        "target_mode": "true",
+        "answer": "Libreville",
+        "answer_type": "city",
+        "prompt_count": 20,
+        "num_query_entities": 2,
+        "relevant_intermediates": [
+          "Gabon"
+        ]
+      },
+      {
+        "target_id": "true_c9400e85211f77ea8d01",
+        "target_mode": "true",
+        "answer": "Lilongwe",
+        "answer_type": "city",
+        "prompt_count": 20,
+        "num_query_entities": 2,
+        "relevant_intermediates": [
+          "Malawi"
+        ]
+      },
+      {
+        "target_id": "true_132e2b6d1a98c7283a1e",
+        "target_mode": "true",
+        "answer": "Lima",
+        "answer_type": "city",
+        "prompt_count": 30,
+        "num_query_entities": 3,
+        "relevant_intermediates": [
+          "Peru"
+        ]
+      },
+      {
+        "target_id": "true_7f3fde3ee87226298298",
+        "target_mode": "true",
+        "answer": "Lisbon",
+        "answer_type": "city",
+        "prompt_count": 20,
+        "num_query_entities": 2,
+        "relevant_intermediates": [
+          "Portugal"
+        ]
+      },
+      {
+        "target_id": "true_60a7a362736517849a19",
+        "target_mode": "true",
+        "answer": "Ljubljana",
+        "answer_type": "city",
+        "prompt_count": 10,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Slovenia"
+        ]
+      },
+      {
+        "target_id": "true_b5a36a2c92859e6b409d",
+        "target_mode": "true",
+        "answer": "London",
+        "answer_type": "city",
+        "prompt_count": 200,
+        "num_query_entities": 20,
+        "relevant_intermediates": [
+          "United Kingdom"
+        ]
+      },
+      {
+        "target_id": "true_750358e2938b60344b0f",
+        "target_mode": "true",
+        "answer": "Luanda",
+        "answer_type": "city",
+        "prompt_count": 40,
+        "num_query_entities": 4,
+        "relevant_intermediates": [
+          "Angola"
+        ]
+      },
+      {
+        "target_id": "true_41ccd1c48190945fd4ac",
+        "target_mode": "true",
+        "answer": "Lusaka",
+        "answer_type": "city",
+        "prompt_count": 20,
+        "num_query_entities": 2,
+        "relevant_intermediates": [
+          "Zambia"
+        ]
+      },
+      {
+        "target_id": "true_e4cfa866132913b82efd",
+        "target_mode": "true",
+        "answer": "Madrid",
+        "answer_type": "city",
+        "prompt_count": 200,
+        "num_query_entities": 20,
+        "relevant_intermediates": [
+          "Spain"
+        ]
+      },
+      {
+        "target_id": "true_91544f37e7e7f58bdf09",
+        "target_mode": "true",
+        "answer": "Manila",
+        "answer_type": "city",
+        "prompt_count": 10,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Philippines"
+        ]
+      },
+      {
+        "target_id": "true_ccad2c0f148301bc09c2",
+        "target_mode": "true",
+        "answer": "Maputo",
+        "answer_type": "city",
+        "prompt_count": 10,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Mozambique"
+        ]
+      },
+      {
+        "target_id": "true_163b7ad50f6e3a650bd0",
+        "target_mode": "true",
+        "answer": "Maseru",
+        "answer_type": "city",
+        "prompt_count": 10,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Lesotho"
+        ]
+      },
+      {
+        "target_id": "true_7ca5998d87116963cb6e",
+        "target_mode": "true",
+        "answer": "Minsk",
+        "answer_type": "city",
+        "prompt_count": 40,
+        "num_query_entities": 4,
+        "relevant_intermediates": [
+          "Belarus"
+        ]
+      },
+      {
+        "target_id": "true_4752852c698803403eed",
+        "target_mode": "true",
+        "answer": "Moscow",
+        "answer_type": "city",
+        "prompt_count": 240,
+        "num_query_entities": 24,
+        "relevant_intermediates": [
+          "Russia"
+        ]
+      },
+      {
+        "target_id": "true_d7a10653d7c518ee5e8b",
+        "target_mode": "true",
+        "answer": "N'Djamena",
+        "answer_type": "city",
+        "prompt_count": 10,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Chad"
+        ]
+      },
+      {
+        "target_id": "true_f918fc9467b763467f8b",
+        "target_mode": "true",
+        "answer": "Nairobi",
+        "answer_type": "city",
+        "prompt_count": 80,
+        "num_query_entities": 8,
+        "relevant_intermediates": [
+          "Kenya"
+        ]
+      },
+      {
+        "target_id": "true_fe6c95a51ad2183d7d96",
+        "target_mode": "true",
+        "answer": "New Delhi",
+        "answer_type": "city",
+        "prompt_count": 270,
+        "num_query_entities": 27,
+        "relevant_intermediates": [
+          "India"
+        ]
+      },
+      {
+        "target_id": "true_07fe4ecb928d8833f208",
+        "target_mode": "true",
+        "answer": "Nouakchott",
+        "answer_type": "city",
+        "prompt_count": 10,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Mauritania"
+        ]
+      },
+      {
+        "target_id": "true_a98530ff0673f26e6819",
+        "target_mode": "true",
+        "answer": "Nuuk",
+        "answer_type": "city",
+        "prompt_count": 10,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Greenland"
+        ]
+      },
+      {
+        "target_id": "true_cae01c5d1747108a978d",
+        "target_mode": "true",
+        "answer": "Oslo",
+        "answer_type": "city",
+        "prompt_count": 160,
+        "num_query_entities": 16,
+        "relevant_intermediates": [
+          "Norway"
+        ]
+      },
+      {
+        "target_id": "true_07957542aaa0b5604e6b",
+        "target_mode": "true",
+        "answer": "Ottawa",
+        "answer_type": "city",
+        "prompt_count": 390,
+        "num_query_entities": 39,
+        "relevant_intermediates": [
+          "Canada"
+        ]
+      },
+      {
+        "target_id": "true_6095737b754ff72c987e",
+        "target_mode": "true",
+        "answer": "Panama City",
+        "answer_type": "city",
+        "prompt_count": 20,
+        "num_query_entities": 2,
+        "relevant_intermediates": [
+          "Panama"
+        ]
+      },
+      {
+        "target_id": "true_cb3cc74657405a962a27",
+        "target_mode": "true",
+        "answer": "Paris",
+        "answer_type": "city",
+        "prompt_count": 100,
+        "num_query_entities": 10,
+        "relevant_intermediates": [
+          "France"
+        ]
+      },
+      {
+        "target_id": "true_23a675ad2cc23ec25f2e",
+        "target_mode": "true",
+        "answer": "Phnom Penh",
+        "answer_type": "city",
+        "prompt_count": 10,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Cambodia"
+        ]
+      },
+      {
+        "target_id": "true_29463b29ba238be2b6fd",
+        "target_mode": "true",
+        "answer": "Podgorica",
+        "answer_type": "city",
+        "prompt_count": 10,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Montenegro"
+        ]
+      },
+      {
+        "target_id": "true_58727fd55a79ffa338ff",
+        "target_mode": "true",
+        "answer": "Porto-Novo",
+        "answer_type": "city",
+        "prompt_count": 10,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Benin"
+        ]
+      },
+      {
+        "target_id": "true_5d3432b350c3469e6e3f",
+        "target_mode": "true",
+        "answer": "Prague",
+        "answer_type": "city",
+        "prompt_count": 30,
+        "num_query_entities": 3,
+        "relevant_intermediates": [
+          "Czech Republic"
+        ]
+      },
+      {
+        "target_id": "true_068164d9d1fafa895f40",
+        "target_mode": "true",
+        "answer": "Prishtina",
+        "answer_type": "city",
+        "prompt_count": 10,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Kosovo"
+        ]
+      },
+      {
+        "target_id": "true_96e2493e5de2985248d0",
+        "target_mode": "true",
+        "answer": "Quito",
+        "answer_type": "city",
+        "prompt_count": 50,
+        "num_query_entities": 5,
+        "relevant_intermediates": [
+          "Ecuador"
+        ]
+      },
+      {
+        "target_id": "true_4ef5ed0c2c61500fe289",
+        "target_mode": "true",
+        "answer": "Rabat",
+        "answer_type": "city",
+        "prompt_count": 20,
+        "num_query_entities": 2,
+        "relevant_intermediates": [
+          "Morocco"
+        ]
+      },
+      {
+        "target_id": "true_31cbb0857df5daf47588",
+        "target_mode": "true",
+        "answer": "Ramallah",
+        "answer_type": "city",
+        "prompt_count": 10,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "West Bank"
+        ]
+      },
+      {
+        "target_id": "true_a4015b8d4e9727c9d451",
+        "target_mode": "true",
+        "answer": "Reykjavík",
+        "answer_type": "city",
+        "prompt_count": 30,
+        "num_query_entities": 3,
+        "relevant_intermediates": [
+          "Iceland"
+        ]
+      },
+      {
+        "target_id": "true_cb348b843af537f20649",
+        "target_mode": "true",
+        "answer": "Riga",
+        "answer_type": "city",
+        "prompt_count": 40,
+        "num_query_entities": 4,
+        "relevant_intermediates": [
+          "Latvia"
+        ]
+      },
+      {
+        "target_id": "true_9e5a0ddb918b5dce8857",
+        "target_mode": "true",
+        "answer": "Rome",
+        "answer_type": "city",
+        "prompt_count": 280,
+        "num_query_entities": 28,
+        "relevant_intermediates": [
+          "Italy"
+        ]
+      },
+      {
+        "target_id": "true_0d7c9223129fc8c96085",
+        "target_mode": "true",
+        "answer": "Roseau",
+        "answer_type": "city",
+        "prompt_count": 10,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Dominica"
+        ]
+      },
+      {
+        "target_id": "true_308067d45da15cb1b986",
+        "target_mode": "true",
+        "answer": "San José",
+        "answer_type": "city",
+        "prompt_count": 30,
+        "num_query_entities": 3,
+        "relevant_intermediates": [
+          "Costa Rica"
+        ]
+      },
+      {
+        "target_id": "true_734e6e6ad07326ffd055",
+        "target_mode": "true",
+        "answer": "Santiago",
+        "answer_type": "city",
+        "prompt_count": 110,
+        "num_query_entities": 11,
+        "relevant_intermediates": [
+          "Chile"
+        ]
+      },
+      {
+        "target_id": "true_47d91c5970ce48ecb486",
+        "target_mode": "true",
+        "answer": "Sarajevo",
+        "answer_type": "city",
+        "prompt_count": 40,
+        "num_query_entities": 4,
+        "relevant_intermediates": [
+          "Bosnia and Herzegovina"
+        ]
+      },
+      {
+        "target_id": "true_97b8a6a0057cd10c15ad",
+        "target_mode": "true",
+        "answer": "Seoul",
+        "answer_type": "city",
+        "prompt_count": 10,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "South Korea"
+        ]
+      },
+      {
+        "target_id": "true_3b9d0c22264d065a1f51",
+        "target_mode": "true",
+        "answer": "Skopje",
+        "answer_type": "city",
+        "prompt_count": 20,
+        "num_query_entities": 2,
+        "relevant_intermediates": [
+          "North Macedonia"
+        ]
+      },
+      {
+        "target_id": "true_7bb7086aaf238027524d",
+        "target_mode": "true",
+        "answer": "Sofia",
+        "answer_type": "city",
+        "prompt_count": 30,
+        "num_query_entities": 3,
+        "relevant_intermediates": [
+          "Bulgaria"
+        ]
+      },
+      {
+        "target_id": "true_5c90cf569dddb10d9e6b",
+        "target_mode": "true",
+        "answer": "Stockholm",
+        "answer_type": "city",
+        "prompt_count": 280,
+        "num_query_entities": 28,
+        "relevant_intermediates": [
+          "Sweden"
+        ]
+      },
+      {
+        "target_id": "true_b09e1da1c2db53584236",
+        "target_mode": "true",
+        "answer": "Taipei",
+        "answer_type": "city",
+        "prompt_count": 20,
+        "num_query_entities": 2,
+        "relevant_intermediates": [
+          "Taiwan"
+        ]
+      },
+      {
+        "target_id": "true_dcb61f04177ed6e40a68",
+        "target_mode": "true",
+        "answer": "Tallinn",
+        "answer_type": "city",
+        "prompt_count": 10,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Estonia"
+        ]
+      },
+      {
+        "target_id": "true_2c9e57e4344555fa90ec",
+        "target_mode": "true",
+        "answer": "Tbilisi",
+        "answer_type": "city",
+        "prompt_count": 50,
+        "num_query_entities": 5,
+        "relevant_intermediates": [
+          "Georgia"
+        ]
+      },
+      {
+        "target_id": "true_a3b03b3930eabdaa1474",
+        "target_mode": "true",
+        "answer": "Tehran",
+        "answer_type": "city",
+        "prompt_count": 20,
+        "num_query_entities": 2,
+        "relevant_intermediates": [
+          "Iran"
+        ]
+      },
+      {
+        "target_id": "true_b8426deb3ca86764f20c",
+        "target_mode": "true",
+        "answer": "Thimphu",
+        "answer_type": "city",
+        "prompt_count": 10,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Bhutan"
+        ]
+      },
+      {
+        "target_id": "true_ae82f830de971a9d821d",
+        "target_mode": "true",
+        "answer": "Tirana",
+        "answer_type": "city",
+        "prompt_count": 80,
+        "num_query_entities": 8,
+        "relevant_intermediates": [
+          "Albania"
+        ]
+      },
+      {
+        "target_id": "true_ec3efb90e669c5e1d61f",
+        "target_mode": "true",
+        "answer": "Tokyo",
+        "answer_type": "city",
+        "prompt_count": 190,
+        "num_query_entities": 19,
+        "relevant_intermediates": [
+          "Japan"
+        ]
+      },
+      {
+        "target_id": "true_001433ed408c1f4efff5",
+        "target_mode": "true",
+        "answer": "Tunis",
+        "answer_type": "city",
+        "prompt_count": 20,
+        "num_query_entities": 2,
+        "relevant_intermediates": [
+          "Tunisia"
+        ]
+      },
+      {
+        "target_id": "true_0bd1a1ed0316c1270e80",
+        "target_mode": "true",
+        "answer": "Ulaanbaatar",
+        "answer_type": "city",
+        "prompt_count": 10,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Mongolia"
+        ]
+      },
+      {
+        "target_id": "true_cda5be007bd65d616a3a",
+        "target_mode": "true",
+        "answer": "Vienna",
+        "answer_type": "city",
+        "prompt_count": 60,
+        "num_query_entities": 6,
+        "relevant_intermediates": [
+          "Austria"
+        ]
+      },
+      {
+        "target_id": "true_2b7c8c9fd7cab47170de",
+        "target_mode": "true",
+        "answer": "Vientiane",
+        "answer_type": "city",
+        "prompt_count": 10,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Laos"
+        ]
+      },
+      {
+        "target_id": "true_f8da84cc8ab1ee2eacc1",
+        "target_mode": "true",
+        "answer": "Vilnius",
+        "answer_type": "city",
+        "prompt_count": 50,
+        "num_query_entities": 5,
+        "relevant_intermediates": [
+          "Lithuania"
+        ]
+      },
+      {
+        "target_id": "true_adaf0b1bdd41d3ad87e9",
+        "target_mode": "true",
+        "answer": "Warsaw",
+        "answer_type": "city",
+        "prompt_count": 200,
+        "num_query_entities": 20,
+        "relevant_intermediates": [
+          "Poland"
+        ]
+      },
+      {
+        "target_id": "true_9aa7b6d77113a68137f0",
+        "target_mode": "true",
+        "answer": "Washington, D.C.",
+        "answer_type": "city",
+        "prompt_count": 860,
+        "num_query_entities": 86,
+        "relevant_intermediates": [
+          "United States"
+        ]
+      },
+      {
+        "target_id": "true_bbd38136ce7e0873a5cb",
+        "target_mode": "true",
+        "answer": "Wellington",
+        "answer_type": "city",
+        "prompt_count": 140,
+        "num_query_entities": 14,
+        "relevant_intermediates": [
+          "New Zealand"
+        ]
+      },
+      {
+        "target_id": "true_dddfb71a65d6b46b85ea",
+        "target_mode": "true",
+        "answer": "Windhoek",
+        "answer_type": "city",
+        "prompt_count": 20,
+        "num_query_entities": 2,
+        "relevant_intermediates": [
+          "Namibia"
+        ]
+      },
+      {
+        "target_id": "true_74b4421f20b4d05a1cdd",
+        "target_mode": "true",
+        "answer": "Yamoussoukro",
+        "answer_type": "city",
+        "prompt_count": 20,
+        "num_query_entities": 2,
+        "relevant_intermediates": [
+          "Ivory Coast"
+        ]
+      },
+      {
+        "target_id": "true_2cb5299edf1ef3e09fa4",
+        "target_mode": "true",
+        "answer": "Yaoundé",
+        "answer_type": "city",
+        "prompt_count": 30,
+        "num_query_entities": 3,
+        "relevant_intermediates": [
+          "Cameroon"
+        ]
+      },
+      {
+        "target_id": "true_af91a29b6d384d432777",
+        "target_mode": "true",
+        "answer": "Yerevan",
+        "answer_type": "city",
+        "prompt_count": 10,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Armenia"
+        ]
+      },
+      {
+        "target_id": "true_d526069375dd3ef88deb",
+        "target_mode": "true",
+        "answer": "Zagreb",
+        "answer_type": "city",
+        "prompt_count": 60,
+        "num_query_entities": 6,
+        "relevant_intermediates": [
+          "Croatia"
+        ]
+      }
+    ],
+    "model": [
+      {
+        "target_id": "model_b0a54dd5d3a39c3399a6",
+        "target_mode": "model",
+        "answer": "A Coruña",
+        "answer_type": "city",
+        "prompt_count": 4,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Spain"
+        ]
+      },
+      {
+        "target_id": "model_299f64a4ebcebf5924ad",
+        "target_mode": "model",
+        "answer": "Abidjan",
+        "answer_type": "city",
+        "prompt_count": 20,
+        "num_query_entities": 2,
+        "relevant_intermediates": [
+          "Ivory Coast"
+        ]
+      },
+      {
+        "target_id": "model_8bd9601d29e4938de139",
+        "target_mode": "model",
+        "answer": "Accra",
+        "answer_type": "city",
+        "prompt_count": 17,
+        "num_query_entities": 2,
+        "relevant_intermediates": [
+          "Ghana"
+        ]
+      },
+      {
+        "target_id": "model_27932da2c6682032fea2",
+        "target_mode": "model",
+        "answer": "Addis Ababa",
+        "answer_type": "city",
+        "prompt_count": 68,
+        "num_query_entities": 11,
+        "relevant_intermediates": [
+          "Azerbaijan",
+          "Ethiopia",
+          "Israel",
+          "Italy",
+          "Kosovo",
+          "Norway"
+        ]
+      },
+      {
+        "target_id": "model_628c6ee597a3fff1025b",
+        "target_mode": "model",
+        "answer": "Adelaide",
+        "answer_type": "city",
+        "prompt_count": 10,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Australia"
+        ]
+      },
+      {
+        "target_id": "model_9a965603face1142427f",
+        "target_mode": "model",
+        "answer": "Ahmedabad",
+        "answer_type": "city",
+        "prompt_count": 8,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "India"
+        ]
+      },
+      {
+        "target_id": "model_b7c124ef8e648467b0eb",
+        "target_mode": "model",
+        "answer": "Alamogordo",
+        "answer_type": "city",
+        "prompt_count": 9,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "United States"
+        ]
+      },
+      {
+        "target_id": "model_01d3d78dd7cba422149a",
+        "target_mode": "model",
+        "answer": "Albania",
+        "answer_type": "city",
+        "prompt_count": 1,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Albania"
+        ]
+      },
+      {
+        "target_id": "model_925b8e67af6062faed79",
+        "target_mode": "model",
+        "answer": "Algiers",
+        "answer_type": "city",
+        "prompt_count": 29,
+        "num_query_entities": 5,
+        "relevant_intermediates": [
+          "Algeria",
+          "Angola",
+          "Morocco",
+          "Senegal"
+        ]
+      },
+      {
+        "target_id": "model_3e367415965948950c5e",
+        "target_mode": "model",
+        "answer": "Alicante",
+        "answer_type": "city",
+        "prompt_count": 1,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Argentina"
+        ]
+      },
+      {
+        "target_id": "model_a65b1269aaaf847dc876",
+        "target_mode": "model",
+        "answer": "Alice Springs",
+        "answer_type": "city",
+        "prompt_count": 4,
+        "num_query_entities": 2,
+        "relevant_intermediates": [
+          "Australia",
+          "Russia"
+        ]
+      },
+      {
+        "target_id": "model_4dea3f8387196ace4650",
+        "target_mode": "model",
+        "answer": "Almaty",
+        "answer_type": "city",
+        "prompt_count": 11,
+        "num_query_entities": 3,
+        "relevant_intermediates": [
+          "Kazakhstan",
+          "Russia"
+        ]
+      },
+      {
+        "target_id": "model_29b6ac252797d7614365",
+        "target_mode": "model",
+        "answer": "Amsterdam",
+        "answer_type": "city",
+        "prompt_count": 55,
+        "num_query_entities": 7,
+        "relevant_intermediates": [
+          "Netherlands"
+        ]
+      },
+      {
+        "target_id": "model_fbe6928a478c82cd263e",
+        "target_mode": "model",
+        "answer": "Anchorage",
+        "answer_type": "city",
+        "prompt_count": 49,
+        "num_query_entities": 7,
+        "relevant_intermediates": [
+          "United States"
+        ]
+      },
+      {
+        "target_id": "model_acce3dda33f2ec785e68",
+        "target_mode": "model",
+        "answer": "Ankara",
+        "answer_type": "city",
+        "prompt_count": 44,
+        "num_query_entities": 8,
+        "relevant_intermediates": [
+          "Azerbaijan",
+          "Russia",
+          "Turkey"
+        ]
+      },
+      {
+        "target_id": "model_29ef37c8fcb9caf276f3",
+        "target_mode": "model",
+        "answer": "Antalya",
+        "answer_type": "city",
+        "prompt_count": 4,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Turkey"
+        ]
+      },
+      {
+        "target_id": "model_31003b27bdcbb7de248b",
+        "target_mode": "model",
+        "answer": "Antananarivo",
+        "answer_type": "city",
+        "prompt_count": 41,
+        "num_query_entities": 5,
+        "relevant_intermediates": [
+          "Madagascar",
+          "Rwanda"
+        ]
+      },
+      {
+        "target_id": "model_bb62b0672a24a0b3b5bb",
+        "target_mode": "model",
+        "answer": "Antwerp",
+        "answer_type": "city",
+        "prompt_count": 4,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Germany"
+        ]
+      },
+      {
+        "target_id": "model_9ab6a491449af1277333",
+        "target_mode": "model",
+        "answer": "Argentina",
+        "answer_type": "city",
+        "prompt_count": 2,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Argentina"
+        ]
+      },
+      {
+        "target_id": "model_a5eacdb9b3422eeb8a07",
+        "target_mode": "model",
+        "answer": "Arnhem",
+        "answer_type": "city",
+        "prompt_count": 5,
+        "num_query_entities": 2,
+        "relevant_intermediates": [
+          "Netherlands"
+        ]
+      },
+      {
+        "target_id": "model_6633919e1fdc6035ecda",
+        "target_mode": "model",
+        "answer": "Arusha",
+        "answer_type": "city",
+        "prompt_count": 21,
+        "num_query_entities": 3,
+        "relevant_intermediates": [
+          "Tanzania"
+        ]
+      },
+      {
+        "target_id": "model_7c72d1d14fdad2740c73",
+        "target_mode": "model",
+        "answer": "Astana",
+        "answer_type": "city",
+        "prompt_count": 14,
+        "num_query_entities": 4,
+        "relevant_intermediates": [
+          "Azerbaijan",
+          "Kazakhstan",
+          "Russia"
+        ]
+      },
+      {
+        "target_id": "model_8dd3ff2ec8c818f73774",
+        "target_mode": "model",
+        "answer": "Asunción",
+        "answer_type": "city",
+        "prompt_count": 6,
+        "num_query_entities": 2,
+        "relevant_intermediates": [
+          "Argentina",
+          "Brazil"
+        ]
+      },
+      {
+        "target_id": "model_135516889fe70ee6221b",
+        "target_mode": "model",
+        "answer": "Athens",
+        "answer_type": "city",
+        "prompt_count": 55,
+        "num_query_entities": 8,
+        "relevant_intermediates": [
+          "Greece",
+          "Italy",
+          "Sweden"
+        ]
+      },
+      {
+        "target_id": "model_43b412955e1f73bdc028",
+        "target_mode": "model",
+        "answer": "Atlanta",
+        "answer_type": "city",
+        "prompt_count": 10,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "United States"
+        ]
+      },
+      {
+        "target_id": "model_7ddb0f9b7b09229c1c9a",
+        "target_mode": "model",
+        "answer": "Badajoz",
+        "answer_type": "city",
+        "prompt_count": 1,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Spain"
+        ]
+      },
+      {
+        "target_id": "model_3b37d13aa0169c82a3a1",
+        "target_mode": "model",
+        "answer": "Baku",
+        "answer_type": "city",
+        "prompt_count": 19,
+        "num_query_entities": 9,
+        "relevant_intermediates": [
+          "Albania",
+          "Azerbaijan",
+          "Kosovo",
+          "Kyrgyzstan",
+          "Russia",
+          "Tajikistan"
+        ]
+      },
+      {
+        "target_id": "model_7e46b2dea11e5c548b62",
+        "target_mode": "model",
+        "answer": "Bandung",
+        "answer_type": "city",
+        "prompt_count": 3,
+        "num_query_entities": 2,
+        "relevant_intermediates": [
+          "Indonesia",
+          "Russia"
+        ]
+      },
+      {
+        "target_id": "model_defaff6560973509b471",
+        "target_mode": "model",
+        "answer": "Banff",
+        "answer_type": "city",
+        "prompt_count": 7,
+        "num_query_entities": 2,
+        "relevant_intermediates": [
+          "Canada"
+        ]
+      },
+      {
+        "target_id": "model_9064ea8a4599ceacdce1",
+        "target_mode": "model",
+        "answer": "Bangalore",
+        "answer_type": "city",
+        "prompt_count": 32,
+        "num_query_entities": 5,
+        "relevant_intermediates": [
+          "India"
+        ]
+      },
+      {
+        "target_id": "model_2185bd5f09d3ae65e3b3",
+        "target_mode": "model",
+        "answer": "Bangkok",
+        "answer_type": "city",
+        "prompt_count": 75,
+        "num_query_entities": 10,
+        "relevant_intermediates": [
+          "Italy",
+          "Laos",
+          "Russia",
+          "Thailand",
+          "United States"
+        ]
+      },
+      {
+        "target_id": "model_38e2a51d6ab5b6197380",
+        "target_mode": "model",
+        "answer": "Bangui",
+        "answer_type": "city",
+        "prompt_count": 17,
+        "num_query_entities": 2,
+        "relevant_intermediates": [
+          "Central African Republic",
+          "Chad"
+        ]
+      },
+      {
+        "target_id": "model_3e5cb03b01f8b68688f4",
+        "target_mode": "model",
+        "answer": "Banja Luka",
+        "answer_type": "city",
+        "prompt_count": 1,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Bosnia and Herzegovina"
+        ]
+      },
+      {
+        "target_id": "model_07593646209e18dacc93",
+        "target_mode": "model",
+        "answer": "Bar Harbor",
+        "answer_type": "city",
+        "prompt_count": 5,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "United States"
+        ]
+      },
+      {
+        "target_id": "model_257c4c052e9420418c49",
+        "target_mode": "model",
+        "answer": "Barcelona",
+        "answer_type": "city",
+        "prompt_count": 41,
+        "num_query_entities": 5,
+        "relevant_intermediates": [
+          "Italy",
+          "Spain"
+        ]
+      },
+      {
+        "target_id": "model_1e3df2ee9851d95aa50f",
+        "target_mode": "model",
+        "answer": "Bari",
+        "answer_type": "city",
+        "prompt_count": 4,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Italy"
+        ]
+      },
+      {
+        "target_id": "model_6dde30914f3750101ebe",
+        "target_mode": "model",
+        "answer": "Bariloche",
+        "answer_type": "city",
+        "prompt_count": 5,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Argentina"
+        ]
+      },
+      {
+        "target_id": "model_5aba025885a235894d0c",
+        "target_mode": "model",
+        "answer": "Barranquilla",
+        "answer_type": "city",
+        "prompt_count": 1,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Colombia"
+        ]
+      },
+      {
+        "target_id": "model_0eae52f6f2c49748b98a",
+        "target_mode": "model",
+        "answer": "Basse-Terre",
+        "answer_type": "city",
+        "prompt_count": 6,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "France"
+        ]
+      },
+      {
+        "target_id": "model_a4660b411846fcb3a402",
+        "target_mode": "model",
+        "answer": "Beijing",
+        "answer_type": "city",
+        "prompt_count": 13,
+        "num_query_entities": 2,
+        "relevant_intermediates": [
+          "People's Republic of China"
+        ]
+      },
+      {
+        "target_id": "model_62962fff88b0eea1e40d",
+        "target_mode": "model",
+        "answer": "Beira",
+        "answer_type": "city",
+        "prompt_count": 4,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Mozambique"
+        ]
+      },
+      {
+        "target_id": "model_a3b7b6cf4f3d4fc495bd",
+        "target_mode": "model",
+        "answer": "Beirut",
+        "answer_type": "city",
+        "prompt_count": 18,
+        "num_query_entities": 4,
+        "relevant_intermediates": [
+          "Egypt",
+          "Israel",
+          "Sweden",
+          "Tunisia"
+        ]
+      },
+      {
+        "target_id": "model_e596e55caecd3414e70d",
+        "target_mode": "model",
+        "answer": "Belfast",
+        "answer_type": "city",
+        "prompt_count": 11,
+        "num_query_entities": 2,
+        "relevant_intermediates": [
+          "Ireland"
+        ]
+      },
+      {
+        "target_id": "model_92f899e0b09c39e55606",
+        "target_mode": "model",
+        "answer": "Belgrade",
+        "answer_type": "city",
+        "prompt_count": 22,
+        "num_query_entities": 5,
+        "relevant_intermediates": [
+          "Belarus",
+          "Bosnia and Herzegovina",
+          "Montenegro",
+          "Serbia"
+        ]
+      },
+      {
+        "target_id": "model_88fd1e418b0a29646ca7",
+        "target_mode": "model",
+        "answer": "Berlin",
+        "answer_type": "city",
+        "prompt_count": 81,
+        "num_query_entities": 18,
+        "relevant_intermediates": [
+          "Austria",
+          "Germany",
+          "Norway",
+          "Russia"
+        ]
+      },
+      {
+        "target_id": "model_dceb8636a594ddb8b724",
+        "target_mode": "model",
+        "answer": "Bern",
+        "answer_type": "city",
+        "prompt_count": 10,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Switzerland"
+        ]
+      },
+      {
+        "target_id": "model_3ff159bc5faf67c1fa52",
+        "target_mode": "model",
+        "answer": "Beulah",
+        "answer_type": "city",
+        "prompt_count": 1,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "United States"
+        ]
+      },
+      {
+        "target_id": "model_f9cfb6d4a907e6e5bbce",
+        "target_mode": "model",
+        "answer": "Bhubaneswar",
+        "answer_type": "city",
+        "prompt_count": 9,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "India"
+        ]
+      },
+      {
+        "target_id": "model_30ecb3a28b3790d26bff",
+        "target_mode": "model",
+        "answer": "Bilbao",
+        "answer_type": "city",
+        "prompt_count": 4,
+        "num_query_entities": 2,
+        "relevant_intermediates": [
+          "Spain"
+        ]
+      },
+      {
+        "target_id": "model_d25ac1a38600e555a45d",
+        "target_mode": "model",
+        "answer": "Bishkek",
+        "answer_type": "city",
+        "prompt_count": 26,
+        "num_query_entities": 8,
+        "relevant_intermediates": [
+          "Albania",
+          "Azerbaijan",
+          "India",
+          "Kosovo",
+          "Kyrgyzstan",
+          "Norway",
+          "Russia"
+        ]
+      },
+      {
+        "target_id": "model_59a408730e6a8a8eaa21",
+        "target_mode": "model",
+        "answer": "Blantyre",
+        "answer_type": "city",
+        "prompt_count": 5,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Malawi"
+        ]
+      },
+      {
+        "target_id": "model_914b2014fedc4a8cfa34",
+        "target_mode": "model",
+        "answer": "Bogota",
+        "answer_type": "city",
+        "prompt_count": 7,
+        "num_query_entities": 3,
+        "relevant_intermediates": [
+          "Colombia",
+          "Ecuador"
+        ]
+      },
+      {
+        "target_id": "model_52581cd29f1ffad044c8",
+        "target_mode": "model",
+        "answer": "Bogotá",
+        "answer_type": "city",
+        "prompt_count": 23,
+        "num_query_entities": 5,
+        "relevant_intermediates": [
+          "Colombia",
+          "Guatemala",
+          "Panama"
+        ]
+      },
+      {
+        "target_id": "model_6684430e4ec781130d39",
+        "target_mode": "model",
+        "answer": "Bolzano",
+        "answer_type": "city",
+        "prompt_count": 6,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Italy"
+        ]
+      },
+      {
+        "target_id": "model_2e4521230d42972d9630",
+        "target_mode": "model",
+        "answer": "Bonn",
+        "answer_type": "city",
+        "prompt_count": 7,
+        "num_query_entities": 2,
+        "relevant_intermediates": [
+          "Germany"
+        ]
+      },
+      {
+        "target_id": "model_e499d84bd189a297ff3c",
+        "target_mode": "model",
+        "answer": "Bormio",
+        "answer_type": "city",
+        "prompt_count": 1,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Italy"
+        ]
+      },
+      {
+        "target_id": "model_042c937816227e757128",
+        "target_mode": "model",
+        "answer": "Boston",
+        "answer_type": "city",
+        "prompt_count": 1,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "United States"
+        ]
+      },
+      {
+        "target_id": "model_456ed128f57ce59fa2b6",
+        "target_mode": "model",
+        "answer": "Botswana",
+        "answer_type": "city",
+        "prompt_count": 1,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Botswana"
+        ]
+      },
+      {
+        "target_id": "model_892086c27889925c344b",
+        "target_mode": "model",
+        "answer": "Brasilia",
+        "answer_type": "city",
+        "prompt_count": 39,
+        "num_query_entities": 9,
+        "relevant_intermediates": [
+          "Angola",
+          "Brazil",
+          "France"
+        ]
+      },
+      {
+        "target_id": "model_aba6781fdc45fb7a0b71",
+        "target_mode": "model",
+        "answer": "Brasília",
+        "answer_type": "city",
+        "prompt_count": 21,
+        "num_query_entities": 8,
+        "relevant_intermediates": [
+          "Angola",
+          "Brazil"
+        ]
+      },
+      {
+        "target_id": "model_19931b5bb6b91fb7694d",
+        "target_mode": "model",
+        "answer": "Bratislava",
+        "answer_type": "city",
+        "prompt_count": 51,
+        "num_query_entities": 7,
+        "relevant_intermediates": [
+          "Madagascar",
+          "Russia",
+          "Slovakia"
+        ]
+      },
+      {
+        "target_id": "model_d60945a423becf6ad850",
+        "target_mode": "model",
+        "answer": "Brazil",
+        "answer_type": "city",
+        "prompt_count": 1,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "France"
+        ]
+      },
+      {
+        "target_id": "model_79d05b23d7f93c0c936a",
+        "target_mode": "model",
+        "answer": "Brazzaville",
+        "answer_type": "city",
+        "prompt_count": 26,
+        "num_query_entities": 6,
+        "relevant_intermediates": [
+          "Angola",
+          "Cameroon",
+          "Chad",
+          "Gabon",
+          "Republic of the Congo"
+        ]
+      },
+      {
+        "target_id": "model_ef1361abfbd0196a82ab",
+        "target_mode": "model",
+        "answer": "Bremen",
+        "answer_type": "city",
+        "prompt_count": 2,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Germany"
+        ]
+      },
+      {
+        "target_id": "model_8d75734eca21b1e8830b",
+        "target_mode": "model",
+        "answer": "Brisbane",
+        "answer_type": "city",
+        "prompt_count": 3,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Russia"
+        ]
+      },
+      {
+        "target_id": "model_7e76755e33d96bd2eff9",
+        "target_mode": "model",
+        "answer": "Brooklyn",
+        "answer_type": "city",
+        "prompt_count": 7,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "United States"
+        ]
+      },
+      {
+        "target_id": "model_7753e84fc20ed1318460",
+        "target_mode": "model",
+        "answer": "Brussels",
+        "answer_type": "city",
+        "prompt_count": 1,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Germany"
+        ]
+      },
+      {
+        "target_id": "model_b7ff3f786f347e3b068f",
+        "target_mode": "model",
+        "answer": "Bucharest",
+        "answer_type": "city",
+        "prompt_count": 25,
+        "num_query_entities": 4,
+        "relevant_intermediates": [
+          "Poland",
+          "Romania",
+          "Ukraine"
+        ]
+      },
+      {
+        "target_id": "model_26b96436442d1b5d5a55",
+        "target_mode": "model",
+        "answer": "Budapest",
+        "answer_type": "city",
+        "prompt_count": 83,
+        "num_query_entities": 12,
+        "relevant_intermediates": [
+          "Austria",
+          "Hungary",
+          "Russia",
+          "Ukraine",
+          "United States"
+        ]
+      },
+      {
+        "target_id": "model_0582b357dad9be6ecb8f",
+        "target_mode": "model",
+        "answer": "Buenos Aires",
+        "answer_type": "city",
+        "prompt_count": 95,
+        "num_query_entities": 17,
+        "relevant_intermediates": [
+          "Angola",
+          "Argentina",
+          "Chile",
+          "Guatemala",
+          "Nepal"
+        ]
+      },
+      {
+        "target_id": "model_9dc4ce60063e5a718300",
+        "target_mode": "model",
+        "answer": "Bulawayo",
+        "answer_type": "city",
+        "prompt_count": 10,
+        "num_query_entities": 2,
+        "relevant_intermediates": [
+          "Zimbabwe"
+        ]
+      },
+      {
+        "target_id": "model_b5d79ba30696dd3d33fb",
+        "target_mode": "model",
+        "answer": "Caceres",
+        "answer_type": "city",
+        "prompt_count": 1,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Spain"
+        ]
+      },
+      {
+        "target_id": "model_377edfdea2bb7fc222f3",
+        "target_mode": "model",
+        "answer": "Cagliari",
+        "answer_type": "city",
+        "prompt_count": 9,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Italy"
+        ]
+      },
+      {
+        "target_id": "model_1c06d7470d3ae5ff5813",
+        "target_mode": "model",
+        "answer": "Cairo",
+        "answer_type": "city",
+        "prompt_count": 29,
+        "num_query_entities": 4,
+        "relevant_intermediates": [
+          "Egypt",
+          "Senegal",
+          "Tunisia"
+        ]
+      },
+      {
+        "target_id": "model_faf10cd16b8d98a04855",
+        "target_mode": "model",
+        "answer": "Calabria",
+        "answer_type": "city",
+        "prompt_count": 1,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Italy"
+        ]
+      },
+      {
+        "target_id": "model_1cda183ddf572c1456d3",
+        "target_mode": "model",
+        "answer": "Calgary",
+        "answer_type": "city",
+        "prompt_count": 30,
+        "num_query_entities": 5,
+        "relevant_intermediates": [
+          "Canada",
+          "United States"
+        ]
+      },
+      {
+        "target_id": "model_04bd4819ed0e264a11be",
+        "target_mode": "model",
+        "answer": "California",
+        "answer_type": "city",
+        "prompt_count": 1,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "United States"
+        ]
+      },
+      {
+        "target_id": "model_6b29369e7f08f261a8c0",
+        "target_mode": "model",
+        "answer": "Cameroon",
+        "answer_type": "city",
+        "prompt_count": 1,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Cameroon"
+        ]
+      },
+      {
+        "target_id": "model_2e36603c2790bfa08800",
+        "target_mode": "model",
+        "answer": "Canberra",
+        "answer_type": "city",
+        "prompt_count": 31,
+        "num_query_entities": 9,
+        "relevant_intermediates": [
+          "Australia",
+          "Indonesia",
+          "Russia"
+        ]
+      },
+      {
+        "target_id": "model_d639de818e247aa98401",
+        "target_mode": "model",
+        "answer": "Cape Town",
+        "answer_type": "city",
+        "prompt_count": 5,
+        "num_query_entities": 2,
+        "relevant_intermediates": [
+          "Canada",
+          "Madagascar"
+        ]
+      },
+      {
+        "target_id": "model_c8e729524ab1465f9e95",
+        "target_mode": "model",
+        "answer": "Cappadocia",
+        "answer_type": "city",
+        "prompt_count": 1,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Turkey"
+        ]
+      },
+      {
+        "target_id": "model_810ee5959de6f1756ccf",
+        "target_mode": "model",
+        "answer": "Capri",
+        "answer_type": "city",
+        "prompt_count": 4,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Italy"
+        ]
+      },
+      {
+        "target_id": "model_2d740e9e6b72d00f488b",
+        "target_mode": "model",
+        "answer": "Caracas",
+        "answer_type": "city",
+        "prompt_count": 14,
+        "num_query_entities": 5,
+        "relevant_intermediates": [
+          "Argentina",
+          "Chile",
+          "Guatemala",
+          "Venezuela"
+        ]
+      },
+      {
+        "target_id": "model_b4a5eb78634c57b98932",
+        "target_mode": "model",
+        "answer": "Cardiff",
+        "answer_type": "city",
+        "prompt_count": 17,
+        "num_query_entities": 2,
+        "relevant_intermediates": [
+          "United Kingdom"
+        ]
+      },
+      {
+        "target_id": "model_e2c541279698c673f63f",
+        "target_mode": "model",
+        "answer": "Carlsbad",
+        "answer_type": "city",
+        "prompt_count": 1,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "United States"
+        ]
+      },
+      {
+        "target_id": "model_9fda992c7bfd46a6e405",
+        "target_mode": "model",
+        "answer": "Carlsbad, New Mexico",
+        "answer_type": "city",
+        "prompt_count": 4,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "United States"
+        ]
+      },
+      {
+        "target_id": "model_823e877362fa0e93bb6a",
+        "target_mode": "model",
+        "answer": "Carson City",
+        "answer_type": "city",
+        "prompt_count": 1,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "United States"
+        ]
+      },
+      {
+        "target_id": "model_19993e63d540b8285a25",
+        "target_mode": "model",
+        "answer": "Casablanca",
+        "answer_type": "city",
+        "prompt_count": 3,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Morocco"
+        ]
+      },
+      {
+        "target_id": "model_19ae1818e60436254185",
+        "target_mode": "model",
+        "answer": "Catania",
+        "answer_type": "city",
+        "prompt_count": 3,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Italy"
+        ]
+      },
+      {
+        "target_id": "model_fe7ba790b1aab14f23e4",
+        "target_mode": "model",
+        "answer": "Charlotte Amalie",
+        "answer_type": "city",
+        "prompt_count": 5,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "United States"
+        ]
+      },
+      {
+        "target_id": "model_4ac2660c915aec1a1720",
+        "target_mode": "model",
+        "answer": "Charlottetown",
+        "answer_type": "city",
+        "prompt_count": 10,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Canada"
+        ]
+      },
+      {
+        "target_id": "model_f8f3b34e05751ff3c28e",
+        "target_mode": "model",
+        "answer": "Chengdu",
+        "answer_type": "city",
+        "prompt_count": 7,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "People's Republic of China"
+        ]
+      },
+      {
+        "target_id": "model_6891da6ab94560f65f37",
+        "target_mode": "model",
+        "answer": "Chennai",
+        "answer_type": "city",
+        "prompt_count": 2,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "India"
+        ]
+      },
+      {
+        "target_id": "model_a640b880174b290fed69",
+        "target_mode": "model",
+        "answer": "Chicago",
+        "answer_type": "city",
+        "prompt_count": 19,
+        "num_query_entities": 3,
+        "relevant_intermediates": [
+          "United States"
+        ]
+      },
+      {
+        "target_id": "model_6fdecb77cd80bf6a6a63",
+        "target_mode": "model",
+        "answer": "Christchurch",
+        "answer_type": "city",
+        "prompt_count": 11,
+        "num_query_entities": 4,
+        "relevant_intermediates": [
+          "Canada",
+          "New Zealand"
+        ]
+      },
+      {
+        "target_id": "model_e958c3a1a7bc9fa9dd44",
+        "target_mode": "model",
+        "answer": "Cincinnati",
+        "answer_type": "city",
+        "prompt_count": 9,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "United States"
+        ]
+      },
+      {
+        "target_id": "model_580e97d33e2fc5472f01",
+        "target_mode": "model",
+        "answer": "Ciudad Juárez",
+        "answer_type": "city",
+        "prompt_count": 1,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Argentina"
+        ]
+      },
+      {
+        "target_id": "model_89f7e287e2d45892b33c",
+        "target_mode": "model",
+        "answer": "Cleveland",
+        "answer_type": "city",
+        "prompt_count": 10,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "United States"
+        ]
+      },
+      {
+        "target_id": "model_751aecc733972fc40de2",
+        "target_mode": "model",
+        "answer": "Cologne",
+        "answer_type": "city",
+        "prompt_count": 4,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Germany"
+        ]
+      },
+      {
+        "target_id": "model_5c9658373832cdce6e7f",
+        "target_mode": "model",
+        "answer": "Colorado",
+        "answer_type": "city",
+        "prompt_count": 3,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "United States"
+        ]
+      },
+      {
+        "target_id": "model_fa10ca6f2cfa406dac10",
+        "target_mode": "model",
+        "answer": "Colorado Springs",
+        "answer_type": "city",
+        "prompt_count": 3,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "United States"
+        ]
+      },
+      {
+        "target_id": "model_d762e3a9cb178f1acda0",
+        "target_mode": "model",
+        "answer": "Columbia",
+        "answer_type": "city",
+        "prompt_count": 4,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "United States"
+        ]
+      },
+      {
+        "target_id": "model_4a452e3b8fd60922c8dd",
+        "target_mode": "model",
+        "answer": "Constanta",
+        "answer_type": "city",
+        "prompt_count": 1,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Algeria"
+        ]
+      },
+      {
+        "target_id": "model_3c3e868e2f90c4bbae15",
+        "target_mode": "model",
+        "answer": "Constantine",
+        "answer_type": "city",
+        "prompt_count": 1,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Algeria"
+        ]
+      },
+      {
+        "target_id": "model_a29e9aefc3c706da93d7",
+        "target_mode": "model",
+        "answer": "Copenhagen",
+        "answer_type": "city",
+        "prompt_count": 25,
+        "num_query_entities": 4,
+        "relevant_intermediates": [
+          "Canada",
+          "Denmark",
+          "Greenland"
+        ]
+      },
+      {
+        "target_id": "model_78d5b8643ac2bf466a7e",
+        "target_mode": "model",
+        "answer": "Curitiba",
+        "answer_type": "city",
+        "prompt_count": 2,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Brazil"
+        ]
+      },
+      {
+        "target_id": "model_ecf44a60dfb92c3d8890",
+        "target_mode": "model",
+        "answer": "Cusco",
+        "answer_type": "city",
+        "prompt_count": 4,
+        "num_query_entities": 3,
+        "relevant_intermediates": [
+          "Peru"
+        ]
+      },
+      {
+        "target_id": "model_255067871e510e9344e1",
+        "target_mode": "model",
+        "answer": "Cuzco",
+        "answer_type": "city",
+        "prompt_count": 1,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Peru"
+        ]
+      },
+      {
+        "target_id": "model_f9a5c9cc4b206273a66f",
+        "target_mode": "model",
+        "answer": "Córdoba",
+        "answer_type": "city",
+        "prompt_count": 1,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Spain"
+        ]
+      },
+      {
+        "target_id": "model_41b0f03855cfc6ceddfb",
+        "target_mode": "model",
+        "answer": "Dakar",
+        "answer_type": "city",
+        "prompt_count": 30,
+        "num_query_entities": 6,
+        "relevant_intermediates": [
+          "Angola",
+          "Cameroon",
+          "Mauritania",
+          "Morocco",
+          "Senegal"
+        ]
+      },
+      {
+        "target_id": "model_95b7ac8040dac52a92df",
+        "target_mode": "model",
+        "answer": "Dallas",
+        "answer_type": "city",
+        "prompt_count": 1,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Sweden"
+        ]
+      },
+      {
+        "target_id": "model_634ac304051913947952",
+        "target_mode": "model",
+        "answer": "Damascus",
+        "answer_type": "city",
+        "prompt_count": 1,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Sweden"
+        ]
+      },
+      {
+        "target_id": "model_25b444d9e5b3076468dc",
+        "target_mode": "model",
+        "answer": "Dar es Salaam",
+        "answer_type": "city",
+        "prompt_count": 36,
+        "num_query_entities": 5,
+        "relevant_intermediates": [
+          "Tanzania"
+        ]
+      },
+      {
+        "target_id": "model_41b7ab6e4e07169c0642",
+        "target_mode": "model",
+        "answer": "Darwin",
+        "answer_type": "city",
+        "prompt_count": 9,
+        "num_query_entities": 3,
+        "relevant_intermediates": [
+          "Australia"
+        ]
+      },
+      {
+        "target_id": "model_69b6742b3acc58b20924",
+        "target_mode": "model",
+        "answer": "Death Valley",
+        "answer_type": "city",
+        "prompt_count": 1,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "United States"
+        ]
+      },
+      {
+        "target_id": "model_e18384ca108935d4b03e",
+        "target_mode": "model",
+        "answer": "Debrecen",
+        "answer_type": "city",
+        "prompt_count": 1,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Hungary"
+        ]
+      },
+      {
+        "target_id": "model_c706194bc1dfbd85a853",
+        "target_mode": "model",
+        "answer": "Dehradun",
+        "answer_type": "city",
+        "prompt_count": 5,
+        "num_query_entities": 2,
+        "relevant_intermediates": [
+          "India"
+        ]
+      },
+      {
+        "target_id": "model_f2333a7b2b295d859e29",
+        "target_mode": "model",
+        "answer": "Delhi",
+        "answer_type": "city",
+        "prompt_count": 1,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "India"
+        ]
+      },
+      {
+        "target_id": "model_65b6c6eb0895c7118dd5",
+        "target_mode": "model",
+        "answer": "Denpasar",
+        "answer_type": "city",
+        "prompt_count": 9,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Indonesia"
+        ]
+      },
+      {
+        "target_id": "model_c4b641a05a985b037051",
+        "target_mode": "model",
+        "answer": "Denver",
+        "answer_type": "city",
+        "prompt_count": 25,
+        "num_query_entities": 4,
+        "relevant_intermediates": [
+          "United States"
+        ]
+      },
+      {
+        "target_id": "model_daa8cd2c34b4de55c2ec",
+        "target_mode": "model",
+        "answer": "Dessau",
+        "answer_type": "city",
+        "prompt_count": 5,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Germany"
+        ]
+      },
+      {
+        "target_id": "model_f65d3ef52a13b4168b59",
+        "target_mode": "model",
+        "answer": "Dharamsala",
+        "answer_type": "city",
+        "prompt_count": 3,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "India"
+        ]
+      },
+      {
+        "target_id": "model_21d4f54cccaf32aba90b",
+        "target_mode": "model",
+        "answer": "Dodoma",
+        "answer_type": "city",
+        "prompt_count": 7,
+        "num_query_entities": 3,
+        "relevant_intermediates": [
+          "Tanzania"
+        ]
+      },
+      {
+        "target_id": "model_1668ae0464f35cadb938",
+        "target_mode": "model",
+        "answer": "Dresden",
+        "answer_type": "city",
+        "prompt_count": 9,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Germany"
+        ]
+      },
+      {
+        "target_id": "model_b4416741c52ba49731cf",
+        "target_mode": "model",
+        "answer": "Dublin",
+        "answer_type": "city",
+        "prompt_count": 33,
+        "num_query_entities": 5,
+        "relevant_intermediates": [
+          "Ireland"
+        ]
+      },
+      {
+        "target_id": "model_a439334cec98a7c911fd",
+        "target_mode": "model",
+        "answer": "Duluth",
+        "answer_type": "city",
+        "prompt_count": 4,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "United States"
+        ]
+      },
+      {
+        "target_id": "model_22ac534b7c8815340f8e",
+        "target_mode": "model",
+        "answer": "Duluth, Minnesota",
+        "answer_type": "city",
+        "prompt_count": 1,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "United States"
+        ]
+      },
+      {
+        "target_id": "model_b513d83bf8169d3d9587",
+        "target_mode": "model",
+        "answer": "Dushanbe",
+        "answer_type": "city",
+        "prompt_count": 2,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Tajikistan"
+        ]
+      },
+      {
+        "target_id": "model_339071c042fc3c032e24",
+        "target_mode": "model",
+        "answer": "Edinburgh",
+        "answer_type": "city",
+        "prompt_count": 14,
+        "num_query_entities": 4,
+        "relevant_intermediates": [
+          "Angola",
+          "Israel",
+          "United Kingdom"
+        ]
+      },
+      {
+        "target_id": "model_f483487579d56e5e801e",
+        "target_mode": "model",
+        "answer": "Edmonton",
+        "answer_type": "city",
+        "prompt_count": 27,
+        "num_query_entities": 4,
+        "relevant_intermediates": [
+          "Canada"
+        ]
+      },
+      {
+        "target_id": "model_166e3ddb43d5b1cf79f8",
+        "target_mode": "model",
+        "answer": "Egypt",
+        "answer_type": "city",
+        "prompt_count": 1,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Egypt"
+        ]
+      },
+      {
+        "target_id": "model_aeaf2ed0be0dd198cf47",
+        "target_mode": "model",
+        "answer": "El Obeid",
+        "answer_type": "city",
+        "prompt_count": 1,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Senegal"
+        ]
+      },
+      {
+        "target_id": "model_619a34e94be2450b3119",
+        "target_mode": "model",
+        "answer": "El Paso",
+        "answer_type": "city",
+        "prompt_count": 18,
+        "num_query_entities": 2,
+        "relevant_intermediates": [
+          "United States"
+        ]
+      },
+      {
+        "target_id": "model_bda7148f274984d9a3bf",
+        "target_mode": "model",
+        "answer": "Elko",
+        "answer_type": "city",
+        "prompt_count": 3,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "United States"
+        ]
+      },
+      {
+        "target_id": "model_14ce469c155fa3c6d8a8",
+        "target_mode": "model",
+        "answer": "Fairbanks",
+        "answer_type": "city",
+        "prompt_count": 27,
+        "num_query_entities": 4,
+        "relevant_intermediates": [
+          "Russia",
+          "United States"
+        ]
+      },
+      {
+        "target_id": "model_a8181af4c8f9a3982e7b",
+        "target_mode": "model",
+        "answer": "Flagstaff",
+        "answer_type": "city",
+        "prompt_count": 14,
+        "num_query_entities": 2,
+        "relevant_intermediates": [
+          "United States"
+        ]
+      },
+      {
+        "target_id": "model_1be6d22a10655df33d29",
+        "target_mode": "model",
+        "answer": "Florence",
+        "answer_type": "city",
+        "prompt_count": 3,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Italy"
+        ]
+      },
+      {
+        "target_id": "model_fbe7121c5fa4a21e49dc",
+        "target_mode": "model",
+        "answer": "Fort Simpson",
+        "answer_type": "city",
+        "prompt_count": 6,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Canada"
+        ]
+      },
+      {
+        "target_id": "model_a8e85725173dc29538d1",
+        "target_mode": "model",
+        "answer": "Fortaleza",
+        "answer_type": "city",
+        "prompt_count": 8,
+        "num_query_entities": 3,
+        "relevant_intermediates": [
+          "Brazil"
+        ]
+      },
+      {
+        "target_id": "model_12a58546a6f84db30705",
+        "target_mode": "model",
+        "answer": "Foz do Iguaçu",
+        "answer_type": "city",
+        "prompt_count": 1,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Brazil"
+        ]
+      },
+      {
+        "target_id": "model_cec359b458252cc92ff7",
+        "target_mode": "model",
+        "answer": "Frankfurt",
+        "answer_type": "city",
+        "prompt_count": 5,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Germany"
+        ]
+      },
+      {
+        "target_id": "model_9264ba5a5bc00dee8c7e",
+        "target_mode": "model",
+        "answer": "Gabon",
+        "answer_type": "city",
+        "prompt_count": 2,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Gabon"
+        ]
+      },
+      {
+        "target_id": "model_ec85e0a2051b8f57122f",
+        "target_mode": "model",
+        "answer": "Gaborone",
+        "answer_type": "city",
+        "prompt_count": 8,
+        "num_query_entities": 2,
+        "relevant_intermediates": [
+          "Botswana",
+          "Canada"
+        ]
+      },
+      {
+        "target_id": "model_370edbfe0cdd37be7657",
+        "target_mode": "model",
+        "answer": "Galicia",
+        "answer_type": "city",
+        "prompt_count": 1,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Spain"
+        ]
+      },
+      {
+        "target_id": "model_b3cbe2ec9b36a0832cd9",
+        "target_mode": "model",
+        "answer": "Galway",
+        "answer_type": "city",
+        "prompt_count": 5,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Ireland"
+        ]
+      },
+      {
+        "target_id": "model_0f878ee10bb3908b6af1",
+        "target_mode": "model",
+        "answer": "Gangtok",
+        "answer_type": "city",
+        "prompt_count": 6,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "India"
+        ]
+      },
+      {
+        "target_id": "model_76c25cb48e216a549e41",
+        "target_mode": "model",
+        "answer": "Garissa",
+        "answer_type": "city",
+        "prompt_count": 1,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Kenya"
+        ]
+      },
+      {
+        "target_id": "model_f02b1f954f450a47dd75",
+        "target_mode": "model",
+        "answer": "Gatlinburg",
+        "answer_type": "city",
+        "prompt_count": 5,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "United States"
+        ]
+      },
+      {
+        "target_id": "model_2b14f936fcd65348077b",
+        "target_mode": "model",
+        "answer": "Gdansk",
+        "answer_type": "city",
+        "prompt_count": 6,
+        "num_query_entities": 3,
+        "relevant_intermediates": [
+          "Germany",
+          "Poland"
+        ]
+      },
+      {
+        "target_id": "model_be4cd8f3597c4c35663d",
+        "target_mode": "model",
+        "answer": "Gdańsk",
+        "answer_type": "city",
+        "prompt_count": 1,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Poland"
+        ]
+      },
+      {
+        "target_id": "model_15c245b72906cff1a365",
+        "target_mode": "model",
+        "answer": "Geneva",
+        "answer_type": "city",
+        "prompt_count": 3,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "France"
+        ]
+      },
+      {
+        "target_id": "model_d865dcf0c5b116df9fa7",
+        "target_mode": "model",
+        "answer": "Glasgow",
+        "answer_type": "city",
+        "prompt_count": 12,
+        "num_query_entities": 2,
+        "relevant_intermediates": [
+          "Angola",
+          "United Kingdom"
+        ]
+      },
+      {
+        "target_id": "model_a66c5e6829d87077bb20",
+        "target_mode": "model",
+        "answer": "Goma",
+        "answer_type": "city",
+        "prompt_count": 11,
+        "num_query_entities": 2,
+        "relevant_intermediates": [
+          "Democratic Republic of the Congo"
+        ]
+      },
+      {
+        "target_id": "model_e2e2e39a4d8d25c423f9",
+        "target_mode": "model",
+        "answer": "Gran Canaria",
+        "answer_type": "city",
+        "prompt_count": 3,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Spain"
+        ]
+      },
+      {
+        "target_id": "model_b27a9852de15ba820c55",
+        "target_mode": "model",
+        "answer": "Grenoble",
+        "answer_type": "city",
+        "prompt_count": 16,
+        "num_query_entities": 2,
+        "relevant_intermediates": [
+          "France"
+        ]
+      },
+      {
+        "target_id": "model_bd3a81653f001b62ebab",
+        "target_mode": "model",
+        "answer": "Guatemala",
+        "answer_type": "city",
+        "prompt_count": 3,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Guatemala"
+        ]
+      },
+      {
+        "target_id": "model_8b1fa5a1970b4c2cb39f",
+        "target_mode": "model",
+        "answer": "Guatemala City",
+        "answer_type": "city",
+        "prompt_count": 14,
+        "num_query_entities": 2,
+        "relevant_intermediates": [
+          "Guatemala"
+        ]
+      },
+      {
+        "target_id": "model_9276fef445758ac277e1",
+        "target_mode": "model",
+        "answer": "Gulu",
+        "answer_type": "city",
+        "prompt_count": 1,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Uganda"
+        ]
+      },
+      {
+        "target_id": "model_22d9178dcf7ccbf72f22",
+        "target_mode": "model",
+        "answer": "Gunnison",
+        "answer_type": "city",
+        "prompt_count": 8,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "United States"
+        ]
+      },
+      {
+        "target_id": "model_1ef71ee88dc9ce386916",
+        "target_mode": "model",
+        "answer": "Guwahati",
+        "answer_type": "city",
+        "prompt_count": 8,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "India"
+        ]
+      },
+      {
+        "target_id": "model_aa82a34f245eb6cf6dc8",
+        "target_mode": "model",
+        "answer": "Haifa",
+        "answer_type": "city",
+        "prompt_count": 8,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Israel"
+        ]
+      },
+      {
+        "target_id": "model_9e139492ac276e17f32c",
+        "target_mode": "model",
+        "answer": "Halifax",
+        "answer_type": "city",
+        "prompt_count": 37,
+        "num_query_entities": 5,
+        "relevant_intermediates": [
+          "Canada",
+          "United States"
+        ]
+      },
+      {
+        "target_id": "model_d785375c1f058c0bcff3",
+        "target_mode": "model",
+        "answer": "Hamburg",
+        "answer_type": "city",
+        "prompt_count": 27,
+        "num_query_entities": 6,
+        "relevant_intermediates": [
+          "Germany"
+        ]
+      },
+      {
+        "target_id": "model_346cd616939b3e65d4ef",
+        "target_mode": "model",
+        "answer": "Hannover",
+        "answer_type": "city",
+        "prompt_count": 5,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Germany"
+        ]
+      },
+      {
+        "target_id": "model_87af6723e64a7dc395e9",
+        "target_mode": "model",
+        "answer": "Hanoi",
+        "answer_type": "city",
+        "prompt_count": 15,
+        "num_query_entities": 2,
+        "relevant_intermediates": [
+          "Vietnam"
+        ]
+      },
+      {
+        "target_id": "model_9ccca9ebe6fa8f6be249",
+        "target_mode": "model",
+        "answer": "Hanover",
+        "answer_type": "city",
+        "prompt_count": 6,
+        "num_query_entities": 2,
+        "relevant_intermediates": [
+          "Germany"
+        ]
+      },
+      {
+        "target_id": "model_3e37f30ca0763825af43",
+        "target_mode": "model",
+        "answer": "Harare",
+        "answer_type": "city",
+        "prompt_count": 35,
+        "num_query_entities": 10,
+        "relevant_intermediates": [
+          "Azerbaijan",
+          "Democratic Republic of the Congo",
+          "Kenya",
+          "Nepal",
+          "Rwanda",
+          "Tanzania",
+          "Zimbabwe"
+        ]
+      },
+      {
+        "target_id": "model_24fa913ee4d9578e01b3",
+        "target_mode": "model",
+        "answer": "Havana",
+        "answer_type": "city",
+        "prompt_count": 11,
+        "num_query_entities": 2,
+        "relevant_intermediates": [
+          "Argentina",
+          "Cuba"
+        ]
+      },
+      {
+        "target_id": "model_e255deaf1c3f6798d8bd",
+        "target_mode": "model",
+        "answer": "Helsinki",
+        "answer_type": "city",
+        "prompt_count": 210,
+        "num_query_entities": 26,
+        "relevant_intermediates": [
+          "Finland",
+          "Russia",
+          "Sweden"
+        ]
+      },
+      {
+        "target_id": "model_45592a89999be119b260",
+        "target_mode": "model",
+        "answer": "Heraklion",
+        "answer_type": "city",
+        "prompt_count": 2,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Italy"
+        ]
+      },
+      {
+        "target_id": "model_e755ae99d53923bdcee8",
+        "target_mode": "model",
+        "answer": "Hilo",
+        "answer_type": "city",
+        "prompt_count": 5,
+        "num_query_entities": 2,
+        "relevant_intermediates": [
+          "Rwanda",
+          "United States"
+        ]
+      },
+      {
+        "target_id": "model_3d341312d3b2732c9180",
+        "target_mode": "model",
+        "answer": "Ho Chi Minh City",
+        "answer_type": "city",
+        "prompt_count": 5,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Vietnam"
+        ]
+      },
+      {
+        "target_id": "model_f4cdcccb98b3367c23e5",
+        "target_mode": "model",
+        "answer": "Hobart",
+        "answer_type": "city",
+        "prompt_count": 10,
+        "num_query_entities": 2,
+        "relevant_intermediates": [
+          "Australia",
+          "Canada"
+        ]
+      },
+      {
+        "target_id": "model_a922d418ed758a3bd99f",
+        "target_mode": "model",
+        "answer": "Honolulu",
+        "answer_type": "city",
+        "prompt_count": 19,
+        "num_query_entities": 2,
+        "relevant_intermediates": [
+          "United States"
+        ]
+      },
+      {
+        "target_id": "model_172a65e3f6b3c15556e4",
+        "target_mode": "model",
+        "answer": "Hot Springs",
+        "answer_type": "city",
+        "prompt_count": 3,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "United States"
+        ]
+      },
+      {
+        "target_id": "model_09d51d12aa2dd8ae1f91",
+        "target_mode": "model",
+        "answer": "Houghton",
+        "answer_type": "city",
+        "prompt_count": 8,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "United States"
+        ]
+      },
+      {
+        "target_id": "model_194e42e5ae9789aa1a20",
+        "target_mode": "model",
+        "answer": "Houghton, Michigan",
+        "answer_type": "city",
+        "prompt_count": 1,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "United States"
+        ]
+      },
+      {
+        "target_id": "model_35751e30d570c7ec27d0",
+        "target_mode": "model",
+        "answer": "Huesca",
+        "answer_type": "city",
+        "prompt_count": 1,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Spain"
+        ]
+      },
+      {
+        "target_id": "model_4f91a4cbac66fb133bf9",
+        "target_mode": "model",
+        "answer": "Humlebæk",
+        "answer_type": "city",
+        "prompt_count": 3,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Denmark"
+        ]
+      },
+      {
+        "target_id": "model_eb00e07796e12818cd41",
+        "target_mode": "model",
+        "answer": "Inuvik",
+        "answer_type": "city",
+        "prompt_count": 4,
+        "num_query_entities": 2,
+        "relevant_intermediates": [
+          "Canada"
+        ]
+      },
+      {
+        "target_id": "model_ec435a38c707029e6ba8",
+        "target_mode": "model",
+        "answer": "Invercargill",
+        "answer_type": "city",
+        "prompt_count": 11,
+        "num_query_entities": 3,
+        "relevant_intermediates": [
+          "New Zealand"
+        ]
+      },
+      {
+        "target_id": "model_73d4673c946a4d42885c",
+        "target_mode": "model",
+        "answer": "Inverness",
+        "answer_type": "city",
+        "prompt_count": 5,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "United Kingdom"
+        ]
+      },
+      {
+        "target_id": "model_8099a2f9c295b826a688",
+        "target_mode": "model",
+        "answer": "Iqaluit",
+        "answer_type": "city",
+        "prompt_count": 7,
+        "num_query_entities": 2,
+        "relevant_intermediates": [
+          "Canada"
+        ]
+      },
+      {
+        "target_id": "model_9d76d6f32a6c04c6e554",
+        "target_mode": "model",
+        "answer": "Irkutsk",
+        "answer_type": "city",
+        "prompt_count": 4,
+        "num_query_entities": 2,
+        "relevant_intermediates": [
+          "Russia"
+        ]
+      },
+      {
+        "target_id": "model_0dd233ccbc3355d7152e",
+        "target_mode": "model",
+        "answer": "Islamabad",
+        "answer_type": "city",
+        "prompt_count": 20,
+        "num_query_entities": 2,
+        "relevant_intermediates": [
+          "Pakistan"
+        ]
+      },
+      {
+        "target_id": "model_2ee7baf896248437ba60",
+        "target_mode": "model",
+        "answer": "Istanbul",
+        "answer_type": "city",
+        "prompt_count": 27,
+        "num_query_entities": 7,
+        "relevant_intermediates": [
+          "Azerbaijan",
+          "Russia",
+          "Turkey"
+        ]
+      },
+      {
+        "target_id": "model_7a6fb6b4f4ea64769453",
+        "target_mode": "model",
+        "answer": "Itanagar",
+        "answer_type": "city",
+        "prompt_count": 1,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "India"
+        ]
+      },
+      {
+        "target_id": "model_09586e1ddca4a7e5a447",
+        "target_mode": "model",
+        "answer": "Jabalpur",
+        "answer_type": "city",
+        "prompt_count": 5,
+        "num_query_entities": 2,
+        "relevant_intermediates": [
+          "India"
+        ]
+      },
+      {
+        "target_id": "model_b85a38ed0a279fffeffb",
+        "target_mode": "model",
+        "answer": "Jackson",
+        "answer_type": "city",
+        "prompt_count": 1,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "United States"
+        ]
+      },
+      {
+        "target_id": "model_e85f366a731e986e5952",
+        "target_mode": "model",
+        "answer": "Jackson Hole",
+        "answer_type": "city",
+        "prompt_count": 7,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "United States"
+        ]
+      },
+      {
+        "target_id": "model_55bd236f269d06e54823",
+        "target_mode": "model",
+        "answer": "Jaipur",
+        "answer_type": "city",
+        "prompt_count": 2,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "India"
+        ]
+      },
+      {
+        "target_id": "model_e728ef3521ad11e3c7c6",
+        "target_mode": "model",
+        "answer": "Jakarta",
+        "answer_type": "city",
+        "prompt_count": 146,
+        "num_query_entities": 21,
+        "relevant_intermediates": [
+          "Brazil",
+          "Finland",
+          "Indonesia",
+          "Russia",
+          "Sweden"
+        ]
+      },
+      {
+        "target_id": "model_2afe912f7e8b8ae4d95c",
+        "target_mode": "model",
+        "answer": "Jerusalem",
+        "answer_type": "city",
+        "prompt_count": 53,
+        "num_query_entities": 11,
+        "relevant_intermediates": [
+          "Azerbaijan",
+          "Israel",
+          "Japan",
+          "United States",
+          "West Bank"
+        ]
+      },
+      {
+        "target_id": "model_72ab431df4ad7ec043a9",
+        "target_mode": "model",
+        "answer": "Jijiga",
+        "answer_type": "city",
+        "prompt_count": 1,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Ethiopia"
+        ]
+      },
+      {
+        "target_id": "model_348134da9de21bde7dec",
+        "target_mode": "model",
+        "answer": "Johannesburg",
+        "answer_type": "city",
+        "prompt_count": 4,
+        "num_query_entities": 2,
+        "relevant_intermediates": [
+          "Botswana",
+          "United States"
+        ]
+      },
+      {
+        "target_id": "model_ff48c7d37df2e93d2268",
+        "target_mode": "model",
+        "answer": "Juneau",
+        "answer_type": "city",
+        "prompt_count": 8,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "United States"
+        ]
+      },
+      {
+        "target_id": "model_ce1de1f7385fc28518ab",
+        "target_mode": "model",
+        "answer": "Kabul",
+        "answer_type": "city",
+        "prompt_count": 12,
+        "num_query_entities": 5,
+        "relevant_intermediates": [
+          "Afghanistan",
+          "Azerbaijan",
+          "Kosovo",
+          "Russia",
+          "Tajikistan"
+        ]
+      },
+      {
+        "target_id": "model_54af4477a247f29ca5a2",
+        "target_mode": "model",
+        "answer": "Kampala",
+        "answer_type": "city",
+        "prompt_count": 79,
+        "num_query_entities": 10,
+        "relevant_intermediates": [
+          "Burundi",
+          "Italy",
+          "Uganda"
+        ]
+      },
+      {
+        "target_id": "model_a58dd56b31b9aa3531f1",
+        "target_mode": "model",
+        "answer": "Kaohsiung",
+        "answer_type": "city",
+        "prompt_count": 1,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Taiwan"
+        ]
+      },
+      {
+        "target_id": "model_62a64edc5cb22a23012a",
+        "target_mode": "model",
+        "answer": "Kassel",
+        "answer_type": "city",
+        "prompt_count": 9,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Germany"
+        ]
+      },
+      {
+        "target_id": "model_31412b9f580b12227b16",
+        "target_mode": "model",
+        "answer": "Kathmandu",
+        "answer_type": "city",
+        "prompt_count": 79,
+        "num_query_entities": 11,
+        "relevant_intermediates": [
+          "India",
+          "Laos",
+          "Nepal",
+          "Russia"
+        ]
+      },
+      {
+        "target_id": "model_3464f067aafd1ad1ea6e",
+        "target_mode": "model",
+        "answer": "Katowice",
+        "answer_type": "city",
+        "prompt_count": 2,
+        "num_query_entities": 2,
+        "relevant_intermediates": [
+          "Poland"
+        ]
+      },
+      {
+        "target_id": "model_13f307587373e5cb07e7",
+        "target_mode": "model",
+        "answer": "Kaunas",
+        "answer_type": "city",
+        "prompt_count": 6,
+        "num_query_entities": 2,
+        "relevant_intermediates": [
+          "Lithuania"
+        ]
+      },
+      {
+        "target_id": "model_b7927e024349d44f01fc",
+        "target_mode": "model",
+        "answer": "Key West",
+        "answer_type": "city",
+        "prompt_count": 8,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "United States"
+        ]
+      },
+      {
+        "target_id": "model_8c6c7d52981b739ecf7f",
+        "target_mode": "model",
+        "answer": "Kiel",
+        "answer_type": "city",
+        "prompt_count": 6,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Germany"
+        ]
+      },
+      {
+        "target_id": "model_96fe771e07def5dacecd",
+        "target_mode": "model",
+        "answer": "Kiev",
+        "answer_type": "city",
+        "prompt_count": 48,
+        "num_query_entities": 8,
+        "relevant_intermediates": [
+          "Belarus",
+          "Kyrgyzstan",
+          "Poland",
+          "Russia",
+          "Ukraine"
+        ]
+      },
+      {
+        "target_id": "model_bb3fb2cf77b256980bf7",
+        "target_mode": "model",
+        "answer": "Kigali",
+        "answer_type": "city",
+        "prompt_count": 33,
+        "num_query_entities": 6,
+        "relevant_intermediates": [
+          "Burundi",
+          "Democratic Republic of the Congo",
+          "Rwanda",
+          "Uganda"
+        ]
+      },
+      {
+        "target_id": "model_f40816a27876c309fc3e",
+        "target_mode": "model",
+        "answer": "Killarney",
+        "answer_type": "city",
+        "prompt_count": 1,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Ireland"
+        ]
+      },
+      {
+        "target_id": "model_7154d22de2749fa78f53",
+        "target_mode": "model",
+        "answer": "Kingston",
+        "answer_type": "city",
+        "prompt_count": 9,
+        "num_query_entities": 2,
+        "relevant_intermediates": [
+          "Canada",
+          "Saint Kitts and Nevis"
+        ]
+      },
+      {
+        "target_id": "model_fecb19dbeb8481a76e81",
+        "target_mode": "model",
+        "answer": "Kingston, Ontario",
+        "answer_type": "city",
+        "prompt_count": 1,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Canada"
+        ]
+      },
+      {
+        "target_id": "model_a7e8d847ec0bf83d5e77",
+        "target_mode": "model",
+        "answer": "Kinshasa",
+        "answer_type": "city",
+        "prompt_count": 34,
+        "num_query_entities": 9,
+        "relevant_intermediates": [
+          "Angola",
+          "Cameroon",
+          "Central African Republic",
+          "Democratic Republic of the Congo",
+          "Republic of the Congo"
+        ]
+      },
+      {
+        "target_id": "model_fddfbf6d16464fcc21d1",
+        "target_mode": "model",
+        "answer": "Kiruna",
+        "answer_type": "city",
+        "prompt_count": 1,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Sweden"
+        ]
+      },
+      {
+        "target_id": "model_fde79fa2ee843fb32d86",
+        "target_mode": "model",
+        "answer": "Klamath Falls",
+        "answer_type": "city",
+        "prompt_count": 2,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "United States"
+        ]
+      },
+      {
+        "target_id": "model_b546428d16aba9fe3755",
+        "target_mode": "model",
+        "answer": "Knoxville",
+        "answer_type": "city",
+        "prompt_count": 1,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "United States"
+        ]
+      },
+      {
+        "target_id": "model_bff447aeb29a1f920cff",
+        "target_mode": "model",
+        "answer": "Kochi",
+        "answer_type": "city",
+        "prompt_count": 5,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "India"
+        ]
+      },
+      {
+        "target_id": "model_5320474c96238b56d929",
+        "target_mode": "model",
+        "answer": "Kolkata",
+        "answer_type": "city",
+        "prompt_count": 19,
+        "num_query_entities": 2,
+        "relevant_intermediates": [
+          "India"
+        ]
+      },
+      {
+        "target_id": "model_3e3bdc985cac1b266364",
+        "target_mode": "model",
+        "answer": "Kota Kinabalu",
+        "answer_type": "city",
+        "prompt_count": 4,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Malaysia"
+        ]
+      },
+      {
+        "target_id": "model_ee7cd51515f685f6d097",
+        "target_mode": "model",
+        "answer": "Kourou",
+        "answer_type": "city",
+        "prompt_count": 1,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "France"
+        ]
+      },
+      {
+        "target_id": "model_8d36682ed95e624c0793",
+        "target_mode": "model",
+        "answer": "Krakow",
+        "answer_type": "city",
+        "prompt_count": 3,
+        "num_query_entities": 2,
+        "relevant_intermediates": [
+          "Poland"
+        ]
+      },
+      {
+        "target_id": "model_51d26ebbc76963b8c5d2",
+        "target_mode": "model",
+        "answer": "Kraków",
+        "answer_type": "city",
+        "prompt_count": 13,
+        "num_query_entities": 6,
+        "relevant_intermediates": [
+          "Poland",
+          "Slovakia"
+        ]
+      },
+      {
+        "target_id": "model_549738c7f1b114a0e44b",
+        "target_mode": "model",
+        "answer": "Krasnoyarsk",
+        "answer_type": "city",
+        "prompt_count": 3,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Russia"
+        ]
+      },
+      {
+        "target_id": "model_b48e4f92c4666201e462",
+        "target_mode": "model",
+        "answer": "Kuala Lumpur",
+        "answer_type": "city",
+        "prompt_count": 12,
+        "num_query_entities": 3,
+        "relevant_intermediates": [
+          "Brazil",
+          "Malaysia"
+        ]
+      },
+      {
+        "target_id": "model_a2e11799fca4a4a56d55",
+        "target_mode": "model",
+        "answer": "Kuching",
+        "answer_type": "city",
+        "prompt_count": 6,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Malaysia"
+        ]
+      },
+      {
+        "target_id": "model_c695f55a470322deadac",
+        "target_mode": "model",
+        "answer": "Kumamoto",
+        "answer_type": "city",
+        "prompt_count": 1,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Japan"
+        ]
+      },
+      {
+        "target_id": "model_76b3f8a901601bb3a82e",
+        "target_mode": "model",
+        "answer": "Kumasi",
+        "answer_type": "city",
+        "prompt_count": 1,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Japan"
+        ]
+      },
+      {
+        "target_id": "model_b728ae073bcb2519dfd5",
+        "target_mode": "model",
+        "answer": "Kushiro",
+        "answer_type": "city",
+        "prompt_count": 1,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Japan"
+        ]
+      },
+      {
+        "target_id": "model_771d066c292d236a5a54",
+        "target_mode": "model",
+        "answer": "Kyiv",
+        "answer_type": "city",
+        "prompt_count": 1,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Russia"
+        ]
+      },
+      {
+        "target_id": "model_048db9ab9e1ff6aab50b",
+        "target_mode": "model",
+        "answer": "L'Aquila",
+        "answer_type": "city",
+        "prompt_count": 1,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Italy"
+        ]
+      },
+      {
+        "target_id": "model_26870d74f6500567f148",
+        "target_mode": "model",
+        "answer": "La Coruña",
+        "answer_type": "city",
+        "prompt_count": 1,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Spain"
+        ]
+      },
+      {
+        "target_id": "model_b1e29efeb34e22d89ce6",
+        "target_mode": "model",
+        "answer": "La Paz",
+        "answer_type": "city",
+        "prompt_count": 2,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Argentina"
+        ]
+      },
+      {
+        "target_id": "model_69359f57be2b2b3e3270",
+        "target_mode": "model",
+        "answer": "Lake Constance",
+        "answer_type": "city",
+        "prompt_count": 1,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Germany"
+        ]
+      },
+      {
+        "target_id": "model_5ce06d2f624a981c3fd3",
+        "target_mode": "model",
+        "answer": "Lanzarote",
+        "answer_type": "city",
+        "prompt_count": 4,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Spain"
+        ]
+      },
+      {
+        "target_id": "model_975fe43e23ca28a1657c",
+        "target_mode": "model",
+        "answer": "Las Vegas",
+        "answer_type": "city",
+        "prompt_count": 6,
+        "num_query_entities": 3,
+        "relevant_intermediates": [
+          "United States"
+        ]
+      },
+      {
+        "target_id": "model_f40775b3548e2f1c6e7a",
+        "target_mode": "model",
+        "answer": "Leh",
+        "answer_type": "city",
+        "prompt_count": 8,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "India"
+        ]
+      },
+      {
+        "target_id": "model_5d2a89b4bce2313631f2",
+        "target_mode": "model",
+        "answer": "Lexington",
+        "answer_type": "city",
+        "prompt_count": 3,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "United States"
+        ]
+      },
+      {
+        "target_id": "model_cfd46cc5d5c2bd2a9e9a",
+        "target_mode": "model",
+        "answer": "Lexington, Kentucky",
+        "answer_type": "city",
+        "prompt_count": 1,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "United States"
+        ]
+      },
+      {
+        "target_id": "model_1880af010922f6286622",
+        "target_mode": "model",
+        "answer": "Lhasa",
+        "answer_type": "city",
+        "prompt_count": 1,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Laos"
+        ]
+      },
+      {
+        "target_id": "model_2e7af3e208aa3c5e7f0a",
+        "target_mode": "model",
+        "answer": "Libreville",
+        "answer_type": "city",
+        "prompt_count": 15,
+        "num_query_entities": 2,
+        "relevant_intermediates": [
+          "Gabon"
+        ]
+      },
+      {
+        "target_id": "model_43b739ec176208e0744f",
+        "target_mode": "model",
+        "answer": "Lilongwe",
+        "answer_type": "city",
+        "prompt_count": 15,
+        "num_query_entities": 2,
+        "relevant_intermediates": [
+          "Malawi"
+        ]
+      },
+      {
+        "target_id": "model_2663e4125e12cce9adf5",
+        "target_mode": "model",
+        "answer": "Lima",
+        "answer_type": "city",
+        "prompt_count": 26,
+        "num_query_entities": 6,
+        "relevant_intermediates": [
+          "Argentina",
+          "Chile",
+          "Guatemala",
+          "Peru"
+        ]
+      },
+      {
+        "target_id": "model_f67dd5f32c6cef2f7cd0",
+        "target_mode": "model",
+        "answer": "Lisbon",
+        "answer_type": "city",
+        "prompt_count": 14,
+        "num_query_entities": 3,
+        "relevant_intermediates": [
+          "Portugal",
+          "Spain"
+        ]
+      },
+      {
+        "target_id": "model_3aaa42075e4ebb0929d5",
+        "target_mode": "model",
+        "answer": "Ljubljana",
+        "answer_type": "city",
+        "prompt_count": 12,
+        "num_query_entities": 3,
+        "relevant_intermediates": [
+          "Kosovo",
+          "Madagascar",
+          "Slovenia"
+        ]
+      },
+      {
+        "target_id": "model_a37b52494b8246314497",
+        "target_mode": "model",
+        "answer": "Lome",
+        "answer_type": "city",
+        "prompt_count": 1,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Benin"
+        ]
+      },
+      {
+        "target_id": "model_8e5c6362b35ce78ba978",
+        "target_mode": "model",
+        "answer": "Lomé",
+        "answer_type": "city",
+        "prompt_count": 5,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Benin"
+        ]
+      },
+      {
+        "target_id": "model_8cd133f5d85302ccc9f6",
+        "target_mode": "model",
+        "answer": "London",
+        "answer_type": "city",
+        "prompt_count": 190,
+        "num_query_entities": 25,
+        "relevant_intermediates": [
+          "Australia",
+          "Austria",
+          "France",
+          "Germany",
+          "Ghana",
+          "Israel",
+          "United Kingdom",
+          "United States"
+        ]
+      },
+      {
+        "target_id": "model_5eae5d1aa605c6fd96e9",
+        "target_mode": "model",
+        "answer": "Los Angeles",
+        "answer_type": "city",
+        "prompt_count": 42,
+        "num_query_entities": 6,
+        "relevant_intermediates": [
+          "United States"
+        ]
+      },
+      {
+        "target_id": "model_d669d10e8e8cb604124e",
+        "target_mode": "model",
+        "answer": "Louisville",
+        "answer_type": "city",
+        "prompt_count": 5,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "United States"
+        ]
+      },
+      {
+        "target_id": "model_3744a3b8cf848752ff4f",
+        "target_mode": "model",
+        "answer": "Luanda",
+        "answer_type": "city",
+        "prompt_count": 10,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Angola"
+        ]
+      },
+      {
+        "target_id": "model_f947e7751af58286a0f2",
+        "target_mode": "model",
+        "answer": "Lucknow",
+        "answer_type": "city",
+        "prompt_count": 14,
+        "num_query_entities": 2,
+        "relevant_intermediates": [
+          "India"
+        ]
+      },
+      {
+        "target_id": "model_96dfbb30ba2a7c98b489",
+        "target_mode": "model",
+        "answer": "Lusaka",
+        "answer_type": "city",
+        "prompt_count": 33,
+        "num_query_entities": 5,
+        "relevant_intermediates": [
+          "Azerbaijan",
+          "Democratic Republic of the Congo",
+          "Georgia",
+          "Zambia"
+        ]
+      },
+      {
+        "target_id": "model_0058be8a8b3279d119d1",
+        "target_mode": "model",
+        "answer": "Lviv",
+        "answer_type": "city",
+        "prompt_count": 1,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Ukraine"
+        ]
+      },
+      {
+        "target_id": "model_e08eccdaf73a2fef1e48",
+        "target_mode": "model",
+        "answer": "Lüneburg",
+        "answer_type": "city",
+        "prompt_count": 1,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Netherlands"
+        ]
+      },
+      {
+        "target_id": "model_81d822a5acda9abcfc1b",
+        "target_mode": "model",
+        "answer": "Madrid",
+        "answer_type": "city",
+        "prompt_count": 107,
+        "num_query_entities": 26,
+        "relevant_intermediates": [
+          "Albania",
+          "Angola",
+          "Argentina",
+          "Bosnia and Herzegovina",
+          "Ecuador",
+          "Ethiopia",
+          "Italy",
+          "Spain"
+        ]
+      },
+      {
+        "target_id": "model_a8abdd89066c17170583",
+        "target_mode": "model",
+        "answer": "Malta",
+        "answer_type": "city",
+        "prompt_count": 3,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Italy"
+        ]
+      },
+      {
+        "target_id": "model_cddf93baa982f506306e",
+        "target_mode": "model",
+        "answer": "Manado",
+        "answer_type": "city",
+        "prompt_count": 4,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Indonesia"
+        ]
+      },
+      {
+        "target_id": "model_bbcad1e9ea92b20e4b29",
+        "target_mode": "model",
+        "answer": "Manaus",
+        "answer_type": "city",
+        "prompt_count": 7,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Brazil"
+        ]
+      },
+      {
+        "target_id": "model_f0e24abc1785fcf94f47",
+        "target_mode": "model",
+        "answer": "Manila",
+        "answer_type": "city",
+        "prompt_count": 8,
+        "num_query_entities": 2,
+        "relevant_intermediates": [
+          "Chile",
+          "Philippines"
+        ]
+      },
+      {
+        "target_id": "model_58e1d9c063c0c3525358",
+        "target_mode": "model",
+        "answer": "Manokwari",
+        "answer_type": "city",
+        "prompt_count": 1,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Indonesia"
+        ]
+      },
+      {
+        "target_id": "model_041f1596482c82fdcceb",
+        "target_mode": "model",
+        "answer": "Maputo",
+        "answer_type": "city",
+        "prompt_count": 9,
+        "num_query_entities": 2,
+        "relevant_intermediates": [
+          "Italy",
+          "Mozambique"
+        ]
+      },
+      {
+        "target_id": "model_89e6d4769caa8600d29f",
+        "target_mode": "model",
+        "answer": "Maroua",
+        "answer_type": "city",
+        "prompt_count": 2,
+        "num_query_entities": 2,
+        "relevant_intermediates": [
+          "Cameroon"
+        ]
+      },
+      {
+        "target_id": "model_c6d439fba0d37d1cfa74",
+        "target_mode": "model",
+        "answer": "Marrakech",
+        "answer_type": "city",
+        "prompt_count": 2,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Morocco"
+        ]
+      },
+      {
+        "target_id": "model_e227d2010ce53ef0f09c",
+        "target_mode": "model",
+        "answer": "Marseille",
+        "answer_type": "city",
+        "prompt_count": 16,
+        "num_query_entities": 2,
+        "relevant_intermediates": [
+          "France"
+        ]
+      },
+      {
+        "target_id": "model_b93c78e96b5d394e6151",
+        "target_mode": "model",
+        "answer": "Maseru",
+        "answer_type": "city",
+        "prompt_count": 2,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Lesotho"
+        ]
+      },
+      {
+        "target_id": "model_953b605607091e4fcf55",
+        "target_mode": "model",
+        "answer": "Mashhad",
+        "answer_type": "city",
+        "prompt_count": 1,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Afghanistan"
+        ]
+      },
+      {
+        "target_id": "model_4dacb8f4c2f2cbac2257",
+        "target_mode": "model",
+        "answer": "Maun",
+        "answer_type": "city",
+        "prompt_count": 1,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Botswana"
+        ]
+      },
+      {
+        "target_id": "model_aec2a341df007e325703",
+        "target_mode": "model",
+        "answer": "Medan",
+        "answer_type": "city",
+        "prompt_count": 11,
+        "num_query_entities": 2,
+        "relevant_intermediates": [
+          "Indonesia"
+        ]
+      },
+      {
+        "target_id": "model_3dad1d110138e0d85a55",
+        "target_mode": "model",
+        "answer": "Melbourne",
+        "answer_type": "city",
+        "prompt_count": 10,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Australia"
+        ]
+      },
+      {
+        "target_id": "model_c512fb3b2aaeac33d8ae",
+        "target_mode": "model",
+        "answer": "Mendoza",
+        "answer_type": "city",
+        "prompt_count": 3,
+        "num_query_entities": 2,
+        "relevant_intermediates": [
+          "Argentina"
+        ]
+      },
+      {
+        "target_id": "model_7188515711d21a8eca21",
+        "target_mode": "model",
+        "answer": "Mexico",
+        "answer_type": "city",
+        "prompt_count": 1,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Guatemala"
+        ]
+      },
+      {
+        "target_id": "model_39cd1cfc1361804aae0f",
+        "target_mode": "model",
+        "answer": "Mexico City",
+        "answer_type": "city",
+        "prompt_count": 26,
+        "num_query_entities": 6,
+        "relevant_intermediates": [
+          "Argentina",
+          "Australia",
+          "Colombia",
+          "Guatemala"
+        ]
+      },
+      {
+        "target_id": "model_34ca1859beb1ce52a124",
+        "target_mode": "model",
+        "answer": "Miami",
+        "answer_type": "city",
+        "prompt_count": 20,
+        "num_query_entities": 3,
+        "relevant_intermediates": [
+          "United States"
+        ]
+      },
+      {
+        "target_id": "model_c9ade5d0ffce7b4ae3a3",
+        "target_mode": "model",
+        "answer": "Milan",
+        "answer_type": "city",
+        "prompt_count": 4,
+        "num_query_entities": 2,
+        "relevant_intermediates": [
+          "Chile",
+          "Italy"
+        ]
+      },
+      {
+        "target_id": "model_fbb1410c7ec969d6225e",
+        "target_mode": "model",
+        "answer": "Milton Keynes",
+        "answer_type": "city",
+        "prompt_count": 9,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "United Kingdom"
+        ]
+      },
+      {
+        "target_id": "model_e3a32b913a0068a58413",
+        "target_mode": "model",
+        "answer": "Minsk",
+        "answer_type": "city",
+        "prompt_count": 28,
+        "num_query_entities": 6,
+        "relevant_intermediates": [
+          "Belarus",
+          "Poland",
+          "Russia"
+        ]
+      },
+      {
+        "target_id": "model_41b1cc244d73f0bc8dd8",
+        "target_mode": "model",
+        "answer": "Moab",
+        "answer_type": "city",
+        "prompt_count": 5,
+        "num_query_entities": 3,
+        "relevant_intermediates": [
+          "United States"
+        ]
+      },
+      {
+        "target_id": "model_1b47c8ff6f12e37aa3c4",
+        "target_mode": "model",
+        "answer": "Mombasa",
+        "answer_type": "city",
+        "prompt_count": 2,
+        "num_query_entities": 2,
+        "relevant_intermediates": [
+          "Kenya"
+        ]
+      },
+      {
+        "target_id": "model_67a0139784c1ea6fe2ca",
+        "target_mode": "model",
+        "answer": "Montpellier",
+        "answer_type": "city",
+        "prompt_count": 1,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "France"
+        ]
+      },
+      {
+        "target_id": "model_b53a0ca861e2bc593a33",
+        "target_mode": "model",
+        "answer": "Montreal",
+        "answer_type": "city",
+        "prompt_count": 1,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Canada"
+        ]
+      },
+      {
+        "target_id": "model_7315c12d0366cec98e51",
+        "target_mode": "model",
+        "answer": "Moscow",
+        "answer_type": "city",
+        "prompt_count": 100,
+        "num_query_entities": 26,
+        "relevant_intermediates": [
+          "Azerbaijan",
+          "Belarus",
+          "Canada",
+          "Finland",
+          "India",
+          "Israel",
+          "Kyrgyzstan",
+          "Madagascar",
+          "Russia",
+          "Tajikistan"
+        ]
+      },
+      {
+        "target_id": "model_78e9d38404a931712e7d",
+        "target_mode": "model",
+        "answer": "Moshi",
+        "answer_type": "city",
+        "prompt_count": 7,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Tanzania"
+        ]
+      },
+      {
+        "target_id": "model_93d07d233277d744b870",
+        "target_mode": "model",
+        "answer": "Mumbai",
+        "answer_type": "city",
+        "prompt_count": 6,
+        "num_query_entities": 4,
+        "relevant_intermediates": [
+          "India",
+          "Israel"
+        ]
+      },
+      {
+        "target_id": "model_f702e09b9485f8e3f1d5",
+        "target_mode": "model",
+        "answer": "Munich",
+        "answer_type": "city",
+        "prompt_count": 30,
+        "num_query_entities": 3,
+        "relevant_intermediates": [
+          "Germany"
+        ]
+      },
+      {
+        "target_id": "model_eb12554340b194ff70b5",
+        "target_mode": "model",
+        "answer": "Mysore",
+        "answer_type": "city",
+        "prompt_count": 2,
+        "num_query_entities": 2,
+        "relevant_intermediates": [
+          "India"
+        ]
+      },
+      {
+        "target_id": "model_c4e9cc7c8d95cf8a38f8",
+        "target_mode": "model",
+        "answer": "Nagpur",
+        "answer_type": "city",
+        "prompt_count": 6,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "India"
+        ]
+      },
+      {
+        "target_id": "model_f262a54f1fd3ac8127dc",
+        "target_mode": "model",
+        "answer": "Nainital",
+        "answer_type": "city",
+        "prompt_count": 2,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "India"
+        ]
+      },
+      {
+        "target_id": "model_e14333aec6d76d29e9e4",
+        "target_mode": "model",
+        "answer": "Nairobi",
+        "answer_type": "city",
+        "prompt_count": 84,
+        "num_query_entities": 13,
+        "relevant_intermediates": [
+          "Italy",
+          "Kenya",
+          "Tanzania"
+        ]
+      },
+      {
+        "target_id": "model_281dd60b7899921d94a8",
+        "target_mode": "model",
+        "answer": "Naples",
+        "answer_type": "city",
+        "prompt_count": 31,
+        "num_query_entities": 5,
+        "relevant_intermediates": [
+          "Italy"
+        ]
+      },
+      {
+        "target_id": "model_c489ba555af0bbbe6371",
+        "target_mode": "model",
+        "answer": "Nelson",
+        "answer_type": "city",
+        "prompt_count": 2,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "New Zealand"
+        ]
+      },
+      {
+        "target_id": "model_b593155157a6f2c55781",
+        "target_mode": "model",
+        "answer": "New Delhi",
+        "answer_type": "city",
+        "prompt_count": 92,
+        "num_query_entities": 27,
+        "relevant_intermediates": [
+          "Finland",
+          "India",
+          "Israel",
+          "Laos",
+          "Panama",
+          "Russia"
+        ]
+      },
+      {
+        "target_id": "model_280509242cb7946710b3",
+        "target_mode": "model",
+        "answer": "New York",
+        "answer_type": "city",
+        "prompt_count": 90,
+        "num_query_entities": 11,
+        "relevant_intermediates": [
+          "United States"
+        ]
+      },
+      {
+        "target_id": "model_a73ca88f74e773c9aeb7",
+        "target_mode": "model",
+        "answer": "New York City",
+        "answer_type": "city",
+        "prompt_count": 7,
+        "num_query_entities": 6,
+        "relevant_intermediates": [
+          "Austria",
+          "United States"
+        ]
+      },
+      {
+        "target_id": "model_cd13ca6e73ff95b58e28",
+        "target_mode": "model",
+        "answer": "Newcastle upon Tyne",
+        "answer_type": "city",
+        "prompt_count": 7,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "United Kingdom"
+        ]
+      },
+      {
+        "target_id": "model_cc6fbfff9d2a62b96551",
+        "target_mode": "model",
+        "answer": "Nice",
+        "answer_type": "city",
+        "prompt_count": 12,
+        "num_query_entities": 2,
+        "relevant_intermediates": [
+          "France"
+        ]
+      },
+      {
+        "target_id": "model_13349c7e71cdee117432",
+        "target_mode": "model",
+        "answer": "Norfolk",
+        "answer_type": "city",
+        "prompt_count": 1,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "United Kingdom"
+        ]
+      },
+      {
+        "target_id": "model_279cef26c7298d0dec3e",
+        "target_mode": "model",
+        "answer": "Norwich",
+        "answer_type": "city",
+        "prompt_count": 6,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "United Kingdom"
+        ]
+      },
+      {
+        "target_id": "model_a24879c109d2b6b0ea76",
+        "target_mode": "model",
+        "answer": "Nouakchott",
+        "answer_type": "city",
+        "prompt_count": 3,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Mauritania"
+        ]
+      },
+      {
+        "target_id": "model_70f622ec05f884963605",
+        "target_mode": "model",
+        "answer": "Novosibirsk",
+        "answer_type": "city",
+        "prompt_count": 1,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Russia"
+        ]
+      },
+      {
+        "target_id": "model_89aad4f335dea45ca403",
+        "target_mode": "model",
+        "answer": "Nuuk",
+        "answer_type": "city",
+        "prompt_count": 4,
+        "num_query_entities": 2,
+        "relevant_intermediates": [
+          "Canada",
+          "Greenland"
+        ]
+      },
+      {
+        "target_id": "model_88032917f016392c9ad0",
+        "target_mode": "model",
+        "answer": "Oldenburg",
+        "answer_type": "city",
+        "prompt_count": 1,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Germany"
+        ]
+      },
+      {
+        "target_id": "model_a8666eb4147801b9ffd1",
+        "target_mode": "model",
+        "answer": "Orlando",
+        "answer_type": "city",
+        "prompt_count": 10,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "United States"
+        ]
+      },
+      {
+        "target_id": "model_70e91c28b010040cfa53",
+        "target_mode": "model",
+        "answer": "Oslo",
+        "answer_type": "city",
+        "prompt_count": 147,
+        "num_query_entities": 20,
+        "relevant_intermediates": [
+          "Canada",
+          "Indonesia",
+          "Norway",
+          "Sweden"
+        ]
+      },
+      {
+        "target_id": "model_3ab0b9b491f9a3de8e76",
+        "target_mode": "model",
+        "answer": "Ottawa",
+        "answer_type": "city",
+        "prompt_count": 51,
+        "num_query_entities": 16,
+        "relevant_intermediates": [
+          "Belarus",
+          "Canada",
+          "Israel",
+          "United States"
+        ]
+      },
+      {
+        "target_id": "model_34131ef83037b6df070d",
+        "target_mode": "model",
+        "answer": "Otterlo",
+        "answer_type": "city",
+        "prompt_count": 2,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Netherlands"
+        ]
+      },
+      {
+        "target_id": "model_877eae224ccec888e2e6",
+        "target_mode": "model",
+        "answer": "Ouagadougou",
+        "answer_type": "city",
+        "prompt_count": 5,
+        "num_query_entities": 2,
+        "relevant_intermediates": [
+          "Benin",
+          "Chad"
+        ]
+      },
+      {
+        "target_id": "model_3d90454bf2075ed04915",
+        "target_mode": "model",
+        "answer": "Pago Pago",
+        "answer_type": "city",
+        "prompt_count": 10,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "United States"
+        ]
+      },
+      {
+        "target_id": "model_d4600e0b376533efdb99",
+        "target_mode": "model",
+        "answer": "Palangkaraya",
+        "answer_type": "city",
+        "prompt_count": 1,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Indonesia"
+        ]
+      },
+      {
+        "target_id": "model_0e17e87acf5f69acc8c3",
+        "target_mode": "model",
+        "answer": "Palawan",
+        "answer_type": "city",
+        "prompt_count": 1,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Philippines"
+        ]
+      },
+      {
+        "target_id": "model_937a9d3917995533491b",
+        "target_mode": "model",
+        "answer": "Palembang",
+        "answer_type": "city",
+        "prompt_count": 1,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Sweden"
+        ]
+      },
+      {
+        "target_id": "model_40d63427b39ba91688be",
+        "target_mode": "model",
+        "answer": "Palermo",
+        "answer_type": "city",
+        "prompt_count": 16,
+        "num_query_entities": 3,
+        "relevant_intermediates": [
+          "Italy"
+        ]
+      },
+      {
+        "target_id": "model_4b23dbec34e1e813d1fa",
+        "target_mode": "model",
+        "answer": "Palm Springs",
+        "answer_type": "city",
+        "prompt_count": 1,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "United States"
+        ]
+      },
+      {
+        "target_id": "model_227af1d790ee3304cb00",
+        "target_mode": "model",
+        "answer": "Palu",
+        "answer_type": "city",
+        "prompt_count": 2,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Indonesia"
+        ]
+      },
+      {
+        "target_id": "model_989f2627d9f655630717",
+        "target_mode": "model",
+        "answer": "Panama",
+        "answer_type": "city",
+        "prompt_count": 3,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Panama"
+        ]
+      },
+      {
+        "target_id": "model_f40e2ada578c43ecb1ab",
+        "target_mode": "model",
+        "answer": "Panama City",
+        "answer_type": "city",
+        "prompt_count": 16,
+        "num_query_entities": 4,
+        "relevant_intermediates": [
+          "Chile",
+          "Colombia",
+          "Panama"
+        ]
+      },
+      {
+        "target_id": "model_ed2ea75b89ef023c7c12",
+        "target_mode": "model",
+        "answer": "Paramaribo",
+        "answer_type": "city",
+        "prompt_count": 5,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "France"
+        ]
+      },
+      {
+        "target_id": "model_e71cef7b825ab373b4a0",
+        "target_mode": "model",
+        "answer": "Paris",
+        "answer_type": "city",
+        "prompt_count": 29,
+        "num_query_entities": 7,
+        "relevant_intermediates": [
+          "Cameroon",
+          "France"
+        ]
+      },
+      {
+        "target_id": "model_9a6669d49bbfa3c080f9",
+        "target_mode": "model",
+        "answer": "Pembroke",
+        "answer_type": "city",
+        "prompt_count": 1,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "United Kingdom"
+        ]
+      },
+      {
+        "target_id": "model_f59638c43c97a63c5fc6",
+        "target_mode": "model",
+        "answer": "Perth",
+        "answer_type": "city",
+        "prompt_count": 18,
+        "num_query_entities": 2,
+        "relevant_intermediates": [
+          "Australia"
+        ]
+      },
+      {
+        "target_id": "model_f038da37fa57bfce3785",
+        "target_mode": "model",
+        "answer": "Phnom Penh",
+        "answer_type": "city",
+        "prompt_count": 13,
+        "num_query_entities": 2,
+        "relevant_intermediates": [
+          "Cambodia",
+          "Russia"
+        ]
+      },
+      {
+        "target_id": "model_23e7f8b7b4b6f79fed38",
+        "target_mode": "model",
+        "answer": "Phoenix",
+        "answer_type": "city",
+        "prompt_count": 4,
+        "num_query_entities": 2,
+        "relevant_intermediates": [
+          "United States"
+        ]
+      },
+      {
+        "target_id": "model_400c3ea5ddfb4993d0f1",
+        "target_mode": "model",
+        "answer": "Pohnpei",
+        "answer_type": "city",
+        "prompt_count": 1,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Russia"
+        ]
+      },
+      {
+        "target_id": "model_9f567fe3a2be9c5a4039",
+        "target_mode": "model",
+        "answer": "Pokhara",
+        "answer_type": "city",
+        "prompt_count": 1,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Nepal"
+        ]
+      },
+      {
+        "target_id": "model_721de38e836bf5f69933",
+        "target_mode": "model",
+        "answer": "Port Louis",
+        "answer_type": "city",
+        "prompt_count": 2,
+        "num_query_entities": 2,
+        "relevant_intermediates": [
+          "Nepal",
+          "Saint Kitts and Nevis"
+        ]
+      },
+      {
+        "target_id": "model_4a214a0b9287e6dd1a1b",
+        "target_mode": "model",
+        "answer": "Port Moresby",
+        "answer_type": "city",
+        "prompt_count": 4,
+        "num_query_entities": 2,
+        "relevant_intermediates": [
+          "Indonesia",
+          "Russia"
+        ]
+      },
+      {
+        "target_id": "model_c053c17c084e0036c316",
+        "target_mode": "model",
+        "answer": "Port of Spain",
+        "answer_type": "city",
+        "prompt_count": 1,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Saint Kitts and Nevis"
+        ]
+      },
+      {
+        "target_id": "model_982da1951798b8cce7b8",
+        "target_mode": "model",
+        "answer": "Port-au-Prince",
+        "answer_type": "city",
+        "prompt_count": 9,
+        "num_query_entities": 2,
+        "relevant_intermediates": [
+          "Dominica",
+          "Rwanda"
+        ]
+      },
+      {
+        "target_id": "model_ede64aac447654b92052",
+        "target_mode": "model",
+        "answer": "Portland",
+        "answer_type": "city",
+        "prompt_count": 8,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "United States"
+        ]
+      },
+      {
+        "target_id": "model_90db6721b20a430e221c",
+        "target_mode": "model",
+        "answer": "Porto",
+        "answer_type": "city",
+        "prompt_count": 8,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Portugal"
+        ]
+      },
+      {
+        "target_id": "model_91d5df591ee4801fbee4",
+        "target_mode": "model",
+        "answer": "Porto Alegre",
+        "answer_type": "city",
+        "prompt_count": 4,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Brazil"
+        ]
+      },
+      {
+        "target_id": "model_f296d51402818d609783",
+        "target_mode": "model",
+        "answer": "Potsdam",
+        "answer_type": "city",
+        "prompt_count": 2,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Germany"
+        ]
+      },
+      {
+        "target_id": "model_a470da3892cc4896541a",
+        "target_mode": "model",
+        "answer": "Poznań",
+        "answer_type": "city",
+        "prompt_count": 1,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Poland"
+        ]
+      },
+      {
+        "target_id": "model_50d6aa35260baba0df63",
+        "target_mode": "model",
+        "answer": "Prague",
+        "answer_type": "city",
+        "prompt_count": 30,
+        "num_query_entities": 3,
+        "relevant_intermediates": [
+          "Czech Republic"
+        ]
+      },
+      {
+        "target_id": "model_e62236e33d39dc5bcc20",
+        "target_mode": "model",
+        "answer": "Pretoria",
+        "answer_type": "city",
+        "prompt_count": 25,
+        "num_query_entities": 6,
+        "relevant_intermediates": [
+          "Australia",
+          "Canada",
+          "Ghana",
+          "Lesotho",
+          "United States"
+        ]
+      },
+      {
+        "target_id": "model_a0b6bb70f92e872af1c4",
+        "target_mode": "model",
+        "answer": "Puerto Maldonado",
+        "answer_type": "city",
+        "prompt_count": 1,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Peru"
+        ]
+      },
+      {
+        "target_id": "model_ee8048b1154368e3b3e3",
+        "target_mode": "model",
+        "answer": "Puerto Natales",
+        "answer_type": "city",
+        "prompt_count": 2,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Chile"
+        ]
+      },
+      {
+        "target_id": "model_50e4c64ff842544abea4",
+        "target_mode": "model",
+        "answer": "Puerto Princesa",
+        "answer_type": "city",
+        "prompt_count": 2,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Philippines"
+        ]
+      },
+      {
+        "target_id": "model_2d85a9c07140948e7fcf",
+        "target_mode": "model",
+        "answer": "Punta Arenas",
+        "answer_type": "city",
+        "prompt_count": 1,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Chile"
+        ]
+      },
+      {
+        "target_id": "model_7e6efe7d9c0de60ee467",
+        "target_mode": "model",
+        "answer": "Quebec",
+        "answer_type": "city",
+        "prompt_count": 1,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Canada"
+        ]
+      },
+      {
+        "target_id": "model_438e792820c020a77d54",
+        "target_mode": "model",
+        "answer": "Quebec City",
+        "answer_type": "city",
+        "prompt_count": 14,
+        "num_query_entities": 2,
+        "relevant_intermediates": [
+          "Canada"
+        ]
+      },
+      {
+        "target_id": "model_9791dc961136b9c10fb2",
+        "target_mode": "model",
+        "answer": "Quito",
+        "answer_type": "city",
+        "prompt_count": 71,
+        "num_query_entities": 9,
+        "relevant_intermediates": [
+          "Angola",
+          "Argentina",
+          "Cuba",
+          "Ecuador",
+          "Peru"
+        ]
+      },
+      {
+        "target_id": "model_2b987b45b9f4d7f6374e",
+        "target_mode": "model",
+        "answer": "Rabat",
+        "answer_type": "city",
+        "prompt_count": 6,
+        "num_query_entities": 2,
+        "relevant_intermediates": [
+          "Kosovo",
+          "Morocco"
+        ]
+      },
+      {
+        "target_id": "model_31c20dc25213c20aa63d",
+        "target_mode": "model",
+        "answer": "Rapid City",
+        "answer_type": "city",
+        "prompt_count": 6,
+        "num_query_entities": 2,
+        "relevant_intermediates": [
+          "United States"
+        ]
+      },
+      {
+        "target_id": "model_8c1f5009395ace2b8438",
+        "target_mode": "model",
+        "answer": "Recife",
+        "answer_type": "city",
+        "prompt_count": 2,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Brazil"
+        ]
+      },
+      {
+        "target_id": "model_e63b6ffdd4dce65b1410",
+        "target_mode": "model",
+        "answer": "Redding",
+        "answer_type": "city",
+        "prompt_count": 2,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "United States"
+        ]
+      },
+      {
+        "target_id": "model_9bfd4b5fba08e340a566",
+        "target_mode": "model",
+        "answer": "Reno",
+        "answer_type": "city",
+        "prompt_count": 1,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "United States"
+        ]
+      },
+      {
+        "target_id": "model_bef2373d9a43a517d493",
+        "target_mode": "model",
+        "answer": "Reykjavik",
+        "answer_type": "city",
+        "prompt_count": 36,
+        "num_query_entities": 7,
+        "relevant_intermediates": [
+          "Albania",
+          "Georgia",
+          "Iceland",
+          "Norway"
+        ]
+      },
+      {
+        "target_id": "model_e8e0ba982904e3268616",
+        "target_mode": "model",
+        "answer": "Reykjavík",
+        "answer_type": "city",
+        "prompt_count": 7,
+        "num_query_entities": 4,
+        "relevant_intermediates": [
+          "Georgia",
+          "Iceland",
+          "Norway"
+        ]
+      },
+      {
+        "target_id": "model_c2f8e691530805b8d75e",
+        "target_mode": "model",
+        "answer": "Riga",
+        "answer_type": "city",
+        "prompt_count": 42,
+        "num_query_entities": 7,
+        "relevant_intermediates": [
+          "Latvia",
+          "Madagascar",
+          "Russia",
+          "Rwanda"
+        ]
+      },
+      {
+        "target_id": "model_cfdd819408ec24666fbe",
+        "target_mode": "model",
+        "answer": "Rijeka",
+        "answer_type": "city",
+        "prompt_count": 3,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Croatia"
+        ]
+      },
+      {
+        "target_id": "model_9173fdd47f1c255f1f12",
+        "target_mode": "model",
+        "answer": "Rio de Janeiro",
+        "answer_type": "city",
+        "prompt_count": 45,
+        "num_query_entities": 7,
+        "relevant_intermediates": [
+          "Brazil",
+          "Costa Rica"
+        ]
+      },
+      {
+        "target_id": "model_68ee4b373b669f882c3d",
+        "target_mode": "model",
+        "answer": "Rome",
+        "answer_type": "city",
+        "prompt_count": 117,
+        "num_query_entities": 21,
+        "relevant_intermediates": [
+          "Austria",
+          "Chile",
+          "Italy",
+          "Sweden"
+        ]
+      },
+      {
+        "target_id": "model_6ec11265e797c7a70d81",
+        "target_mode": "model",
+        "answer": "Roraima",
+        "answer_type": "city",
+        "prompt_count": 3,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Indonesia"
+        ]
+      },
+      {
+        "target_id": "model_e4dbbb68f09572373433",
+        "target_mode": "model",
+        "answer": "Rostock",
+        "answer_type": "city",
+        "prompt_count": 7,
+        "num_query_entities": 2,
+        "relevant_intermediates": [
+          "Germany"
+        ]
+      },
+      {
+        "target_id": "model_a9cb031a70289dabf015",
+        "target_mode": "model",
+        "answer": "Rovaniemi",
+        "answer_type": "city",
+        "prompt_count": 18,
+        "num_query_entities": 5,
+        "relevant_intermediates": [
+          "Finland"
+        ]
+      },
+      {
+        "target_id": "model_e3b60387d58959d9ed01",
+        "target_mode": "model",
+        "answer": "Sacramento",
+        "answer_type": "city",
+        "prompt_count": 8,
+        "num_query_entities": 2,
+        "relevant_intermediates": [
+          "United States"
+        ]
+      },
+      {
+        "target_id": "model_bacdddefc0ac830c36de",
+        "target_mode": "model",
+        "answer": "Saint Petersburg",
+        "answer_type": "city",
+        "prompt_count": 1,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Russia"
+        ]
+      },
+      {
+        "target_id": "model_f4696500a1151560f8f5",
+        "target_mode": "model",
+        "answer": "Saint-Denis",
+        "answer_type": "city",
+        "prompt_count": 4,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "France"
+        ]
+      },
+      {
+        "target_id": "model_9707eb05dc95a29c83ad",
+        "target_mode": "model",
+        "answer": "Salerno",
+        "answer_type": "city",
+        "prompt_count": 2,
+        "num_query_entities": 2,
+        "relevant_intermediates": [
+          "Italy"
+        ]
+      },
+      {
+        "target_id": "model_b15b0f296c34ba9c4dd1",
+        "target_mode": "model",
+        "answer": "Salt Lake City",
+        "answer_type": "city",
+        "prompt_count": 38,
+        "num_query_entities": 5,
+        "relevant_intermediates": [
+          "United States"
+        ]
+      },
+      {
+        "target_id": "model_5d2b8a554fd8f5721dd5",
+        "target_mode": "model",
+        "answer": "Salzburg",
+        "answer_type": "city",
+        "prompt_count": 9,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Austria"
+        ]
+      },
+      {
+        "target_id": "model_199086215e8d324b4e99",
+        "target_mode": "model",
+        "answer": "San Cristóbal de las Casas",
+        "answer_type": "city",
+        "prompt_count": 1,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Chile"
+        ]
+      },
+      {
+        "target_id": "model_8bc1e942aa1dd7163344",
+        "target_mode": "model",
+        "answer": "San Diego",
+        "answer_type": "city",
+        "prompt_count": 15,
+        "num_query_entities": 2,
+        "relevant_intermediates": [
+          "United States"
+        ]
+      },
+      {
+        "target_id": "model_e4c7e0cb9f481e162f89",
+        "target_mode": "model",
+        "answer": "San Francisco",
+        "answer_type": "city",
+        "prompt_count": 54,
+        "num_query_entities": 7,
+        "relevant_intermediates": [
+          "United States"
+        ]
+      },
+      {
+        "target_id": "model_c3612f128810026a0c82",
+        "target_mode": "model",
+        "answer": "San Jose",
+        "answer_type": "city",
+        "prompt_count": 16,
+        "num_query_entities": 4,
+        "relevant_intermediates": [
+          "Costa Rica",
+          "Spain",
+          "United States"
+        ]
+      },
+      {
+        "target_id": "model_8ffce0e2592bd71a00e1",
+        "target_mode": "model",
+        "answer": "San José",
+        "answer_type": "city",
+        "prompt_count": 19,
+        "num_query_entities": 9,
+        "relevant_intermediates": [
+          "Argentina",
+          "Chile",
+          "Costa Rica",
+          "Guatemala",
+          "Panama",
+          "Spain",
+          "United States"
+        ]
+      },
+      {
+        "target_id": "model_4080acf608f473188e98",
+        "target_mode": "model",
+        "answer": "San Juan",
+        "answer_type": "city",
+        "prompt_count": 8,
+        "num_query_entities": 2,
+        "relevant_intermediates": [
+          "Argentina",
+          "Spain"
+        ]
+      },
+      {
+        "target_id": "model_44930c2e5c3c0d43a767",
+        "target_mode": "model",
+        "answer": "San Luis Obispo",
+        "answer_type": "city",
+        "prompt_count": 1,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "United States"
+        ]
+      },
+      {
+        "target_id": "model_8a80cb9ae12edf50be0c",
+        "target_mode": "model",
+        "answer": "San Miguel de Tucumán",
+        "answer_type": "city",
+        "prompt_count": 1,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Argentina"
+        ]
+      },
+      {
+        "target_id": "model_efdbb8d547a5f0e4cb30",
+        "target_mode": "model",
+        "answer": "San Salvador",
+        "answer_type": "city",
+        "prompt_count": 2,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Argentina"
+        ]
+      },
+      {
+        "target_id": "model_b387b98d2662906b511a",
+        "target_mode": "model",
+        "answer": "San Simeon",
+        "answer_type": "city",
+        "prompt_count": 8,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "United States"
+        ]
+      },
+      {
+        "target_id": "model_d7356060a9520376bd43",
+        "target_mode": "model",
+        "answer": "Santa Barbara",
+        "answer_type": "city",
+        "prompt_count": 9,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "United States"
+        ]
+      },
+      {
+        "target_id": "model_dadc58c39c6e76e5418c",
+        "target_mode": "model",
+        "answer": "Santa Cruz",
+        "answer_type": "city",
+        "prompt_count": 1,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Guatemala"
+        ]
+      },
+      {
+        "target_id": "model_603b7e99ea48d506d43a",
+        "target_mode": "model",
+        "answer": "Santa Cruz de la Sierra",
+        "answer_type": "city",
+        "prompt_count": 1,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Guatemala"
+        ]
+      },
+      {
+        "target_id": "model_ab0ab86010c2ad779aee",
+        "target_mode": "model",
+        "answer": "Santa Cruz de Tenerife",
+        "answer_type": "city",
+        "prompt_count": 18,
+        "num_query_entities": 3,
+        "relevant_intermediates": [
+          "Spain"
+        ]
+      },
+      {
+        "target_id": "model_ef5cc8f79f414bbfc37e",
+        "target_mode": "model",
+        "answer": "Santa Fe",
+        "answer_type": "city",
+        "prompt_count": 6,
+        "num_query_entities": 2,
+        "relevant_intermediates": [
+          "Guatemala",
+          "United States"
+        ]
+      },
+      {
+        "target_id": "model_d402f6c46cc131dbcf04",
+        "target_mode": "model",
+        "answer": "Santa Marta",
+        "answer_type": "city",
+        "prompt_count": 1,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Colombia"
+        ]
+      },
+      {
+        "target_id": "model_5c64140fc6f4de334497",
+        "target_mode": "model",
+        "answer": "Santander",
+        "answer_type": "city",
+        "prompt_count": 1,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Spain"
+        ]
+      },
+      {
+        "target_id": "model_3280181babeef3d60f5c",
+        "target_mode": "model",
+        "answer": "Santiago",
+        "answer_type": "city",
+        "prompt_count": 104,
+        "num_query_entities": 17,
+        "relevant_intermediates": [
+          "Argentina",
+          "Australia",
+          "Brazil",
+          "Chile",
+          "Colombia",
+          "India",
+          "Spain"
+        ]
+      },
+      {
+        "target_id": "model_faf692b06d3ed8579258",
+        "target_mode": "model",
+        "answer": "Santiago de Compostela",
+        "answer_type": "city",
+        "prompt_count": 4,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Spain"
+        ]
+      },
+      {
+        "target_id": "model_e848539680829fd37a25",
+        "target_mode": "model",
+        "answer": "Santo Domingo",
+        "answer_type": "city",
+        "prompt_count": 3,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Chile"
+        ]
+      },
+      {
+        "target_id": "model_dc18ead67c8343b79183",
+        "target_mode": "model",
+        "answer": "Sao Paulo",
+        "answer_type": "city",
+        "prompt_count": 4,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Brazil"
+        ]
+      },
+      {
+        "target_id": "model_3f3c54fe2f457d5938b5",
+        "target_mode": "model",
+        "answer": "Sapporo",
+        "answer_type": "city",
+        "prompt_count": 26,
+        "num_query_entities": 6,
+        "relevant_intermediates": [
+          "Japan"
+        ]
+      },
+      {
+        "target_id": "model_d381b3020fce4534eb49",
+        "target_mode": "model",
+        "answer": "Sarajevo",
+        "answer_type": "city",
+        "prompt_count": 37,
+        "num_query_entities": 4,
+        "relevant_intermediates": [
+          "Bosnia and Herzegovina",
+          "Montenegro"
+        ]
+      },
+      {
+        "target_id": "model_c04172876686d9fb7e51",
+        "target_mode": "model",
+        "answer": "Sardinia",
+        "answer_type": "city",
+        "prompt_count": 2,
+        "num_query_entities": 2,
+        "relevant_intermediates": [
+          "Italy"
+        ]
+      },
+      {
+        "target_id": "model_efbe3b1406fcf4998d37",
+        "target_mode": "model",
+        "answer": "Saskatoon",
+        "answer_type": "city",
+        "prompt_count": 1,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Canada"
+        ]
+      },
+      {
+        "target_id": "model_b0a46e2bf126d59c9a2f",
+        "target_mode": "model",
+        "answer": "Seattle",
+        "answer_type": "city",
+        "prompt_count": 30,
+        "num_query_entities": 3,
+        "relevant_intermediates": [
+          "United States"
+        ]
+      },
+      {
+        "target_id": "model_e605fd28fda5af4b0900",
+        "target_mode": "model",
+        "answer": "Seoul",
+        "answer_type": "city",
+        "prompt_count": 10,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "South Korea"
+        ]
+      },
+      {
+        "target_id": "model_e21813f6076200ebe2fc",
+        "target_mode": "model",
+        "answer": "Seville",
+        "answer_type": "city",
+        "prompt_count": 11,
+        "num_query_entities": 2,
+        "relevant_intermediates": [
+          "Spain"
+        ]
+      },
+      {
+        "target_id": "model_6a2aebcb4747e6335869",
+        "target_mode": "model",
+        "answer": "Shillong",
+        "answer_type": "city",
+        "prompt_count": 6,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "India"
+        ]
+      },
+      {
+        "target_id": "model_3a943a2cf782a0cff8be",
+        "target_mode": "model",
+        "answer": "Shkodër",
+        "answer_type": "city",
+        "prompt_count": 2,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Albania"
+        ]
+      },
+      {
+        "target_id": "model_88c57d204cc6a8c289f8",
+        "target_mode": "model",
+        "answer": "Sibiu",
+        "answer_type": "city",
+        "prompt_count": 2,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Romania"
+        ]
+      },
+      {
+        "target_id": "model_756a1582233a998534f9",
+        "target_mode": "model",
+        "answer": "Sicily",
+        "answer_type": "city",
+        "prompt_count": 6,
+        "num_query_entities": 3,
+        "relevant_intermediates": [
+          "Italy"
+        ]
+      },
+      {
+        "target_id": "model_8dcf1fcf97a8c9d046d2",
+        "target_mode": "model",
+        "answer": "Simferopol",
+        "answer_type": "city",
+        "prompt_count": 10,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Ukraine"
+        ]
+      },
+      {
+        "target_id": "model_f6833324bfc6a6204997",
+        "target_mode": "model",
+        "answer": "Sintra",
+        "answer_type": "city",
+        "prompt_count": 1,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Portugal"
+        ]
+      },
+      {
+        "target_id": "model_743056965caba4e9e20b",
+        "target_mode": "model",
+        "answer": "Sioux Falls",
+        "answer_type": "city",
+        "prompt_count": 1,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "United States"
+        ]
+      },
+      {
+        "target_id": "model_7e657cc8193c7f6689e4",
+        "target_mode": "model",
+        "answer": "Skopje",
+        "answer_type": "city",
+        "prompt_count": 20,
+        "num_query_entities": 2,
+        "relevant_intermediates": [
+          "North Macedonia"
+        ]
+      },
+      {
+        "target_id": "model_08c9d31f125b1fe56223",
+        "target_mode": "model",
+        "answer": "Sochi",
+        "answer_type": "city",
+        "prompt_count": 8,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Russia"
+        ]
+      },
+      {
+        "target_id": "model_6dc4d63dafbe17267af3",
+        "target_mode": "model",
+        "answer": "Sofia",
+        "answer_type": "city",
+        "prompt_count": 34,
+        "num_query_entities": 4,
+        "relevant_intermediates": [
+          "Bulgaria",
+          "India"
+        ]
+      },
+      {
+        "target_id": "model_9358c796510fe5506763",
+        "target_mode": "model",
+        "answer": "Soroti",
+        "answer_type": "city",
+        "prompt_count": 1,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Uganda"
+        ]
+      },
+      {
+        "target_id": "model_510fdd0ac5d8f9634841",
+        "target_mode": "model",
+        "answer": "Split",
+        "answer_type": "city",
+        "prompt_count": 3,
+        "num_query_entities": 2,
+        "relevant_intermediates": [
+          "Croatia"
+        ]
+      },
+      {
+        "target_id": "model_609fbf567b56a3c7336d",
+        "target_mode": "model",
+        "answer": "Srinagar",
+        "answer_type": "city",
+        "prompt_count": 9,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "India"
+        ]
+      },
+      {
+        "target_id": "model_c8e6fd8dc241d0f8299c",
+        "target_mode": "model",
+        "answer": "St. John's",
+        "answer_type": "city",
+        "prompt_count": 5,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Canada"
+        ]
+      },
+      {
+        "target_id": "model_de34d0a2a93c3f4d0cff",
+        "target_mode": "model",
+        "answer": "St. John's, Newfoundland",
+        "answer_type": "city",
+        "prompt_count": 1,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Canada"
+        ]
+      },
+      {
+        "target_id": "model_efba9c3a577c5afd3033",
+        "target_mode": "model",
+        "answer": "St. John's, Newfoundland and Labrador",
+        "answer_type": "city",
+        "prompt_count": 1,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Canada"
+        ]
+      },
+      {
+        "target_id": "model_71a106752de951319bc3",
+        "target_mode": "model",
+        "answer": "St. John’s",
+        "answer_type": "city",
+        "prompt_count": 2,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Canada"
+        ]
+      },
+      {
+        "target_id": "model_9d2a7e8ddbbbc40687e5",
+        "target_mode": "model",
+        "answer": "St. Louis",
+        "answer_type": "city",
+        "prompt_count": 29,
+        "num_query_entities": 3,
+        "relevant_intermediates": [
+          "United States"
+        ]
+      },
+      {
+        "target_id": "model_72ca6e194c527418e2af",
+        "target_mode": "model",
+        "answer": "St. Lucia",
+        "answer_type": "city",
+        "prompt_count": 2,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Dominica"
+        ]
+      },
+      {
+        "target_id": "model_250a5e0c12a37dcacf36",
+        "target_mode": "model",
+        "answer": "St. Petersburg",
+        "answer_type": "city",
+        "prompt_count": 11,
+        "num_query_entities": 4,
+        "relevant_intermediates": [
+          "Finland",
+          "Russia"
+        ]
+      },
+      {
+        "target_id": "model_31c2b6a76e92ee1aac6a",
+        "target_mode": "model",
+        "answer": "St. Thomas",
+        "answer_type": "city",
+        "prompt_count": 1,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "United States"
+        ]
+      },
+      {
+        "target_id": "model_2324ed48c1436d27d642",
+        "target_mode": "model",
+        "answer": "Stockholm",
+        "answer_type": "city",
+        "prompt_count": 222,
+        "num_query_entities": 26,
+        "relevant_intermediates": [
+          "Norway",
+          "Sweden"
+        ]
+      },
+      {
+        "target_id": "model_715648d37fcadaf56afa",
+        "target_mode": "model",
+        "answer": "Stuttgart",
+        "answer_type": "city",
+        "prompt_count": 5,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Germany"
+        ]
+      },
+      {
+        "target_id": "model_5cbe37f98b782daf0359",
+        "target_mode": "model",
+        "answer": "Sucre",
+        "answer_type": "city",
+        "prompt_count": 1,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Chile"
+        ]
+      },
+      {
+        "target_id": "model_8beddb5ea4c9d286283f",
+        "target_mode": "model",
+        "answer": "Surabaya",
+        "answer_type": "city",
+        "prompt_count": 1,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Indonesia"
+        ]
+      },
+      {
+        "target_id": "model_ec54dff694f8c4545744",
+        "target_mode": "model",
+        "answer": "Sydney",
+        "answer_type": "city",
+        "prompt_count": 30,
+        "num_query_entities": 5,
+        "relevant_intermediates": [
+          "Australia",
+          "Canada"
+        ]
+      },
+      {
+        "target_id": "model_3c4d53fb08854856ec4a",
+        "target_mode": "model",
+        "answer": "Syracuse",
+        "answer_type": "city",
+        "prompt_count": 7,
+        "num_query_entities": 3,
+        "relevant_intermediates": [
+          "Italy"
+        ]
+      },
+      {
+        "target_id": "model_88584341b4049cc06e34",
+        "target_mode": "model",
+        "answer": "Szczecin",
+        "answer_type": "city",
+        "prompt_count": 4,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Germany"
+        ]
+      },
+      {
+        "target_id": "model_5ea61be598b666d3bfb0",
+        "target_mode": "model",
+        "answer": "São Luís",
+        "answer_type": "city",
+        "prompt_count": 1,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Brazil"
+        ]
+      },
+      {
+        "target_id": "model_7521cb2e89e4f04585e4",
+        "target_mode": "model",
+        "answer": "São Paulo",
+        "answer_type": "city",
+        "prompt_count": 11,
+        "num_query_entities": 4,
+        "relevant_intermediates": [
+          "Angola",
+          "Brazil",
+          "Italy"
+        ]
+      },
+      {
+        "target_id": "model_4e468870adc34771d301",
+        "target_mode": "model",
+        "answer": "Tainan",
+        "answer_type": "city",
+        "prompt_count": 2,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Taiwan"
+        ]
+      },
+      {
+        "target_id": "model_cf7034c5053596a6a1f5",
+        "target_mode": "model",
+        "answer": "Taipei",
+        "answer_type": "city",
+        "prompt_count": 18,
+        "num_query_entities": 3,
+        "relevant_intermediates": [
+          "Albania",
+          "Taiwan"
+        ]
+      },
+      {
+        "target_id": "model_40c3062331a5dd1d4dbe",
+        "target_mode": "model",
+        "answer": "Tallinn",
+        "answer_type": "city",
+        "prompt_count": 38,
+        "num_query_entities": 7,
+        "relevant_intermediates": [
+          "Albania",
+          "Estonia",
+          "Finland",
+          "India",
+          "Norway",
+          "Sweden"
+        ]
+      },
+      {
+        "target_id": "model_39ba271c19ff9857a6a7",
+        "target_mode": "model",
+        "answer": "Tarija",
+        "answer_type": "city",
+        "prompt_count": 1,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Argentina"
+        ]
+      },
+      {
+        "target_id": "model_ed10459d926693108a31",
+        "target_mode": "model",
+        "answer": "Tashkent",
+        "answer_type": "city",
+        "prompt_count": 2,
+        "num_query_entities": 2,
+        "relevant_intermediates": [
+          "Kyrgyzstan",
+          "Tajikistan"
+        ]
+      },
+      {
+        "target_id": "model_7822012299b462b3f6dd",
+        "target_mode": "model",
+        "answer": "Tbilisi",
+        "answer_type": "city",
+        "prompt_count": 55,
+        "num_query_entities": 9,
+        "relevant_intermediates": [
+          "Albania",
+          "Georgia",
+          "India",
+          "Russia"
+        ]
+      },
+      {
+        "target_id": "model_d935c192fc3490a144f9",
+        "target_mode": "model",
+        "answer": "Tehran",
+        "answer_type": "city",
+        "prompt_count": 35,
+        "num_query_entities": 4,
+        "relevant_intermediates": [
+          "Afghanistan",
+          "Azerbaijan",
+          "Iran"
+        ]
+      },
+      {
+        "target_id": "model_efe29f82a79a70917002",
+        "target_mode": "model",
+        "answer": "Tel Aviv",
+        "answer_type": "city",
+        "prompt_count": 30,
+        "num_query_entities": 4,
+        "relevant_intermediates": [
+          "Israel"
+        ]
+      },
+      {
+        "target_id": "model_1f35f64757c26b0f89d0",
+        "target_mode": "model",
+        "answer": "Temuco",
+        "answer_type": "city",
+        "prompt_count": 1,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Chile"
+        ]
+      },
+      {
+        "target_id": "model_fb93af1add09bad9453c",
+        "target_mode": "model",
+        "answer": "Tenerife",
+        "answer_type": "city",
+        "prompt_count": 8,
+        "num_query_entities": 2,
+        "relevant_intermediates": [
+          "Spain"
+        ]
+      },
+      {
+        "target_id": "model_2b5528f2b469ff193371",
+        "target_mode": "model",
+        "answer": "The Hague",
+        "answer_type": "city",
+        "prompt_count": 7,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Netherlands"
+        ]
+      },
+      {
+        "target_id": "model_260542ca5a78d9160c06",
+        "target_mode": "model",
+        "answer": "Thessaloniki",
+        "answer_type": "city",
+        "prompt_count": 12,
+        "num_query_entities": 2,
+        "relevant_intermediates": [
+          "Greece"
+        ]
+      },
+      {
+        "target_id": "model_cfa304b4701922028593",
+        "target_mode": "model",
+        "answer": "Thimphu",
+        "answer_type": "city",
+        "prompt_count": 11,
+        "num_query_entities": 2,
+        "relevant_intermediates": [
+          "Bhutan",
+          "India"
+        ]
+      },
+      {
+        "target_id": "model_49c52585da8b7ce0df37",
+        "target_mode": "model",
+        "answer": "Tijuana",
+        "answer_type": "city",
+        "prompt_count": 1,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Argentina"
+        ]
+      },
+      {
+        "target_id": "model_c9eb1a263756e219b810",
+        "target_mode": "model",
+        "answer": "Tirana",
+        "answer_type": "city",
+        "prompt_count": 67,
+        "num_query_entities": 11,
+        "relevant_intermediates": [
+          "Albania",
+          "Azerbaijan",
+          "Italy",
+          "Latvia",
+          "Madagascar",
+          "Norway"
+        ]
+      },
+      {
+        "target_id": "model_8f466acf47a021ad6497",
+        "target_mode": "model",
+        "answer": "Tivoli",
+        "answer_type": "city",
+        "prompt_count": 5,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Italy"
+        ]
+      },
+      {
+        "target_id": "model_f982fcf55f0b41d2e30f",
+        "target_mode": "model",
+        "answer": "Tokyo",
+        "answer_type": "city",
+        "prompt_count": 171,
+        "num_query_entities": 25,
+        "relevant_intermediates": [
+          "Cameroon",
+          "Democratic Republic of the Congo",
+          "Israel",
+          "Japan",
+          "Laos",
+          "Norway",
+          "United States"
+        ]
+      },
+      {
+        "target_id": "model_4e241f81e09f4e8b6d79",
+        "target_mode": "model",
+        "answer": "Toliara",
+        "answer_type": "city",
+        "prompt_count": 6,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Madagascar"
+        ]
+      },
+      {
+        "target_id": "model_bb931b071a3dd35d5312",
+        "target_mode": "model",
+        "answer": "Toronto",
+        "answer_type": "city",
+        "prompt_count": 36,
+        "num_query_entities": 6,
+        "relevant_intermediates": [
+          "Canada",
+          "United States"
+        ]
+      },
+      {
+        "target_id": "model_dd5dea7dde9b42105e5a",
+        "target_mode": "model",
+        "answer": "Toruń",
+        "answer_type": "city",
+        "prompt_count": 4,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Poland"
+        ]
+      },
+      {
+        "target_id": "model_819d89d2c99305afc8e1",
+        "target_mode": "model",
+        "answer": "Toulouse",
+        "answer_type": "city",
+        "prompt_count": 5,
+        "num_query_entities": 2,
+        "relevant_intermediates": [
+          "France",
+          "Italy"
+        ]
+      },
+      {
+        "target_id": "model_44d6b06b21b88e1060ab",
+        "target_mode": "model",
+        "answer": "Trivandrum",
+        "answer_type": "city",
+        "prompt_count": 3,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "India"
+        ]
+      },
+      {
+        "target_id": "model_da216d2076cd9b4eb6a3",
+        "target_mode": "model",
+        "answer": "Tromsø",
+        "answer_type": "city",
+        "prompt_count": 18,
+        "num_query_entities": 5,
+        "relevant_intermediates": [
+          "Canada",
+          "Norway"
+        ]
+      },
+      {
+        "target_id": "model_123b621fa5c3dd146756",
+        "target_mode": "model",
+        "answer": "Trondheim",
+        "answer_type": "city",
+        "prompt_count": 1,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Norway"
+        ]
+      },
+      {
+        "target_id": "model_9725a5f8e0342c58bced",
+        "target_mode": "model",
+        "answer": "Tucson",
+        "answer_type": "city",
+        "prompt_count": 9,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "United States"
+        ]
+      },
+      {
+        "target_id": "model_2540605482864ac4d142",
+        "target_mode": "model",
+        "answer": "Tucumán",
+        "answer_type": "city",
+        "prompt_count": 3,
+        "num_query_entities": 2,
+        "relevant_intermediates": [
+          "Argentina"
+        ]
+      },
+      {
+        "target_id": "model_70bbc6bd53bcc14c0500",
+        "target_mode": "model",
+        "answer": "Tunis",
+        "answer_type": "city",
+        "prompt_count": 15,
+        "num_query_entities": 3,
+        "relevant_intermediates": [
+          "Senegal",
+          "Tunisia"
+        ]
+      },
+      {
+        "target_id": "model_2add1449936a582f9898",
+        "target_mode": "model",
+        "answer": "Turin",
+        "answer_type": "city",
+        "prompt_count": 11,
+        "num_query_entities": 2,
+        "relevant_intermediates": [
+          "France",
+          "Italy"
+        ]
+      },
+      {
+        "target_id": "model_c029ce0a77bcf80bca4b",
+        "target_mode": "model",
+        "answer": "Ufa",
+        "answer_type": "city",
+        "prompt_count": 7,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Russia"
+        ]
+      },
+      {
+        "target_id": "model_15dec84a689b017c91df",
+        "target_mode": "model",
+        "answer": "Ulaanbaatar",
+        "answer_type": "city",
+        "prompt_count": 27,
+        "num_query_entities": 9,
+        "relevant_intermediates": [
+          "Azerbaijan",
+          "Canada",
+          "India",
+          "Mongolia",
+          "Russia"
+        ]
+      },
+      {
+        "target_id": "model_6fda4b33c6c8432e3c4f",
+        "target_mode": "model",
+        "answer": "Umeå",
+        "answer_type": "city",
+        "prompt_count": 5,
+        "num_query_entities": 3,
+        "relevant_intermediates": [
+          "Sweden"
+        ]
+      },
+      {
+        "target_id": "model_c663496a0756c134bd63",
+        "target_mode": "model",
+        "answer": "Uppsala",
+        "answer_type": "city",
+        "prompt_count": 1,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Sweden"
+        ]
+      },
+      {
+        "target_id": "model_f186fb51a4a92d05c456",
+        "target_mode": "model",
+        "answer": "Ushuaia",
+        "answer_type": "city",
+        "prompt_count": 2,
+        "num_query_entities": 2,
+        "relevant_intermediates": [
+          "Argentina"
+        ]
+      },
+      {
+        "target_id": "model_267cf5c780001d8c1b52",
+        "target_mode": "model",
+        "answer": "Valdivia",
+        "answer_type": "city",
+        "prompt_count": 2,
+        "num_query_entities": 2,
+        "relevant_intermediates": [
+          "Chile"
+        ]
+      },
+      {
+        "target_id": "model_c283568a8fcdbdbed13d",
+        "target_mode": "model",
+        "answer": "Valletta",
+        "answer_type": "city",
+        "prompt_count": 2,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Italy"
+        ]
+      },
+      {
+        "target_id": "model_772abaee549974e7a766",
+        "target_mode": "model",
+        "answer": "Valparaíso",
+        "answer_type": "city",
+        "prompt_count": 2,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Chile"
+        ]
+      },
+      {
+        "target_id": "model_6dbb8b27afb75184e015",
+        "target_mode": "model",
+        "answer": "Vancouver",
+        "answer_type": "city",
+        "prompt_count": 55,
+        "num_query_entities": 9,
+        "relevant_intermediates": [
+          "Canada"
+        ]
+      },
+      {
+        "target_id": "model_4b427ae1a40ab2beb306",
+        "target_mode": "model",
+        "answer": "Venice",
+        "answer_type": "city",
+        "prompt_count": 1,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Italy"
+        ]
+      },
+      {
+        "target_id": "model_546536bdde7b8509f40a",
+        "target_mode": "model",
+        "answer": "Victoria",
+        "answer_type": "city",
+        "prompt_count": 11,
+        "num_query_entities": 3,
+        "relevant_intermediates": [
+          "Canada"
+        ]
+      },
+      {
+        "target_id": "model_46ff3d432d77c7d0756e",
+        "target_mode": "model",
+        "answer": "Victoria Falls",
+        "answer_type": "city",
+        "prompt_count": 3,
+        "num_query_entities": 2,
+        "relevant_intermediates": [
+          "Canada",
+          "Zimbabwe"
+        ]
+      },
+      {
+        "target_id": "model_43d06238550bed125d4a",
+        "target_mode": "model",
+        "answer": "Vienna",
+        "answer_type": "city",
+        "prompt_count": 34,
+        "num_query_entities": 5,
+        "relevant_intermediates": [
+          "Austria"
+        ]
+      },
+      {
+        "target_id": "model_2b5826a1964ce5c2ab45",
+        "target_mode": "model",
+        "answer": "Vigo",
+        "answer_type": "city",
+        "prompt_count": 1,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Spain"
+        ]
+      },
+      {
+        "target_id": "model_7c31bc562421253488d1",
+        "target_mode": "model",
+        "answer": "Vilnius",
+        "answer_type": "city",
+        "prompt_count": 44,
+        "num_query_entities": 5,
+        "relevant_intermediates": [
+          "Lithuania"
+        ]
+      },
+      {
+        "target_id": "model_df3a3c928c96ef1b3b45",
+        "target_mode": "model",
+        "answer": "Vladivostok",
+        "answer_type": "city",
+        "prompt_count": 1,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Russia"
+        ]
+      },
+      {
+        "target_id": "model_f74ead198a19a61a7529",
+        "target_mode": "model",
+        "answer": "Wall",
+        "answer_type": "city",
+        "prompt_count": 3,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "United States"
+        ]
+      },
+      {
+        "target_id": "model_ce78612b6a07e5873770",
+        "target_mode": "model",
+        "answer": "Warsaw",
+        "answer_type": "city",
+        "prompt_count": 157,
+        "num_query_entities": 24,
+        "relevant_intermediates": [
+          "Belarus",
+          "Germany",
+          "Poland",
+          "Slovakia"
+        ]
+      },
+      {
+        "target_id": "model_e12535caf50c29997e72",
+        "target_mode": "model",
+        "answer": "Washington",
+        "answer_type": "city",
+        "prompt_count": 22,
+        "num_query_entities": 13,
+        "relevant_intermediates": [
+          "United States"
+        ]
+      },
+      {
+        "target_id": "model_768e607815fa3b9942ef",
+        "target_mode": "model",
+        "answer": "Washington DC",
+        "answer_type": "city",
+        "prompt_count": 1,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "United States"
+        ]
+      },
+      {
+        "target_id": "model_d1d626eb0ef14ecf368e",
+        "target_mode": "model",
+        "answer": "Washington, D.C.",
+        "answer_type": "city",
+        "prompt_count": 101,
+        "num_query_entities": 56,
+        "relevant_intermediates": [
+          "Angola",
+          "Australia",
+          "Austria",
+          "Canada",
+          "Chile",
+          "Democratic Republic of the Congo",
+          "India",
+          "Israel",
+          "Italy",
+          "Kenya",
+          "Latvia",
+          "Madagascar",
+          "Norway",
+          "Russia",
+          "Rwanda",
+          "Sweden",
+          "Tanzania",
+          "Thailand",
+          "United Kingdom",
+          "United States"
+        ]
+      },
+      {
+        "target_id": "model_014abde24e8fc170a633",
+        "target_mode": "model",
+        "answer": "Washington, DC",
+        "answer_type": "city",
+        "prompt_count": 2,
+        "num_query_entities": 2,
+        "relevant_intermediates": [
+          "United States"
+        ]
+      },
+      {
+        "target_id": "model_7385c46ba7216f5f3461",
+        "target_mode": "model",
+        "answer": "Wellington",
+        "answer_type": "city",
+        "prompt_count": 120,
+        "num_query_entities": 17,
+        "relevant_intermediates": [
+          "Australia",
+          "Canada",
+          "Chile",
+          "New Zealand"
+        ]
+      },
+      {
+        "target_id": "model_2847b4d2fc078591dec5",
+        "target_mode": "model",
+        "answer": "Whitehorse",
+        "answer_type": "city",
+        "prompt_count": 20,
+        "num_query_entities": 3,
+        "relevant_intermediates": [
+          "Canada"
+        ]
+      },
+      {
+        "target_id": "model_a4822bffaec0af9d12bf",
+        "target_mode": "model",
+        "answer": "Winchester",
+        "answer_type": "city",
+        "prompt_count": 1,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "United States"
+        ]
+      },
+      {
+        "target_id": "model_26c8e7bb6ae13603aa4a",
+        "target_mode": "model",
+        "answer": "Winchester, Virginia",
+        "answer_type": "city",
+        "prompt_count": 1,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "United States"
+        ]
+      },
+      {
+        "target_id": "model_7f0af832672bb3fcf21e",
+        "target_mode": "model",
+        "answer": "Windhoek",
+        "answer_type": "city",
+        "prompt_count": 20,
+        "num_query_entities": 2,
+        "relevant_intermediates": [
+          "Namibia"
+        ]
+      },
+      {
+        "target_id": "model_3a08bbcca6e4bff30c7a",
+        "target_mode": "model",
+        "answer": "Windsor",
+        "answer_type": "city",
+        "prompt_count": 6,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Canada"
+        ]
+      },
+      {
+        "target_id": "model_81a2522b39e141e18ef4",
+        "target_mode": "model",
+        "answer": "Windsor, Ontario",
+        "answer_type": "city",
+        "prompt_count": 1,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Canada"
+        ]
+      },
+      {
+        "target_id": "model_6e9a1910b1c9ae1660f7",
+        "target_mode": "model",
+        "answer": "Winnipeg",
+        "answer_type": "city",
+        "prompt_count": 20,
+        "num_query_entities": 4,
+        "relevant_intermediates": [
+          "Canada",
+          "United States"
+        ]
+      },
+      {
+        "target_id": "model_4a88841a93f6c544fa8d",
+        "target_mode": "model",
+        "answer": "Wroclaw",
+        "answer_type": "city",
+        "prompt_count": 5,
+        "num_query_entities": 2,
+        "relevant_intermediates": [
+          "Poland"
+        ]
+      },
+      {
+        "target_id": "model_5d4561d0746204808c6d",
+        "target_mode": "model",
+        "answer": "Wrocław",
+        "answer_type": "city",
+        "prompt_count": 6,
+        "num_query_entities": 2,
+        "relevant_intermediates": [
+          "Germany",
+          "Poland"
+        ]
+      },
+      {
+        "target_id": "model_e4a5ee5a29f19a227b85",
+        "target_mode": "model",
+        "answer": "Yakutsk",
+        "answer_type": "city",
+        "prompt_count": 1,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Russia"
+        ]
+      },
+      {
+        "target_id": "model_d15801578dd70c20c50d",
+        "target_mode": "model",
+        "answer": "Yangon",
+        "answer_type": "city",
+        "prompt_count": 1,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Democratic Republic of the Congo"
+        ]
+      },
+      {
+        "target_id": "model_1785c89c0a59322c17f5",
+        "target_mode": "model",
+        "answer": "Yaoundé",
+        "answer_type": "city",
+        "prompt_count": 20,
+        "num_query_entities": 3,
+        "relevant_intermediates": [
+          "Cameroon"
+        ]
+      },
+      {
+        "target_id": "model_f6792018520348e6c337",
+        "target_mode": "model",
+        "answer": "Yellowknife",
+        "answer_type": "city",
+        "prompt_count": 4,
+        "num_query_entities": 2,
+        "relevant_intermediates": [
+          "Canada"
+        ]
+      },
+      {
+        "target_id": "model_eabe04b2d87f601c97b1",
+        "target_mode": "model",
+        "answer": "Yerevan",
+        "answer_type": "city",
+        "prompt_count": 31,
+        "num_query_entities": 6,
+        "relevant_intermediates": [
+          "Albania",
+          "Armenia",
+          "Azerbaijan",
+          "Russia"
+        ]
+      },
+      {
+        "target_id": "model_ec41086a17680cbe9d16",
+        "target_mode": "model",
+        "answer": "Yogyakarta",
+        "answer_type": "city",
+        "prompt_count": 2,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Indonesia"
+        ]
+      },
+      {
+        "target_id": "model_ebdda24577aaf4ca40d6",
+        "target_mode": "model",
+        "answer": "Zagreb",
+        "answer_type": "city",
+        "prompt_count": 60,
+        "num_query_entities": 7,
+        "relevant_intermediates": [
+          "Bosnia and Herzegovina",
+          "Croatia"
+        ]
+      },
+      {
+        "target_id": "model_ad9ec29314028000c6f9",
+        "target_mode": "model",
+        "answer": "Zurich",
+        "answer_type": "city",
+        "prompt_count": 4,
+        "num_query_entities": 1,
+        "relevant_intermediates": [
+          "Germany"
+        ]
+      }
+    ]
+  },
+  "generation_config": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/cues.json",
+  "provider": "deterministic_prompted_generation",
+  "templates": [
+    "List {count} individual words strongly associated with the city {answer}. Return only comma-separated single words.\nWords:",
+    "What single words are specifically connected to {answer}? Give {count} comma-separated words and nothing else.\nWords:",
+    "Generate {count} one-word associations for {answer}. Use only a comma-separated list.\nWords:"
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "schema_version": 2,
+  "provider": "static_reviewed_catalog",
+  "top_n": 20,
+  "analysis_k_values": [3, 5, 10],
+  "primary_k": 5,
+  "requested_candidates": 40,
+  "max_new_tokens": 128,
+  "generic_min_answers": 5,
+  "generic_max_answer_fraction": 0.10,
+  "generic_capital_words": [
+    "administration", "bureaucracy", "capital", "civic", "diplomacy", "diplomatic",
+    "embassies", "embassy", "federal", "government", "ministries", "ministry", "official",
+    "parliament", "politics", "summit"
+  ],
+  "excluded_generic_name_pieces": [
+    "ben", "big", "gate", "house", "mall", "notre", "red", "square", "wall", "western", "white"
+  ],
+  "tasks": {
+    "landmark-country-capital": {
+      "answer_type": "city",
+      "scoring_templates": [
+        "{answer} is famous for its",
+        "{answer} is associated with",
+        "Things connected to {answer} include"
+      ],
+      "templates": [
+        "List {count} individual words strongly associated with the city {answer}. Return only comma-separated single words.\nWords:",
+        "What single words are specifically connected to {answer}? Give {count} comma-separated words and nothing else.\nWords:",
+        "Generate {count} one-word associations for {answer}. Use only a comma-separated list.\nWords:"
+      ]
+    },
+    "park-country-capital": {
+      "answer_type": "city",
+      "scoring_templates": [
+        "{answer} is famous for its",
+        "{answer} is associated with",
+        "Things connected to {answer} include"
+      ],
+      "templates": [
+        "List {count} individual words strongly associated with the city {answer}. Return only comma-separated single words.\nWords:",
+        "What single words are specifically connected to {answer}? Give {count} comma-separated words and nothing else.\nWords:",
+        "Generate {count} one-word associations for {answer}. Use only a comma-separated list.\nWords:"
+      ]
+    },
+    "product-company-hq": {
+      "answer_type": "city",
+      "scoring_templates": [
+        "{answer} is famous for its",
+        "{answer} is associated with",
+        "Things connected to {answer} include"
+      ],
+      "templates": [
+        "List {count} individual words strongly associated with the city {answer}. Return only comma-separated single words.\nWords:",
+        "What single words are specifically connected to {answer}? Give {count} comma-separated words and nothing else.\nWords:",
+        "Generate {count} one-word associations for {answer}. Use only a comma-separated list.\nWords:"
+      ]
+    },
+    "product-company-ceo": {
+      "answer_type": "person",
+      "scoring_templates": [
+        "{answer} is known for",
+        "{answer} is associated with",
+        "Things connected to {answer} include"
+      ],
+      "templates": [
+        "List {count} individual words strongly associated with the person {answer}. Return only comma-separated single words.\nWords:",
+        "What single words are specifically connected to {answer}? Give {count} comma-separated words and nothing else.\nWords:",
+        "Generate {count} one-word associations for {answer}. Use only a comma-separated list.\nWords:"
+      ]
+    },
+    "antonym-spanish": {
+      "answer_type": "spanish_word",
+      "scoring_templates": [
+        "The Spanish word {answer} is associated with",
+        "The meaning of {answer} is related to",
+        "Words connected to {answer} include"
+      ],
+      "templates": [
+        "List {count} individual words strongly associated with the Spanish word {answer}. Return only comma-separated single words.\nWords:",
+        "What single words are specifically connected to the Spanish word {answer}? Give {count} comma-separated words and nothing else.\nWords:",
+        "Generate {count} one-word associations for the Spanish word {answer}. Use only a comma-separated list.\nWords:"
+      ]
+    }
+  },
+  "stopwords": [
+    "a", "an", "and", "are", "as", "at", "be", "by", "for", "from", "has", "have",
+    "in", "include", "includes", "is", "it", "its", "of", "on", "or", "that", "the",
+    "their", "this", "to", "was", "were", "with", "y", "de", "del", "el", "la", "las",
+    "los", "en", "con", "por", "un", "una"
+  ]
+}

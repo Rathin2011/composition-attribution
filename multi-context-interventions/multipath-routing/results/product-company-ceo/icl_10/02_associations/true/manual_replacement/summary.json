@@ -1,0 +1,35 @@
+{
+  "schema_version": 2,
+  "task": "product-company-ceo",
+  "target_mode": "true",
+  "num_catalog_answers": 55,
+  "num_inventory_answers": 55,
+  "partial_catalog": false,
+  "missing_answers": [],
+  "returned_top_n_counts": {
+    "5": 11,
+    "6": 12,
+    "7": 16,
+    "8": 8,
+    "9": 6,
+    "10": 2
+  },
+  "generic_document_frequency_limit": 5,
+  "analysis_k_values": [
+    3,
+    5,
+    10
+  ],
+  "primary_k": 5,
+  "k_coverage": {
+    "3": 55,
+    "5": 55,
+    "10": 2
+  },
+  "subset_selection_rule": "lowest answer-document frequency; curated-order tie-break",
+  "num_no_reliable_associations": 0,
+  "unused_inherited_answers": [],
+  "output": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/results/product-company-ceo/icl_10/02_associations/true/manual_replacement/associations_static.jsonl.gz",
+  "catalog": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/results/manual_associations/compiled_manual_catalog.json",
+  "model_inference": false
+}

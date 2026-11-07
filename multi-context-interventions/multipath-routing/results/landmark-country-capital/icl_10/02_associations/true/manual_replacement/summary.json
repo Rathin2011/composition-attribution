@@ -1,0 +1,42 @@
+{
+  "schema_version": 2,
+  "task": "landmark-country-capital",
+  "target_mode": "true",
+  "num_catalog_answers": 87,
+  "num_inventory_answers": 87,
+  "partial_catalog": false,
+  "missing_answers": [],
+  "returned_top_n_counts": {
+    "5": 24,
+    "6": 12,
+    "7": 13,
+    "8": 7,
+    "9": 7,
+    "10": 5,
+    "11": 6,
+    "12": 2,
+    "13": 2,
+    "16": 2,
+    "17": 4,
+    "18": 2,
+    "19": 1
+  },
+  "generic_document_frequency_limit": 8,
+  "analysis_k_values": [
+    3,
+    5,
+    10
+  ],
+  "primary_k": 5,
+  "k_coverage": {
+    "3": 87,
+    "5": 87,
+    "10": 24
+  },
+  "subset_selection_rule": "lowest answer-document frequency; curated-order tie-break",
+  "num_no_reliable_associations": 0,
+  "unused_inherited_answers": [],
+  "output": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/results/landmark-country-capital/icl_10/02_associations/true/manual_replacement/associations_static.jsonl.gz",
+  "catalog": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/results/manual_associations/compiled_manual_catalog.json",
+  "model_inference": false
+}
