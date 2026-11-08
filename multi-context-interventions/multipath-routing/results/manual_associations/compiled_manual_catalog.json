@@ -3,7 +3,7 @@
   "provenance": "Exact-answer reuse of manually written lists; no OLMo association inference.",
   "sources": {
     "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/predefined_associations.json": "8928b887ac6a4e0e11d6abfced583e2b3a5afa02d11c04b93bb0d0f357fa6e36",
-    "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json": "0d38b7da9f2e31f3b71147d7c8766a77fa92a8aa6dffe9308a4e74808c1043c4"
+    "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json": "a2c3b3a4e30ef7fef1277286cf0043c95de74c31ad170d04a6d092a0d8a9eb9f"
   },
   "tasks": {
     "landmark-country-capital": {
@@ -132,11 +132,13 @@
           "Bilbao": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Bogotá": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/predefined_associations.json",
           "Boston": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
+          "Brasilia": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Brasília": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/predefined_associations.json",
           "Bratislava": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/predefined_associations.json",
           "Bremen": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Brisbane": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Bruges": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
+          "Brussels": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Bucharest": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/predefined_associations.json",
           "Budapest": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/predefined_associations.json",
           "Buenos Aires": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/predefined_associations.json",
@@ -147,18 +149,21 @@
           "Canberra": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/predefined_associations.json",
           "Cape Town": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Caracas": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/predefined_associations.json",
+          "Cardiff": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Chelyabinsk": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Chengdu": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Chennai": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Chicago": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "China": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "City of Brussels": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/predefined_associations.json",
+          "Cleveland": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Cologne": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Copenhagen": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/predefined_associations.json",
           "Cork": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Coventry": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Dakar": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/predefined_associations.json",
           "Damascus": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/predefined_associations.json",
+          "Delhi": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Denmark": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Denver": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Derby": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
@@ -175,11 +180,13 @@
           "Fort Worth": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "France": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Frankfurt": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
+          "Fuzhou": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Galway": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Gdańsk": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Geneva": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Genoa": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Germany": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
+          "Giza": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Glasgow": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Gothenburg": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Granada": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
@@ -198,6 +205,7 @@
           "Hyderabad": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Ibadan": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "India": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
+          "Innsbruck": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Ireland": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Isfahan": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Islamabad": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/predefined_associations.json",
@@ -212,9 +220,11 @@
           "Karlsruhe": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Kharkiv": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Kiel": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
+          "Kiev": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Knoxville": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Kobe": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Kolkata": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
+          "Krakow": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Kraków": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Kuala Lumpur": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/predefined_associations.json",
           "Kyiv": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/predefined_associations.json",
@@ -227,7 +237,9 @@
           "Ljubljana": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/predefined_associations.json",
           "London": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/predefined_associations.json",
           "Los Angeles": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
+          "Lucknow": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Luxembourg": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/predefined_associations.json",
+          "Luxor": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Lyon": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Madrid": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/predefined_associations.json",
           "Malmö": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
@@ -251,18 +263,21 @@
           "Netherlands": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "New Delhi": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/predefined_associations.json",
           "New Orleans": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
+          "New York": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "New York City": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Newcastle upon Tyne": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Nice": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Nicosia": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/predefined_associations.json",
           "Nizhny Novgorod": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Nuremberg": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
+          "Orlando": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Osaka": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Oslo": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/predefined_associations.json",
           "Ottawa": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/predefined_associations.json",
           "Oxford": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Palermo": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Paris": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/predefined_associations.json",
+          "Persepolis": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Pisa": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Pittsburgh": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Podgorica": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/predefined_associations.json",
@@ -272,16 +287,19 @@
           "Prishtina": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/predefined_associations.json",
           "Pyongyang": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/predefined_associations.json",
           "Quito": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/predefined_associations.json",
+          "Reykjavik": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Reykjavík": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/predefined_associations.json",
           "Rio de Janeiro": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Rome": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/predefined_associations.json",
           "Russia": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Saint Petersburg": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
+          "Salt Lake City": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Salzburg": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Samarkand": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "San Antonio": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "San Diego": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "San Francisco": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
+          "Santa Fe": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Santiago": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/predefined_associations.json",
           "Sarajevo": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/predefined_associations.json",
           "Scotland": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
@@ -292,6 +310,7 @@
           "Sofia": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/predefined_associations.json",
           "Spain": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "St. Louis": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
+          "St. Petersburg": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Stockholm": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/predefined_associations.json",
           "Strasbourg": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Stuttgart": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
@@ -318,6 +337,7 @@
           "Vilnius": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/predefined_associations.json",
           "Volgograd": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Warsaw": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/predefined_associations.json",
+          "Washington": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Washington, D.C.": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/predefined_associations.json",
           "Wrocław": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Xi'an": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
@@ -2934,7 +2954,13 @@
           "Mediterranean",
           "Ramblas",
           "modernist",
-          "beaches"
+          "beaches",
+          "Picasso",
+          "Olympics",
+          "cathedral",
+          "Messi",
+          "Catalonia",
+          "port"
         ],
         "Basel": [
           "pharmaceutical",
@@ -3119,6 +3145,16 @@
           "Celtics",
           "university"
         ],
+        "Brasilia": [
+          "planned",
+          "cathedral",
+          "Congress",
+          "government",
+          "plateau",
+          "concrete",
+          "airplane",
+          "ministries"
+        ],
         "Brasília": [
           "Niemeyer",
           "modernism",
@@ -3202,6 +3238,17 @@
           "Gothic",
           "beer",
           "gables"
+        ],
+        "Brussels": [
+          "chocolate",
+          "EU",
+          "European",
+          "bureaucracy",
+          "beer",
+          "comics",
+          "lace",
+          "fries",
+          "NATO"
         ],
         "Bucharest": [
           "parliament",
@@ -3384,6 +3431,16 @@
           "plaza",
           "university"
         ],
+        "Cardiff": [
+          "rugby",
+          "Welsh",
+          "castle",
+          "bay",
+          "coal",
+          "docks",
+          "dragon",
+          "Millennium"
+        ],
         "Chelyabinsk": [
           "meteor",
           "steel",
@@ -3454,6 +3511,19 @@
           "parliament",
           "trams",
           "cuisine"
+        ],
+        "Cleveland": [
+          "Browns",
+          "Cavaliers",
+          "rock",
+          "steel",
+          "Erie",
+          "lake",
+          "orchestra",
+          "clinic",
+          "industrial",
+          "Indians",
+          "river"
         ],
         "Cologne": [
           "cathedral",
@@ -3555,6 +3625,15 @@
           "walls",
           "mosaics",
           "heritage"
+        ],
+        "Delhi": [
+          "curry",
+          "fort",
+          "Parliament",
+          "Gandhi",
+          "Hindi",
+          "temples",
+          "metro"
         ],
         "Denmark": [
           "Viking",
@@ -3706,7 +3785,18 @@
           "frescoes",
           "leather",
           "sculpture",
-          "Tuscany"
+          "Tuscany",
+          "David",
+          "marble",
+          "bankers",
+          "art",
+          "cathedral",
+          "dome",
+          "painters",
+          "bridge",
+          "gallery",
+          "fashion",
+          "poets"
         ],
         "Fort Worth": [
           "cattle",
@@ -3741,7 +3831,21 @@
           "Goethe",
           "skyscrapers",
           "euro",
-          "bookfair"
+          "bookfair",
+          "stock",
+          "exchange",
+          "skyline",
+          "trade",
+          "fair",
+          "cider"
+        ],
+        "Fuzhou": [
+          "tea",
+          "jasmine",
+          "hot",
+          "springs",
+          "coastal",
+          "Min"
         ],
         "Galway": [
           "fiddle",
@@ -3762,7 +3866,14 @@
           "Baltic",
           "port",
           "cranes",
-          "strike"
+          "strike",
+          "merchants",
+          "harbor",
+          "war",
+          "brick",
+          "union",
+          "dock",
+          "workers"
         ],
         "Geneva": [
           "diplomacy",
@@ -3797,6 +3908,20 @@
           "Goethe",
           "reunification"
         ],
+        "Giza": [
+          "desert",
+          "plateau",
+          "ancient",
+          "limestone",
+          "pyramid",
+          "tomb",
+          "Egyptian",
+          "kings",
+          "stone",
+          "wonder",
+          "horses",
+          "ruins"
+        ],
         "Glasgow": [
           "shipbuilding",
           "Clyde",
@@ -3804,7 +3929,15 @@
           "Celtic",
           "Rangers",
           "industrial",
-          "tenements"
+          "tenements",
+          "football",
+          "whisky",
+          "rain",
+          "university",
+          "Scottish",
+          "shipping",
+          "docks",
+          "accent"
         ],
         "Gothenburg": [
           "port",
@@ -3872,7 +4005,15 @@
           "shipping",
           "warehouse",
           "maritime",
-          "canals"
+          "canals",
+          "Beatles",
+          "harbour",
+          "fish",
+          "burgers",
+          "merchants",
+          "opera",
+          "ships",
+          "bridges"
         ],
         "Hangzhou": [
           "lake",
@@ -4027,6 +4168,15 @@
           "Sanskrit",
           "spices"
         ],
+        "Innsbruck": [
+          "skiing",
+          "Alps",
+          "Olympics",
+          "mountains",
+          "snow",
+          "glacier",
+          "cable"
+        ],
         "Ireland": [
           "Guinness",
           "shamrock",
@@ -4046,7 +4196,17 @@
           "carpets",
           "Safavid",
           "dome",
-          "bazaar"
+          "bazaar",
+          "Persian",
+          "square",
+          "Shah",
+          "palace",
+          "gardens",
+          "mosques",
+          "Islamic",
+          "architecture",
+          "Silk",
+          "Road"
         ],
         "Islamabad": [
           "Margalla",
@@ -4082,7 +4242,18 @@
           "strait",
           "carpets",
           "domes",
-          "baklava"
+          "baklava",
+          "tea",
+          "cats",
+          "palace",
+          "bridges",
+          "Asia",
+          "Europe",
+          "Asian",
+          "spice",
+          "grand",
+          "Golden",
+          "Horn"
         ],
         "Italy": [
           "pasta",
@@ -4235,6 +4406,23 @@
           "Woche",
           "Howaldtswerke"
         ],
+        "Kiev": [
+          "monastery",
+          "Orthodox",
+          "revolution",
+          "metro",
+          "Soviet",
+          "golden",
+          "Ukrainian",
+          "cathedral",
+          "cake",
+          "chicken",
+          "bridges",
+          "hills",
+          "caves",
+          "river",
+          "ballet"
+        ],
         "Knoxville": [
           "university",
           "Smoky",
@@ -4260,6 +4448,16 @@
           "literature",
           "colonial",
           "cricket"
+        ],
+        "Krakow": [
+          "dragon",
+          "Jewish",
+          "Auschwitz",
+          "salt",
+          "medieval",
+          "pope",
+          "university",
+          "castle"
         ],
         "Kraków": [
           "Wawel",
@@ -4456,6 +4654,20 @@
           "Lakers",
           "smog"
         ],
+        "Lucknow": [
+          "Urdu",
+          "embroidery",
+          "poetry",
+          "palace",
+          "Muslim",
+          "monuments",
+          "culture",
+          "courtesy",
+          "gardens",
+          "silk",
+          "Hindi",
+          "Shia"
+        ],
         "Luxembourg": [
           "fortress",
           "finance",
@@ -4477,6 +4689,20 @@
           "gardens",
           "medieval",
           "administration"
+        ],
+        "Luxor": [
+          "temples",
+          "Nile",
+          "Valley",
+          "ancient",
+          "temple",
+          "Egyptian",
+          "balloon",
+          "tomb",
+          "kings",
+          "columns",
+          "statues",
+          "queens"
         ],
         "Lyon": [
           "silk",
@@ -4802,6 +5028,19 @@
           "blues",
           "voodoo"
         ],
+        "New York": [
+          "Broadway",
+          "Manhattan",
+          "Brooklyn",
+          "Yankees",
+          "subway",
+          "Wall",
+          "Harlem",
+          "taxi",
+          "Bronx",
+          "Statue",
+          "jazz"
+        ],
         "New York City": [
           "Broadway",
           "Manhattan",
@@ -4875,6 +5114,20 @@
           "rallies",
           "fortifications",
           "sausages"
+        ],
+        "Orlando": [
+          "Disney",
+          "theme",
+          "parks",
+          "Mickey",
+          "Universal",
+          "resorts",
+          "tourists",
+          "rides",
+          "Florida",
+          "swamp",
+          "oranges",
+          "magic"
         ],
         "Osaka": [
           "takoyaki",
@@ -4975,6 +5228,15 @@
           "gardens",
           "luxury"
         ],
+        "Persepolis": [
+          "ruins",
+          "Persian",
+          "columns",
+          "Alexander",
+          "palace",
+          "ancient",
+          "empire"
+        ],
         "Pisa": [
           "leaning",
           "tower",
@@ -5058,7 +5320,15 @@
           "diplomats",
           "Afrikaans",
           "university",
-          "violet"
+          "violet",
+          "government",
+          "monument",
+          "administrative",
+          "apartheid",
+          "presidential",
+          "Mandela",
+          "statue",
+          "buildings"
         ],
         "Prishtina": [
           "newborn",
@@ -5127,6 +5397,24 @@
           "heritage",
           "volcano"
         ],
+        "Reykjavik": [
+          "volcano",
+          "Viking",
+          "fish",
+          "hot",
+          "springs",
+          "whales",
+          "ice",
+          "volcanic",
+          "music",
+          "church",
+          "fishing",
+          "harbor",
+          "northern",
+          "lights",
+          "cold",
+          "Nordic"
+        ],
         "Reykjavík": [
           "geysers",
           "volcanoes",
@@ -5156,7 +5444,12 @@
           "Copacabana",
           "Christ",
           "football",
-          "mountains"
+          "mountains",
+          "Olympics",
+          "sugar",
+          "statue",
+          "mountain",
+          "sunny"
         ],
         "Rome": [
           "Colosseum",
@@ -5207,6 +5500,17 @@
           "Leningrad",
           "siege",
           "Mariinsky"
+        ],
+        "Salt Lake City": [
+          "Mormon",
+          "temple",
+          "Utah",
+          "Olympics",
+          "skiing",
+          "mountains",
+          "desert",
+          "Jazz",
+          "church"
         ],
         "Salzburg": [
           "Mozart",
@@ -5261,6 +5565,16 @@
           "startups",
           "earthquake",
           "Victorian"
+        ],
+        "Santa Fe": [
+          "turquoise",
+          "art",
+          "galleries",
+          "opera",
+          "silver",
+          "desert",
+          "missions",
+          "mountains"
         ],
         "Santiago": [
           "Andes",
@@ -5363,7 +5677,16 @@
           "bullring",
           "courtyards",
           "Andalusian",
-          "tiles"
+          "tiles",
+          "Carmen",
+          "opera",
+          "bulls",
+          "horses",
+          "Gothic",
+          "heat",
+          "Easter",
+          "fans",
+          "Columbus"
         ],
         "Shanghai": [
           "Bund",
@@ -5416,6 +5739,21 @@
           "Cardinals",
           "gateway",
           "ragtime"
+        ],
+        "St. Petersburg": [
+          "ballet",
+          "bridges",
+          "siege",
+          "imperial",
+          "Peter",
+          "museum",
+          "winter",
+          "white",
+          "nights",
+          "revolution",
+          "Baltic",
+          "Catherine",
+          "navy"
         ],
         "Stockholm": [
           "islands",
@@ -5764,7 +6102,14 @@
           "glass",
           "bridges",
           "tides",
-          "maritime"
+          "maritime",
+          "Marco",
+          "Polo",
+          "merchant",
+          "Shakespeare",
+          "islands",
+          "flooding",
+          "opera"
         ],
         "Verona": [
           "Romeo",
@@ -5853,6 +6198,19 @@
           "memorials",
           "skyscrapers",
           "Polish"
+        ],
+        "Washington": [
+          "Congress",
+          "Pentagon",
+          "Smithsonian",
+          "Capitol",
+          "monuments",
+          "Senate",
+          "senators",
+          "lobbyists",
+          "federal",
+          "Lincoln",
+          "cherry"
         ],
         "Washington, D.C.": [
           "Capitol",
@@ -6110,6 +6468,7 @@
           "Antananarivo": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/predefined_associations.json",
           "Antwerp": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Argentina": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
+          "Arusha": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Astana": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/predefined_associations.json",
           "Asunción": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Athens": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/predefined_associations.json",
@@ -6130,33 +6489,42 @@
           "Bogotá": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/predefined_associations.json",
           "Bonn": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Boston": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
+          "Brasilia": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Brasília": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/predefined_associations.json",
           "Bratislava": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/predefined_associations.json",
           "Brazil": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Brazzaville": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/predefined_associations.json",
           "Bremen": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Brisbane": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
+          "Brussels": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Bucharest": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/predefined_associations.json",
           "Budapest": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/predefined_associations.json",
           "Buenos Aires": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/predefined_associations.json",
+          "Bulawayo": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Cairo": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/predefined_associations.json",
+          "Calgary": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Canberra": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/predefined_associations.json",
           "Cape Town": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Caracas": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/predefined_associations.json",
+          "Cardiff": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Chengdu": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Chennai": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Chicago": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Christchurch": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
+          "Cleveland": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Cologne": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Copenhagen": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/predefined_associations.json",
           "Dakar": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/predefined_associations.json",
           "Damascus": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/predefined_associations.json",
+          "Dar es Salaam": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
+          "Delhi": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Denver": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Dodoma": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/predefined_associations.json",
           "Dresden": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Dublin": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/predefined_associations.json",
           "Dushanbe": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/predefined_associations.json",
           "Edinburgh": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
+          "Edmonton": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Egypt": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Florence": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Frankfurt": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
@@ -6165,8 +6533,10 @@
           "Gdańsk": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Geneva": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Glasgow": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
+          "Grenoble": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Guatemala City": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/predefined_associations.json",
           "Haifa": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
+          "Halifax": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Hamburg": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Hanoi": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/predefined_associations.json",
           "Hanover": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
@@ -6184,10 +6554,12 @@
           "Kassel": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Kathmandu": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/predefined_associations.json",
           "Kiel": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
+          "Kiev": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Kigali": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/predefined_associations.json",
           "Kinshasa": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/predefined_associations.json",
           "Knoxville": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Kolkata": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
+          "Krakow": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Kraków": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Kuala Lumpur": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/predefined_associations.json",
           "Kyiv": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/predefined_associations.json",
@@ -6201,12 +6573,14 @@
           "Los Angeles": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Louisville": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Luanda": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/predefined_associations.json",
+          "Lucknow": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Lusaka": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/predefined_associations.json",
           "Madrid": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/predefined_associations.json",
           "Manila": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/predefined_associations.json",
           "Maputo": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/predefined_associations.json",
           "Marseille": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Maseru": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/predefined_associations.json",
+          "Medan": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Melbourne": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Mexico": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Mexico City": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/predefined_associations.json",
@@ -6220,12 +6594,14 @@
           "Nairobi": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/predefined_associations.json",
           "Naples": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "New Delhi": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/predefined_associations.json",
+          "New York": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "New York City": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Newcastle upon Tyne": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Nice": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Nouakchott": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/predefined_associations.json",
           "Novosibirsk": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Nuuk": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/predefined_associations.json",
+          "Orlando": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Oslo": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/predefined_associations.json",
           "Ottawa": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/predefined_associations.json",
           "Palermo": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
@@ -6239,15 +6615,18 @@
           "Quebec City": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Quito": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/predefined_associations.json",
           "Rabat": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/predefined_associations.json",
+          "Reykjavik": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Reykjavík": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/predefined_associations.json",
           "Riga": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/predefined_associations.json",
           "Rio de Janeiro": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Rome": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/predefined_associations.json",
           "Saint Petersburg": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
+          "Salt Lake City": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Salzburg": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "San Diego": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "San Francisco": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "San José": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/predefined_associations.json",
+          "Santa Fe": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Santiago": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/predefined_associations.json",
           "Sapporo": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Sarajevo": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/predefined_associations.json",
@@ -6257,6 +6636,7 @@
           "Skopje": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/predefined_associations.json",
           "Sofia": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/predefined_associations.json",
           "St. Louis": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
+          "St. Petersburg": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Stockholm": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/predefined_associations.json",
           "Stuttgart": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Sydney": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
@@ -6275,12 +6655,15 @@
           "Turin": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Ulaanbaatar": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/predefined_associations.json",
           "Valletta": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/predefined_associations.json",
+          "Vancouver": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Venice": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Vienna": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/predefined_associations.json",
           "Vilnius": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/predefined_associations.json",
           "Warsaw": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/predefined_associations.json",
+          "Washington": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Washington, D.C.": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/predefined_associations.json",
           "Wellington": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/predefined_associations.json",
+          "Whitehorse": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Windhoek": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/predefined_associations.json",
           "Wrocław": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Yaoundé": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/predefined_associations.json",
@@ -8957,6 +9340,21 @@
           "Borges",
           "steak"
         ],
+        "Arusha": [
+          "safari",
+          "coffee",
+          "tribunal",
+          "wildlife",
+          "tourism",
+          "mountain",
+          "gateway",
+          "tourists",
+          "tribe",
+          "gems",
+          "genocide",
+          "court",
+          "crater"
+        ],
         "Astana": [
           "futuristic",
           "skyline",
@@ -9145,7 +9543,13 @@
           "Mediterranean",
           "Ramblas",
           "modernist",
-          "beaches"
+          "beaches",
+          "Picasso",
+          "Olympics",
+          "cathedral",
+          "Messi",
+          "Catalonia",
+          "port"
         ],
         "Beijing": [
           "Forbidden",
@@ -9339,6 +9743,16 @@
           "Celtics",
           "university"
         ],
+        "Brasilia": [
+          "planned",
+          "cathedral",
+          "Congress",
+          "government",
+          "plateau",
+          "concrete",
+          "airplane",
+          "ministries"
+        ],
         "Brasília": [
           "Niemeyer",
           "modernism",
@@ -9448,6 +9862,17 @@
           "sunshine",
           "Queensland"
         ],
+        "Brussels": [
+          "chocolate",
+          "EU",
+          "European",
+          "bureaucracy",
+          "beer",
+          "comics",
+          "lace",
+          "fries",
+          "NATO"
+        ],
         "Bucharest": [
           "parliament",
           "boulevards",
@@ -9515,6 +9940,14 @@
           "plaza",
           "culture"
         ],
+        "Bulawayo": [
+          "railway",
+          "Rhodes",
+          "museum",
+          "industrial",
+          "colonial",
+          "trains"
+        ],
         "Cairo": [
           "Nile",
           "pyramids",
@@ -9537,6 +9970,22 @@
           "camels",
           "archaeology",
           "Ramadan"
+        ],
+        "Calgary": [
+          "oil",
+          "Flames",
+          "Olympics",
+          "Rockies",
+          "beef",
+          "Alberta",
+          "Western",
+          "Canadian",
+          "hockey",
+          "Rocky",
+          "ranch",
+          "cattle",
+          "frontier",
+          "energy"
         ],
         "Canberra": [
           "parliament",
@@ -9594,6 +10043,16 @@
           "plaza",
           "university"
         ],
+        "Cardiff": [
+          "rugby",
+          "Welsh",
+          "castle",
+          "bay",
+          "coal",
+          "docks",
+          "dragon",
+          "Millennium"
+        ],
         "Chengdu": [
           "pandas",
           "Sichuan",
@@ -9633,6 +10092,19 @@
           "gothic",
           "river",
           "cycling"
+        ],
+        "Cleveland": [
+          "Browns",
+          "Cavaliers",
+          "rock",
+          "steel",
+          "Erie",
+          "lake",
+          "orchestra",
+          "clinic",
+          "industrial",
+          "Indians",
+          "river"
         ],
         "Cologne": [
           "cathedral",
@@ -9708,6 +10180,26 @@
           "walls",
           "mosaics",
           "heritage"
+        ],
+        "Dar es Salaam": [
+          "harbour",
+          "ferry",
+          "port",
+          "ocean",
+          "markets",
+          "fish",
+          "tropical",
+          "humid",
+          "Indian"
+        ],
+        "Delhi": [
+          "curry",
+          "fort",
+          "Parliament",
+          "Gandhi",
+          "Hindi",
+          "temples",
+          "metro"
         ],
         "Denver": [
           "altitude",
@@ -9811,6 +10303,17 @@
           "hills",
           "Hogmanay"
         ],
+        "Edmonton": [
+          "Oilers",
+          "mall",
+          "oil",
+          "winter",
+          "Alberta",
+          "hockey",
+          "river",
+          "frost",
+          "festival"
+        ],
         "Egypt": [
           "pyramids",
           "pharaoh",
@@ -9833,7 +10336,18 @@
           "frescoes",
           "leather",
           "sculpture",
-          "Tuscany"
+          "Tuscany",
+          "David",
+          "marble",
+          "bankers",
+          "art",
+          "cathedral",
+          "dome",
+          "painters",
+          "bridge",
+          "gallery",
+          "fashion",
+          "poets"
         ],
         "Frankfurt": [
           "banking",
@@ -9842,7 +10356,13 @@
           "Goethe",
           "skyscrapers",
           "euro",
-          "bookfair"
+          "bookfair",
+          "stock",
+          "exchange",
+          "skyline",
+          "trade",
+          "fair",
+          "cider"
         ],
         "Gaborone": [
           "Kgale",
@@ -9879,7 +10399,14 @@
           "Baltic",
           "port",
           "cranes",
-          "strike"
+          "strike",
+          "merchants",
+          "harbor",
+          "war",
+          "brick",
+          "union",
+          "dock",
+          "workers"
         ],
         "Geneva": [
           "diplomacy",
@@ -9900,7 +10427,26 @@
           "Celtic",
           "Rangers",
           "industrial",
-          "tenements"
+          "tenements",
+          "football",
+          "whisky",
+          "rain",
+          "university",
+          "Scottish",
+          "shipping",
+          "docks",
+          "accent"
+        ],
+        "Grenoble": [
+          "Alps",
+          "skiing",
+          "Olympics",
+          "cable",
+          "physics",
+          "mountains",
+          "gloves",
+          "scientific",
+          "nuclear"
         ],
         "Guatemala City": [
           "Maya",
@@ -9927,6 +10473,19 @@
           "university",
           "shipping"
         ],
+        "Halifax": [
+          "harbour",
+          "explosion",
+          "Titanic",
+          "Citadel",
+          "navy",
+          "fog",
+          "lobster",
+          "maritime",
+          "Atlantic",
+          "fishing",
+          "ships"
+        ],
         "Hamburg": [
           "port",
           "Hanseatic",
@@ -9934,7 +10493,15 @@
           "shipping",
           "warehouse",
           "maritime",
-          "canals"
+          "canals",
+          "Beatles",
+          "harbour",
+          "fish",
+          "burgers",
+          "merchants",
+          "opera",
+          "ships",
+          "bridges"
         ],
         "Hanoi": [
           "lakes",
@@ -10062,7 +10629,18 @@
           "strait",
           "carpets",
           "domes",
-          "baklava"
+          "baklava",
+          "tea",
+          "cats",
+          "palace",
+          "bridges",
+          "Asia",
+          "Europe",
+          "Asian",
+          "spice",
+          "grand",
+          "Golden",
+          "Horn"
         ],
         "Jaipur": [
           "pink",
@@ -10219,6 +10797,23 @@
           "Woche",
           "Howaldtswerke"
         ],
+        "Kiev": [
+          "monastery",
+          "Orthodox",
+          "revolution",
+          "metro",
+          "Soviet",
+          "golden",
+          "Ukrainian",
+          "cathedral",
+          "cake",
+          "chicken",
+          "bridges",
+          "hills",
+          "caves",
+          "river",
+          "ballet"
+        ],
         "Kigali": [
           "hills",
           "clean",
@@ -10276,6 +10871,16 @@
           "literature",
           "colonial",
           "cricket"
+        ],
+        "Krakow": [
+          "dragon",
+          "Jewish",
+          "Auschwitz",
+          "salt",
+          "medieval",
+          "pope",
+          "university",
+          "castle"
         ],
         "Kraków": [
           "Wawel",
@@ -10503,6 +11108,20 @@
           "island",
           "skyscrapers"
         ],
+        "Lucknow": [
+          "Urdu",
+          "embroidery",
+          "poetry",
+          "palace",
+          "Muslim",
+          "monuments",
+          "culture",
+          "courtesy",
+          "gardens",
+          "silk",
+          "Hindi",
+          "Shia"
+        ],
         "Lusaka": [
           "markets",
           "savanna",
@@ -10602,6 +11221,23 @@
           "traditional",
           "dry",
           "border"
+        ],
+        "Medan": [
+          "palm",
+          "rubber",
+          "Dutch",
+          "tobacco",
+          "coffee",
+          "volcano",
+          "Malay",
+          "Chinese",
+          "spicy",
+          "Islamic",
+          "palace",
+          "lake",
+          "hot",
+          "tropical",
+          "port"
         ],
         "Melbourne": [
           "coffee",
@@ -10802,6 +11438,19 @@
           "food",
           "gardens"
         ],
+        "New York": [
+          "Broadway",
+          "Manhattan",
+          "Brooklyn",
+          "Yankees",
+          "subway",
+          "Wall",
+          "Harlem",
+          "taxi",
+          "Bronx",
+          "Statue",
+          "jazz"
+        ],
         "New York City": [
           "Broadway",
           "Manhattan",
@@ -10870,6 +11519,20 @@
           "northern",
           "fishing",
           "aurora"
+        ],
+        "Orlando": [
+          "Disney",
+          "theme",
+          "parks",
+          "Mickey",
+          "Universal",
+          "resorts",
+          "tourists",
+          "rides",
+          "Florida",
+          "swamp",
+          "oranges",
+          "magic"
         ],
         "Oslo": [
           "fjord",
@@ -11038,7 +11701,15 @@
           "diplomats",
           "Afrikaans",
           "university",
-          "violet"
+          "violet",
+          "government",
+          "monument",
+          "administrative",
+          "apartheid",
+          "presidential",
+          "Mandela",
+          "statue",
+          "buildings"
         ],
         "Quebec City": [
           "French",
@@ -11097,6 +11768,24 @@
           "beaches",
           "royal"
         ],
+        "Reykjavik": [
+          "volcano",
+          "Viking",
+          "fish",
+          "hot",
+          "springs",
+          "whales",
+          "ice",
+          "volcanic",
+          "music",
+          "church",
+          "fishing",
+          "harbor",
+          "northern",
+          "lights",
+          "cold",
+          "Nordic"
+        ],
         "Reykjavík": [
           "geysers",
           "volcanoes",
@@ -11142,7 +11831,12 @@
           "Copacabana",
           "Christ",
           "football",
-          "mountains"
+          "mountains",
+          "Olympics",
+          "sugar",
+          "statue",
+          "mountain",
+          "sunny"
         ],
         "Rome": [
           "Colosseum",
@@ -11181,6 +11875,17 @@
           "Leningrad",
           "siege",
           "Mariinsky"
+        ],
+        "Salt Lake City": [
+          "Mormon",
+          "temple",
+          "Utah",
+          "Olympics",
+          "skiing",
+          "mountains",
+          "desert",
+          "Jazz",
+          "church"
         ],
         "Salzburg": [
           "Mozart",
@@ -11240,6 +11945,16 @@
           "earthquakes",
           "zoo",
           "vendors"
+        ],
+        "Santa Fe": [
+          "turquoise",
+          "art",
+          "galleries",
+          "opera",
+          "silver",
+          "desert",
+          "missions",
+          "mountains"
         ],
         "Santiago": [
           "Andes",
@@ -11342,7 +12057,16 @@
           "bullring",
           "courtyards",
           "Andalusian",
-          "tiles"
+          "tiles",
+          "Carmen",
+          "opera",
+          "bulls",
+          "horses",
+          "Gothic",
+          "heat",
+          "Easter",
+          "fans",
+          "Columbus"
         ],
         "Skopje": [
           "Vardar",
@@ -11390,6 +12114,21 @@
           "Cardinals",
           "gateway",
           "ragtime"
+        ],
+        "St. Petersburg": [
+          "ballet",
+          "bridges",
+          "siege",
+          "imperial",
+          "Peter",
+          "museum",
+          "winter",
+          "white",
+          "nights",
+          "revolution",
+          "Baltic",
+          "Catherine",
+          "navy"
         ],
         "Stockholm": [
           "islands",
@@ -11717,6 +12456,17 @@
           "waterfront",
           "heritage"
         ],
+        "Vancouver": [
+          "Canucks",
+          "Stanley",
+          "Pacific",
+          "rain",
+          "harbour",
+          "Olympics",
+          "mountains",
+          "film",
+          "sushi"
+        ],
         "Venice": [
           "gondola",
           "canals",
@@ -11727,7 +12477,14 @@
           "glass",
           "bridges",
           "tides",
-          "maritime"
+          "maritime",
+          "Marco",
+          "Polo",
+          "merchant",
+          "Shakespeare",
+          "islands",
+          "flooding",
+          "opera"
         ],
         "Vienna": [
           "Mozart",
@@ -11797,6 +12554,19 @@
           "skyscrapers",
           "Polish"
         ],
+        "Washington": [
+          "Congress",
+          "Pentagon",
+          "Smithsonian",
+          "Capitol",
+          "monuments",
+          "Senate",
+          "senators",
+          "lobbyists",
+          "federal",
+          "Lincoln",
+          "cherry"
+        ],
         "Washington, D.C.": [
           "Capitol",
           "White",
@@ -11840,6 +12610,15 @@
           "gardens",
           "coast",
           "compact"
+        ],
+        "Whitehorse": [
+          "gold",
+          "rush",
+          "wilderness",
+          "sled",
+          "dogs",
+          "frontier",
+          "river"
         ],
         "Windhoek": [
           "desert",
@@ -12217,12 +12996,14 @@
           "Boston": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Boulder": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Boulogne-Billancourt": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
+          "Brasilia": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Brasília": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/predefined_associations.json",
           "Bratislava": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/predefined_associations.json",
           "Bremen": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Brescia": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Bristol": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Bruges": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
+          "Brussels": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Bucharest": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/predefined_associations.json",
           "Budapest": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/predefined_associations.json",
           "Buenos Aires": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/predefined_associations.json",
@@ -12233,12 +13014,14 @@
           "Cambridge": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Canberra": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/predefined_associations.json",
           "Cape Town": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
+          "Cardiff": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Chelyabinsk": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Chengdu": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Chennai": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Chicago": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Chichester": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "China": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
+          "Cleveland": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Clydebank": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Cologne": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Copenhagen": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/predefined_associations.json",
@@ -12269,6 +13052,7 @@
           "Frankfurt": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Fuchu": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Fukuoka": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
+          "Fuzhou": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Gaydon": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Gdańsk": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Geneva": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
@@ -12281,6 +13065,7 @@
           "Guatemala City": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/predefined_associations.json",
           "Haidian District": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Haifa": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
+          "Halifax": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Hamamatsu": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Hamburg": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Hanoi": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/predefined_associations.json",
@@ -12299,6 +13084,7 @@
           "Incheon": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "India": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Ingolstadt": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
+          "Innsbruck": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Istanbul": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Italy": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Jakarta": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/predefined_associations.json",
@@ -12311,6 +13097,7 @@
           "Kharkiv": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Khimki": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Kiel": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
+          "Kiev": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Kobe": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Kolomna": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Korolyov": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
@@ -12326,6 +13113,7 @@
           "Lod": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "London": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/predefined_associations.json",
           "Los Angeles": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
+          "Lucknow": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Lyon": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Madison": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Madrid": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/predefined_associations.json",
@@ -12360,6 +13148,7 @@
           "New Haven": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "New Orleans": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "New Taipei": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
+          "New York": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "New York City": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Newcastle upon Tyne": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Newport News": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
@@ -12368,6 +13157,7 @@
           "Novosibirsk": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Oberndorf am Neckar": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Omsk": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
+          "Orlando": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Osaka": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Oslo": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/predefined_associations.json",
           "Ottawa": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/predefined_associations.json",
@@ -12390,6 +13180,7 @@
           "Redmond": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Reston": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Reutov": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
+          "Reykjavik": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Reykjavík": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/predefined_associations.json",
           "Riga": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/predefined_associations.json",
           "Rio de Janeiro": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
@@ -12399,6 +13190,7 @@
           "Rüsselsheim am Main": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Saint Petersburg": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Saint-Ouen-sur-Seine": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
+          "Salt Lake City": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Salzburg": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "San Antonio": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "San Diego": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
@@ -12420,6 +13212,7 @@
           "Sofia": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/predefined_associations.json",
           "Spain": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "St. Louis": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
+          "St. Petersburg": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Stans": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Stockholm": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/predefined_associations.json",
           "Stuttgart": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
@@ -12445,12 +13238,14 @@
           "United Kingdom": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "United States": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Valencia": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
+          "Vancouver": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Venice": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Vienna": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/predefined_associations.json",
           "Volgograd": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Votkinsk": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Waltham": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Warsaw": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/predefined_associations.json",
+          "Washington": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Washington, D.C.": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/predefined_associations.json",
           "Wellington": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/predefined_associations.json",
           "West Chester": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
@@ -13363,7 +14158,13 @@
           "Goethe",
           "skyscrapers",
           "euro",
-          "bookfair"
+          "bookfair",
+          "stock",
+          "exchange",
+          "skyline",
+          "trade",
+          "fair",
+          "cider"
         ],
         "Fuchu": [
           "racecourse",
@@ -13393,7 +14194,14 @@
           "Baltic",
           "port",
           "cranes",
-          "strike"
+          "strike",
+          "merchants",
+          "harbor",
+          "war",
+          "brick",
+          "union",
+          "dock",
+          "workers"
         ],
         "Genoa": [
           "port",
@@ -13411,7 +14219,15 @@
           "Celtic",
           "Rangers",
           "industrial",
-          "tenements"
+          "tenements",
+          "football",
+          "whisky",
+          "rain",
+          "university",
+          "Scottish",
+          "shipping",
+          "docks",
+          "accent"
         ],
         "Googleplex": [
           "Google",
@@ -13601,7 +14417,17 @@
           "carpets",
           "Safavid",
           "dome",
-          "bazaar"
+          "bazaar",
+          "Persian",
+          "square",
+          "Shah",
+          "palace",
+          "gardens",
+          "mosques",
+          "Islamic",
+          "architecture",
+          "Silk",
+          "Road"
         ],
         "Kaliningrad": [
           "amber",
@@ -14483,7 +15309,15 @@
           "diplomats",
           "Afrikaans",
           "university",
-          "violet"
+          "violet",
+          "government",
+          "monument",
+          "administrative",
+          "apartheid",
+          "presidential",
+          "Mandela",
+          "statue",
+          "buildings"
         ],
         "PSA Poissy Plant": [
           "Peugeot",
@@ -14571,7 +15405,12 @@
           "Copacabana",
           "Christ",
           "football",
-          "mountains"
+          "mountains",
+          "Olympics",
+          "sugar",
+          "statue",
+          "mountain",
+          "sunny"
         ],
         "Rome": [
           "Colosseum",
@@ -15604,7 +16443,13 @@
           "Mediterranean",
           "Ramblas",
           "modernist",
-          "beaches"
+          "beaches",
+          "Picasso",
+          "Olympics",
+          "cathedral",
+          "Messi",
+          "Catalonia",
+          "port"
         ],
         "Barrow-in-Furness": [
           "shipyard",
@@ -15860,6 +16705,16 @@
           "studios",
           "suburb"
         ],
+        "Brasilia": [
+          "planned",
+          "cathedral",
+          "Congress",
+          "government",
+          "plateau",
+          "concrete",
+          "airplane",
+          "ministries"
+        ],
         "Brasília": [
           "Niemeyer",
           "modernism",
@@ -15954,6 +16809,17 @@
           "Gothic",
           "beer",
           "gables"
+        ],
+        "Brussels": [
+          "chocolate",
+          "EU",
+          "European",
+          "bureaucracy",
+          "beer",
+          "comics",
+          "lace",
+          "fries",
+          "NATO"
         ],
         "Bucharest": [
           "parliament",
@@ -16123,6 +16989,16 @@
           "fynbos",
           "cape"
         ],
+        "Cardiff": [
+          "rugby",
+          "Welsh",
+          "castle",
+          "bay",
+          "coal",
+          "docks",
+          "dragon",
+          "Millennium"
+        ],
         "Chelyabinsk": [
           "meteor",
           "steel",
@@ -16183,6 +17059,19 @@
           "tea",
           "dragons",
           "kungfu"
+        ],
+        "Cleveland": [
+          "Browns",
+          "Cavaliers",
+          "rock",
+          "steel",
+          "Erie",
+          "lake",
+          "orchestra",
+          "clinic",
+          "industrial",
+          "Indians",
+          "river"
         ],
         "Clydebank": [
           "Clyde",
@@ -16499,7 +17388,18 @@
           "frescoes",
           "leather",
           "sculpture",
-          "Tuscany"
+          "Tuscany",
+          "David",
+          "marble",
+          "bankers",
+          "art",
+          "cathedral",
+          "dome",
+          "painters",
+          "bridge",
+          "gallery",
+          "fashion",
+          "poets"
         ],
         "Fort Worth": [
           "cattle",
@@ -16534,7 +17434,13 @@
           "Goethe",
           "skyscrapers",
           "euro",
-          "bookfair"
+          "bookfair",
+          "stock",
+          "exchange",
+          "skyline",
+          "trade",
+          "fair",
+          "cider"
         ],
         "Fuchu": [
           "racecourse",
@@ -16559,6 +17465,14 @@
           "shopping",
           "island"
         ],
+        "Fuzhou": [
+          "tea",
+          "jasmine",
+          "hot",
+          "springs",
+          "coastal",
+          "Min"
+        ],
         "Gaydon": [
           "Warwickshire",
           "Aston",
@@ -16576,7 +17490,14 @@
           "Baltic",
           "port",
           "cranes",
-          "strike"
+          "strike",
+          "merchants",
+          "harbor",
+          "war",
+          "brick",
+          "union",
+          "dock",
+          "workers"
         ],
         "Geneva": [
           "diplomacy",
@@ -16618,7 +17539,15 @@
           "Celtic",
           "Rangers",
           "industrial",
-          "tenements"
+          "tenements",
+          "football",
+          "whisky",
+          "rain",
+          "university",
+          "Scottish",
+          "shipping",
+          "docks",
+          "accent"
         ],
         "Googleplex": [
           "Google",
@@ -16692,6 +17621,19 @@
           "university",
           "shipping"
         ],
+        "Halifax": [
+          "harbour",
+          "explosion",
+          "Titanic",
+          "Citadel",
+          "navy",
+          "fog",
+          "lobster",
+          "maritime",
+          "Atlantic",
+          "fishing",
+          "ships"
+        ],
         "Hamamatsu": [
           "Yamaha",
           "Suzuki",
@@ -16710,7 +17652,15 @@
           "shipping",
           "warehouse",
           "maritime",
-          "canals"
+          "canals",
+          "Beatles",
+          "harbour",
+          "fish",
+          "burgers",
+          "merchants",
+          "opera",
+          "ships",
+          "bridges"
         ],
         "Hanoi": [
           "lakes",
@@ -16907,6 +17857,15 @@
           "quattro",
           "beer"
         ],
+        "Innsbruck": [
+          "skiing",
+          "Alps",
+          "Olympics",
+          "mountains",
+          "snow",
+          "glacier",
+          "cable"
+        ],
         "Istanbul": [
           "Bosphorus",
           "Byzantine",
@@ -16919,7 +17878,18 @@
           "strait",
           "carpets",
           "domes",
-          "baklava"
+          "baklava",
+          "tea",
+          "cats",
+          "palace",
+          "bridges",
+          "Asia",
+          "Europe",
+          "Asian",
+          "spice",
+          "grand",
+          "Golden",
+          "Horn"
         ],
         "Italy": [
           "pasta",
@@ -17069,6 +18039,23 @@
           "Kieler",
           "Woche",
           "Howaldtswerke"
+        ],
+        "Kiev": [
+          "monastery",
+          "Orthodox",
+          "revolution",
+          "metro",
+          "Soviet",
+          "golden",
+          "Ukrainian",
+          "cathedral",
+          "cake",
+          "chicken",
+          "bridges",
+          "hills",
+          "caves",
+          "river",
+          "ballet"
         ],
         "Kobe": [
           "beef",
@@ -17279,6 +18266,20 @@
           "entertainment",
           "Lakers",
           "smog"
+        ],
+        "Lucknow": [
+          "Urdu",
+          "embroidery",
+          "poetry",
+          "palace",
+          "Muslim",
+          "monuments",
+          "culture",
+          "courtesy",
+          "gardens",
+          "silk",
+          "Hindi",
+          "Shia"
         ],
         "Lyon": [
           "silk",
@@ -17701,6 +18702,19 @@
           "Taiwanese",
           "Mandarin"
         ],
+        "New York": [
+          "Broadway",
+          "Manhattan",
+          "Brooklyn",
+          "Yankees",
+          "subway",
+          "Wall",
+          "Harlem",
+          "taxi",
+          "Bronx",
+          "Statue",
+          "jazz"
+        ],
         "New York City": [
           "Broadway",
           "Manhattan",
@@ -17786,6 +18800,20 @@
           "hockey",
           "Kolchak",
           "oil"
+        ],
+        "Orlando": [
+          "Disney",
+          "theme",
+          "parks",
+          "Mickey",
+          "Universal",
+          "resorts",
+          "tourists",
+          "rides",
+          "Florida",
+          "swamp",
+          "oranges",
+          "magic"
         ],
         "Osaka": [
           "takoyaki",
@@ -17971,7 +18999,15 @@
           "diplomats",
           "Afrikaans",
           "university",
-          "violet"
+          "violet",
+          "government",
+          "monument",
+          "administrative",
+          "apartheid",
+          "presidential",
+          "Mandela",
+          "statue",
+          "buildings"
         ],
         "PSA Poissy Plant": [
           "Peugeot",
@@ -18064,6 +19100,24 @@
           "hypersonic",
           "Zircon"
         ],
+        "Reykjavik": [
+          "volcano",
+          "Viking",
+          "fish",
+          "hot",
+          "springs",
+          "whales",
+          "ice",
+          "volcanic",
+          "music",
+          "church",
+          "fishing",
+          "harbor",
+          "northern",
+          "lights",
+          "cold",
+          "Nordic"
+        ],
         "Reykjavík": [
           "geysers",
           "volcanoes",
@@ -18109,7 +19163,12 @@
           "Copacabana",
           "Christ",
           "football",
-          "mountains"
+          "mountains",
+          "Olympics",
+          "sugar",
+          "statue",
+          "mountain",
+          "sunny"
         ],
         "Riyadh": [
           "desert",
@@ -18202,6 +19261,17 @@
           "Alstom",
           "Puces",
           "docks"
+        ],
+        "Salt Lake City": [
+          "Mormon",
+          "temple",
+          "Utah",
+          "Olympics",
+          "skiing",
+          "mountains",
+          "desert",
+          "Jazz",
+          "church"
         ],
         "Salzburg": [
           "Mozart",
@@ -18479,6 +19549,21 @@
           "Cardinals",
           "gateway",
           "ragtime"
+        ],
+        "St. Petersburg": [
+          "ballet",
+          "bridges",
+          "siege",
+          "imperial",
+          "Peter",
+          "museum",
+          "winter",
+          "white",
+          "nights",
+          "revolution",
+          "Baltic",
+          "Catherine",
+          "navy"
         ],
         "Stans": [
           "Pilatus",
@@ -18844,6 +19929,17 @@
           "fireworks",
           "silk"
         ],
+        "Vancouver": [
+          "Canucks",
+          "Stanley",
+          "Pacific",
+          "rain",
+          "harbour",
+          "Olympics",
+          "mountains",
+          "film",
+          "sushi"
+        ],
         "Venice": [
           "gondola",
           "canals",
@@ -18854,7 +19950,14 @@
           "glass",
           "bridges",
           "tides",
-          "maritime"
+          "maritime",
+          "Marco",
+          "Polo",
+          "merchant",
+          "Shakespeare",
+          "islands",
+          "flooding",
+          "opera"
         ],
         "Vienna": [
           "Mozart",
@@ -18931,6 +20034,19 @@
           "memorials",
           "skyscrapers",
           "Polish"
+        ],
+        "Washington": [
+          "Congress",
+          "Pentagon",
+          "Smithsonian",
+          "Capitol",
+          "monuments",
+          "Senate",
+          "senators",
+          "lobbyists",
+          "federal",
+          "Lincoln",
+          "cherry"
         ],
         "Washington, D.C.": [
           "Capitol",
@@ -19231,20 +20347,31 @@
           "Albert Bourla": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Amedeo Felisa": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Andy Grove": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
+          "Andy Palmer": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Antonio Neri": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Arvind Krishna": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
+          "Bill Ford": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Bill Gates": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
+          "Carlos Ghosn": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Chris Kempczinski": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Cristiano Amon": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
+          "Dieter Zetsche": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
+          "DJ Koh": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Elon Musk": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
+          "Ferdinand Piëch": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Gernot Döllner": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Guillaume Faury": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "H. Lawrence Culp Jr.": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
+          "Herbert Diess": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
+          "Hiroto Saikawa": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Håkan Samuelsson": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "James Quincey": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Jeff Bezos": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Jim Farley": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
+          "Jim Rowan": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
+          "John DeLorean": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "John S. Chen": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
+          "Jorma Ollila": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Joseph Jimenez": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Justin Hotard": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Jürgen E. Schrempp": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
@@ -19252,9 +20379,13 @@
           "Kelly Ortberg": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Klaus Zellmer": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Kōji Seto": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
+          "Lawrence Stroll": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Lee Jae-yong": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Makoto Uchida": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
+          "Mark Fields": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
+          "Mark Reuss": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Mark Zuckerberg": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
+          "Markus Duesmann": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Martin Sion": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Mary Barra": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Michael Manley": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
@@ -19263,25 +20394,36 @@
           "Ola Källenius": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Oliver Blume": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Patrice Caine": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
+          "Pekka Lundmark": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Peter Herweck": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Petr Novotný": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
+          "Rajeev Suri": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Ramon Laguarta": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Raymond van Eck": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
+          "Reggie Fils-Aime": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
+          "Risto Siilasmaa": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Roland Busch": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
+          "Rupert Stadler": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Satya Nadella": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Scott Ernest": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
+          "Shigeru Miyamoto": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
+          "Shiro Nakamura": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Shuntaro Furukawa": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
+          "Stephen Elop": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Steve Ballmer": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Steve Jobs": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Sundar Pichai": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Takehiko Kakiuchi": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
+          "Tetsuya Tada": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Tim Cook": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
+          "TM Roh": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Tobias Moers": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Tomáš Ignačák": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Tufan Erginbilgiç": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Ville Jaakonsalo": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Vimal Kapur": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Wayne Griffiths": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
+          "Young Sohn": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Yōichi Kise": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json",
           "Éric Trappier": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/configs/manual_association_additions.json"
         }
@@ -19944,7 +21086,14 @@
           "hybrid",
           "motorsport",
           "manufacturing",
-          "cars"
+          "cars",
+          "Lexus",
+          "grandson",
+          "founder",
+          "Japanese",
+          "racer",
+          "dynasty",
+          "recall"
         ],
         "Alan Mulally": [
           "aviation",
@@ -19983,6 +21132,22 @@
           "processors",
           "engineer"
         ],
+        "Andy Palmer": [
+          "Aston",
+          "Martin",
+          "Leaf",
+          "electric",
+          "British",
+          "Bond",
+          "luxury",
+          "engineer",
+          "sports",
+          "cars",
+          "engineering",
+          "Midlands",
+          "Japanese",
+          "Nissan"
+        ],
         "Antonio Neri": [
           "Italian",
           "Argentine",
@@ -20005,6 +21170,18 @@
           "patents",
           "engineer"
         ],
+        "Bill Ford": [
+          "grandson",
+          "Henry",
+          "Mustang",
+          "Detroit",
+          "Lions",
+          "environmental",
+          "chairman",
+          "family",
+          "Michigan",
+          "dynasty"
+        ],
         "Bill Gates": [
           "software",
           "Windows",
@@ -20013,6 +21190,18 @@
           "vaccines",
           "billionaire",
           "BASIC"
+        ],
+        "Carlos Ghosn": [
+          "escape",
+          "Lebanon",
+          "Beirut",
+          "box",
+          "arrest",
+          "Tokyo",
+          "Brazilian",
+          "alliance",
+          "cost",
+          "killer"
         ],
         "Chris Kempczinski": [
           "burgers",
@@ -20030,6 +21219,25 @@
           "semiconductor",
           "connectivity"
         ],
+        "Dieter Zetsche": [
+          "Stuttgart",
+          "merger",
+          "Detroit",
+          "Turkish",
+          "Smart",
+          "engineer",
+          "Dr"
+        ],
+        "DJ Koh": [
+          "Galaxy",
+          "Korean",
+          "Seoul",
+          "smartphone",
+          "Note",
+          "mobile",
+          "Android",
+          "exploding"
+        ],
         "Elon Musk": [
           "rockets",
           "Mars",
@@ -20040,6 +21248,19 @@
           "tunnels",
           "Twitter",
           "Dogecoin"
+        ],
+        "Ferdinand Piëch": [
+          "grandson",
+          "Beetle",
+          "engineer",
+          "Austrian",
+          "patriarch",
+          "Austria",
+          "engines",
+          "family",
+          "diesel",
+          "racing",
+          "dynasty"
         ],
         "Gernot Döllner": [
           "German",
@@ -20082,6 +21303,24 @@
           "Boston",
           "industrial",
           "healthcare"
+        ],
+        "Herbert Diess": [
+          "electric",
+          "Austrian",
+          "emissions",
+          "batteries",
+          "software",
+          "Golf",
+          "Munich"
+        ],
+        "Hiroto Saikawa": [
+          "Japanese",
+          "resignation",
+          "compensation",
+          "Leaf",
+          "scandal",
+          "alliance",
+          "Tokyo"
         ],
         "Håkan Samuelsson": [
           "Swedish",
@@ -20128,6 +21367,29 @@
           "Detroit",
           "pickups"
         ],
+        "Jim Rowan": [
+          "Swedish",
+          "BlackBerry",
+          "electric",
+          "safety",
+          "Scottish",
+          "Sweden",
+          "cars",
+          "batteries",
+          "Scotland",
+          "technology",
+          "phones",
+          "luxury"
+        ],
+        "John DeLorean": [
+          "wing",
+          "doors",
+          "stainless",
+          "Back",
+          "Future",
+          "cocaine",
+          "Belfast"
+        ],
         "John S. Chen": [
           "smartphone",
           "turnaround",
@@ -20135,6 +21397,18 @@
           "enterprise",
           "software",
           "keyboard"
+        ],
+        "Jorma Ollila": [
+          "Finnish",
+          "mobile",
+          "phones",
+          "chairman",
+          "telecom",
+          "handset",
+          "Helsinki",
+          "rubber",
+          "boots",
+          "cellular"
         ],
         "Joseph Jimenez": [
           "pharmaceuticals",
@@ -20219,6 +21493,17 @@
           "hybrids",
           "hydrogen"
         ],
+        "Lawrence Stroll": [
+          "billionaire",
+          "Canadian",
+          "Formula",
+          "Tommy",
+          "Lance",
+          "fashion",
+          "racing",
+          "Aston",
+          "Martin"
+        ],
         "Lee Jae-yong": [
           "Korean",
           "Seoul",
@@ -20243,6 +21528,29 @@
           "vehicles",
           "automotive"
         ],
+        "Mark Fields": [
+          "Mustang",
+          "Detroit",
+          "trucks",
+          "Harvard",
+          "restructuring",
+          "Michigan",
+          "pickup",
+          "ousted",
+          "Mazda"
+        ],
+        "Mark Reuss": [
+          "Corvette",
+          "Detroit",
+          "Holden",
+          "engineer",
+          "Cadillac",
+          "trucks",
+          "racing",
+          "Michigan",
+          "electric",
+          "Australian"
+        ],
         "Mark Zuckerberg": [
           "social",
           "network",
@@ -20250,6 +21558,22 @@
           "metaverse",
           "Harvard",
           "programming"
+        ],
+        "Markus Duesmann": [
+          "engines",
+          "electric",
+          "Formula",
+          "German",
+          "racing",
+          "engineer",
+          "diesel",
+          "turbo",
+          "hybrid",
+          "Munich",
+          "Le",
+          "Mans",
+          "Mercedes",
+          "combustion"
         ],
         "Martin Sion": [
           "rockets",
@@ -20352,6 +21676,20 @@
           "electronics",
           "aerospace"
         ],
+        "Pekka Lundmark": [
+          "Finnish",
+          "networks",
+          "telecom",
+          "energy",
+          "engineer",
+          "mobile",
+          "Finland",
+          "utility",
+          "industrial",
+          "phones",
+          "wireless",
+          "restructuring"
+        ],
         "Peter Herweck": [
           "German",
           "electrical",
@@ -20376,6 +21714,16 @@
           "engineering",
           "rail"
         ],
+        "Rajeev Suri": [
+          "telecom",
+          "networks",
+          "Finnish",
+          "Indian",
+          "restructuring",
+          "wireless",
+          "Singapore",
+          "infrastructure"
+        ],
         "Ramon Laguarta": [
           "snacks",
           "beverage",
@@ -20396,6 +21744,27 @@
           "phones",
           "fair"
         ],
+        "Reggie Fils-Aime": [
+          "Wii",
+          "Mario",
+          "kick",
+          "gamers",
+          "Switch",
+          "games",
+          "console"
+        ],
+        "Risto Siilasmaa": [
+          "Finnish",
+          "antivirus",
+          "security",
+          "chairman",
+          "Helsinki",
+          "cyber",
+          "software",
+          "malware",
+          "startup",
+          "author"
+        ],
         "Roland Busch": [
           "German",
           "Munich",
@@ -20407,6 +21776,14 @@
           "electrification",
           "engineering",
           "industrial"
+        ],
+        "Rupert Stadler": [
+          "arrested",
+          "emissions",
+          "fraud",
+          "scandal",
+          "prison",
+          "trial"
         ],
         "Satya Nadella": [
           "cloud",
@@ -20430,6 +21807,24 @@
           "aviation",
           "general"
         ],
+        "Shigeru Miyamoto": [
+          "Mario",
+          "Zelda",
+          "Kong",
+          "games",
+          "designer",
+          "Kyoto",
+          "console"
+        ],
+        "Shiro Nakamura": [
+          "designer",
+          "GT",
+          "Japanese",
+          "styling",
+          "concept",
+          "design",
+          "sketch"
+        ],
         "Shuntaro Furukawa": [
           "gaming",
           "consoles",
@@ -20437,6 +21832,16 @@
           "Mario",
           "entertainment",
           "games"
+        ],
+        "Stephen Elop": [
+          "Windows",
+          "Lumia",
+          "Canadian",
+          "memo",
+          "burning",
+          "platform",
+          "Ontario",
+          "Trojan"
         ],
         "Steve Ballmer": [
           "basketball",
@@ -20476,6 +21881,15 @@
           "Japan",
           "resources"
         ],
+        "Tetsuya Tada": [
+          "GR",
+          "engineer",
+          "sports",
+          "racing",
+          "Japanese",
+          "coupe",
+          "chief"
+        ],
         "Tim Cook": [
           "iPhone",
           "privacy",
@@ -20484,6 +21898,16 @@
           "operations",
           "Auburn",
           "manufacturing"
+        ],
+        "TM Roh": [
+          "Galaxy",
+          "Korean",
+          "smartphones",
+          "Seoul",
+          "mobile",
+          "Android",
+          "engineer",
+          "flagship"
         ],
         "Tobias Moers": [
           "German",
@@ -20559,6 +21983,16 @@
           "Catalonia",
           "Catalan",
           "Leon"
+        ],
+        "Young Sohn": [
+          "semiconductor",
+          "Korean",
+          "chips",
+          "venture",
+          "strategy",
+          "Seoul",
+          "investor",
+          "Silicon"
         ],
         "Yōichi Kise": [
           "Japanese",

@@ -2,7 +2,7 @@
   "model_inference": false,
   "prompted_artifacts_accepted": false,
   "catalog": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/results/manual_associations/compiled_manual_catalog.json",
-  "catalog_sha256": "85cf12d399e305014de52f1fc5da5ee95b7effa43a5fedcd6151eb57a6f2956e",
+  "catalog_sha256": "02c31e039a8730caadde1640bdddc99c0f49b29f14ad4b74d01f85a895d22461",
   "status": "incomplete",
   "tasks": {
     "landmark-country-capital": {
@@ -22,14 +22,14 @@
       },
       "model": {
         "inventory_answers": 598,
-        "manual_lists": 229,
+        "manual_lists": 249,
         "k_coverage": {
-          "3": 224,
-          "5": 188,
-          "10": 71
+          "3": 244,
+          "5": 220,
+          "10": 91
         },
         "no_reliable_associations": 0,
-        "pending_answers": 410,
+        "pending_answers": 378,
         "complete": false,
         "output": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/results/landmark-country-capital/icl_10/02_associations/model/manual_replacement/associations_static.jsonl.gz",
         "pending_review": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/results/landmark-country-capital/icl_10/02_associations/model/manual_replacement/pending_review.json"
@@ -52,14 +52,14 @@
       },
       "model": {
         "inventory_answers": 485,
-        "manual_lists": 189,
+        "manual_lists": 214,
         "k_coverage": {
-          "3": 185,
-          "5": 162,
-          "10": 55
+          "3": 210,
+          "5": 198,
+          "10": 86
         },
         "no_reliable_associations": 0,
-        "pending_answers": 323,
+        "pending_answers": 287,
         "complete": false,
         "output": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/results/park-country-capital/icl_10/02_associations/model/manual_replacement/associations_static.jsonl.gz",
         "pending_review": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/results/park-country-capital/icl_10/02_associations/model/manual_replacement/pending_review.json"
@@ -71,25 +71,25 @@
         "manual_lists": 236,
         "k_coverage": {
           "3": 207,
-          "5": 134,
-          "10": 29
+          "5": 138,
+          "10": 35
         },
         "no_reliable_associations": 0,
-        "pending_answers": 289,
+        "pending_answers": 285,
         "complete": false,
         "output": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/results/product-company-hq/icl_10/02_associations/true/manual_replacement/associations_static.jsonl.gz",
         "pending_review": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/results/product-company-hq/icl_10/02_associations/true/manual_replacement/pending_review.json"
       },
       "model": {
         "inventory_answers": 1350,
-        "manual_lists": 290,
+        "manual_lists": 306,
         "k_coverage": {
-          "3": 260,
-          "5": 186,
-          "10": 53
+          "3": 276,
+          "5": 211,
+          "10": 70
         },
         "no_reliable_associations": 0,
-        "pending_answers": 1164,
+        "pending_answers": 1139,
         "complete": false,
         "output": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/results/product-company-hq/icl_10/02_associations/model/manual_replacement/associations_static.jsonl.gz",
         "pending_review": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/results/product-company-hq/icl_10/02_associations/model/manual_replacement/pending_review.json"
@@ -112,14 +112,14 @@
       },
       "model": {
         "inventory_answers": 1166,
-        "manual_lists": 58,
+        "manual_lists": 84,
         "k_coverage": {
-          "3": 56,
-          "5": 54,
-          "10": 0
+          "3": 83,
+          "5": 81,
+          "10": 6
         },
         "no_reliable_associations": 0,
-        "pending_answers": 1112,
+        "pending_answers": 1085,
         "complete": false,
         "output": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/results/product-company-ceo/icl_10/02_associations/model/manual_replacement/associations_static.jsonl.gz",
         "pending_review": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/results/product-company-ceo/icl_10/02_associations/model/manual_replacement/pending_review.json"
