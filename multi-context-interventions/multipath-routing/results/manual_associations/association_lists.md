@@ -1,0 +1,611 @@
+# Associated words
+
+The five words (K=5) used for each answer in the experiments.
+Answers with fewer than 5 usable words are listed at the end of each section.
+
+## Landmark → country → capital
+
+### True answers (87)
+
+- **Abu Dhabi**: pearls, oasis, Sheikh, beach, sports
+- **Abuja**: rock, millennium, unity, granite, park
+- **Addis Ababa**: African, Union, Lucy, headquarters, mountain
+- **Amman**: Petra, downtown, rainbow, biblical, limestone
+- **Amsterdam**: liberal, diamonds, galleries, painting, flowers
+- **Ankara**: secular, diplomats, arts, avenue, ballet
+- **Antananarivo**: rice, brick, weaving, villages, agriculture
+- **Astana**: futuristic, expo, winds, glass, steel
+- **Athens**: philosophy, mythology, agora, marble, Plato
+- **Baghdad**: manuscripts, scholars, libraries, science, astronomy
+- **Baku**: flames, seaside, fire, energy, petroleum
+- **Bamako**: pottery, leather, textiles, drums, streets
+- **Bangkok**: massage, festivals, mango, floating, street
+- **Beijing**: Forbidden, duck, dynasty, pandas, courtyard
+- **Beirut**: publishing, reconstruction, Arabic, French, Mediterranean
+- **Belgrade**: rivers, tram, island, football, Orthodox
+- **Berlin**: television, clubs, bears, graffiti, memorial
+- **Bern**: Einstein, Alps, bears, cheese, clock
+- **Bogotá**: graffiti, altitude, Gold, rain, cable
+- **Brasília**: airplane, concrete, lake, dome, sculpture
+- **Bratislava**: Slovak, medieval, wine, statues, castle
+- **Bucharest**: communism, dictator, urban, Orthodox, monuments
+- **Budapest**: Pest, thermal, ruin, synagogue, baths
+- **Buenos Aires**: steak, subway, football, port, dance
+- **Cairo**: Nile, Sphinx, Islamic, Ramadan, desert
+- **Canberra**: gallery, suburbs, lake, memorial, cycling
+- **Caracas**: baseball, cable, oil, tropical, valley
+- **City of Brussels**: NATO, chocolate, comic, Dutch, EU
+- **Constantinople**: siege, imperial, trade, Mediterranean, walls
+- **Copenhagen**: sustainability, Vikings, cycling, beer, boats
+- **Dakar**: fishing, rally, peanuts, Atlantic, surfing
+- **Damascus**: jasmine, courtyard, spices, Roman, crafts
+- **Dodoma**: central, plateau, dry, agriculture, sun
+- **Dublin**: Guinness, Joyce, Georgian, Trinity, whiskey
+- **Hanoi**: lakes, lanes, turtles, street, temples
+- **Havana**: cigars, rum, cars, Che, Castro
+- **Helsinki**: sauna, Nordic, Baltic, islands, technology
+- **Islamabad**: green, avenues, quiet, monument, planned
+- **Jakarta**: flooding, motorcycles, buses, malls, crowded
+- **Jerusalem**: holy, religion, faith, quarters, conflict
+- **Kabul**: reconstruction, carpets, crafts, poetry, silk
+- **Kuala Lumpur**: diverse, malls, tropical, rain, commerce
+- **Kyiv**: Ukrainian, resilience, invasion, independence, Orthodox
+- **Lima**: Pacific, fog, cliffs, surfing, seafood
+- **Ljubljana**: dragon, pedestrian, green, canal, market
+- **London**: Thames, Buckingham, Tube, buses, taxis
+- **Luxembourg**: banks, valleys, courts, EU, wealth
+- **Madrid**: soccer, sun, monarchy, football, royal
+- **Mexico City**: tacos, mole, salsa, wrestling, crowded
+- **Minsk**: clean, avenues, ballet, hockey, Soviet
+- **Moscow**: Kremlin, onion, Lenin, ballet, Soviet
+- **Nairobi**: safari, wildlife, lions, national, park
+- **Naypyidaw**: empty, highways, hotels, spacious, zoo
+- **New Delhi**: fort, spices, pollution, temples, monuments
+- **Nicosia**: buffer, gates, crossing, divided, Mediterranean
+- **Oslo**: skiing, sculptures, forests, salmon, Nobel
+- **Ottawa**: skating, bilingual, maple, canal, hockey
+- **Paris**: romance, luxury, literature, wine, fashion
+- **Podgorica**: rivers, hot, clock, ruins, valley
+- **Prague**: Charles, astronomical, Gothic, Kafka, bridge
+- **Prishtina**: newborn, youth, library, independence, monument
+- **Pyongyang**: propaganda, military, socialist, uniforms, controlled
+- **Quito**: clouds, volcano, altitude, cable, valley
+- **Rabat**: Atlantic, Arabic, beaches, French, coast
+- **Reykjavík**: northern, whales, lava, pools, church
+- **Riyadh**: sand, malls, dates, wealth, oil
+- **Rome**: Vatican, Forum, Caesar, pasta, ruins
+- **Santiago**: earthquakes, business, wine, poetry, valley
+- **Sarajevo**: tunnels, assassination, multicultural, Olympics, siege
+- **Seoul**: Han, tradition, shopping, gaming, subway
+- **Sofia**: mineral, springs, communist, Roman, ruins
+- **Stockholm**: Nobel, islands, Baltic, boats, technology
+- **Tallinn**: digital, Baltic, medieval, walls, technology
+- **Tashkent**: Road, tiles, earthquake, cotton, commerce
+- **Tbilisi**: sulfur, baths, hospitality, wine, Orthodox
+- **Tehran**: Persian, regime, revolution, carpets, poetry
+- **Tokyo**: sushi, anime, trains, neon, robots
+- **Ulaanbaatar**: coal, Buddhism, monastery, cold, horses
+- **Valletta**: knights, cannons, limestone, streets, siege
+- **Vienna**: Mozart, cakes, concerts, classical, horses
+- **Vientiane**: Buddha, monks, sunset, quiet, French
+- **Vilnius**: Jewish, amber, Baltic, medieval, castle
+- **Warsaw**: rebuilt, uprising, Polish, communist, monuments
+- **Washington, D.C.**: Capitol, Congress, Smithsonian, cherry, president
+- **Wellington**: cinema, film, compact, wind, arts
+- **Yerevan**: pink, cascade, genocide, stone, Soviet
+- **Zagreb**: squares, Croatian, earthquake, festival, hockey
+
+### Wrong model answers (144)
+
+- **Adelaide**: coast, wine, festival, cricket, churches
+- **Agra**: Taj, marble, fort, monument, tourism
+- **Albuquerque**: mesa, balloon, turquoise, tram, desert
+- **Almaty**: apples, seismic, skating, cable, skiing
+- **Amritsar**: Sikh, pilgrimage, Punjab, devotion, massacre
+- **Antalya**: resorts, cliffs, sunshine, tourism, ruins
+- **Atlanta**: Peach, segregation, King, railroad, airport
+- **Austria**: Freud, Mozart, Alps, skiing, opera
+- **Baltimore**: crab, Poe, Orioles, Ravens, aquarium
+- **Barcelona**: Catalan, Messi, Catalonia, Picasso, beaches
+- **Bath**: spa, Georgian, thermal, limestone, Roman
+- **Belfast**: Titanic, sectarian, linen, troubles, peace
+- **Bilbao**: titanium, sculpture, steel, museum, industrial
+- **Boston**: Harvard, lobster, Celtics, marathon, revolution
+- **Brasilia**: plateau, airplane, Congress, concrete, planned
+- **Bremen**: musicians, Beck, Roland, Airbus, maritime
+- **Brisbane**: Queensland, sunshine, ferry, flooding, beaches
+- **Bruges**: lace, Gothic, beer, chocolate, medieval
+- **Brussels**: fries, European, comics, lace, NATO
+- **Buffalo**: wings, Niagara, Bills, canal, steel
+- **Burbank**: studios, animation, Warner, Works, television
+- **Cambridge**: Newton, chapel, mathematics, colleges, academia
+- **Cape Town**: Table, apartheid, mountain, harbour, beaches
+- **Cardiff**: rugby, Welsh, Millennium, bay, docks
+- **Chelyabinsk**: meteor, factories, tank, steel, industrial
+- **Chengdu**: pepper, spicy, bamboo, pandas, tea
+- **Chennai**: Tamil, cinema, beach, automotive, temples
+- **Chicago**: windy, Bulls, pizza, blues, jazz
+- **China**: dragons, porcelain, pandas, dynasty, tea
+- **Cleveland**: Browns, Cavaliers, Erie, clinic, Indians
+- **Cologne**: perfume, carnival, beer, Gothic, Roman
+- **Cork**: rebel, butter, bells, whiskey, island
+- **Coventry**: Jaguar, Herbert, Midlands, ring, Standard
+- **Delhi**: curry, Gandhi, Hindi, fort, temples
+- **Denmark**: Andersen, pastry, wind, Viking, cycling
+- **Denver**: Broncos, brewery, Rockies, airport, altitude
+- **Derby**: engines, aerospace, porcelain, railway, industrial
+- **Detroit**: techno, assembly, Pistons, bankruptcy, Michigan
+- **Dresden**: bombing, porcelain, galleries, reconstruction, opera
+- **Dubai**: luxury, malls, aviation, gold, desert
+- **Dundee**: jam, journalism, games, discovery, comics
+- **Edinburgh**: Enlightenment, volcanic, whisky, festival, castle
+- **Eindhoven**: lighting, electronics, technology, industrial, design
+- **England**: monarchy, Shakespeare, pubs, tea, cricket
+- **Essen**: energy, mining, coal, steel, industrial
+- **Florence**: leather, David, bankers, painters, poets
+- **Fort Worth**: cattle, Texas, bombers, Bell, railroad
+- **Frankfurt**: euro, exchange, cider, stock, fair
+- **Fuzhou**: coastal, Min, jasmine, springs, hot
+- **Galway**: Atlantic, festival, harbour, medieval, music
+- **Gdańsk**: strike, brick, dock, workers, amber
+- **Geneva**: Calvin, fountain, humanitarian, treaties, neutrality
+- **Genoa**: Columbus, aquarium, maritime, shipping, port
+- **Giza**: wonder, plateau, pyramid, tomb, kings
+- **Glasgow**: Clyde, Rangers, Scottish, accent, Celtic
+- **Gothenburg**: Volvo, SKF, Swedish, seafood, automotive
+- **Greece**: Homer, mythology, Plato, democracy, olive
+- **Guangzhou**: manufacturing, delta, wholesale, dim, tower
+- **Haifa**: refinery, mountain, shipping, port, gardens
+- **Hamburg**: warehouse, Beatles, burgers, ships, fish
+- **Hangzhou**: landscape, commerce, tea, lake, poetry
+- **Hanover**: exhibition, fair, horses, trade, industrial
+- **Hiroshima**: atomic, bomb, radiation, survivors, peace
+- **Hong Kong**: dim, ferry, neon, tram, harbour
+- **Houston**: NASA, rockets, astronauts, Astros, space
+- **Hyderabad**: pearls, software, fort, technology, palace
+- **Ibadan**: cocoa, brown, roofs, teaching, inland
+- **India**: Hindu, yoga, Bollywood, curry, Gandhi
+- **Innsbruck**: glacier, cable, skiing, Alps, Olympics
+- **Ireland**: potatoes, Guinness, Celtic, Joyce, whiskey
+- **Isfahan**: Shah, Islamic, Road, Persian, dome
+- **Istanbul**: cats, Asia, Europe, Asian, spice
+- **Italy**: pasta, Renaissance, espresso, Dante, pizza
+- **Johannesburg**: reefs, stock, mining, apartheid, gold
+- **Karachi**: textiles, coast, seafood, commerce, trade
+- **Karlsruhe**: constitutional, court, fan, technology, palace
+- **Kharkiv**: factory, tanks, aircraft, tractor, tank
+- **Kiel**: submarines, Woche, naval, sailing, canal
+- **Kiev**: cake, chicken, caves, monastery, golden
+- **Kobe**: sake, beef, earthquake, shipping, harbour
+- **Krakow**: Auschwitz, pope, salt, dragon, Jewish
+- **Kraków**: salt, dragon, Jewish, market, Gothic
+- **Kyoto**: Zen, bamboo, imperial, tea, temples
+- **Lagos**: islands, commerce, fashion, traffic, port
+- **Lahore**: fort, literature, walls, poetry, cricket
+- **Las Vegas**: casino, gambling, poker, wedding, entertainment
+- **Leipzig**: protest, choir, Bach, publishing, orchestra
+- **Lisbon**: sunlight, yellow, navigation, sunny, Atlantic
+- **Los Angeles**: Lakers, Hollywood, entertainment, cinema, beaches
+- **Lucknow**: Urdu, Muslim, courtesy, Shia, embroidery
+- **Luxor**: queens, Nile, balloon, tomb, kings
+- **Lyon**: resistance, restaurants, weaving, cinema, Roman
+- **Malmö**: bridge, multicultural, cycling, football, port
+- **Manila**: Spanish, floods, bay, crowded, malls
+- **Marrakesh**: palms, spices, carpets, tiles, mosque
+- **Melbourne**: tennis, arts, graffiti, cricket, coffee
+- **Memphis**: Elvis, barbecue, soul, Mississippi, guitar
+- **Miami**: Cuban, cruise, hurricanes, beach, tropical
+- **Milan**: runway, fashion, finance, design, opera
+- **Montreal**: bilingual, French, hockey, jazz, festival
+- **Mumbai**: Bollywood, trains, cinema, cricket, harbour
+- **Munich**: BMW, Bayern, Siemens, beer, Alps
+- **Nanjing**: Ming, massacre, duck, dynasty, memorial
+- **Naples**: espresso, pizza, volcano, bay, opera
+- **New York**: Yankees, Harlem, taxi, Bronx, Broadway
+- **Nice**: sunshine, carnival, tourism, beaches, Mediterranean
+- **Nuremberg**: trials, toys, rallies, Christmas, medieval
+- **Orlando**: theme, Mickey, Universal, tourists, rides
+- **Osaka**: comedy, merchant, neon, castle, food
+- **Oxford**: dictionary, Tolkien, colleges, academia, scholars
+- **Persepolis**: Alexander, Persian, columns, ruins, ancient
+- **Pisa**: leaning, physics, tower, marble, tourism
+- **Pittsburgh**: Steelers, robotics, rivers, steel, industrial
+- **Portugal**: cork, cod, surfing, maritime, tiles
+- **Pretoria**: violet, administrative, presidential, Mandela, buildings
+- **Reykjavik**: ice, fish, whales, volcanic, fishing
+- **Rio de Janeiro**: Christ, sugar, sunny, statue, beach
+- **Saint Petersburg**: Peter, siege, imperial, revolution, ballet
+- **Salt Lake City**: Mormon, Utah, church, temple, Jazz
+- **Salzburg**: Mozart, salt, Alps, festival, chocolate
+- **Samarkand**: caravan, blue, trade, tiles, silk
+- **San Diego**: zoo, Padres, naval, Navy, military
+- **San Francisco**: fog, startups, Victorian, earthquake, cable
+- **Santa Fe**: silver, turquoise, missions, galleries, desert
+- **Seattle**: Space, aerospace, salmon, software, rain
+- **Seville**: Carmen, Easter, fans, bulls, Columbus
+- **Shanghai**: Bund, neon, trade, finance, port
+- **St. Louis**: arch, Cardinals, gateway, Mississippi, baseball
+- **St. Petersburg**: nights, Catherine, Peter, navy, siege
+- **Stuttgart**: engineering, Porsche, Mercedes, Benz, Bosch
+- **Sweden**: sauna, forests, Nobel, Viking, design
+- **Switzerland**: glaciers, watches, neutrality, banking, Alps
+- **Sydney**: surfing, ferry, harbour, beaches, Olympics
+- **Thessaloniki**: tower, Jewish, Orthodox, Roman, food
+- **Tirana**: painted, transformation, eclectic, bright, Catholic
+- **Toronto**: film, Maple, multicultural, hockey, skyline
+- **Turin**: Juventus, Fiat, Po, Egyptian, automotive
+- **Valencia**: rice, fireworks, futuristic, ceramics, oranges
+- **Venice**: masks, Marco, Polo, glass, merchant
+- **Verona**: Romeo, Juliet, balcony, romance, Shakespeare
+- **Washington**: Pentagon, Senate, senators, lobbyists, Smithsonian
+- **York**: Viking, walls, railway, chocolate, Roman
+- **Zurich**: insurance, banking, lake, chocolate, finance
+- **Zürich**: insurance, watches, banking, lake, chocolate
+
+Fewer than 5 words (29):
+
+- Alexandria: library, harbour, Mediterranean, ancient
+- Antwerp: diamonds, shipping, fashion, port
+- Argentina: mate, beef, steak, football
+- Basel: pharmaceutical, carnival, banking, art
+- France: champagne, Napoleon, cheese
+- Germany: Luther, Bach
+- Granada: Sierra, tiles, palace, gardens
+- Japan: sushi, anime, manga
+- Knoxville: Volunteers, football, river
+- Kolkata: literature, tram, cricket, colonial
+- Mexico: Maya, tacos, mole
+- Modena: racing, opera
+- Netherlands: cheese, cycling
+- New Orleans: blues, jazz, carnival
+- New York City: Broadway, Manhattan, Brooklyn, subway
+- Newcastle upon Tyne: coal, football, nightlife
+- Nizhny Novgorod: Russian, trucks, Kremlin, Soviet
+- Palermo: mafia, Norman, Mediterranean, port
+- Russia: vodka, Kremlin, ballet, Soviet
+- San Antonio: Spurs, missions, military
+- Scotland: Highlands, clans, golf, whisky
+- Spain: Picasso, guitar
+- Strasbourg: timber, European, Christmas, Gothic
+- Suzhou: embroidery, classical, silk, gardens
+- Turkey: carpets, coffee, mosques
+- Volgograd: battle, memorial, war, industrial
+- Wrocław: Gothic, islands
+- Xi'an: warriors, dynasty, ancient, silk
+- Yekaterinburg: execution, mining, industrial
+
+## Park → country → capital
+
+### True answers (111)
+
+- **Accra**: coastline, arts, textiles, beaches, heat
+- **Addis Ababa**: Union, Lucy, aviation, headquarters, mountain
+- **Algiers**: piracy, resistance, maze, Ottoman, revolution
+- **Amsterdam**: liberal, galleries, painting, cheese, tram
+- **Ankara**: diplomats, secular, avenue, ballet, arts
+- **Antananarivo**: rice, brick, weaving, villages, monarchy
+- **Astana**: futuristic, expo, winds, glass, steel
+- **Athens**: democracy, philosophy, mythology, agora, Plato
+- **Baku**: flames, seaside, fire, racing, energy
+- **Bangkok**: massage, festivals, mango, street, Buddha
+- **Bangui**: forest, diamonds, commerce, dust, heat
+- **Basseterre**: sugar, cruise, volcanic, Georgian, Caribbean
+- **Beijing**: Forbidden, duck, dynasty, pandas, courtyard
+- **Belgrade**: tram, rivers, island, war, Orthodox
+- **Berlin**: television, clubs, divided, bears, graffiti
+- **Bern**: Einstein, Alps, bears, cheese, clock
+- **Bishkek**: Ala, Too, marble, Soviet, statues
+- **Bogotá**: graffiti, altitude, Gold, cable, rain
+- **Brasília**: airplane, concrete, lake, dome, sculpture
+- **Bratislava**: Slovak, medieval, wine, castle, towers
+- **Brazzaville**: suits, humid, guitars, jazz, port
+- **Bucharest**: communism, dictator, urban, Orthodox, monuments
+- **Budapest**: Pest, thermal, ruin, synagogue, baths
+- **Buenos Aires**: steak, subway, dance, plaza, football
+- **Cairo**: Nile, Sphinx, Islamic, Ramadan, desert
+- **Canberra**: gallery, lake, cycling, memorial, suburbs
+- **Caracas**: baseball, cable, oil, plaza, valley
+- **Copenhagen**: sustainability, Vikings, cycling, beer, boats
+- **Dakar**: rally, peanuts, surfing, drums, fishing
+- **Dodoma**: roads, plateau, sun, agriculture, dry
+- **Dublin**: Guinness, Joyce, Trinity, books, whiskey
+- **Dushanbe**: cotton, roses, fruit, wide, Persian
+- **Gaborone**: cattle, dams, suburban, diamonds, malls
+- **Gitega**: rural, drums, tradition, Catholic, tea
+- **Guatemala City**: Maya, earthquakes, textiles, ruins, colorful
+- **Hanoi**: lanes, turtles, lakes, street, silk
+- **Harare**: granite, tobacco, flowers, sunshine, sculpture
+- **Havana**: cigars, rum, cars, Che, Castro
+- **Helsinki**: sauna, Nordic, islands, Baltic, technology
+- **Islamabad**: monument, green, planned, avenues, mosque
+- **Jakarta**: flooding, motorcycles, buses, commerce, islands
+- **Jerusalem**: holy, religion, faith, quarters, conflict
+- **Kabul**: reconstruction, carpets, silk, poetry, ancient
+- **Kampala**: Victoria, seven, bananas, Rolex, bustling
+- **Kathmandu**: Everest, monkeys, prayer, Buddhist, temples
+- **Kigali**: orderly, valleys, sunny, clean, motorcycles
+- **Kinshasa**: boxing, artists, electricity, guitars, crowded
+- **Kuala Lumpur**: diverse, commerce, malls, rain, towers
+- **Kyiv**: Ukrainian, resilience, invasion, independence, war
+- **Libreville**: forest, oil, Atlantic, beaches, heat
+- **Lilongwe**: tobacco, plateau, suburbs, green, agriculture
+- **Lima**: cliffs, fog, Pacific, surfing, seafood
+- **Lisbon**: tiles, sunlight, maritime, yellow, navigation
+- **Ljubljana**: dragon, pedestrian, market, canal, green
+- **London**: Thames, Buckingham, Tube, finance, pubs
+- **Luanda**: Portuguese, bay, oil, island, Atlantic
+- **Lusaka**: copper, sunshine, plateau, suburbs, agriculture
+- **Madrid**: soccer, monarchy, sun, football, royal
+- **Manila**: Spanish, floods, bay, malls, crowded
+- **Maputo**: Indian, ocean, Portuguese, jazz, seafood
+- **Maseru**: blankets, calm, border, traditional, rivers
+- **Minsk**: clean, ballet, hockey, Soviet, avenues
+- **Moscow**: Kremlin, onion, Lenin, ballet, Soviet
+- **N'Djamena**: livestock, dust, trade, sun, fishing
+- **Nairobi**: safari, lions, national, park, marathon
+- **New Delhi**: spices, fort, pollution, monuments, temples
+- **Nouakchott**: Sahara, sand, dust, desert, Atlantic
+- **Nuuk**: Arctic, whales, northern, fishing, colorful
+- **Oslo**: skiing, sculptures, salmon, Nobel, forests
+- **Ottawa**: skating, bilingual, maple, festival, canal
+- **Panama City**: ships, locks, banking, Pacific, canal
+- **Paris**: romance, luxury, literature, fashion, wine
+- **Phnom Penh**: genocide, floating, Buddhist, motorcycles, monks
+- **Podgorica**: rivers, Ottoman, clock, hot, ruins
+- **Porto-Novo**: Afro, Brazilian, kings, masks, palm
+- **Prague**: Charles, astronomical, Gothic, Kafka, bridge
+- **Prishtina**: newborn, library, independence, youth, monument
+- **Quito**: clouds, volcano, altitude, cable, heritage
+- **Rabat**: walls, Arabic, French, Atlantic, beaches
+- **Ramallah**: activism, restaurants, olive, stone, poetry
+- **Reykjavík**: lava, pools, church, northern, whales
+- **Riga**: wooden, Baltic, medieval, opera, winter
+- **Rome**: Vatican, Forum, Caesar, empire, pasta
+- **Roseau**: botanical, volcanic, cruise, Caribbean, springs
+- **San José**: biodiversity, zoo, salsa, vendors, buses
+- **Santiago**: earthquakes, business, wine, poetry, plaza
+- **Sarajevo**: siege, tunnels, assassination, multicultural, Olympics
+- **Seoul**: Han, gaming, tradition, shopping, subway
+- **Skopje**: Ottoman, earthquake, statues, Orthodox, monuments
+- **Sofia**: Roman, mineral, springs, communist, ruins
+- **Stockholm**: Nobel, islands, boats, Baltic, fashion
+- **Taipei**: neon, tea, shopping, springs, hot
+- **Tallinn**: digital, walls, medieval, Baltic, towers
+- **Tbilisi**: sulfur, hospitality, baths, wine, Orthodox
+- **Tehran**: regime, Persian, revolution, carpets, poetry
+- **Thimphu**: happiness, monastery, prayer, traditional, forests
+- **Tirana**: painted, pyramid, transformation, eclectic, bright
+- **Tokyo**: sushi, anime, trains, robots, crowds
+- **Tunis**: blue, ceramics, Arabic, Mediterranean, French
+- **Ulaanbaatar**: coal, Buddhism, wrestling, cold, monastery
+- **Vienna**: Mozart, cakes, concerts, classical, horses
+- **Vientiane**: sunset, Buddha, gold, French, monks
+- **Vilnius**: Jewish, amber, Baltic, medieval, castle
+- **Warsaw**: rebuilt, uprising, Polish, communist, war
+- **Washington, D.C.**: Capitol, Congress, Smithsonian, cherry, president
+- **Wellington**: cinema, film, compact, wind, cable
+- **Windhoek**: German, beer, sunshine, clean, desert
+- **Yamoussoukro**: grand, monumental, spacious, lakes, planned
+- **Yaoundé**: universities, green, football, wildlife, crafts
+- **Yerevan**: pink, cascade, genocide, stone, ancient
+- **Zagreb**: squares, Croatian, festival, hockey, earthquake
+
+### Wrong model answers (97)
+
+- **Almaty**: apples, seismic, skating, skiing, cable
+- **Anchorage**: glaciers, wilderness, salmon, aviation, earthquake
+- **Antalya**: resorts, cliffs, Roman, tourism, ruins
+- **Arusha**: tribunal, tribe, gems, court, crater
+- **Atlanta**: Peach, aquarium, segregation, King, railroad
+- **Banff**: elk, hiking, glaciers, turquoise, lakes
+- **Barcelona**: Catalan, Picasso, Messi, Catalonia, Mediterranean
+- **Beirut**: publishing, reconstruction, Arabic, French, war
+- **Belfast**: sectarian, linen, peace, troubles, Titanic
+- **Bilbao**: titanium, steel, industrial, sculpture, museum
+- **Boston**: Harvard, Celtics, lobster, marathon, tea
+- **Brasilia**: airplane, Congress, concrete, plateau, planned
+- **Brazil**: Amazon, carnival, coffee, football, tropical
+- **Bremen**: musicians, Beck, Roland, Airbus, maritime
+- **Brisbane**: Queensland, flooding, ferry, cricket, sunshine
+- **Brussels**: EU, European, comics, lace, fries
+- **Bulawayo**: Rhodes, trains, industrial, railway, museum
+- **Calgary**: Canadian, Rocky, ranch, Flames, beef
+- **Cape Town**: Table, apartheid, mountain, harbour, beaches
+- **Cardiff**: Welsh, Millennium, rugby, coal, docks
+- **Chengdu**: pepper, bamboo, pandas, spicy, tea
+- **Chennai**: Tamil, beach, cinema, automotive, cricket
+- **Chicago**: windy, blues, pizza, Bulls, jazz
+- **Christchurch**: plains, reconstruction, cycling, earthquake, gardens
+- **Cleveland**: Browns, Cavaliers, rock, Erie, orchestra
+- **Cologne**: perfume, Roman, Gothic, carnival, beer
+- **Damascus**: jasmine, courtyard, spices, walls, Roman
+- **Dar es Salaam**: ocean, humid, Indian, fish, ferry
+- **Delhi**: curry, Gandhi, fort, Hindi, temples
+- **Denver**: Broncos, brewery, airport, Rockies, altitude
+- **Dresden**: porcelain, bombing, galleries, reconstruction, opera
+- **Edinburgh**: Enlightenment, volcanic, whisky, festival, castle
+- **Edmonton**: Oilers, frost, Alberta, oil, hockey
+- **Florence**: Renaissance, Dante, leather, David, bankers
+- **Frankfurt**: euro, exchange, cider, stock, fair
+- **Gdańsk**: strike, dock, workers, amber, merchants
+- **Geneva**: Calvin, fountain, humanitarian, treaties, neutrality
+- **Glasgow**: Clyde, Celtic, Rangers, Scottish, accent
+- **Grenoble**: physics, gloves, scientific, nuclear, Alps
+- **Haifa**: refinery, mountain, shipping, gardens, port
+- **Halifax**: explosion, Citadel, Titanic, lobster, navy
+- **Hamburg**: warehouse, Beatles, burgers, merchants, fish
+- **Hanover**: exhibition, fair, trade, horses, industrial
+- **Istanbul**: cats, Asia, Europe, Asian, spice
+- **Jaipur**: forts, Rajasthan, astronomy, elephants, jewellery
+- **Johannesburg**: reefs, mining, stock, apartheid, gold
+- **Kassel**: Brothers, Grimm, Hercules, trains, art
+- **Kiel**: sailing, submarines, Woche, naval, canal
+- **Kiev**: cake, chicken, caves, golden, Ukrainian
+- **Krakow**: Auschwitz, pope, salt, dragon, Jewish
+- **Kraków**: salt, dragon, Jewish, market, Gothic
+- **Las Vegas**: casino, gambling, poker, wedding, entertainment
+- **Los Angeles**: Hollywood, Lakers, entertainment, cinema, beaches
+- **Louisville**: bourbon, derby, Ali, boxing, racing
+- **Lucknow**: Urdu, embroidery, Muslim, courtesy, Shia
+- **Marseille**: soap, fishing, shipping, islands, Mediterranean
+- **Medan**: palm, rubber, Dutch, Malay, Chinese
+- **Melbourne**: tennis, graffiti, arts, cricket, fashion
+- **Mexico City**: tacos, mole, wrestling, salsa, crowded
+- **Miami**: Cuban, cruise, hurricanes, beach, tropical
+- **Milan**: runway, finance, fashion, design, opera
+- **Montreal**: bilingual, French, jazz, hockey, festival
+- **Mumbai**: Bollywood, cinema, trains, finance, cricket
+- **Munich**: BMW, Bayern, Siemens, automotive, Alps
+- **Naples**: espresso, pizza, volcano, bay, opera
+- **New York**: Yankees, Harlem, taxi, Bronx, Broadway
+- **Nice**: tourism, carnival, sunshine, Mediterranean, beaches
+- **Orlando**: Disney, theme, Mickey, Universal, rides
+- **Perth**: isolation, mining, sunshine, cricket, wine
+- **Phoenix**: Suns, golf, suburbs, desert, heat
+- **Pretoria**: violet, administrative, presidential, Mandela, buildings
+- **Reykjavik**: Viking, ice, volcanic, Nordic, fish
+- **Rio de Janeiro**: Christ, sugar, beach, statue, sunny
+- **Saint Petersburg**: Peter, imperial, siege, ballet, revolution
+- **Salt Lake City**: Mormon, Utah, church, temple, skiing
+- **Salzburg**: Mozart, salt, chocolate, Alps, festival
+- **San Diego**: military, Padres, naval, zoo, Navy
+- **San Francisco**: startups, Victorian, fog, cable, earthquake
+- **Santa Fe**: silver, missions, turquoise, galleries, desert
+- **Sapporo**: dairy, ice, seafood, skiing, beer
+- **Seattle**: software, Space, aerospace, salmon, rain
+- **Seville**: Carmen, Easter, fans, Columbus, oranges
+- **St. Louis**: arch, Mississippi, Cardinals, blues, gateway
+- **St. Petersburg**: nights, Catherine, Peter, navy, siege
+- **Stuttgart**: engineering, Porsche, Mercedes, Benz, Bosch
+- **Sydney**: surfing, ferry, harbour, Olympics, beaches
+- **Tashkent**: Road, cotton, tiles, commerce, earthquake
+- **Thessaloniki**: tower, Jewish, Roman, Orthodox, food
+- **Toronto**: Maple, multicultural, film, skyline, hockey
+- **Toulouse**: aerospace, space, rugby, aviation, pink
+- **Turin**: Juventus, Fiat, Po, Egyptian, automotive
+- **Valletta**: knights, limestone, streets, cannons, walls
+- **Vancouver**: Canucks, Stanley, sushi, Pacific, film
+- **Venice**: masks, Marco, Polo, merchant, Shakespeare
+- **Washington**: Pentagon, Senate, senators, lobbyists, Smithsonian
+- **Whitehorse**: rush, sled, dogs, wilderness, frontier
+- **Zurich**: insurance, banking, chocolate, finance, lake
+
+Fewer than 5 words (16):
+
+- Adelaide: cricket, wine, festival, churches
+- Antwerp: diamonds, shipping, fashion, port
+- Argentina: mate, beef, steak, football
+- Asunción: market, heat, harbour, port
+- Bonn: composer, diplomats, cherry
+- Egypt: Sphinx
+- Galway: Atlantic, medieval, festival, harbour
+- Knoxville: Volunteers, football
+- Kolkata: tram, literature, cricket
+- Mexico: tacos, Maya, mole
+- New York City: Broadway, Manhattan, Brooklyn, subway
+- Newcastle upon Tyne: coal, football
+- Novosibirsk: science, railway, winter, opera
+- Palermo: mafia, Norman, Mediterranean, port
+- Quebec City: French, carnival, hockey, winter
+- Wrocław: Gothic, islands
+
+## Product → company → CEO
+
+### True answers (55)
+
+- **Albert Bourla**: vaccine, pandemic, veterinarian, medicine, pharmaceutical
+- **Amedeo Felisa**: Formula, Ferrari, Italian, sports, racing
+- **Antonio Neri**: Argentine, storage, networking, Houston, Italian
+- **Arvind Krishna**: research, quantum, patents, hybrid, cloud
+- **Chris Kempczinski**: burgers, franchise, restaurants, drive, marketing
+- **Christophe De Vusser**: Belgian, Brussels, consulting, strategy, consultants
+- **Cristiano Amon**: modem, connectivity, wireless, smartphone, semiconductor
+- **Elliott Hill**: sneakers, athletes, footwear, Oregon, basketball
+- **Elon Musk**: Mars, billionaire, tunnels, Twitter, rockets
+- **Gernot Döllner**: rings, sedan, rally, premium, luxury
+- **Guillaume Faury**: helicopters, Europe, helicopter, airplanes, aircraft
+- **H. Lawrence Culp Jr.**: Boston, turbines, jet, healthcare, restructuring
+- **Håkan Samuelsson**: safety, Scandinavian, Chinese, Swedish, Sweden
+- **James Quincey**: sugar, drinks, soda, beverage, marketing
+- **Jim Farley**: pickup, Mustang, Lightning, Michigan, pickups
+- **John S. Chen**: keyboard, smartphone, turnaround, cybersecurity, software
+- **Joseph Jimenez**: drugs, medicines, Basel, Swiss, healthcare
+- **Justin Hotard**: telecom, networks, Intel, infrastructure, Finnish
+- **Jürgen E. Schrempp**: merger, globalization, Mercedes, Stuttgart, Detroit
+- **Kathy J. Warden**: bombers, cybersecurity, military, defense, engineering
+- **Kelly Ortberg**: Seattle, Iowa, Collins, aircraft, jets
+- **Klaus Zellmer**: Prague, sales, rally, Czech, marketing
+- **Kurt Sievers**: Netherlands, sensors, silicon, RFID, Dutch
+- **Kōji Seto**: Lexus, hydrogen, hybrid, hybrids, Japanese
+- **Lee Jae-yong**: Korean, Seoul, heir, bribery, Galaxy
+- **Makoto Uchida**: Renault, alliance, Leaf, restructuring, Japanese
+- **Martin Sion**: launch, launcher, propulsion, rockets, space
+- **Mary Barra**: recall, ignition, Chevrolet, Cadillac, recalls
+- **Michael Manley**: Jeep, Ram, pickups, British, Detroit
+- **Michel Doukeris**: Brazilian, beer, brewing, Corona, breweries
+- **Miguel Ángel López Borrego**: steel, Essen, submarines, Spanish, restructuring
+- **Morten Wierod**: Norwegian, robotics, Zurich, drives, Swiss
+- **Ola Källenius**: EQ, Swedish, Sweden, premium, Stuttgart
+- **Oliver Blume**: sports, Stuttgart, manufacturing, racing, engineering
+- **Patrice Caine**: radar, security, missiles, satellites, Paris
+- **Peter Herweck**: electrical, efficiency, energy, grid, Paris
+- **Petr Novotný**: metro, Czech, rail, trains, engineering
+- **Ramon Laguarta**: snacks, nutrition, beverage, soda, chips
+- **Raymond van Eck**: sustainable, ethical, Amsterdam, recycling, modular
+- **Roland Busch**: Munich, digital, factories, physicist, automation
+- **Satya Nadella**: Azure, cricket, empathy, cloud, computing
+- **Scott Ernest**: Wichita, Kansas, planes, pilots, Citation
+- **Shuntaro Furukawa**: gaming, consoles, Switch, Mario, entertainment
+- **Sundar Pichai**: search, Chrome, Android, browser, internet
+- **Takehiko Kakiuchi**: trading, commodities, investment, resources, Tokyo
+- **Tim Cook**: iPhone, privacy, supply, logistics, operations
+- **Tobias Moers**: performance, Mercedes, sports, engines, racing
+- **Tomáš Ignačák**: passenger, coaches, Czech, rail, trains
+- **Tufan Erginbilgiç**: Turkish, BP, Derby, nuclear, jet
+- **Ville Jaakonsalo**: armored, Helsinki, ammunition, Finland, weapons
+- **Vimal Kapur**: Indian, Charlotte, controls, materials, building
+- **Wayne Griffiths**: Barcelona, Spain, Catalonia, Catalan, Leon
+- **Yōichi Kise**: bullet, commuter, transit, Tokyo, rail
+- **Éric Martel**: Canadian, Montreal, Quebec, business, Hydro
+- **Éric Trappier**: fighter, Falcon, Mirage, Paris, jets
+
+### Wrong model answers (31)
+
+- **Akio Toyoda**: founder, racer, Lexus, recall, grandson
+- **Andy Palmer**: Bond, Midlands, Leaf, British, sports
+- **Bill Ford**: Henry, Lions, environmental, family, grandson
+- **Bill Gates**: malaria, vaccines, BASIC, Windows, billionaire
+- **Carlos Ghosn**: escape, Lebanon, Beirut, box, arrest
+- **Dieter Zetsche**: Smart, Dr, merger, Turkish, Stuttgart
+- **DJ Koh**: Note, exploding, Galaxy, smartphone, Android
+- **Ferdinand Piëch**: Beetle, patriarch, Austria, Austrian, family
+- **Herbert Diess**: Golf, Austrian, emissions, batteries, Munich
+- **Hiroto Saikawa**: resignation, compensation, scandal, Leaf, alliance
+- **Jeff Bezos**: retail, ecommerce, Kindle, logistics, space
+- **Jim Rowan**: Scottish, Scotland, technology, safety, batteries
+- **John DeLorean**: wing, doors, stainless, Back, Future
+- **Jorma Ollila**: handset, rubber, boots, cellular, chairman
+- **Lawrence Stroll**: Tommy, Lance, fashion, Canadian, Formula
+- **Mark Fields**: ousted, Mazda, Harvard, pickup, Mustang
+- **Mark Reuss**: Corvette, Holden, Australian, Cadillac, Michigan
+- **Mark Zuckerberg**: social, network, programming, privacy, Harvard
+- **Markus Duesmann**: turbo, Le, Mans, combustion, diesel
+- **Pekka Lundmark**: utility, Finland, networks, energy, telecom
+- **Rajeev Suri**: Singapore, Indian, infrastructure, networks, telecom
+- **Reggie Fils-Aime**: Wii, kick, gamers, Switch, console
+- **Risto Siilasmaa**: antivirus, cyber, malware, startup, author
+- **Rupert Stadler**: arrested, fraud, prison, trial, emissions
+- **Shigeru Miyamoto**: Zelda, Kong, Kyoto, designer, console
+- **Shiro Nakamura**: GT, styling, concept, sketch, designer
+- **Stephen Elop**: Lumia, memo, burning, platform, Ontario
+- **Steve Ballmer**: basketball, Clippers, developers, enthusiasm, Windows
+- **Steve Jobs**: Pixar, animation, keynote, innovation, iPhone
+- **TM Roh**: flagship, Galaxy, smartphones, Android, Korean
+- **Young Sohn**: venture, strategy, investor, Silicon, semiconductor
+
+Fewer than 5 words (3):
+
+- Alan Mulally: turnaround, manufacturing
+- Andy Grove: paranoia, management, processors, chips
+- Tetsuya Tada: GR, coupe, chief, sports
+
