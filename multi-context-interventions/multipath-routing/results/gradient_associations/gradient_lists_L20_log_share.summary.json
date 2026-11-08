@@ -1,0 +1,80 @@
+{
+  "landmark-country-capital/true": {
+    "prompts": 962,
+    "with_5": 952,
+    "with_10": 921,
+    "dropped": {
+      "answer": 2480,
+      "intermediate": 2566,
+      "non_english": 9642,
+      "other_name": 7427,
+      "duplicate": 2991
+    },
+    "output": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/results/landmark-country-capital/icl_10/03_gradient/true/test/context0/gradient_associations_L20_log_share.jsonl.gz"
+  },
+  "landmark-country-capital/model": {
+    "prompts": 861,
+    "with_5": 832,
+    "with_10": 775,
+    "dropped": {
+      "answer": 1734,
+      "intermediate": 764,
+      "other_name": 8907,
+      "non_english": 9309,
+      "duplicate": 2133
+    },
+    "output": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/results/landmark-country-capital/icl_10/03_gradient/model/test/context0/gradient_associations_L20_log_share.jsonl.gz"
+  },
+  "park-country-capital/true": {
+    "prompts": 514,
+    "with_5": 512,
+    "with_10": 499,
+    "dropped": {
+      "answer": 1014,
+      "other_name": 4187,
+      "non_english": 4236,
+      "duplicate": 2865,
+      "intermediate": 921
+    },
+    "output": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/results/park-country-capital/icl_10/03_gradient/true/test/context0/gradient_associations_L20_log_share.jsonl.gz"
+  },
+  "park-country-capital/model": {
+    "prompts": 447,
+    "with_5": 444,
+    "with_10": 430,
+    "dropped": {
+      "answer": 738,
+      "other_name": 3955,
+      "non_english": 4444,
+      "duplicate": 1755,
+      "intermediate": 371
+    },
+    "output": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/results/park-country-capital/icl_10/03_gradient/model/test/context0/gradient_associations_L20_log_share.jsonl.gz"
+  },
+  "product-company-ceo/true": {
+    "prompts": 1332,
+    "with_5": 1332,
+    "with_10": 1330,
+    "dropped": {
+      "answer": 1949,
+      "duplicate": 7813,
+      "other_name": 1198,
+      "non_english": 9873,
+      "intermediate": 231
+    },
+    "output": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/results/product-company-ceo/icl_10/03_gradient/true/test/context0/gradient_associations_L20_log_share.jsonl.gz"
+  },
+  "product-company-ceo/model": {
+    "prompts": 1043,
+    "with_5": 1043,
+    "with_10": 1042,
+    "dropped": {
+      "non_english": 12121,
+      "duplicate": 3794,
+      "answer": 1705,
+      "other_name": 545,
+      "intermediate": 51
+    },
+    "output": "/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing/results/product-company-ceo/icl_10/03_gradient/model/test/context0/gradient_associations_L20_log_share.jsonl.gz"
+  }
+}
