@@ -1,0 +1,212 @@
+{
+  "description": "Stage 03 full run: true answers, test split, context_variant 0, K=5 associations; per-prompt mean word_vocabulary_percentile (chance 0.5)",
+  "tasks": {
+    "landmark-country-capital": {
+      "num_prompts": 962,
+      "by_objective": {
+        "log_prob": {
+          "12": {
+            "mean_percentile": 0.5511505984996631,
+            "frac_prompts_above_chance": 0.6164241164241164,
+            "n": 962
+          },
+          "16": {
+            "mean_percentile": 0.5922356393585578,
+            "frac_prompts_above_chance": 0.6808731808731808,
+            "n": 962
+          },
+          "18": {
+            "mean_percentile": 0.6728418035519939,
+            "frac_prompts_above_chance": 0.8513513513513513,
+            "n": 962
+          },
+          "20": {
+            "mean_percentile": 0.7047660328378513,
+            "frac_prompts_above_chance": 0.8762993762993763,
+            "n": 962
+          },
+          "22": {
+            "mean_percentile": 0.6627806767971695,
+            "frac_prompts_above_chance": 0.8097713097713097,
+            "n": 962
+          },
+          "24": {
+            "mean_percentile": 0.6644349644486702,
+            "frac_prompts_above_chance": 0.8128898128898129,
+            "n": 962
+          }
+        },
+        "log_share": {
+          "12": {
+            "mean_percentile": 0.6068188057817315,
+            "frac_prompts_above_chance": 0.7484407484407485,
+            "n": 962
+          },
+          "16": {
+            "mean_percentile": 0.5957850686932168,
+            "frac_prompts_above_chance": 0.6725571725571725,
+            "n": 962
+          },
+          "18": {
+            "mean_percentile": 0.6726872971818948,
+            "frac_prompts_above_chance": 0.8357588357588358,
+            "n": 962
+          },
+          "20": {
+            "mean_percentile": 0.7190842009376857,
+            "frac_prompts_above_chance": 0.9012474012474012,
+            "n": 962
+          },
+          "22": {
+            "mean_percentile": 0.6661442273795792,
+            "frac_prompts_above_chance": 0.7941787941787942,
+            "n": 962
+          },
+          "24": {
+            "mean_percentile": 0.6926331653380103,
+            "frac_prompts_above_chance": 0.8659043659043659,
+            "n": 962
+          }
+        }
+      }
+    },
+    "park-country-capital": {
+      "num_prompts": 514,
+      "by_objective": {
+        "log_prob": {
+          "12": {
+            "mean_percentile": 0.5188045283271095,
+            "frac_prompts_above_chance": 0.5447470817120622,
+            "n": 514
+          },
+          "16": {
+            "mean_percentile": 0.5596779539457539,
+            "frac_prompts_above_chance": 0.5875486381322957,
+            "n": 514
+          },
+          "18": {
+            "mean_percentile": 0.6316397866832867,
+            "frac_prompts_above_chance": 0.7412451361867705,
+            "n": 514
+          },
+          "20": {
+            "mean_percentile": 0.6402102306800943,
+            "frac_prompts_above_chance": 0.7178988326848249,
+            "n": 514
+          },
+          "22": {
+            "mean_percentile": 0.6227652457551711,
+            "frac_prompts_above_chance": 0.6770428015564203,
+            "n": 514
+          },
+          "24": {
+            "mean_percentile": 0.6302443343692107,
+            "frac_prompts_above_chance": 0.7120622568093385,
+            "n": 514
+          }
+        },
+        "log_share": {
+          "12": {
+            "mean_percentile": 0.5580340990671772,
+            "frac_prompts_above_chance": 0.6264591439688716,
+            "n": 514
+          },
+          "16": {
+            "mean_percentile": 0.5620423335850808,
+            "frac_prompts_above_chance": 0.5914396887159533,
+            "n": 514
+          },
+          "18": {
+            "mean_percentile": 0.6363785631262228,
+            "frac_prompts_above_chance": 0.7490272373540856,
+            "n": 514
+          },
+          "20": {
+            "mean_percentile": 0.6512549498079628,
+            "frac_prompts_above_chance": 0.7607003891050583,
+            "n": 514
+          },
+          "22": {
+            "mean_percentile": 0.6279256852624759,
+            "frac_prompts_above_chance": 0.7237354085603113,
+            "n": 514
+          },
+          "24": {
+            "mean_percentile": 0.6517171615000645,
+            "frac_prompts_above_chance": 0.7821011673151751,
+            "n": 514
+          }
+        }
+      }
+    },
+    "product-company-ceo": {
+      "num_prompts": 1332,
+      "by_objective": {
+        "log_prob": {
+          "12": {
+            "mean_percentile": 0.599826742703139,
+            "frac_prompts_above_chance": 0.7012012012012012,
+            "n": 1332
+          },
+          "16": {
+            "mean_percentile": 0.6007451668952,
+            "frac_prompts_above_chance": 0.6944444444444444,
+            "n": 1332
+          },
+          "18": {
+            "mean_percentile": 0.632774464164235,
+            "frac_prompts_above_chance": 0.7342342342342343,
+            "n": 1332
+          },
+          "20": {
+            "mean_percentile": 0.641563775210439,
+            "frac_prompts_above_chance": 0.8003003003003003,
+            "n": 1332
+          },
+          "22": {
+            "mean_percentile": 0.6009102885008041,
+            "frac_prompts_above_chance": 0.728978978978979,
+            "n": 1332
+          },
+          "24": {
+            "mean_percentile": 0.5733984744275537,
+            "frac_prompts_above_chance": 0.6561561561561562,
+            "n": 1332
+          }
+        },
+        "log_share": {
+          "12": {
+            "mean_percentile": 0.5808877555171271,
+            "frac_prompts_above_chance": 0.6771771771771772,
+            "n": 1332
+          },
+          "16": {
+            "mean_percentile": 0.5577676404046416,
+            "frac_prompts_above_chance": 0.5968468468468469,
+            "n": 1332
+          },
+          "18": {
+            "mean_percentile": 0.6182624283145105,
+            "frac_prompts_above_chance": 0.7334834834834835,
+            "n": 1332
+          },
+          "20": {
+            "mean_percentile": 0.63535902441949,
+            "frac_prompts_above_chance": 0.7627627627627628,
+            "n": 1332
+          },
+          "22": {
+            "mean_percentile": 0.5966401310052085,
+            "frac_prompts_above_chance": 0.7072072072072072,
+            "n": 1332
+          },
+          "24": {
+            "mean_percentile": 0.5655105410365021,
+            "frac_prompts_above_chance": 0.6163663663663663,
+            "n": 1332
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+#!/bin/bash -l
+#$ -clear
+#$ -P buinlp
+#$ -N multipath_grad
+#$ -cwd
+#$ -j y
+#$ -pe omp 2
+#$ -l mem_per_core=8G
+#$ -l gpus=1
+#$ -l gpu_type=A40|A100|L40|L40S|A6000|H200|RTX6000ada
+#$ -l h_rt=01:30:00
+
+# One shard of Stage 03 on test prompts, context variant 0 (one prompt per entity).
+# Submit with: -t 1-<num_shards> -v TASK=<task>,TOTAL=<num_test_entities>
+set -euo pipefail
+module load python3/3.12.4
+
+readonly ROOT="/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions"
+readonly EXPERIMENT="$ROOT/multipath-routing"
+readonly PYTHON="/projectnb/buinlp/rathin/influence-composition/.venv/bin/python"
+readonly HF_CACHE="/projectnb/buinlp/rathin/influence-composition/.cache/huggingface"
+readonly SHARD_SIZE="${SHARD_SIZE:-200}"
+readonly START=$(( (SGE_TASK_ID - 1) * SHARD_SIZE ))
+REMAINING=$(( TOTAL - START ))
+(( REMAINING > 0 )) || { echo "shard outside population" >&2; exit 2; }
+COUNT=$(( REMAINING < SHARD_SIZE ? REMAINING : SHARD_SIZE ))
+readonly OUTPUT_DIR="$EXPERIMENT/results/$TASK/icl_10/03_gradient/true/test/context0"
+mkdir -p "$OUTPUT_DIR"
+
+export HF_HOME="$HF_CACHE"
+export HF_DATASETS_OFFLINE=1 HF_HUB_OFFLINE=1 TRANSFORMERS_OFFLINE=1
+export TOKENIZERS_PARALLELISM=false PYTHONNOUSERSITE=1 PYTHONUNBUFFERED=1
+export OMP_NUM_THREADS="${NSLOTS:-2}" MKL_NUM_THREADS="${NSLOTS:-2}"
+
+printf -v SHARD "%06d" "$START"
+"$PYTHON" "$EXPERIMENT/stages/03_gradient.py" \
+  --task "$TASK" --target-mode true --split test --position final_prompt \
+  --context-variant 0 --start-index "$START" --num-prompts "$COUNT" \
+  --vocabulary-chunk-size 2048 --top-words 50 --progress-every 50 \
+  --output "$OUTPUT_DIR/gradient_rankings_${SHARD}.jsonl.gz" \
+  --summary-output "$OUTPUT_DIR/gradient_rankings_${SHARD}_summary.json"

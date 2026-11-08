@@ -1,0 +1,43 @@
+#!/bin/bash -l
+#$ -clear
+#$ -P buinlp
+#$ -N multipath_grad_smoke
+#$ -cwd
+#$ -j y
+#$ -pe omp 2
+#$ -l mem_per_core=8G
+#$ -l gpus=1
+#$ -l gpu_type=A40|A100|L40|L40S|A6000|H200|RTX6000ada
+#$ -l h_rt=00:30:00
+
+set -euo pipefail
+module load python3/3.12.4
+
+readonly ROOT="/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions"
+readonly EXPERIMENT="$ROOT/multipath-routing"
+readonly PYTHON="/projectnb/buinlp/rathin/influence-composition/.venv/bin/python"
+readonly HF_CACHE="/projectnb/buinlp/rathin/influence-composition/.cache/huggingface"
+readonly LENS="/projectnb/buinlp/rathin/composition-experiments/JLens/results/fit_1000/merged/jacobian_lens.pt"
+readonly TASK="${TASK:-landmark-country-capital}"
+readonly MODE="true"
+readonly SPLIT="test"
+readonly POSITION="final_prompt"
+readonly NUM_PROMPTS="${NUM_PROMPTS:-1}"
+readonly OUTPUT_DIR="$EXPERIMENT/results/$TASK/icl_10/03_gradient/$MODE/$SPLIT/smoke"
+
+test -x "$PYTHON"
+test -r "$EXPERIMENT/stages/03_gradient.py"
+test -r "$LENS"
+mkdir -p "$OUTPUT_DIR"
+
+export HF_HOME="$HF_CACHE"
+export HF_DATASETS_OFFLINE=1 HF_HUB_OFFLINE=1 TRANSFORMERS_OFFLINE=1
+export TOKENIZERS_PARALLELISM=false PYTHONNOUSERSITE=1 PYTHONUNBUFFERED=1
+export OMP_NUM_THREADS="${NSLOTS:-2}" MKL_NUM_THREADS="${NSLOTS:-2}"
+
+"$PYTHON" "$EXPERIMENT/stages/03_gradient.py" \
+  --task "$TASK" --target-mode "$MODE" --split "$SPLIT" --position "$POSITION" \
+  --num-prompts "$NUM_PROMPTS" --vocabulary-chunk-size 2048 --top-words 50 \
+  --lens "$LENS" \
+  --output "$OUTPUT_DIR/gradient_rankings.jsonl.gz" \
+  --summary-output "$OUTPUT_DIR/summary.json" --overwrite
