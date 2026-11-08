@@ -64,6 +64,8 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--num-prompts", type=int, required=True)
     parser.add_argument("--context-variant", type=int,
                         help="use only this context variant (one prompt per query entity)")
+    parser.add_argument("--skip-missing-associations", action="store_true",
+                        help="leave out prompts whose target answer has no association list")
     parser.add_argument("--vocabulary-chunk-size", type=int, default=2048)
     parser.add_argument("--top-words", type=int, default=50)
     parser.add_argument("--max-seq-len", type=int, default=512)
@@ -364,10 +366,11 @@ def main() -> None:
     temporary_output, temporary_summary = atomic_paths(output, summary, args.overwrite)
 
     association_index = load_associations(association_path, args.task, args.target_mode)
+    skipped: list[str] | None = [] if args.skip_missing_associations else None
     records = select_gradient_records(
         read_jsonl(input_path), task=args.task, split=args.split, target_mode=args.target_mode,
         association_answers=set(association_index), start_index=args.start_index,
-        num_prompts=args.num_prompts, context_variant=args.context_variant)
+        num_prompts=args.num_prompts, context_variant=args.context_variant, skipped=skipped)
     if not records:
         raise ValueError("no prompts selected for this shard")
     jlens, model_class, tokenizer_class = imported_runtime()
@@ -426,6 +429,8 @@ def main() -> None:
             "split": args.split, "position_policy": args.position,
             "start_index": args.start_index, "num_prompts": len(records),
             "context_variant": args.context_variant,
+            "skip_missing_associations": args.skip_missing_associations,
+            "num_skipped_before_shard_end": len(skipped) if skipped is not None else 0,
             "source_layers": list(SOURCE_LAYERS), "model": MODEL_ID,
             "model_commit": MODEL_COMMIT, "model_dtype": "bfloat16",
             "gradient_and_direction_dtype": "float32",

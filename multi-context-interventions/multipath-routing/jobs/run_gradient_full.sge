@@ -11,7 +11,8 @@
 #$ -l h_rt=01:30:00
 
 # One shard of Stage 03 on test prompts, context variant 0 (one prompt per entity).
-# Submit with: -t 1-<num_shards> -v TASK=<task>,TOTAL=<num_test_entities>
+# Submit with: -t 1-<num_shards> -v TASK=<task>,TOTAL=<num_prompts>[,MODE=model]
+# MODE=model skips prompts whose model answer has no association list.
 set -euo pipefail
 module load python3/3.12.4
 
@@ -19,12 +20,13 @@ readonly ROOT="/projectnb/buinlp/rathin/composition-experiments/multi-context-in
 readonly EXPERIMENT="$ROOT/multipath-routing"
 readonly PYTHON="/projectnb/buinlp/rathin/influence-composition/.venv/bin/python"
 readonly HF_CACHE="/projectnb/buinlp/rathin/influence-composition/.cache/huggingface"
+readonly MODE="${MODE:-true}"
 readonly SHARD_SIZE="${SHARD_SIZE:-200}"
 readonly START=$(( (SGE_TASK_ID - 1) * SHARD_SIZE ))
 REMAINING=$(( TOTAL - START ))
 (( REMAINING > 0 )) || { echo "shard outside population" >&2; exit 2; }
 COUNT=$(( REMAINING < SHARD_SIZE ? REMAINING : SHARD_SIZE ))
-readonly OUTPUT_DIR="$EXPERIMENT/results/$TASK/icl_10/03_gradient/true/test/context0"
+readonly OUTPUT_DIR="$EXPERIMENT/results/$TASK/icl_10/03_gradient/$MODE/test/context0"
 mkdir -p "$OUTPUT_DIR"
 
 export HF_HOME="$HF_CACHE"
@@ -34,8 +36,8 @@ export OMP_NUM_THREADS="${NSLOTS:-2}" MKL_NUM_THREADS="${NSLOTS:-2}"
 
 printf -v SHARD "%06d" "$START"
 "$PYTHON" "$EXPERIMENT/stages/03_gradient.py" \
-  --task "$TASK" --target-mode true --split test --position final_prompt \
-  --context-variant 0 --start-index "$START" --num-prompts "$COUNT" \
+  --task "$TASK" --target-mode "$MODE" --split test --position final_prompt \
+  --context-variant 0 $([[ $MODE == model ]] && echo --skip-missing-associations) --start-index "$START" --num-prompts "$COUNT" \
   --vocabulary-chunk-size 2048 --top-words 50 --progress-every 50 \
   --output "$OUTPUT_DIR/gradient_rankings_${SHARD}.jsonl.gz" \
   --summary-output "$OUTPUT_DIR/gradient_rankings_${SHARD}_summary.json"

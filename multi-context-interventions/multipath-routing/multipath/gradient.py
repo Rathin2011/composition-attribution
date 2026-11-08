@@ -39,12 +39,14 @@ def select_gradient_records(
     start_index: int,
     num_prompts: int,
     context_variant: int | None = None,
+    skipped: list[str] | None = None,
 ) -> list[dict[str, Any]]:
     """Select a deterministic shard from the prepared prompt population.
 
-    The start index is defined after task, split, optional context variant, and
-    target eligibility are applied. Missing association coverage is an error
-    rather than a silent population change.
+    The start index is defined after task, split, optional context variant,
+    target eligibility and association coverage are applied. Missing
+    association coverage is an error unless ``skipped`` is a list; then prompts
+    whose target has no association row are left out and their IDs appended.
     """
 
     if split not in {"selection", "test"}:
@@ -66,7 +68,10 @@ def select_gradient_records(
         if target is None:
             continue
         if target not in association_answers:
-            raise ValueError(f"association artifact lacks target answer {target!r}")
+            if skipped is None:
+                raise ValueError(f"association artifact lacks target answer {target!r}")
+            skipped.append(identifier)
+            continue
         if eligible_index >= start_index and len(selected) < num_prompts:
             row = dict(source)
             row["gradient_target_mode"] = target_mode

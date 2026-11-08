@@ -1,0 +1,36 @@
+#!/bin/bash -l
+#$ -clear
+#$ -P buinlp
+#$ -N multipath_boost
+#$ -cwd
+#$ -j y
+#$ -pe omp 2
+#$ -l mem_per_core=8G
+#$ -l gpus=1
+#$ -l gpu_type=A40|A100|L40|L40S|A6000|H200|RTX6000ada
+#$ -l h_rt=03:00:00
+
+# Stage 04 boosting. Array: -t 1-<shards> -v TASK=<task>,MODE=<true|model>,TOTAL=<n>[,SHARD_SIZE=200]
+# Smoke: -v TASK=<task>,MODE=<true|model>,SMOKE=1[,NUM_PROMPTS=3]
+set -euo pipefail
+module load python3/3.12.4
+
+readonly EXPERIMENT="/projectnb/buinlp/rathin/composition-experiments/multi-context-interventions/multipath-routing"
+readonly PYTHON="/projectnb/buinlp/rathin/influence-composition/.venv/bin/python"
+export HF_HOME="/projectnb/buinlp/rathin/influence-composition/.cache/huggingface"
+export HF_DATASETS_OFFLINE=1 HF_HUB_OFFLINE=1 TRANSFORMERS_OFFLINE=1
+export TOKENIZERS_PARALLELISM=false PYTHONNOUSERSITE=1 PYTHONUNBUFFERED=1
+export OMP_NUM_THREADS="${NSLOTS:-2}" MKL_NUM_THREADS="${NSLOTS:-2}"
+readonly SCRIPT="$EXPERIMENT/stages/04_boost.py"
+
+if [[ "${SMOKE:-0}" == 1 ]]; then
+  "$PYTHON" "$SCRIPT" --task "$TASK" --target-mode "$MODE" --num-prompts "${NUM_PROMPTS:-3}" --progress-every 1 \
+    --output "$EXPERIMENT/results/$TASK/icl_10/04_boost/$MODE/test/context0/smoke/boost_smoke.jsonl.gz" --overwrite
+  exit 0
+fi
+SHARD_SIZE="${SHARD_SIZE:-200}"
+START=$(( (SGE_TASK_ID - 1) * SHARD_SIZE ))
+REMAINING=$(( TOTAL - START ))
+(( REMAINING > 0 )) || { echo "shard outside population" >&2; exit 2; }
+COUNT=$(( REMAINING < SHARD_SIZE ? REMAINING : SHARD_SIZE ))
+"$PYTHON" "$SCRIPT" --task "$TASK" --target-mode "$MODE" --start-index "$START" --num-prompts "$COUNT" --overwrite
